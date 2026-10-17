@@ -1,2 +1,312 @@
 # diagnostic
-En cours depuis 17/10 18:34
+Lancée le 17/10/2026 18:34, finie le 17/10/2026 18:34, code 0
+
+# Diagnostic du 17/10/2026 18:34
+Publication : À BLANC (ne publie rien)
+
+## Tâches planifiées
+```
+NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
+-       - Sat 2026-10-17 18:34:08 CEST 3s ago tenderhit-relais.timer tenderhit-relais.service
+
+1 timers listed.
+
+```
+
+## État des services
+```
+● tenderhit-relais.timer - Tenderhit - relais GitHub toutes les 2 minutes
+     Loaded: loaded (/etc/systemd/system/tenderhit-relais.timer; enabled; preset: enabled)
+     Active: active (running) since Sat 2026-10-17 18:24:35 CEST; 9min ago
+    Trigger: n/a
+   Triggers: ● tenderhit-relais.service
+
+● tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)
+     Loaded: loaded (/etc/systemd/system/tenderhit-relais.service; static)
+     Active: activating (start) since Sat 2026-10-17 18:34:08 CEST; 3s ago
+TriggeredBy: ● tenderhit-relais.timer
+   Main PID: 16576 (python)
+      Tasks: 2 (limit: 9256)
+     Memory: 7.4M (peak: 9.7M)
+        CPU: 286ms
+     CGroup: /system.slice/tenderhit-relais.service
+             ├─16576 /srv/tenderhit/env/bin/python /usr/local/lib/tenderhit/relais.py
+             └─16603 systemctl status "tenderhit-*" --no-pager -n 0
+
+```
+
+## Journal système (200 lignes)
+```
+Oct 17 18:24:35 b3-8-2026-10-17-15-30 systemd[1]: Started tenderhit-relais.timer - Tenderhit - relais GitHub toutes les 2 minutes.
+Oct 17 18:26:09 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Oct 17 18:26:10 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Oct 17 18:26:10 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Oct 17 18:28:01 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Oct 17 18:28:02 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Oct 17 18:28:02 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Oct 17 18:30:09 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Oct 17 18:30:14 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Oct 17 18:30:14 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Oct 17 18:32:09 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Oct 17 18:32:15 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Oct 17 18:32:15 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Oct 17 18:34:08 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+
+```
+
+## Mémoire
+```
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       938Mi       2.7Gi       1.0Mi       4.3Gi       6.7Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+```
+
+## Disque
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        48G  8.9G   39G  19% /
+
+```
+
+## Processus
+```
+    PID     ELAPSED %CPU %MEM   RSS CMD
+  15809       09:35  0.5  1.4 118204 /srv/tenderhit/env/bin/python lancer_production.py rejouer
+  16601       00:00  100  0.5 42860 /srv/tenderhit/env/bin/python /srv/tenderhit/entrepot/execution/moteur/extract.py M22 92
+  15387       09:53  0.0  0.4 34036 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+  14081       10:08  0.0  0.3 27332 /sbin/multipathd -d -s
+    934    02:59:58  0.0  0.2 23092 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+      1    03:00:10  0.0  0.1 14116 /usr/lib/systemd/systemd --system --deserialize=66
+  16576       00:03  1.2  0.1 13960 /srv/tenderhit/env/bin/python /usr/local/lib/tenderhit/relais.py
+   9273       10:19  0.0  0.1 13624 /usr/libexec/udisks2/udisksd
+   8323       10:26  0.0  0.1 13284 /usr/lib/systemd/systemd-resolved
+   9172       10:19  0.0  0.1 13032 /usr/sbin/ModemManager
+  16600       00:00 10.0  0.1 12616 /srv/tenderhit/env/bin/python /srv/tenderhit/entrepot/execution/moteur/generer.py M22 92 --edition=2026-10-01
+   1662       21:32  0.0  0.1 11096 /usr/lib/systemd/systemd --user --deserialize=12
+   3685       10:45  0.0  0.1 10636 /usr/lib/systemd/systemd-journald
+   1813       11:16  0.0  0.1 10460 sshd: ubuntu [priv]
+   3673       10:46  0.0  0.1  9776 /usr/lib/systemd/systemd-networkd
+    868    02:59:58  0.0  0.1  8872 /usr/lib/systemd/systemd-logind
+   9158       10:19  0.0  0.1  8132 /usr/lib/polkit-1/polkitd --no-debug
+   7564       10:30  0.0  0.1  7952 /usr/lib/systemd/systemd-timesyncd
+   7629       10:29  0.0  0.0  7868 /usr/lib/systemd/systemd-udevd
+  15807       09:35  0.0  0.0  7180 sudo -u tenderhit bash -c set -a; . /etc/tenderhit/moteur.env; set +a; cd /srv/tenderhit/moteur && exec /srv/tenderhit/env/bin/python lancer_production.py rejouer -- rejouer
+   1864       11:07  0.0  0.0  7136 sshd: ubuntu@pts/0
+   1865       11:07  0.0  0.0  6968 sudo bash depot/m/moteur/serveur/installer_serveur.sh /home/ubuntu/depot
+    809    02:59:58  0.0  0.0  5860 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   6450       10:34  0.0  0.0  5616 /usr/sbin/rsyslogd -n -iNONE
+  16607       00:00  0.0  0.0  4200 ps -eo pid,etime,%cpu,%mem,rss,cmd --sort=-rss
+   8470       10:24  0.0  0.0  4176 /usr/sbin/qemu-ga
+   1664       21:32  0.0  0.0  3568 (sd-pam)
+   1870       11:07  0.0  0.0  3568 bash depot/m/moteur/serveur/installer_serveur.sh /home/ubuntu/depot
+  14065       10:08  0.0  0.0  2752 /usr/sbin/cron -f -P
+  15808       09:35  0.0  0.0  2632 sudo -u tenderhit bash -c set -a; . /etc/tenderhit/moteur.env; set +a; cd /srv/tenderhit/moteur && exec /srv/tenderhit/env/bin/python lancer_production.py rejouer -- rejouer
+   1869       11:07  0.0  0.0  2536 sudo bash depot/m/moteur/serveur/installer_serveur.sh /home/ubuntu/depot
+    966    02:59:58  0.0  0.0  2160 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+   2003       11:06  0.0  0.0  2040 /sbin/agetty -o -p -- \u --noclear - linux
+  15806       09:35  0.0  0.0  1852 tee -a /home/ubuntu/depot/compte_rendu.txt
+  15805       09:35  0.0  0.0  1704 bash depot/m/moteur/serveur/installer_serveur.sh /home/ubuntu/depot
+      2    03:00:10  0.0  0.0     0 [kthreadd]
+      3    03:00:09  0.0  0.0     0 [pool_workqueue_release]
+      4    03:00:09  0.0  0.0     0 [kworker/R-rcu_g]
+      5    03:00:09  0.0  0.0     0 [kworker/R-rcu_p]
+      6    03:00:09  0.0  0.0     0 [kworker/R-slub_]
+      7    03:00:09  0.0  0.0     0 [kworker/R-netns]
+     10    03:00:09  0.0  0.0     0 [kworker/0:0H-events_highpri]
+     11    03:00:09  0.0  0.0     0 [kworker/u4:0-ipv6_addrconf]
+     12    03:00:09  0.0  0.0     0 [kworker/R-mm_pe]
+     13    03:00:09  0.0  0.0     0 [rcu_tasks_kthread]
+     14    03:00:09  0.0  0.0     0 [rcu_tasks_rude_kthread]
+     15    03:00:09  0.0  0.0     0 [rcu_tasks_trace_kthread]
+     16    03:00:09  0.0  0.0     0 [ksoftirqd/0]
+     17    03:00:09  0.0  0.0     0 [rcu_preempt]
+     18    03:00:09  0.0  0.0     0 [migration/0]
+     19    03:00:09  0.0  0.0     0 [idle_inject/0]
+     20    03:00:09  0.0  0.0     0 [cpuhp/0]
+     21    03:00:09  0.0  0.0     0 [cpuhp/1]
+     22    03:00:09  0.0  0.0     0 [idle_inject/1]
+     23    03:00:09  0.0  0.0     0 [migration/1]
+     24    03:00:09  0.0  0.0     0 [ksoftirqd/1]
+     26    03:00:09  0.0  0.0     0 [kworker/1:0H-events_highpri]
+     29    03:00:09  0.0  0.0     0 [kdevtmpfs]
+     30    03:00:09  0.0  0.0     0 [kworker/R-inet_]
+     31    03:00:09  0.0  0.0     0 [kauditd]
+     32    03:00:09  0.0  0.0     0 [khungtaskd]
+     33    03:00:09  0.0  0.0     0 [oom_reaper]
+     35    03:00:09  0.0  0.0     0 [kworker/R-write]
+     37    03:00:09  0.0  0.0     0 [kcompactd0]
+     38    03:00:09  0.0  0.0     0 [ksmd]
+     40    03:00:09  0.0  0.0     0 [khugepaged]
+     41    03:00:09  0.0  0.0     0 [kworker/R-kinte]
+     42    03:00:09  0.0  0.0     0 [kworker/R-kbloc]
+     43    03:00:09  0.0  0.0     0 [kworker/R-blkcg]
+     44    03:00:09  0.0  0.0     0 [irq/9-acpi]
+     45    03:00:09  0.0  0.0     0 [kworker/R-tpm_d]
+     46    03:00:09  0.0  0.0     0 [kworker/R-ata_s]
+     47    03:00:09  0.0  0.0     0 [kworker/R-md]
+     48    03:00:09  0.0  0.0     0 [kworker/R-md_bi]
+     49    03:00:09  0.0  0.0     0 [kworker/R-edac-]
+     50    03:00:09  0.0  0.0     0 [kworker/R-devfr]
+     51    03:00:09  0.0  0.0     0 [watchdogd]
+     53    03:00:09  0.0  0.0     0 [kworker/R-quota]
+     54    03:00:09  0.0  0.0     0 [kworker/1:1H-kblockd]
+     55    03:00:09  0.0  0.0     0 [kswapd0]
+     56    03:00:09  0.0  0.0     0 [ecryptfs-kthread]
+     57    03:00:09  0.0  0.0     0 [kworker/R-kthro]
+     58    03:00:09  0.0  0.0     0 [kworker/R-acpi_]
+     59    03:00:09  0.0  0.0     0 [scsi_eh_0]
+     60    03:00:09  0.0  0.0     0 [kworker/R-scsi_]
+     61    03:00:09  0.0  0.0     0 [scsi_eh_1]
+     62    03:00:09  0.0  0.0     0 [kworker/R-scsi_]
+     63    03:00:09  0.0  0.0     0 [scsi_eh_2]
+     64    03:00:09  0.0  0.0     0 [kworker/R-scsi_]
+     66    03:00:09  0.0  0.0     0 [kworker/0:1H-kblockd]
+     68    03:00:09  0.0  0.0     0 [kworker/R-mld]
+     69    03:00:09  0.0  0.0     0 [kworker/R-ipv6_]
+     70    03:00:09  0.0  0.0     0 [kworker/u4:1-ext4-rsv-conversion]
+     77    03:00:09  0.0  0.0     0 [kworker/R-kstrp]
+     80    03:00:09  0.0  0.0     0 [kworker/u7:0]
+     81    03:00:09  0.0  0.0     0 [kworker/u8:0]
+     82    03:00:09  0.0  0.0     0 [kworker/u9:0]
+     87    03:00:09  0.0  0.0     0 [kworker/R-crypt]
+     98    03:00:09  0.0  0.0     0 [kworker/R-charg]
+    196    03:00:07  0.0  0.0     0 [kworker/R-raid5]
+    233    03:00:07  0.0  0.0     0 [jbd2/sda1-8]
+    234    03:00:07  0.0  0.0     0 [kworker/R-ext4-]
+    327    03:00:06  0.0  0.0     0 [kworker/R-kmpat]
+    328    03:00:06  0.0  0.0     0 [kworker/R-kmpat]
+    470    03:00:05  0.0  0.0     0 [jbd2/sda16-8]
+    471    03:00:05  0.0  0.0     0 [kworker/R-ext4-]
+   1439       54:49  0.0  0.0     0 [kworker/R-tls-s]
+   1471       36:39  0.0  0.0     0 [kworker/u6:2-events_power_efficient]
+   1484       29:05  0.0  0.0     0 [kworker/u6:4-writeback]
+   1647       22:30  0.0  0.0     0 [kworker/u5:1-events_unbound]
+   1744       15:39  0.0  0.0     0 [kworker/u5:2-events_power_efficient]
+   1747       13:40  0.0  0.0     0 [kworker/1:1-events]
+   2138       11:03  0.0  0.0     0 [kworker/0:0-events]
+   6089       10:36  0.0  0.0     0 [kworker/u5:3-events_power_efficient]
+   7521       10:30  0.0  0.0     0 [kworker/u6:3-flush-8:0]
+   7630       10:29  0.0  0.0     0 [psimon]
+   9159       10:19  0.0  0.0     0 [kworker/0:4-cgroup_release]
+  10074       10:15  0.0  0.0     0 [kworker/1:2-events]
+  15787       09:36  0.0  0.0     0 [psimon]
+  16265       05:07  0.0  0.0     0 [kworker/0:1]
+  16266       05:07  0.0  0.0     0 [kworker/0:2-cgroup_free]
+
+```
+
+## Pare-feu
+```
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                  
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+
+
+```
+
+## Redémarrage requis
+```
+/var/run/reboot-required
+
+```
+
+## État du moteur
+```
+Couples en ligne suivis par le V2 : 92
+Dernière passe demandes : 2026-10-17 18:11:02  connexion OK, 0 couple(s) en attente : aucun
+Dernière passe collecte : 2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
+Dernière passe hebdo    : 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
+Dernière passe controle : jamais
+
+```
+
+## Journal du moteur (150 lignes)
+```
+2026-10-17 12:20:29  collecte des avis parus depuis le 15/10/2026 (complète)
+2026-10-17 12:20:32    1148 avis téléchargés → boamp_2026-10-17_1220_v2.parquet
+2026-10-17 12:20:58    collecte et avis ouverts : {"derniere_parution": "2026-10-17", "chiffres": {"ao_ouverts": 7583, "ao_30_jours": 7828}, "avis_ouverts": 7318}
+2026-10-17 12:20:59    73 couple(s) à recalculer : C093_69, C093_75, C451_69, C451_71, C642_FR, C712_13, C712_75, C712_83, C712_84, C713_13, C713_75, C713_83, C713_84, C715_13, C715_75, C715_83, C715_84, C722_76, C728_69, C728_75, C772_69, C772_71, C794_FR, C805_34, M01_14, M01_16, M01_17, M01_24, M01_27, M01_38, M01_59, M01_69, M01_73, M01_74, M01_75, M01_76, M01_83, M01_92, M01_93, M01_94 …
+2026-10-17 12:21:28    C093_69 : 0 opportunités · rapport et opportunités · 29 s
+2026-10-17 12:21:40    C093_75 : 0 opportunités · rapport et opportunités · 12 s
+2026-10-17 12:22:03    C451_69 : 5 opportunités · rapport et opportunités · 23 s
+2026-10-17 12:22:16    C451_71 : 0 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:23:07    C642_FR : 21 opportunités · rapport et opportunités · 51 s
+2026-10-17 12:23:29    C712_13 : 7 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:23:57    C712_75 : 8 opportunités · rapport et opportunités · 28 s
+2026-10-17 12:24:13    C712_83 : 2 opportunités · rapport et opportunités · 17 s
+2026-10-17 12:24:27    C712_84 : 1 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:25:00    C713_13 : 15 opportunités · rapport et opportunités · 32 s
+2026-10-17 12:25:42    C713_75 : 25 opportunités · rapport et opportunités · 43 s
+2026-10-17 12:26:02    C713_83 : 10 opportunités · rapport et opportunités · 20 s
+2026-10-17 12:26:15    C713_84 : 1 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:26:28    C715_13 : 1 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:26:38    C715_75 : 1 opportunités · rapport et opportunités · 10 s
+2026-10-17 12:26:51    C715_83 : 0 opportunités · rapport et opportunités · attributions anciennes retirées : 2 · 13 s
+2026-10-17 12:27:04    C715_84 : 0 opportunités · rapport et opportunités · attributions anciennes retirées : 1 · 13 s
+2026-10-17 12:27:15    C722_76 : 13 opportunités · rapport et opportunités · 11 s
+2026-10-17 12:27:32    C728_69 : 1 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:27:48    C728_75 : 1 opportunités · rapport et opportunités · 17 s
+2026-10-17 12:27:58    C772_69 : 8 opportunités · rapport et opportunités · 10 s
+2026-10-17 12:28:10    C772_71 : 3 opportunités · rapport et opportunités · 12 s
+2026-10-17 12:28:54    C794_FR : 35 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (retrait des attributions anciennes : erreur 400 — Requête invalide · {"formErrors": [], "fieldErrors": {"garder": ["Stri) · 44 s
+2026-10-17 12:29:09    C805_34 : 2 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:29:22    M01_14 : 12 opportunités · rapport et opportunités · attributions anciennes retirées : 3 · 14 s
+2026-10-17 12:29:47    M01_16 : 6 opportunités · rapport et opportunités · 25 s
+2026-10-17 12:29:58    M01_17 : 6 opportunités · rapport et opportunités · 11 s
+2026-10-17 12:30:24    M01_24 : 2 opportunités · rapport et opportunités · 26 s
+2026-10-17 12:30:39    M01_27 : 5 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:30:54    M01_38 : 23 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:31:12    M01_59 : 82 opportunités · rapport et opportunités · 18 s
+2026-10-17 12:31:30    M01_69 : 61 opportunités · rapport et opportunités · 18 s
+2026-10-17 12:31:42    M01_73 : 19 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:31:55    M01_74 : 29 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:32:18    M01_75 : 62 opportunités · rapport et opportunités · 23 s
+2026-10-17 12:32:31    M01_76 : 15 opportunités · rapport et opportunités · attributions anciennes retirées : 8 · 13 s
+2026-10-17 12:32:46    M01_83 : 28 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:33:02    M01_92 : 27 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:33:16    M01_93 : 21 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:33:30    M01_94 : 16 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:37:06    M01_FR : 1428 opportunités · rapport et opportunités · 216 s
+2026-10-17 12:37:22    M03_76 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 11 · 16 s
+2026-10-17 12:37:40    M04_62 : 15 opportunités · rapport et opportunités · attributions anciennes retirées : 5 · 18 s
+2026-10-17 12:37:49    M04_76 : 11 opportunités · rapport et opportunités · 10 s
+2026-10-17 12:38:03    M07_59 : 39 opportunités · rapport et opportunités · attributions anciennes retirées : 41 · 13 s
+2026-10-17 12:38:14    M07_76 : 13 opportunités · rapport et opportunités · 11 s
+2026-10-17 12:38:24    M08_76 : 13 opportunités · rapport et opportunités · attributions anciennes retirées : 16 · 10 s
+2026-10-17 12:38:40    M08_81 : 1 opportunités · rapport et opportunités · 17 s
+2026-10-17 12:39:10    M22_16 : 1 opportunités · rapport et opportunités · 29 s
+2026-10-17 12:39:38    M22_17 : 1 opportunités · rapport et opportunités · 29 s
+2026-10-17 12:40:03    M22_21 : 0 opportunités · rapport et opportunités · attributions anciennes retirées : 2 · 25 s
+2026-10-17 12:40:32    M22_24 : 0 opportunités · rapport et opportunités · 29 s
+2026-10-17 12:41:01    M22_27 : 0 opportunités · rapport et opportunités · attributions anciennes retirées : 1 · 29 s
+2026-10-17 12:41:15    M22_74 : 3 opportunités · rapport et opportunités · attributions anciennes retirées : 5 · 14 s
+2026-10-17 12:41:34    M22_75 : 21 opportunités · rapport et opportunités · 19 s
+2026-10-17 12:42:02    M22_76 : 8 opportunités · rapport et opportunités · attributions anciennes retirées : 1 · 28 s
+2026-10-17 12:42:16    M22_83 : 6 opportunités · rapport et opportunités · attributions anciennes retirées : 18 · 14 s
+2026-10-17 12:42:51    M22_87 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 15 · 35 s
+2026-10-17 12:43:07    M22_92 : 16 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:43:21    M22_93 : 8 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:43:34    M22_94 : 11 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:43:47    M23_27 : 0 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:44:10    M23_44 : 3 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:44:26    M23_76 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 23 · 17 s
+2026-10-17 12:44:45    M24_69 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 34 · 19 s
+2026-10-17 12:45:01    M24_76 : 4 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:45:24    M30_69 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 71 · 23 s
+2026-10-17 12:45:41    M33_38 : 4 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:45:55    M33_42 : 1 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:46:18    M33_69 : 5 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:46:33    M33_71 : 0 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:46:49    M33_85 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 42 · 16 s
+2026-10-17 12:47:03    M40_76 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 17 · 14 s
+2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
+2026-10-17 12:51:02  C451_74 : demande en attente
+2026-10-17 12:51:28    publié (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 26 s
+2026-10-17 12:51:28  C772_74 : demande en attente
+2026-10-17 12:51:37    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
+```
