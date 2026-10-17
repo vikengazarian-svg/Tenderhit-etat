@@ -1,2 +1,4 @@
 # mettre_a_jour
-En cours depuis 17/10 18:38
+Lancée le 17/10/2026 18:38, finie le 17/10/2026 18:38, code 0
+
+Moteur mis à jour : ebdf4a8 Relais : détail du dernier rejeu et du dernier contrôle
