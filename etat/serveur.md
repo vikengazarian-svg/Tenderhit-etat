@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 17/10/2026 à 20:38 · publication : **À BLANC (ne publie rien)**
+Mis à jour le 17/10/2026 à 20:40 · publication : **À BLANC (ne publie rien)**
 
 ## 🟢 **Tout va bien**
 
@@ -11,7 +11,7 @@ Mis à jour le 17/10/2026 à 20:38 · publication : **À BLANC (ne publie rien)*
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | jamais |
 
-**Machine maintenant** : mémoire 0.5 Go sur 7.6 · charge 0.00 · disque 18.7 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.6 Go sur 7.6 · charge 0.15 · disque 19.5 % · échange 0.0 Go
 
 ## Performances
 
@@ -53,8 +53,8 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ## Tâches planifiées
 ```
-NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
--       - Sat 2026-10-17 20:38:09 CEST 8s ago tenderhit-relais.timer tenderhit-relais.service
+NEXT LEFT LAST                          PASSED UNIT                   ACTIVATES
+-       - Sat 2026-10-17 20:40:09 CEST 13s ago tenderhit-relais.timer tenderhit-relais.service
 
 1 timers listed.
 ```

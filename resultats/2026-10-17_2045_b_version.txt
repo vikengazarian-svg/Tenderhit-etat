@@ -1,2 +1,5 @@
 # version
-En cours depuis 17/10 20:40
+Lancée le 17/10/2026 20:40, finie le 17/10/2026 20:40, code 0
+
+v2.4 90164bf
+python 3.14.7 duckdb 1.5.6 pandas 3.0.6
