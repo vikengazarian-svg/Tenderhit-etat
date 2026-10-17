@@ -1,2 +1,4 @@
 # verifier
-En cours depuis 17/10 18:58
+Lancée le 17/10/2026 18:58, finie le 17/10/2026 18:58, code 0
+
+Connexion OK avec le site. Couples en attente côté clients : 1.
