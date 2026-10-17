@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 17/10/2026 à 20:40 · publication : **À BLANC (ne publie rien)**
+Mis à jour le 17/10/2026 à 20:53 · publication : **À BLANC (ne publie rien)**
 
 ## 🟢 **Tout va bien**
 
@@ -11,7 +11,7 @@ Mis à jour le 17/10/2026 à 20:40 · publication : **À BLANC (ne publie rien)*
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | jamais |
 
-**Machine maintenant** : mémoire 0.6 Go sur 7.6 · charge 0.15 · disque 19.5 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.83 Go sur 7.6 · charge 1.50 · disque 19.5 % · échange 0.0 Go
 
 ## Performances
 
@@ -53,15 +53,14 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ## Tâches planifiées
 ```
-NEXT LEFT LAST                          PASSED UNIT                   ACTIVATES
--       - Sat 2026-10-17 20:40:09 CEST 13s ago tenderhit-relais.timer tenderhit-relais.service
+NEXT LEFT LAST                            PASSED UNIT                   ACTIVATES
+-       - Sat 2026-10-17 20:42:09 CEST 11min ago tenderhit-relais.timer tenderhit-relais.service
 
 1 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-17 12:37:06    M01_FR : 1428 opportunités · rapport et opportunités · 216 s
 2026-10-17 12:37:22    M03_76 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 11 · 16 s
 2026-10-17 12:37:40    M04_62 : 15 opportunités · rapport et opportunités · attributions anciennes retirées : 5 · 18 s
 2026-10-17 12:37:49    M04_76 : 11 opportunités · rapport et opportunités · 10 s
@@ -101,4 +100,5 @@ NEXT LEFT LAST                          PASSED UNIT                   ACTIVATES
 2026-10-17 12:51:37    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
 2026-10-17 18:36:08  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.2 s par couple (médiane), 12 min au total
+2026-10-17 20:53:32  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.1 s par couple (médiane), 11 min au total
 ```
