@@ -13,6 +13,6 @@
 <line x1="52" x2="744" y1="47.1" y2="47.1" stroke="#d1d9e0" stroke-width="1"/>
 <text x="46" y="51.1" font-size="11" fill="#59636e" text-anchor="end">8</text>
 <line x1="52" x2="744" y1="55.1" y2="55.1" stroke="#59636e" stroke-dasharray="4 4"/>
-<polyline fill="none" stroke="#2f6fdb" stroke-width="2" points="52.0,195.9"/>
+<polyline fill="none" stroke="#2f6fdb" stroke-width="2" points="52.0,195.9 282.7,195.9 513.3,195.9 744.0,195.9"/>
 <text x="52.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/17</text>
 </svg>
