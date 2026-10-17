@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 17/10/2026 à 20:34 · publication : **À BLANC (ne publie rien)**
+Mis à jour le 17/10/2026 à 20:38 · publication : **À BLANC (ne publie rien)**
 
 ## 🟢 **Tout va bien**
 
@@ -54,7 +54,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
--       - Sat 2026-10-17 20:34:09 CEST 4s ago tenderhit-relais.timer tenderhit-relais.service
+-       - Sat 2026-10-17 20:38:09 CEST 8s ago tenderhit-relais.timer tenderhit-relais.service
 
 1 timers listed.
 ```
