@@ -1,51 +1,66 @@
-# Serveur du moteur V2 — 17/10/2026 18:48
+# Serveur du moteur V2
 
-**Publication :** À BLANC (ne publie rien)
+Mis à jour le 17/10/2026 à 18:50 · publication : **À BLANC (ne publie rien)**
 
-- **demandes** : 2026-10-17 18:11:02  connexion OK, 0 couple(s) en attente : aucun
-- **collecte** : 2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
-- **hebdo** : 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
-- **controle** : jamais
+## 🟢 **Tout va bien**
 
-## Tâches
+| Passe | Dernier résultat |
+|---|---|
+| Demandes des clients | 2026-10-17 18:11:02  connexion OK, 0 couple(s) en attente : aucun |
+| Collecte des appels d'offres | 2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min |
+| Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
+| Contrôle quotidien | jamais |
+
+**Machine maintenant** : mémoire 0.51 Go sur 7.6 · charge 0.00 · disque 18.7 % · échange 0.0 Go
+
+## Performances
+
+![Durée des collectes](graphiques/collectes.svg)
+
+![Temps par couple](graphiques/temps_couple.svg)
+
+![Mémoire](graphiques/memoire.svg)
+
+Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
+
+### 10 dernières collectes
+
+| Quand | Avis | Couples recalculés | Republiés | Échecs | Durée |
+|---|---:|---:|---:|---:|---:|
+| 17/10 12:47 | 1148 | 73 | 73 | 0 | 26.6 min |
+
+### Passes DECP hebdomadaires
+
+| Passe | Durée des couples | Mémoire max |
+|---|---:|---:|
+| 2026-10-17_decp | 41.8 min | — Mo |
+| essai_pc | 26.3 min | 1616 Mo |
+| essai_2026-10-16 | 26.4 min | 1950 Mo |
+| essai_2026-10-16 | 25.6 min | 1950 Mo |
+| essai_2026-10-16 | 23.9 min | 1950 Mo |
+| essai_2026-10-16 | 21.9 min | 1950 Mo |
+
+### Demandes des clients aujourd'hui
+
+- 12:51 : (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 26 s
+- 12:51 : (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+
+### Contrôles quotidiens (14 derniers)
+
+```
+(absent)
+```
+
+## Tâches planifiées
 ```
 NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
--       - Sat 2026-10-17 18:48:09 CEST 4s ago tenderhit-relais.timer tenderhit-relais.service
+-       - Sat 2026-10-17 18:50:09 CEST 1s ago tenderhit-relais.timer tenderhit-relais.service
 
 1 timers listed.
 ```
 
-## Mémoire et disque
-```
-total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       532Mi       3.1Gi       1.0Mi       4.2Gi       7.1Gi
-Swap:          4.0Gi          0B       4.0Gi
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1        48G  8.9G   39G  19% /
-```
-
 ## Fin du journal du moteur
 ```
-2026-10-17 12:27:58    C772_69 : 8 opportunités · rapport et opportunités · 10 s
-2026-10-17 12:28:10    C772_71 : 3 opportunités · rapport et opportunités · 12 s
-2026-10-17 12:28:54    C794_FR : 35 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (retrait des attributions anciennes : erreur 400 — Requête invalide · {"formErrors": [], "fieldErrors": {"garder": ["Stri) · 44 s
-2026-10-17 12:29:09    C805_34 : 2 opportunités · rapport et opportunités · 15 s
-2026-10-17 12:29:22    M01_14 : 12 opportunités · rapport et opportunités · attributions anciennes retirées : 3 · 14 s
-2026-10-17 12:29:47    M01_16 : 6 opportunités · rapport et opportunités · 25 s
-2026-10-17 12:29:58    M01_17 : 6 opportunités · rapport et opportunités · 11 s
-2026-10-17 12:30:24    M01_24 : 2 opportunités · rapport et opportunités · 26 s
-2026-10-17 12:30:39    M01_27 : 5 opportunités · rapport et opportunités · 14 s
-2026-10-17 12:30:54    M01_38 : 23 opportunités · rapport et opportunités · 15 s
-2026-10-17 12:31:12    M01_59 : 82 opportunités · rapport et opportunités · 18 s
-2026-10-17 12:31:30    M01_69 : 61 opportunités · rapport et opportunités · 18 s
-2026-10-17 12:31:42    M01_73 : 19 opportunités · rapport et opportunités · 13 s
-2026-10-17 12:31:55    M01_74 : 29 opportunités · rapport et opportunités · 13 s
-2026-10-17 12:32:18    M01_75 : 62 opportunités · rapport et opportunités · 23 s
-2026-10-17 12:32:31    M01_76 : 15 opportunités · rapport et opportunités · attributions anciennes retirées : 8 · 13 s
-2026-10-17 12:32:46    M01_83 : 28 opportunités · rapport et opportunités · 15 s
-2026-10-17 12:33:02    M01_92 : 27 opportunités · rapport et opportunités · 15 s
-2026-10-17 12:33:16    M01_93 : 21 opportunités · rapport et opportunités · 15 s
-2026-10-17 12:33:30    M01_94 : 16 opportunités · rapport et opportunités · 14 s
 2026-10-17 12:37:06    M01_FR : 1428 opportunités · rapport et opportunités · 216 s
 2026-10-17 12:37:22    M03_76 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 11 · 16 s
 2026-10-17 12:37:40    M04_62 : 15 opportunités · rapport et opportunités · attributions anciennes retirées : 5 · 18 s
