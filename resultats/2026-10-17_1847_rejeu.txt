@@ -1,2 +1,45 @@
 # rejeu_detail
-En cours depuis 17/10 18:40
+Lancée le 17/10/2026 18:40, finie le 17/10/2026 18:40, code 0
+
+2026-10-17.json
+Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.2 s par couple (médiane), 12 min au total
+
+{
+ "C713_75": {
+  "duree_s": 14.9,
+  "ecarts": 3,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S02208_71313000#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "PROGEXIAL",
+    "v2": "CIRCULAB"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S03188_71356100#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "GTA GEOMETRES EXPERTS",
+    "v2": "PROGEXIAL"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S03556_71315000#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "CIRCULAB",
+    "v2": "GTA GEOMETRES EXPERTS"
+   }
+  ]
+ },
+ "M22_05": {
+  "etat": "jamais publié par le PC"
+ },
+ "M22_07": {
+  "etat": "jamais publié par le PC"
+ }
+}

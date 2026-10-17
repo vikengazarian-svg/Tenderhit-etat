@@ -1,4 +1,4 @@
-# Serveur du moteur V2 — 17/10/2026 18:38
+# Serveur du moteur V2 — 17/10/2026 18:40
 
 **Publication :** À BLANC (ne publie rien)
 
@@ -10,7 +10,7 @@
 ## Tâches
 ```
 NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
--       - Sat 2026-10-17 18:38:09 CEST 5s ago tenderhit-relais.timer tenderhit-relais.service
+-       - Sat 2026-10-17 18:40:09 CEST 3s ago tenderhit-relais.timer tenderhit-relais.service
 
 1 timers listed.
 ```
@@ -18,7 +18,7 @@ NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
 ## Mémoire et disque
 ```
 total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       541Mi       3.1Gi       1.0Mi       4.2Gi       7.0Gi
+Mem:           7.6Gi       534Mi       3.1Gi       1.0Mi       4.2Gi       7.0Gi
 Swap:          4.0Gi          0B       4.0Gi
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda1        48G  8.9G   39G  19% /
