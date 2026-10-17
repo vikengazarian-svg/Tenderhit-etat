@@ -1,4 +1,4 @@
-# Serveur du moteur V2 — 17/10/2026 18:34
+# Serveur du moteur V2 — 17/10/2026 18:36
 
 **Publication :** À BLANC (ne publie rien)
 
@@ -10,7 +10,7 @@
 ## Tâches
 ```
 NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
--       - Sat 2026-10-17 18:34:08 CEST 3s ago tenderhit-relais.timer tenderhit-relais.service
+-       - Sat 2026-10-17 18:36:08 CEST 3s ago tenderhit-relais.timer tenderhit-relais.service
 
 1 timers listed.
 ```
@@ -18,7 +18,7 @@ NEXT LEFT LAST                         PASSED UNIT                   ACTIVATES
 ## Mémoire et disque
 ```
 total        used        free      shared  buff/cache   available
-Mem:           7.6Gi       939Mi       2.7Gi       1.0Mi       4.3Gi       6.7Gi
+Mem:           7.6Gi       865Mi       2.8Gi       1.0Mi       4.2Gi       6.7Gi
 Swap:          4.0Gi          0B       4.0Gi
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda1        48G  8.9G   39G  19% /
@@ -26,7 +26,6 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 ## Fin du journal du moteur
 ```
-2026-10-17 12:27:48    C728_75 : 1 opportunités · rapport et opportunités · 17 s
 2026-10-17 12:27:58    C772_69 : 8 opportunités · rapport et opportunités · 10 s
 2026-10-17 12:28:10    C772_71 : 3 opportunités · rapport et opportunités · 12 s
 2026-10-17 12:28:54    C794_FR : 35 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (retrait des attributions anciennes : erreur 400 — Requête invalide · {"formErrors": [], "fieldErrors": {"garder": ["Stri) · 44 s
@@ -86,4 +85,5 @@ Filesystem      Size  Used Avail Use% Mounted on
 2026-10-17 12:51:28  C772_74 : demande en attente
 2026-10-17 12:51:37    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
+2026-10-17 18:36:08  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.2 s par couple (médiane), 12 min au total
 ```
