@@ -1,2 +1,4 @@
 # mettre_a_jour v2.4
-En cours depuis 17/10 20:38
+Lancée le 17/10/2026 20:38, finie le 17/10/2026 20:38, code 0
+
+Moteur à la version v2.4 (90164bf)
