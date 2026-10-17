@@ -1,2 +1,23 @@
 # journal 20
-En cours depuis 17/10 18:32
+Lancée le 17/10/2026 18:32, finie le 17/10/2026 18:32, code 0
+
+2026-10-17 12:43:21    M22_93 : 8 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:43:34    M22_94 : 11 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:43:47    M23_27 : 0 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:44:10    M23_44 : 3 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:44:26    M23_76 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 23 · 17 s
+2026-10-17 12:44:45    M24_69 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 34 · 19 s
+2026-10-17 12:45:01    M24_76 : 4 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:45:24    M30_69 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 71 · 23 s
+2026-10-17 12:45:41    M33_38 : 4 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:45:55    M33_42 : 1 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:46:18    M33_69 : 5 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:46:33    M33_71 : 0 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:46:49    M33_85 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 42 · 16 s
+2026-10-17 12:47:03    M40_76 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 17 · 14 s
+2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
+2026-10-17 12:51:02  C451_74 : demande en attente
+2026-10-17 12:51:28    publié (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 26 s
+2026-10-17 12:51:28  C772_74 : demande en attente
+2026-10-17 12:51:37    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
