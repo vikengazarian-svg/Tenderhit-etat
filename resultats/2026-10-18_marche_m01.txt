@@ -1,2 +1,14 @@
 # marche M01
-En cours depuis 18/10 16:18
+Lancée le 18/10/2026 16:18, finie le 18/10/2026 16:18, code 0
+
+2026-10-18 16:18:15  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 17249 lignes en 5 paquets
+{
+ "version": "2026-10-18",
+ "envoyees": [
+  "M01 (étage 2, 17249 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 17249,
+ "paquets": 5,
+ "erreurs": {}
+}
