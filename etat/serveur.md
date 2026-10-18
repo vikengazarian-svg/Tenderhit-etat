@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 19/10/2026 à 00:16 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 19/10/2026 à 00:18 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-19 00:16:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-19 00:18:06  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min |
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | jamais |
 
-**Machine maintenant** : mémoire 0.52 Go sur 7.6 · charge 0.18 · disque 21.3 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.12 · disque 21.3 % · échange 0.0 Go
 
 ## Performances
 
@@ -53,17 +53,16 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                           LEFT LAST                         PASSED UNIT                     ACTIVATES
-Mon 2026-10-19 00:17:00 CEST    49s Mon 2026-10-19 00:16:04 CEST 5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Mon 2026-10-19 00:19:00 CEST    49s Mon 2026-10-19 00:18:04 CEST 5s ago tenderhit-demandes.timer tenderhit-demandes.service
 Mon 2026-10-19 06:30:00 CEST     6h Sun 2026-10-18 10:14:39 CEST      - tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-10-24 03:00:00 CEST 5 days Sun 2026-10-18 10:14:39 CEST      - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                 - Mon 2026-10-19 00:16:04 CEST 5s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                 - Mon 2026-10-19 00:18:04 CEST 5s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-17 12:46:49    M33_85 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 42 · 16 s
 2026-10-17 12:47:03    M40_76 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 17 · 14 s
 2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
 2026-10-17 12:51:02  C451_74 : demande en attente
@@ -103,4 +102,5 @@ Sat 2026-10-24 03:00:00 CEST 5 days Sun 2026-10-18 10:14:39 CEST      - tenderhi
 2026-10-18 23:56:31    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
 2026-10-19 00:00:04  C713_FR : demande en attente
 2026-10-19 00:02:16    publié (édition 2026-10, 366 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP)) en 132 s
+2026-10-19 00:18:09  Rejeu sur le serveur : rouge — 0 couples identiques au PC sur 0 comparés
 ```

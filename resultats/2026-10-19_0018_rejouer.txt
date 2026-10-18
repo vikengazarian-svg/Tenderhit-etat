@@ -1,2 +1,9 @@
 # rejouer M01_69 M01_13 M12_44 M12_69 M03_75
-En cours depuis 19/10 00:18
+Lancée le 19/10/2026 00:18, finie le 19/10/2026 00:18, code 1
+
+  M01_69     publié un autre jour, non comparé
+  M01_13     jamais publié par le PC
+  M12_44     jamais publié par le PC
+  M12_69     jamais publié par le PC
+  M03_75     jamais publié par le PC
+2026-10-19 00:18:09  Rejeu sur le serveur : rouge — 0 couples identiques au PC sur 0 comparés
