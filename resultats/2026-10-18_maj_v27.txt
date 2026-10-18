@@ -1,2 +1,13 @@
 # mettre_a_jour v2.7
-En cours depuis 18/10 14:28
+Lancée le 18/10/2026 14:28, finie le 18/10/2026 14:28, code 0
+
+Moteur à la version v2.7 (9c3e510)
+
+Horaires des tâches (code 0) :
+NEXT                           LEFT LAST                         PASSED UNIT                     ACTIVATES
+Sun 2026-10-18 14:29:00 CEST    49s Sun 2026-10-18 14:28:04 CEST 5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Mon 2026-10-19 06:30:00 CEST    16h Sun 2026-10-18 10:14:39 CEST      - tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-10-24 03:00:00 CEST 5 days Sun 2026-10-18 10:14:39 CEST      - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                 - Sun 2026-10-18 14:28:04 CEST 5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+4 timers listed.
