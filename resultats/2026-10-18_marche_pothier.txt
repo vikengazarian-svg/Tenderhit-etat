@@ -1,2 +1,20 @@
 # marche C451 C772 --calculer
-En cours depuis 18/10 14:30
+Lancée le 18/10/2026 14:30, finie le 18/10/2026 14:32, code 0
+
+profil par mots-clés : 1 marchés en France sur 3 ans ; familles retenues  ; écartées 0 marchés
+profil par mots-clés : 314 marchés en France sur 3 ans ; familles retenues 72 (173), 80 (26), 79 (24), 48 (16) ; écartées 75 marchés
+profil par mots-clés : 6698 marchés en France sur 3 ans ; familles retenues 72 (3090), 48 (2103), 30 (457) ; écartées 1048 marchés
+profil par mots-clés : 1435 marchés en France sur 3 ans ; familles retenues 71 (502), 72 (421), 79 (268) ; écartées 244 marchés
+2026-10-18 14:32:18  tables du marché calculées : 327 activités, 1808816 attributions en 134.8 s, mémoire max 3497 Mo
+2026-10-18 14:32:57  tables du marché : 2 activité(s) envoyée(s), 0 inchangée(s), 80617 lignes en 19 paquets
+{
+ "version": "2026-10-18",
+ "envoyees": [
+  "C451 (étage 2, 73805 lignes)",
+  "C772 (étage 2, 6812 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 80617,
+ "paquets": 19,
+ "erreurs": {}
+}
