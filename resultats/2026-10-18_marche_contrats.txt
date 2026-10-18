@@ -1,2 +1,35 @@
 # marche
-En cours depuis 18/10 17:32
+Lancée le 18/10/2026 17:32, finie le 18/10/2026 17:58, code 0
+
+2026-10-18 17:58:46  tables du marché : 22 activité(s) envoyée(s), 304 inchangée(s), 993956 lignes en 251 paquets
+{
+ "version": "2026-10-18",
+ "envoyees": [
+  "C093 (étage 2, 26740 lignes)",
+  "C451 (étage 2, 150340 lignes)",
+  "C642 (étage 2, 15558 lignes)",
+  "C712 (étage 2, 163182 lignes)",
+  "C713 (étage 2, 160556 lignes)",
+  "C715 (étage 2, 5888 lignes)",
+  "C722 (étage 2, 44129 lignes)",
+  "C728 (étage 2, 857 lignes)",
+  "C772 (étage 2, 13317 lignes)",
+  "C794 (étage 2, 16798 lignes)",
+  "C805 (étage 2, 34009 lignes)",
+  "M01 (étage 2, 33126 lignes)",
+  "M03 (étage 2, 6358 lignes)",
+  "M04 (étage 2, 11857 lignes)",
+  "M07 (étage 2, 17942 lignes)",
+  "M08 (étage 2, 12035 lignes)",
+  "M22 (étage 2, 12199 lignes)",
+  "M23 (étage 2, 64593 lignes)",
+  "M24 (étage 2, 46692 lignes)",
+  "M30 (étage 2, 63610 lignes)",
+  "M33 (étage 2, 73242 lignes)",
+  "M40 (étage 2, 20928 lignes)"
+ ],
+ "inchangees": 304,
+ "lignes": 993956,
+ "paquets": 251,
+ "erreurs": {}
+}
