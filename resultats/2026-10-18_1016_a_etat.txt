@@ -1,2 +1,8 @@
 # etat
-En cours depuis 18/10 10:16
+Lancée le 18/10/2026 10:16, finie le 18/10/2026 10:16, code 0
+
+Couples en ligne suivis par le V2 : 94
+Dernière passe demandes : 2026-10-18 10:16:05  connexion OK, 0 couple(s) en attente : aucun
+Dernière passe collecte : 2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
+Dernière passe hebdo    : 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
+Dernière passe controle : jamais
