@@ -1,2 +1,4 @@
 # mettre_a_jour v2.5
-En cours depuis 18/10 12:12
+Lancée le 18/10/2026 12:12, finie le 18/10/2026 12:12, code 0
+
+Moteur à la version v2.5 (950b7b7)
