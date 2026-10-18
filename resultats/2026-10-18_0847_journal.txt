@@ -1,2 +1,18 @@
 # journal 15
-En cours depuis 18/10 10:48
+Lancée le 18/10/2026 10:48, finie le 18/10/2026 10:48, code 0
+
+2026-10-17 12:51:37    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
+2026-10-17 18:36:08  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.2 s par couple (médiane), 12 min au total
+2026-10-17 20:53:32  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.1 s par couple (médiane), 11 min au total
+2026-10-18 10:18:02  C451_26 : demande en attente
+2026-10-18 10:18:02    carte du 26 téléchargée
+2026-10-18 10:18:11    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-18 10:18:11  C451_38 : demande en attente
+2026-10-18 10:18:27    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 16 s
+2026-10-18 10:18:27  C772_26 : demande en attente
+2026-10-18 10:18:37    publié (édition 2026-10, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-18 10:18:37  C772_38 : demande en attente
+2026-10-18 10:18:47    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-18 10:39:05  M01_26 : demande en attente
+2026-10-18 10:39:15    publié (édition 2026-10, 12 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
