@@ -1,2 +1,10 @@
 # planifier
-En cours depuis 18/10 12:14
+Lancée le 18/10/2026 12:14, finie le 18/10/2026 12:14, code 0
+
+NEXT                           LEFT LAST                         PASSED UNIT                     ACTIVATES
+Sun 2026-10-18 12:15:00 CEST    51s Sun 2026-10-18 12:14:04 CEST 3s ago tenderhit-demandes.timer tenderhit-demandes.service
+Mon 2026-10-19 06:30:00 CEST    18h Sun 2026-10-18 10:14:39 CEST      - tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-10-24 03:00:00 CEST 5 days Sun 2026-10-18 10:14:39 CEST      - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                 - Sun 2026-10-18 12:14:04 CEST 3s ago tenderhit-relais.timer   tenderhit-relais.service
+
+4 timers listed.
