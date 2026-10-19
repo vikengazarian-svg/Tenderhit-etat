@@ -8,7 +8,10 @@
 <text x="46" y="153.3" font-size="11" fill="#59636e" text-anchor="end">10</text>
 <line x1="52" x2="744" y1="92.5" y2="92.5" stroke="#d1d9e0" stroke-width="1"/>
 <text x="46" y="96.5" font-size="11" fill="#59636e" text-anchor="end">20</text>
-<rect x="380.0" y="55.1" width="36.0" height="150.9" rx="4.0" fill="#2f6fdb"><title>10/17 12h : 26.6 minutes</title></rect>
-<text x="398.0" y="49.1" font-size="11" fill="#1f2328" text-anchor="middle">26.6</text>
-<text x="398.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/17 12h</text>
+<rect x="207.0" y="55.1" width="36.0" height="150.9" rx="4.0" fill="#2f6fdb"><title>10/17 12h : 26.6 minutes</title></rect>
+<text x="225.0" y="49.1" font-size="11" fill="#1f2328" text-anchor="middle">26.6</text>
+<text x="225.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/17 12h</text>
+<rect x="553.0" y="102.2" width="36.0" height="103.8" rx="4.0" fill="#2f6fdb"><title>10/19 06h : 18.3 minutes</title></rect>
+<text x="571.0" y="96.2" font-size="11" fill="#1f2328" text-anchor="middle">18.3</text>
+<text x="571.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/19 06h</text>
 </svg>
