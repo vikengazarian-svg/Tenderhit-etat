@@ -1,2 +1,153 @@
 # journal 150
-En cours depuis 19/10 08:30
+Lancée le 19/10/2026 08:30, finie le 19/10/2026 08:30, code 0
+
+2026-10-17 12:43:07    M22_92 : 16 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:43:21    M22_93 : 8 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:43:34    M22_94 : 11 opportunités · rapport et opportunités · 14 s
+2026-10-17 12:43:47    M23_27 : 0 opportunités · rapport et opportunités · 13 s
+2026-10-17 12:44:10    M23_44 : 3 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:44:26    M23_76 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 23 · 17 s
+2026-10-17 12:44:45    M24_69 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 34 · 19 s
+2026-10-17 12:45:01    M24_76 : 4 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:45:24    M30_69 : 2 opportunités · rapport et opportunités · attributions anciennes retirées : 71 · 23 s
+2026-10-17 12:45:41    M33_38 : 4 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:45:55    M33_42 : 1 opportunités · rapport et opportunités · 15 s
+2026-10-17 12:46:18    M33_69 : 5 opportunités · rapport et opportunités · 22 s
+2026-10-17 12:46:33    M33_71 : 0 opportunités · rapport et opportunités · 16 s
+2026-10-17 12:46:49    M33_85 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 42 · 16 s
+2026-10-17 12:47:03    M40_76 : 1 opportunités · rapport et opportunités · attributions anciennes retirées : 17 · 14 s
+2026-10-17 12:47:03  OK, 1148 avis collectés, 73 couples recalculés, 73 republiés en 26.6 min
+2026-10-17 12:51:02  C451_74 : demande en attente
+2026-10-17 12:51:28    publié (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 26 s
+2026-10-17 12:51:28  C772_74 : demande en attente
+2026-10-17 12:51:37    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées
+2026-10-17 18:36:08  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.2 s par couple (médiane), 12 min au total
+2026-10-17 20:53:32  Rejeu sur le serveur : rouge — 89 couples identiques au PC sur 90 comparés ; en écart ou en échec : C713_75 ; 6.1 s par couple (médiane), 11 min au total
+2026-10-18 10:18:02  C451_26 : demande en attente
+2026-10-18 10:18:02    carte du 26 téléchargée
+2026-10-18 10:18:11    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-18 10:18:11  C451_38 : demande en attente
+2026-10-18 10:18:27    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 16 s
+2026-10-18 10:18:27  C772_26 : demande en attente
+2026-10-18 10:18:37    publié (édition 2026-10, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-18 10:18:37  C772_38 : demande en attente
+2026-10-18 10:18:47    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-10-18 10:39:05  M01_26 : demande en attente
+2026-10-18 10:39:15    publié (édition 2026-10, 12 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
+2026-10-18 14:32:18  tables du marché calculées : 327 activités, 1808816 attributions en 134.8 s, mémoire max 3497 Mo
+2026-10-18 14:32:57  tables du marché : 2 activité(s) envoyée(s), 0 inchangée(s), 80617 lignes en 19 paquets
+2026-10-18 16:18:15  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 17249 lignes en 5 paquets
+2026-10-18 16:28:27  tables du marché : 323 activité(s) envoyée(s), 3 inchangée(s), 577760 lignes en 426 paquets
+2026-10-18 17:58:46  tables du marché : 22 activité(s) envoyée(s), 304 inchangée(s), 993956 lignes en 251 paquets
+2026-10-18 23:54:06  C712_69 : demande en attente
+2026-10-18 23:54:15    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-18 23:54:15  C713_69 : demande en attente
+2026-10-18 23:54:25    publié (édition 2026-10, 11 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+2026-10-18 23:54:25  C715_69 : demande en attente
+2026-10-18 23:54:31    publié (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
+2026-10-18 23:56:07  C712_74 : demande en attente
+2026-10-18 23:56:15    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-18 23:56:15  C713_74 : demande en attente
+2026-10-18 23:56:23    publié (édition 2026-10, 10 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+2026-10-18 23:56:24  C715_74 : demande en attente
+2026-10-18 23:56:31    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-10-19 00:00:04  C713_FR : demande en attente
+2026-10-19 00:02:16    publié (édition 2026-10, 366 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP)) en 132 s
+2026-10-19 00:18:09  Rejeu sur le serveur : rouge — 0 couples identiques au PC sur 0 comparés
+2026-10-19 06:30:05  collecte des avis parus depuis le 17/10/2026 (complète)
+2026-10-19 06:30:09    540 avis téléchargés → boamp_2026-10-19_0630_v2.parquet
+2026-10-19 06:30:25    collecte et avis ouverts : {"derniere_parution": "2026-10-19", "chiffres": {"ao_ouverts": 7952, "ao_30_jours": 7586}, "avis_ouverts": 7637}
+2026-10-19 06:31:35    lecture des avis : {"avis_ouverts": 9636, "lus": 9636, "repris": 0, "sans_ligne": 44, "lignes": 28480, "a_envoyer": 28480, "a_retirer": 0, "disparues": 0, "envoi": "envoyé", "duree_s": 70.6}
+2026-10-19 06:31:35    89 couple(s) à recalculer : C093_69, C093_75, C451_26, C451_38, C451_69, C451_71, C451_74, C451_FR, C642_FR, C712_13, C712_69, C712_74, C712_75, C712_83, C712_84, C713_13, C713_69, C713_74, C713_75, C713_83, C713_84, C713_FR, C715_13, C715_69, C715_74, C715_75, C715_83, C715_84, C722_76, C728_69, C728_75, C772_26, C772_38, C772_69, C772_71, C772_74, C772_FR, C794_FR, C805_34, M01_14 …
+2026-10-19 06:31:39    C093_69 : 0 opportunités · inchangé · 4 s
+2026-10-19 06:31:43    C093_75 : 0 opportunités · inchangé · 4 s
+2026-10-19 06:31:47    C451_26 : 0 opportunités · inchangé · 4 s
+2026-10-19 06:31:56    C451_38 : 2 opportunités · opportunités · 9 s
+2026-10-19 06:32:04    C451_69 : 5 opportunités · opportunités · 7 s
+2026-10-19 06:32:08    C451_71 : 0 opportunités · inchangé · 4 s
+2026-10-19 06:32:15    C451_74 : 1 opportunités · opportunités · 7 s
+2026-10-19 06:34:18    C451_FR : 160 opportunités · rapport et opportunités · 123 s
+2026-10-19 06:34:29    C642_FR : 21 opportunités · opportunités · 12 s
+2026-10-19 06:34:36    C712_13 : 7 opportunités · opportunités · 6 s
+2026-10-19 06:34:42    C712_69 : 4 opportunités · rapport et opportunités · 7 s
+2026-10-19 06:34:48    C712_74 : 3 opportunités · opportunités · 5 s
+2026-10-19 06:34:55    C712_75 : 8 opportunités · opportunités · 8 s
+2026-10-19 06:35:01    C712_83 : 2 opportunités · rapport et opportunités · 5 s
+2026-10-19 06:35:05    C712_84 : 1 opportunités · opportunités · 5 s
+2026-10-19 06:35:16    C713_13 : 16 opportunités · rapport et opportunités · 10 s
+2026-10-19 06:35:24    C713_69 : 11 opportunités · rapport et opportunités · 9 s
+2026-10-19 06:35:31    C713_74 : 10 opportunités · opportunités · 6 s
+2026-10-19 06:35:43    C713_75 : 25 opportunités · opportunités · 12 s
+2026-10-19 06:35:49    C713_83 : 10 opportunités · opportunités · 6 s
+2026-10-19 06:35:53    C713_84 : 1 opportunités · opportunités · 4 s
+2026-10-19 06:38:04    C713_FR : 390 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP) · 131 s
+2026-10-19 06:38:09    C715_13 : 1 opportunités · opportunités · 5 s
+2026-10-19 06:38:12    C715_69 : 1 opportunités · opportunités · 3 s
+2026-10-19 06:38:17    C715_74 : 0 opportunités · inchangé · 5 s
+2026-10-19 06:38:21    C715_75 : 1 opportunités · opportunités · 4 s
+2026-10-19 06:38:25    C715_83 : 0 opportunités · inchangé · 5 s
+2026-10-19 06:38:30    C715_84 : 0 opportunités · inchangé · 4 s
+2026-10-19 06:38:34    C722_76 : 14 opportunités · rapport et opportunités · 5 s
+2026-10-19 06:38:41    C728_69 : 1 opportunités · opportunités · 6 s
+2026-10-19 06:38:47    C728_75 : 1 opportunités · opportunités · 7 s
+2026-10-19 06:38:52    C772_26 : 4 opportunités · opportunités · 5 s
+2026-10-19 06:38:57    C772_38 : 3 opportunités · opportunités · 5 s
+2026-10-19 06:39:01    C772_69 : 8 opportunités · opportunités · 3 s
+2026-10-19 06:39:05    C772_71 : 3 opportunités · opportunités · 5 s
+2026-10-19 06:39:08    C772_74 : 3 opportunités · opportunités · 3 s
+2026-10-19 06:40:19    C772_FR : 241 opportunités · opportunités · 71 s
+2026-10-19 06:40:33    C794_FR : 37 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP) · 14 s
+2026-10-19 06:40:37    C805_34 : 2 opportunités · opportunités · 4 s
+2026-10-19 06:40:43    M01_14 : 12 opportunités · opportunités · 5 s
+2026-10-19 06:40:54    M01_16 : 6 opportunités · opportunités · 11 s
+2026-10-19 06:40:58    M01_17 : 6 opportunités · opportunités · 5 s
+2026-10-19 06:41:09    M01_24 : 2 opportunités · opportunités · 11 s
+2026-10-19 06:41:14    M01_26 : 12 opportunités · opportunités · 5 s
+2026-10-19 06:41:20    M01_27 : 5 opportunités · opportunités · 6 s
+2026-10-19 06:41:26    M01_38 : 24 opportunités · opportunités · 7 s
+2026-10-19 06:41:35    M01_59 : 83 opportunités · opportunités · 9 s
+2026-10-19 06:41:44    M01_69 : 60 opportunités · opportunités · 9 s
+2026-10-19 06:41:50    M01_73 : 19 opportunités · opportunités · 6 s
+2026-10-19 06:41:56    M01_74 : 28 opportunités · opportunités · 6 s
+2026-10-19 06:42:10    M01_75 : 62 opportunités · opportunités · 14 s
+2026-10-19 06:42:18    M01_76 : 17 opportunités · rapport et opportunités · 7 s
+2026-10-19 06:42:26    M01_83 : 28 opportunités · rapport et opportunités · 8 s
+2026-10-19 06:42:34    M01_92 : 27 opportunités · opportunités · 9 s
+2026-10-19 06:42:43    M01_93 : 21 opportunités · rapport et opportunités · 9 s
+2026-10-19 06:42:51    M01_94 : 16 opportunités · opportunités · 7 s
+2026-10-19 06:44:03    M01_FR : 1446 opportunités · rapport et opportunités · 73 s
+2026-10-19 06:44:10    M03_76 : 2 opportunités · opportunités · 7 s
+2026-10-19 06:44:18    M04_62 : 15 opportunités · opportunités · 8 s
+2026-10-19 06:44:23    M04_76 : 12 opportunités · rapport et opportunités · 5 s
+2026-10-19 06:44:29    M07_59 : 38 opportunités · opportunités · 6 s
+2026-10-19 06:44:34    M07_76 : 13 opportunités · opportunités · 5 s
+2026-10-19 06:44:38    M08_76 : 13 opportunités · opportunités · 4 s
+2026-10-19 06:44:45    M08_81 : 1 opportunités · opportunités · 7 s
+2026-10-19 06:44:58    M22_16 : 1 opportunités · rapport et opportunités · 13 s
+2026-10-19 06:45:11    M22_17 : 1 opportunités · rapport et opportunités · 13 s
+2026-10-19 06:45:22    M22_21 : 0 opportunités · inchangé · 10 s
+2026-10-19 06:45:35    M22_24 : 0 opportunités · rapport et opportunités · 13 s
+2026-10-19 06:45:47    M22_27 : 0 opportunités · rapport et opportunités · 12 s
+2026-10-19 06:45:53    M22_74 : 3 opportunités · rapport et opportunités · 6 s
+2026-10-19 06:46:03    M22_75 : 22 opportunités · rapport et opportunités · 9 s
+2026-10-19 06:46:16    M22_76 : 8 opportunités · rapport et opportunités · 13 s
+2026-10-19 06:46:23    M22_83 : 6 opportunités · rapport et opportunités · 7 s
+2026-10-19 06:46:37    M22_87 : 1 opportunités · rapport et opportunités · 14 s
+2026-10-19 06:46:43    M22_92 : 16 opportunités · opportunités · 6 s
+2026-10-19 06:46:49    M22_93 : 8 opportunités · opportunités · 6 s
+2026-10-19 06:46:55    M22_94 : 11 opportunités · opportunités · 6 s
+2026-10-19 06:47:02    M23_27 : 0 opportunités · rapport et opportunités · 6 s
+2026-10-19 06:47:09    M23_44 : 3 opportunités · rapport et opportunités · 8 s
+2026-10-19 06:47:17    M23_76 : 2 opportunités · opportunités · 8 s
+2026-10-19 06:47:26    M24_69 : 2 opportunités · opportunités · 8 s
+2026-10-19 06:47:33    M24_76 : 4 opportunités · opportunités · 7 s
+2026-10-19 06:47:41    M30_69 : 2 opportunités · opportunités · 8 s
+2026-10-19 06:47:48    M33_38 : 4 opportunités · opportunités · 7 s
+2026-10-19 06:47:54    M33_42 : 1 opportunités · rapport et opportunités · 6 s
+2026-10-19 06:48:03    M33_69 : 5 opportunités · opportunités · 9 s
+2026-10-19 06:48:09    M33_71 : 0 opportunités · rapport et opportunités · 6 s
+2026-10-19 06:48:16    M33_85 : 1 opportunités · opportunités · 6 s
+2026-10-19 06:48:22    M40_76 : 1 opportunités · opportunités · 6 s
+2026-10-19 06:48:22  OK, 540 avis collectés, 89 couples recalculés, 81 republiés en 18.3 min
+2026-10-19 06:49:35  Contrôle du 19/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes)
