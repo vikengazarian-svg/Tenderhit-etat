@@ -1,2 +1,1222 @@
 # controle_detail
-En cours depuis 19/10 08:30
+Lancée le 19/10/2026 08:30, finie le 19/10/2026 08:30, code 0
+
+2026-10-19.json
+Contrôle du 19/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes)
+
+{
+ "C712_69": {
+  "attributions": 2895,
+  "ecarts": 2895,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952020151035495800_71221000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151057387200_71221000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151085101300_71200000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151100757200_71200000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021170010592500_71251000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151101516100_71241000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151106295400_71240000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151122577500_71200000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151162333700_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151168952100_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023100016952100_71240000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151164795200_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151182076000_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151186370400_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151191178300_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151191413000_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023160007000200_71241000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023160007195000_71240000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023160007228100_71210000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952028146_71241000#0",
+    "couple": "C712_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 4
+ },
+ "C712_74": {
+  "attributions": 2174,
+  "ecarts": 2174,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112016_696900_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120191100_71250000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120201700_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020434300_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020808000_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020_171701_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020_171702_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120210400_71241000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120211700_71250000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20000017200011202120203000_71250000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20000017200011202120208000_71221000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021323200_71250000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021323200_71250000#1",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021323200_71250000#2",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021323200_71250000#3",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20000017200011202132_71250000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120213900_71241000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021393900_71241000#0",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021393900_71241000#1",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112021393900_71241000#2",
+    "couple": "C712_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 3
+ },
+ "C713_69": {
+  "attributions": 2787,
+  "ecarts": 2787,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "105911960000182025_SIEAR1_00_71300000#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000951513473911_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000951513700486_71300000#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952019150950109800_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021100015266200_71356100#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151056829200_71321400#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151062676400_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151085112000_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952021151115632700_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151123411000_71310000#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151127538000_71356100#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151129296700_71356100#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151135414800_71317200#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151152998700_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151155954400_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151166997200_71356100#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151169124200_71356100#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952022151169125600_71356100#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151164803300_71317200#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "120010038000952023151169921300_71317210#0",
+    "couple": "C713_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 11
+ },
+ "C713_74": {
+  "attributions": 1944,
+  "ecarts": 1944,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130009764000152022151147362400_71335000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130009764000152589494_71335000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130027246000111000195681_71317210#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130027246000112022151127287000_71317210#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130027246000112813857_71315000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130027246000112951198_71317210#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "187430012000672781304_71300000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020-5-ENV0100_71314300#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120201201_71332000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20000017200011202020195900_71356300#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020424200_71300000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020424201_71300000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020424202_71300000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112020_121200_71332000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120214000_71300000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120224600_71336000#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000001720001120225300_71356300#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200000172000112022535300_71356300#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20000017200011202416_71317210#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20000017200011202417_71317210#0",
+    "couple": "C713_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 10
+ },
+ "C713_75": {
+  "attributions": 4439,
+  "ecarts": 3,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S02208_71313000#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "PROGEXIAL",
+    "v2": "CIRCULAB"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S03188_71356100#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "GTA GEOMETRES EXPERTS",
+    "v2": "PROGEXIAL"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S03556_71315000#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "CIRCULAB",
+    "v2": "GTA GEOMETRES EXPERTS"
+   }
+  ],
+  "opportunites": 25
+ },
+ "C713_FR": {
+  "attributions": 80540,
+  "ecarts": 80540,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "000000000000002024042_71332000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "0071805160014324004BRAISHPC_71300000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "010000000000002020TrUDf45ryF00_71317210#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "0100000000000020215meGHZKDkt00_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "01000000000000202181nKIlJ07h00_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "010000000000002021STbz58bT-000_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "010000000000002021cLpdDSrK9Y00_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "010000000000002021eLNE1lcdzF00_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "010000000000002021xGBbg2LXDr00_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "010000000000002023umC6TjGjFs00_71356200#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "01545063800067202347klx0000000_71324000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "015450638000672023795t20000000_71324000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "015450638000672023AMO_ASC00000_71336000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "015450638000672023ztga60000000_71324000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "0154506380006720253ta850000000_71351810#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "015450638000672025kmlih0000000_71314100#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "015450638000672025kx2os0000000_71314100#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "015450638000672025ldi6c0000000_71351810#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "0154506380006720262026_0300000_71310000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "04555025800029201901300_71310000#0",
+    "couple": "C713_FR",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 390
+ },
+ "C715_69": {
+  "attributions": 69,
+  "ecarts": 69,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300183100001620192019S2257200_71521000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300183100001620212021S2402700_71521000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300217020001920202020T0688700_71521000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "176901205000112023151205114300_71500000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "176901205000112023151212382700_71500000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "176901205000112672543_71500000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "180089013006682899307_71541000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1869015590011920222022S2591200_71520000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "186901567000132020WG6s5Ts20w00_71541000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "186901567000132021mWOAQ2JSxw00_71541000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1969018700001025-2025MO17_71520000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "196917744000192026S12995_71500000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000405660001620242024A161_71541000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "2000405660001620242024A161_71541000#1",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200040590000162025PR_71521000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20004697700019202391NCA00_71521000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200046977000192024700BURGEAP_71520000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "20004697700019202515_71521000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200053767000142018012499300100_71540000#0",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "200053767000142018012499300100_71540000#1",
+    "couple": "C715_69",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 1
+ },
+ "C715_74": {
+  "attributions": 332,
+  "ecarts": 332,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300183100001620192019S2257200_71521000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300183100001620212021S2402700_71521000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130021397000182900067_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300217020001920202020T0688700_71521000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300226920025020222023S0061400_71520000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1300226920031820202019S2705300_71520000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130026081000132507116_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "130026081000132934438_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "176901205000112023151205114300_71500000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "176901205000112023151212382700_71500000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "176901205000112672543_71500000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "180089013006682899307_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "18381001900038202019AS2972300_71540000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1869015590011920222022S2591200_71520000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "186901567000132020WG6s5Ts20w00_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "186901567000132021mWOAQ2JSxw00_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1942109510042320202020S0906900_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1942109510042320212021S0733200_71541000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "1969018700001025-2025MO17_71520000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "196917744000192026S12995_71500000#0",
+    "couple": "C715_74",
+    "envoi": "attributions",
+    "reference": null,
+    "v2": true
+   }
+  ],
+  "opportunites": 0
+ },
+ "C794_FR": {
+  "attributions": 7131,
+  "attributions_anciennes_sur_site": 124,
+  "etat": "identique (hors lignes anciennes gardées par le site)",
+  "opportunites": 37
+ }
+}
