@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 20/10/2026 à 06:48 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 20/10/2026 à 06:50 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🔴 **À regarder** : contrôle quotidien rouge ; demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
 | Demandes des clients | 2026-10-20 06:29:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-20 06:47:52  OK, 392 avis collectés, 93 couples recalculés, 30 republiés en 17.8 min |
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-10-19 06:49:35  Contrôle du 19/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes) |
+| Contrôle quotidien | 2026-10-20 06:49:02  Contrôle du 20/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C451_42, C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74, C772_42, M01_42, M01_71 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes) |
 
-**Machine maintenant** : mémoire 1.01 Go sur 7.6 · charge 1.37 · disque 21.7 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.49 Go sur 7.6 · charge 0.19 · disque 21.9 % · échange 0.0 Go
 
 ## Performances
 
@@ -50,22 +50,22 @@ Aucune pour l'instant.
 
 ```
 2026-10-19 06:49  Contrôle du 19/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes)
+2026-10-20 06:49  Contrôle du 20/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C451_42, C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74, C772_42, M01_42, M01_71 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes)
 ```
 
 ## Tâches planifiées
 ```
 NEXT                           LEFT LAST                            PASSED UNIT                     ACTIVATES
-Tue 2026-10-20 06:49:00 CEST    58s Tue 2026-10-20 06:48:00 CEST    1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Wed 2026-10-21 06:30:00 CEST    23h Tue 2026-10-20 06:30:04 CEST 20min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-10-24 03:00:00 CEST 3 days Sun 2026-10-18 10:14:39 CEST         - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                 - Tue 2026-10-20 06:30:04 CEST 17min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                 - Tue 2026-10-20 06:48:00 CEST    1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                 - Tue 2026-10-20 06:50:04 CEST    1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                 - Tue 2026-10-20 06:50:04 CEST    1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-20 06:41:42    M01_75 : 65 opportunités · rapport et opportunités · 15 s
 2026-10-20 06:41:48    M01_76 : 17 opportunités · inchangé · 6 s
 2026-10-20 06:41:56    M01_83 : 28 opportunités · inchangé · 7 s
 2026-10-20 06:42:04    M01_92 : 27 opportunités · inchangé · 8 s
@@ -105,4 +105,5 @@ Sat 2026-10-24 03:00:00 CEST 3 days Sun 2026-10-18 10:14:39 CEST         - tende
 2026-10-20 06:47:46    M33_85 : 1 opportunités · inchangé · 6 s
 2026-10-20 06:47:52    M40_76 : 1 opportunités · inchangé · 6 s
 2026-10-20 06:47:52  OK, 392 avis collectés, 93 couples recalculés, 30 republiés en 17.8 min
+2026-10-20 06:49:02  Contrôle du 20/10 : rouge — 96 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C451_42, C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74, C772_42, M01_42, M01_71 ; demandes : dernière passe il y a 19 min (attendu : toutes les minutes)
 ```
