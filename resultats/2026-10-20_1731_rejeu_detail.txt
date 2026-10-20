@@ -1,2 +1,4086 @@
 # rejeu_detail
-En cours depuis 20/10 19:32
+Lancée le 20/10/2026 19:32, finie le 20/10/2026 19:32, code 0
+
+2026-10-20.json
+Rejeu sur le serveur : rouge — 2 couples identiques au PC sur 32 comparés ; en écart ou en échec : C451_38, C451_FR, C642_FR, C712_75, C712_84, C713_75, C713_FR, C772_FR, C794_FR, M01_14, M01_16, M01_24, M01_59, M01_75, M01_FR, M04_62, M07_59, M07_76, M08_76, M22_16, M22_17, M22_21, M22_24, M22_27, M22_74, M22_87, M24_76, M33_27, M33_38, M33_76 ; 10.7 s par couple (médiane), 11 min au total
+
+{
+ "C451_38": {
+  "duree_s": 7.1,
+  "ecarts": 17,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C451_38",
+    "envoi": "rapport",
+    "reference": 0,
+    "v2": 8
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d'excavation et de traitement de zones de pollution et confinement d'une",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "SARA Aménagement",
+     "date_limite": "2026-10-26",
+     "idweb": "26-95645",
+     "intitule": "Travaux d'excavation et de traitement de zones de pollution et confinement d'une partie d'une zone de pollution d'un ancien site industriel.",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Création d'une aire de jeux d'eau à la plaine de jeux de Champaret à Bourgoin-Ja",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Bourgoin-Jallieu",
+     "date_limite": "2026-11-16",
+     "idweb": "26-101457",
+     "intitule": "Création d'une aire de jeux d'eau à la plaine de jeux de Champaret à Bourgoin-Jallieu",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — Maçonnerie - VRD",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — Menuiserie intérieure bois - Plâtrerie - Peinture - Revêtements de sol",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — Plomberie - CVC",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — Serrurerie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "C451_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — vigilance",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-101457",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-90734",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-90734-2",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-90734-3",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-90734-4",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-90734-5",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-90734-6",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-38-AO-26-95645",
+    "couple": "C451_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C451_FR": {
+  "duree_s": 146.9,
+  "ecarts": 799,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C451_FR",
+    "envoi": "rapport",
+    "reference": 153,
+    "v2": 552
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux préparatoires pour la construction d'un bâtiment et la réhabilitation-ex",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "14 CHRU",
+     "date_limite": "2026-11-20",
+     "idweb": "26-100810",
+     "intitule": "Travaux préparatoires pour la construction d'un bâtiment et la réhabilitation-extension du bâtiment Bourneville pour l'EPSM de Caen — Travaux préparatoire \"VRD\"",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux préparatoires pour la construction d'un bâtiment et la réhabilitation-ex",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "14 CHRU",
+     "date_limite": "2026-11-20",
+     "idweb": "26-100810",
+     "intitule": "Travaux préparatoires pour la construction d'un bâtiment et la réhabilitation-extension du bâtiment Bourneville pour l'EPSM de Caen — Travaux préparatoires \"Paysage\"",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d'aménagement du site de Castres pour la Cci du Tarn — Lot 1 - Demolitio",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "4 Allée Alphone Juin",
+     "date_limite": "2026-11-04",
+     "idweb": "26-97970",
+     "intitule": "Travaux d'aménagement du site de Castres pour la Cci du Tarn — Lot 1 - Demolitions - Gros Oeuvre",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché de travaux de mise en œuvre des continuités écologiques biodiversité sur ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "AIR 217 – Société Publique Locale Cœur d'Essonne",
+     "date_limite": "2026-11-16",
+     "idweb": "26-100035",
+     "intitule": "Marché de travaux de mise en œuvre des continuités écologiques biodiversité sur La Base 217 - Phase 3 — Lot 1 - Biodiversité – Publicité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d'aménagement d'un espace piétons cycles sur le bassin du loing à Confla",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Agglomération Montargoise et Rives du Loing",
+     "date_limite": "2026-10-23",
+     "idweb": "26-90388",
+     "intitule": "Travaux d'aménagement d'un espace piétons cycles sur le bassin du loing à Conflans sur loing — Lot 01 - Voirie Réseaux Divers (Vrd)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Amélioration de la sectorisation Eau Potable de l'Agglomération Montargoise",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Agglomération Montargoise et Rives du Loing",
+     "date_limite": "2026-11-17",
+     "idweb": "26-100630",
+     "intitule": "Amélioration de la sectorisation Eau Potable de l'Agglomération Montargoise",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d’extension du groupe scolaire Joseph Froger ANDARD — Lot 1 - VRD (résea",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Angers Loire Metropole (49)",
+     "date_limite": "2026-11-13",
+     "idweb": "26-98548",
+     "intitule": "Travaux d’extension du groupe scolaire Joseph Froger ANDARD — Lot 1 - VRD (réseaux + reprise des enrobés)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d’extension du groupe scolaire Joseph Froger ANDARD — Lot 2 - Terrasseme",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Angers Loire Metropole (49)",
+     "date_limite": "2026-11-13",
+     "idweb": "26-98548",
+     "intitule": "Travaux d’extension du groupe scolaire Joseph Froger ANDARD — Lot 2 - Terrassement – Gros Œuvre",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 1 VRD",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Aéroport de Bâle Mulhouse (68)",
+     "date_limite": "2026-11-10",
+     "idweb": "26-95482",
+     "intitule": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 1 VRD",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 2 AEP et ré",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Aéroport de Bâle Mulhouse (68)",
+     "date_limite": "2026-11-10",
+     "idweb": "26-95482",
+     "intitule": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 2 AEP et réseau de chauffage urbain",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 3 CFO/CFA -",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Aéroport de Bâle Mulhouse (68)",
+     "date_limite": "2026-11-10",
+     "idweb": "26-95482",
+     "intitule": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 3 CFO/CFA - Electricité - systèmes",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 4 Espaces v",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Aéroport de Bâle Mulhouse (68)",
+     "date_limite": "2026-11-10",
+     "idweb": "26-95482",
+     "intitule": "Création d'un giratoire et d'une voirie en secteur suisse - 4 lots — 4 Espaces verts",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d'aménagement de l'axe Nord Sud Centre ville à Rivery — Espaces verts, j",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "BERNARD BOCQUILLON",
+     "date_limite": "2026-11-09",
+     "idweb": "26-96073",
+     "intitule": "Travaux d'aménagement de l'axe Nord Sud Centre ville à Rivery — Espaces verts, jeux, mobiliers",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Opération de travaux relatifs à la création d’une maison de l’Etat à Toul — VRD ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "BIMO (ex GIM)",
+     "date_limite": "2026-10-28",
+     "idweb": "26-94566",
+     "intitule": "Opération de travaux relatifs à la création d’une maison de l’Etat à Toul — VRD - ESPACES VERTS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DU PAYS DE SAVERNE",
+     "date_limite": "2026-11-06",
+     "idweb": "26-99880",
+     "intitule": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche 1 Travaux de compensation relatifs à l’aménagement de la Zone d’activités de l’Aérodrome sise à Steinbourg (67790) - Lot 1 Terrassements",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DU PAYS DE SAVERNE",
+     "date_limite": "2026-11-06",
+     "idweb": "26-99880",
+     "intitule": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche 1 Travaux de compensation relatifs à l’aménagement de la Zone d’activités de l’Aérodrome sise à Steinbourg (67790) - Lot 2 Ensemencements et plantations",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DU PAYS DE SAVERNE",
+     "date_limite": "2026-11-06",
+     "idweb": "26-99880",
+     "intitule": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche 1 Travaux de compensation relatifs à l’aménagement de la Zone d’activités de l’Aérodrome sise à Steinbourg (67790) - Lot 3 Création d'abris pour les reptiles et les amphibiens",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DU PAYS DE SAVERNE",
+     "date_limite": "2026-11-06",
+     "idweb": "26-99880",
+     "intitule": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche 1 Travaux de compensation relatifs à l’aménagement de la Zone d’activités de l’Aérodrome sise à Steinbourg (67790) - Lot 4 Installation d'une barrière au niveau du corridor",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DU PAYS DE SAVERNE",
+     "date_limite": "2026-11-06",
+     "idweb": "26-99880",
+     "intitule": "TRAVAUX DE MISE EN OEUVRE DE MESURES COMPENSATOIRES ENVIRONNEMENTALES — Tranche 2 Travaux de compensation relatifs à la création de la Voie verte « Ligne 9 » entre Saverne et Romanswiller - Lieu d’exécution : Sommerau (67310)",
+     "type": "ao"
+    }
+   }
+  ]
+ },
+ "C642_FR": {
+  "duree_s": 12.0,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C642_FR",
+    "envoi": "rapport",
+    "reference": 19,
+    "v2": 21
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Téléphonie et connectivité Internet de la Commune de Camiers — Téléphonie",
+    "couple": "C642_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune de Camiers (Sainte Cécile – Saint Gabriel)",
+     "date_limite": "2026-11-02",
+     "idweb": "26-95139",
+     "intitule": "Téléphonie et connectivité Internet de la Commune de Camiers — Téléphonie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement des abonnements de supervision et de connectivité des horloges d'",
+    "couple": "C642_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Morbihan Energies",
+     "date_limite": "2026-11-05",
+     "idweb": "26-97495",
+     "intitule": "Renouvellement des abonnements de supervision et de connectivité des horloges d'éclairage public et adaptation des passerelles du parc existant",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C642-FR-AO-26-95139",
+    "couple": "C642_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C642-FR-AO-26-97495",
+    "couple": "C642_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C712_75": {
+  "duree_s": 7.6,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C712_75",
+    "envoi": "rapport",
+    "reference": 7,
+    "v2": 9
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "L'objet du marché est la réalisation des missions de géomètre-expert et de géomè",
+    "couple": "C712_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Foncière de Transformation Immobilière",
+     "date_limite": "2026-10-29",
+     "idweb": "26-95082",
+     "intitule": "L'objet du marché est la réalisation des missions de géomètre-expert et de géomètre-topographe sur les biens\nimmobiliers de la Foncière de Transformation Immobilière ou sur c — Lot 1 - Géomètre-expert et travaux de maitrise foncière",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission de maîtrise d’œuvre - rénovation du solarium, création local chlore et e",
+    "couple": "C712_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Paris - DJS",
+     "date_limite": "2027-07-17",
+     "idweb": "26-59029",
+     "intitule": "Mission de maîtrise d’œuvre - rénovation du solarium, création local chlore et extraction d’air des bacs tampons et réfection des joints du carrelage du grand bassin de la Piscine Auteuil 75016 Paris",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C712-75-AO-26-59029",
+    "couple": "C712_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C712-75-AO-26-95082",
+    "couple": "C712_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C712_84": {
+  "duree_s": 3.9,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C712_84",
+    "envoi": "rapport",
+    "reference": 0,
+    "v2": 2
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Identification des Zones Potentielles Préférentielles de Renaturation et de comp",
+    "couple": "C712_84",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Synd Mixte Bassin de Vie d Avignon",
+     "date_limite": "2026-10-26",
+     "idweb": "26-88569",
+     "intitule": "Identification des Zones Potentielles Préférentielles de Renaturation et de compensation écologique en lien avec la multifonctionnalité des sols sur le territoire du SCOT du Bassin de Vie d'Avignon",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "AMO EN VUE D'UNE CONVENTION DE CONCESSION DE SERVICE PUBLIC RELATIVE A L'EXPLOIT",
+    "couple": "C712_84",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville d'Orange (84)",
+     "date_limite": "2026-11-09",
+     "idweb": "26-97798",
+     "intitule": "AMO EN VUE D'UNE CONVENTION DE CONCESSION DE SERVICE PUBLIC RELATIVE A L'EXPLOITATION TOURISTIQUE ET CULTURELLE DU THEATRE ANTIQUE, DE L'ARC DE TRIOMPHE ET DU MUSEE D'ART ET D'HISTOIRE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C712-84-AO-26-88569",
+    "couple": "C712_84",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C712-84-AO-26-97798",
+    "couple": "C712_84",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C713_75": {
+  "duree_s": 12.0,
+  "ecarts": 29,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C713_75",
+    "envoi": "rapport",
+    "reference": 16,
+    "v2": 30
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "ANALYSE DETAILLEE DE LA FILIERE DE SECURITE EN FRANCE METROPOLITAINE ET EN OUTRE",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Bureau des Achats Immobilier et Prestations",
+     "date_limite": "2026-10-30",
+     "idweb": "26-97234",
+     "intitule": "ANALYSE DETAILLEE DE LA FILIERE DE SECURITE EN FRANCE METROPOLITAINE ET EN OUTRE-MER AU 31 DECEMBRE 2025",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Instrumentation et surveillance des structures pour la restauration de l’enceint",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Centre des monuments nationaux",
+     "date_limite": "2026-11-05",
+     "idweb": "26-98964",
+     "intitule": "Instrumentation et surveillance des structures pour la restauration de l’enceinte supérieure du front nord de la tour de Samson à la tour du moulin du connétable",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MODELISATION HYDRAULIQUE 3D DES OUVRAGES DE VIDANGE DU BARRAGE DE PANNECIERE",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EPTB Seine Grands Lacs",
+     "date_limite": "2026-11-13",
+     "idweb": "26-93678",
+     "intitule": "MODELISATION HYDRAULIQUE 3D DES OUVRAGES DE VIDANGE DU BARRAGE DE PANNECIERE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Diagnostic-Sondages-Etudes Techniques de Structure pour la rénovation BSG",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Etablissement public d'aménagement universitaire de la région Ile-de-France (Epaurif)",
+     "date_limite": "2026-10-27",
+     "idweb": "26-96670",
+     "intitule": "Diagnostic-Sondages-Etudes Techniques de Structure pour la rénovation BSG",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Le marché a pour objet la réalisation des prestations relatives aux missions d'a",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Foncière de Transformation Immobilière",
+     "date_limite": "2026-10-26",
+     "idweb": "26-95385",
+     "intitule": "Le marché a pour objet la réalisation des prestations relatives aux missions d'assistance à maitrise d'ouvrage amiante et la réalisation de diagnostics immobiliers avant-vente.<br — Lot 1 - Missions d'assistance à maîtrise d'ouvrage amiante",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Le marché a pour objet la réalisation des prestations relatives aux missions d'a",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Foncière de Transformation Immobilière",
+     "date_limite": "2026-10-26",
+     "idweb": "26-95385",
+     "intitule": "Le marché a pour objet la réalisation des prestations relatives aux missions d'assistance à maitrise d'ouvrage amiante et la réalisation de diagnostics immobiliers avant-vente.<br — Lot 2 - Missions de diagnostics et sondages amiante",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Le marché a pour objet la réalisation des prestations relatives aux missions d'a",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Foncière de Transformation Immobilière",
+     "date_limite": "2026-10-26",
+     "idweb": "26-95385",
+     "intitule": "Le marché a pour objet la réalisation des prestations relatives aux missions d'assistance à maitrise d'ouvrage amiante et la réalisation de diagnostics immobiliers avant-vente.<br — Lot 3 - Diagnostics immobiliers avant-vente",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "L'objet du marché est la réalisation des missions de géomètre-expert et de géomè",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Foncière de Transformation Immobilière",
+     "date_limite": "2026-10-29",
+     "idweb": "26-95082",
+     "intitule": "L'objet du marché est la réalisation des missions de géomètre-expert et de géomètre-topographe sur les biens\nimmobiliers de la Foncière de Transformation Immobilière ou sur c — Lot 2 - Géomètre-topographe et travaux de relevés",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MARCHE DE COORDINATION EN MATIERE DE SECURITE ET DE PROTECTION DE LA SANTE POUR ",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ile de France Mobilités",
+     "date_limite": "2026-10-21",
+     "idweb": "26-96802",
+     "intitule": "MARCHE DE COORDINATION EN MATIERE DE SECURITE ET DE PROTECTION DE LA SANTE POUR L'OPERATION BUS BORDS DE MARNE, ENTRE LES COMMUNES DE FONTENAY-SOUS-BOIS ET CHELLES — Lot 1 - Ligne (de Val de Fontenay à Chelles-Gournay)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MARCHE DE COORDINATION EN MATIERE DE SECURITE ET DE PROTECTION DE LA SANTE POUR ",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ile de France Mobilités",
+     "date_limite": "2026-10-21",
+     "idweb": "26-96802",
+     "intitule": "MARCHE DE COORDINATION EN MATIERE DE SECURITE ET DE PROTECTION DE LA SANTE POUR L'OPERATION BUS BORDS DE MARNE, ENTRE LES COMMUNES DE FONTENAY-SOUS-BOIS ET CHELLES — Lot 2 - Centre Opérationnel Bus (à Neuilly-sur-Marne)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MARCHE DE COORDINATION SECURITE ET DE PROTECTION DE LA SANTE (CSPS) - PERIMETRE ",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ile de France Mobilités",
+     "date_limite": "2026-11-12",
+     "idweb": "26-97107",
+     "intitule": "MARCHE DE COORDINATION SECURITE ET DE PROTECTION DE LA SANTE (CSPS) - PERIMETRE LIGNE TCSP ESBLY–VAL D'EUROPE (EVE)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "SONDAGES STRATIGRAPHIQUES DES MENUISERIES EXTERIEURES DU MUSEE DU LOUVRE",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MUSEE DU LOUVRE",
+     "date_limite": "2026-11-27",
+     "idweb": "26-101323",
+     "intitule": "SONDAGES STRATIGRAPHIQUES DES MENUISERIES EXTERIEURES DU MUSEE DU LOUVRE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Etude préalable à la mise en œuvre d’un dispositif métropolitain d’accompagnemen",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Métropole du Grand Paris",
+     "date_limite": "2026-11-06",
+     "idweb": "26-97601",
+     "intitule": "Etude préalable à la mise en œuvre d’un dispositif métropolitain d’accompagnement au renouvellement des équipements de chauffage domestique",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Accord-cadre à bons de commande relatif à des missions de contrôle technique lor",
+    "couple": "C713_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Paris Musées",
+     "date_limite": "2026-10-23",
+     "idweb": "26-92714",
+     "intitule": "Accord-cadre à bons de commande relatif à des missions de contrôle technique lors d'opérations de travaux pour l'établissement public Paris Musées",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-75-AO-26-101323",
+    "couple": "C713_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-75-AO-26-92714",
+    "couple": "C713_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-75-AO-26-93678",
+    "couple": "C713_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-75-AO-26-95082",
+    "couple": "C713_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-75-AO-26-95385",
+    "couple": "C713_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C713_FR": {
+  "duree_s": 150.5,
+  "ecarts": 311,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C713_FR",
+    "envoi": "rapport",
+    "reference": 369,
+    "v2": 524
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "REAMENAGEMENT BUREAUX « RAMP HANDLING NORD » NIVEAU 3 A L’AEROGARE — LOT07 Elect",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Aéroport de Bâle Mulhouse (68)",
+     "date_limite": "2026-11-30",
+     "idweb": "26-99049",
+     "intitule": "REAMENAGEMENT BUREAUX « RAMP HANDLING NORD » NIVEAU 3 A L’AEROGARE — LOT07 Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Elaboration du schéma directeur de la distribution d'énergie",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Bordeaux Métropole",
+     "date_limite": "2026-10-30",
+     "idweb": "26-90001",
+     "intitule": "Elaboration du schéma directeur de la distribution d'énergie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Assistance de Bordeaux Métropole dans l'exercice de sa compétence d'autorité org",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Bordeaux Métropole",
+     "date_limite": "2026-11-30",
+     "idweb": "26-100068",
+     "intitule": "Assistance de Bordeaux Métropole dans l'exercice de sa compétence d'autorité organisatrice de la distribution d'électricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "ANALYSE DETAILLEE DE LA FILIERE DE SECURITE EN FRANCE METROPOLITAINE ET EN OUTRE",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Bureau des Achats Immobilier et Prestations",
+     "date_limite": "2026-10-30",
+     "idweb": "26-97234",
+     "intitule": "ANALYSE DETAILLEE DE LA FILIERE DE SECURITE EN FRANCE METROPOLITAINE ET EN OUTRE-MER AU 31 DECEMBRE 2025",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MISSION D'ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LA CONSTRUCTION D'UN NOUVEL EHPAD",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CCAS DE CESSON-SEVIGNE",
+     "date_limite": "2026-11-18",
+     "idweb": "26-101402",
+     "intitule": "MISSION D'ASSISTANCE À MAÎTRISE D'OUVRAGE POUR LA CONSTRUCTION D'UN NOUVEL EHPAD ET LA RÉNOVATION RÉHABILITATION DE LA RÉSIDENCE D'AUTONOMIE À CESSON SÉVIGNÉ",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations de levés topographiques en vue de la construction du second site du ",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CENTRE HOSPITALIER DE MAYOTTE",
+     "date_limite": "2026-10-27",
+     "idweb": "26-95189",
+     "intitule": "Prestations de levés topographiques en vue de la construction du second site du CHM à Combani",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations relatives aux études hydrauliques, assainissement, réseaux et desser",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CENTRE HOSPITALIER DE MAYOTTE",
+     "date_limite": "2026-11-12",
+     "idweb": "26-100767",
+     "intitule": "Prestations relatives aux études hydrauliques, assainissement, réseaux et desserte en vue de la construction du second site du CHM à Combani",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission complète de maîtrise d'œuvre pour les travaux de renouvellement du résea",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE DE CONDE FOLIE",
+     "date_limite": "2026-11-04",
+     "idweb": "26-96137",
+     "intitule": "Mission complète de maîtrise d'œuvre pour les travaux de renouvellement du réseau d'assainissement, de déconnexion des eaux pluviales et d'aménagement des trottoirs de la rue de Longpré à Condé-Folie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MISSION DE MAÎTRISE D’ŒUVRE  POUR LA REFECTION DE 2 PARKINGS AERIENS SUR 2 SITES",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CPAM DE LA MOSELLE",
+     "date_limite": "2026-11-09",
+     "idweb": "26-97867",
+     "intitule": "MISSION DE MAÎTRISE D’ŒUVRE  POUR LA REFECTION DE 2 PARKINGS AERIENS SUR 2 SITES DE LA CPAM DE MOSELLE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Liaison Rd67-Rd994 - Mission G2 Pro Compléments d'investigations et d'études géo",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ca Rodez Agglomeration",
+     "date_limite": "2026-11-12",
+     "idweb": "26-100957",
+     "intitule": "Liaison Rd67-Rd994 - Mission G2 Pro Compléments d'investigations et d'études géotechniques",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Instrumentation et surveillance des structures pour la restauration de l’enceint",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Centre des monuments nationaux",
+     "date_limite": "2026-11-05",
+     "idweb": "26-98964",
+     "intitule": "Instrumentation et surveillance des structures pour la restauration de l’enceinte supérieure du front nord de la tour de Samson à la tour du moulin du connétable",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission de maîtrise d'oeuvre pour divers travaux de réhabilitation au lycée Féli",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Collectivite Territoriale De Guyane",
+     "date_limite": "2026-11-03",
+     "idweb": "26-96717",
+     "intitule": "Mission de maîtrise d'oeuvre pour divers travaux de réhabilitation au lycée Félix Eboue",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet territorial des mobilités du DUF et étude de faisabilité du PEM de la gar",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communaute de Communes de Faulquemont",
+     "date_limite": "2026-11-04",
+     "idweb": "26-96881",
+     "intitule": "Projet territorial des mobilités du DUF et étude de faisabilité du PEM de la gare de Faulquemont — Lot 1 - Élaboration d'un Projet territorial des mobilités à l'échelle du DUF",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet territorial des mobilités du DUF et étude de faisabilité du PEM de la gar",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communaute de Communes de Faulquemont",
+     "date_limite": "2026-11-04",
+     "idweb": "26-96881",
+     "intitule": "Projet territorial des mobilités du DUF et étude de faisabilité du PEM de la gare de Faulquemont — Lot 2 - Étude de faisabilité et programmation du pôle d'échanges multimodal de la gare de Faulquemont",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Etude de modélisation du ruissellement pluvial",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté Urbaine Caen La Mer",
+     "date_limite": "2026-10-26",
+     "idweb": "26-93901",
+     "intitule": "Etude de modélisation du ruissellement pluvial",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "26030PRP - Maîtrise d'œuvre pour la sécurisation des ouvrages de production d’ea",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté Urbaine Le Creusot - Montceau",
+     "date_limite": "2026-10-20",
+     "idweb": "26-91096",
+     "intitule": "26030PRP - Maîtrise d'œuvre pour la sécurisation des ouvrages de production d’eau potable (Programme 2026-2027)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission d'assistance à Maîtrise d'Ouvrage pour la construction de la nouvelle dé",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté d'Agglomération Grand Cognac",
+     "date_limite": "2026-11-17",
+     "idweb": "26-100363",
+     "intitule": "Mission d'assistance à Maîtrise d'Ouvrage pour la construction de la nouvelle déchèterie de Cognac (16)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Maitrise D'Oeuvre Dans Le Cadre Des Travaux D'Extension D'Un Reseau D'Assainisse",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté d'agglomération Fécamp Caux Littoral",
+     "date_limite": "2026-11-16",
+     "idweb": "26-100848",
+     "intitule": "Maitrise D'Oeuvre Dans Le Cadre Des Travaux D'Extension D'Un Reseau D'Assainissement",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Missions de contrôleur technique de la construction (Ctc) et coordination sécuri",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de Communes St Pourçain Sioule Limagne",
+     "date_limite": "2026-11-16",
+     "idweb": "26-100619",
+     "intitule": "Missions de contrôleur technique de la construction (Ctc) et coordination sécurité et protection de la santé (Csps) dans le cadre de la construction d'une nouvelle piscine à Gannat — Lot 02 - Mission de coordination sécurité et protection de la santé",
+     "type": "ao"
+    }
+   }
+  ]
+ },
+ "C772_FR": {
+  "duree_s": 72.4,
+  "ecarts": 19,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C772_FR",
+    "envoi": "rapport",
+    "reference": 33,
+    "v2": 42
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations forestières sur sites départementaux — Lot 1 - Abattage, débardage e",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de la Dordogne",
+     "date_limite": "2026-11-03",
+     "idweb": "26-98354",
+     "intitule": "Prestations forestières sur sites départementaux — Lot 1 - Abattage, débardage et ouverture de cloisonnement au collège de la Roche Beaulieu",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations forestières sur sites départementaux — Lot 2 - Prestation d'entretie",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de la Dordogne",
+     "date_limite": "2026-11-03",
+     "idweb": "26-98354",
+     "intitule": "Prestations forestières sur sites départementaux — Lot 2 - Prestation d'entretien de plantation sur les sites forestiers départementaux de Vergt et de Saint Michel de Villadeix",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations forestières sur sites départementaux — Lot 3 - Prestation d'entretie",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de la Dordogne",
+     "date_limite": "2026-11-03",
+     "idweb": "26-98354",
+     "intitule": "Prestations forestières sur sites départementaux — Lot 3 - Prestation d'entretien de plantation sur le site du grand étang de St Estèphe",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "PRESTATIONS DE TAILLE, D'ÉLAGAGE, D'ABATTAGE ET DE DESSOUCHAGE DES ARBRES",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE GARCHES",
+     "date_limite": "2026-11-13",
+     "idweb": "26-98546",
+     "intitule": "PRESTATIONS DE TAILLE, D'ÉLAGAGE, D'ABATTAGE ET DE DESSOUCHAGE DES ARBRES",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "« PAPI des Affluents de l'Isère dans le Grésivaudan » - Lot 2 : Deuxième phase d",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Pouvoir adjudicateur : SYNDICAT MIXTE DES BASSINS HYDRAULIQUES DE L’ISERE - (SYMBHI)\nAdresse : 13 rue Diderot, CS 6133, 38403 Saint-Martin-d’Hères Cedex\nMaître d’ouvrage agissant au nom et pour le compte du pouvoir adjudicateur : ISERE AMENAGEMENT",
+     "date_limite": "2026-11-04",
+     "idweb": "26-98954",
+     "intitule": "« PAPI des Affluents de l'Isère dans le Grésivaudan » - Lot 2 : Deuxième phase de plantation (2026-2027). — « PAPI des Affluents de l'Isère dans le Grésivaudan » - Lot 2 : Deuxième phase de plantation (2026-2027)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX D’ENTRETIEN DES ARBRES",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Fontenay-sous-Bois",
+     "date_limite": "2026-11-16",
+     "idweb": "26-100889",
+     "intitule": "TRAVAUX D’ENTRETIEN DES ARBRES",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "L'inventaire et le diagnostic du patrimoine arboré de la ville de Gennevilliers ",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Gennevilliers",
+     "date_limite": "2026-10-26",
+     "idweb": "26-93080",
+     "intitule": "L'inventaire et le diagnostic du patrimoine arboré de la ville de Gennevilliers et dans les propriétés communales (Ménilles, Ceillac et Les Gets)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Elagage et Abattage d'arbres",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Gujan-Mestras",
+     "date_limite": "2026-11-02",
+     "idweb": "26-96046",
+     "intitule": "Elagage et Abattage d'arbres",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Abattage d'arbres pour la sécurisation de la voie ferrée",
+    "couple": "C772_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Valserhône",
+     "date_limite": "2026-11-06",
+     "idweb": "26-97064",
+     "intitule": "Abattage d'arbres pour la sécurisation de la voie ferrée",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-100889",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-93080",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-96046",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-97064",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-98354",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-98354-2",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-98354-3",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-98546",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C772-FR-AO-26-98954",
+    "couple": "C772_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C794_FR": {
+  "duree_s": 12.0,
+  "ecarts": 35,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C794_FR",
+    "envoi": "rapport",
+    "reference": 35,
+    "v2": 52
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Assistance à maîtrise d'ouvrage pour la mise en oeuvre des travaux de la Confére",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ca Saint Germain Boucles De Seine",
+     "date_limite": "2026-11-05",
+     "idweb": "26-93954",
+     "intitule": "Assistance à maîtrise d'ouvrage pour la mise en oeuvre des travaux de la Conférence Intercommunale du Logement",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Gestion, animation et accompagnement entrepreneurial du bâtiment Totem à Saint-Q",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ca du Saint-Quentinois",
+     "date_limite": "2026-11-12",
+     "idweb": "26-100859",
+     "intitule": "Gestion, animation et accompagnement entrepreneurial du bâtiment Totem à Saint-Quentin",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Expertise externe des risques psychosociaux pour le CHFQ",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Centre Hospitalier Poissy/Saint-Germain-En-Laye",
+     "date_limite": "2026-11-06",
+     "idweb": "26-100888",
+     "intitule": "Expertise externe des risques psychosociaux pour le CHFQ",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mise en place d'un dispositif de signalement des actes de violence, de discrimin",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Cnfpt - Direction de l'achat public",
+     "date_limite": "2026-11-13",
+     "idweb": "26-99122",
+     "intitule": "Mise en place d'un dispositif de signalement des actes de violence, de discrimination, de harcèlement sexuel ou moral et d'agissements sexistes au Cnfpt",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Gn26p10 - Fourniture D'Un Outil Mutualise D'Alerte Meteorologique Et D'Aide A La",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté d'agglomération du Grand Narbonne",
+     "date_limite": "2026-11-10",
+     "idweb": "26-101542",
+     "intitule": "Gn26p10 - Fourniture D'Un Outil Mutualise D'Alerte Meteorologique Et D'Aide A La Prise De Decision",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Gestion et animation de la plateforme emploi Sor et Agout",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de Communes Sor et Agout",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100014",
+     "intitule": "Gestion et animation de la plateforme emploi Sor et Agout",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission D'Assistance A Maitrise D'Ouvrage Relatif A L'Audit Technique Financier ",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de communes Yvetot Normandie",
+     "date_limite": "2026-10-29",
+     "idweb": "26-90633",
+     "intitule": "Mission D'Assistance A Maitrise D'Ouvrage Relatif A L'Audit Technique Financier Et Juridique De La Delegation De Service Public Du Centre Aquatique Intercommunal",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché public de service d'assistance à l'exploitation du marché d'approvisionne",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune des Essarts-Le-Roi",
+     "date_limite": "2026-11-13",
+     "idweb": "26-97718",
+     "intitule": "Marché public de service d'assistance à l'exploitation du marché d'approvisionnement du centre, pour la commune des Essarts-le-Roi (78)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations De Conseil En Mobilite",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental du Lot-et-Garonne",
+     "date_limite": "2026-11-06",
+     "idweb": "26-97927",
+     "intitule": "Prestations De Conseil En Mobilite",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Coordination des mesures de prévention et de sécurité dans les tunnels du réseau",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "DIR MC",
+     "date_limite": "2026-11-16",
+     "idweb": "26-100513",
+     "intitule": "Coordination des mesures de prévention et de sécurité dans les tunnels du réseau routier national au titre des fonctions d’agent de sécurité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission De Management De Transition Dédiée à La Prefiguration Et Creation De L'E",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de la Sarthe",
+     "date_limite": "2026-10-22",
+     "idweb": "26-94279",
+     "intitule": "Mission De Management De Transition Dédiée à La Prefiguration Et Creation De L'Etablissement Public Foncier Local De La Sarthe (Epfl) Pour Les Besoins Du Departement De La Sarthe",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Procédure adaptée n° 26-09 relative à un marché de prestations de services de re",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Le Conseil National de l'ordre des chirurgiens-dentistes",
+     "date_limite": "2026-11-12",
+     "idweb": "26-95077",
+     "intitule": "Procédure adaptée n° 26-09 relative à un marché de prestations de services de relations publiques européennes et internationales",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations de conception et d'organisation du Festival Green Orizonte 2027 - Tr",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Office de Tourisme Calvi Balagne",
+     "date_limite": "2026-11-16",
+     "idweb": "26-100837",
+     "intitule": "Prestations de conception et d'organisation du Festival Green Orizonte 2027 - Troisième édition\n6 Lots — Lot 2",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations d'analyse de dossiers pour une subvention",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Paris Saclay Cancer Cluster",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100293",
+     "intitule": "Prestations d'analyse de dossiers pour une subvention",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations de conseil et d'accompagnement des entreprises en pré-difficulté en ",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Région Bourgogne Franche-Comté",
+     "date_limite": "2026-11-06",
+     "idweb": "26-97557",
+     "intitule": "Prestations de conseil et d'accompagnement des entreprises en pré-difficulté en Bourgogne-Franche-Comté",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Assistance et conseil en matière douanière et optimisation des flux logistiques ",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société d'Exploitation des Ports du Détroit",
+     "date_limite": "2026-10-30",
+     "idweb": "26-96131",
+     "intitule": "Assistance et conseil en matière douanière et optimisation des flux logistiques au Port de Boulogne Calais",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Mission de programmation pour la construction d'un Pôle multiservices au Havre",
+    "couple": "C794_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville du Havre",
+     "date_limite": "2026-10-23",
+     "idweb": "26-92794",
+     "intitule": "Mission de programmation pour la construction d'un Pôle multiservices au Havre",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C794-FR-AO-26-100014",
+    "couple": "C794_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C794-FR-AO-26-100293",
+    "couple": "C794_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M01_14": {
+  "duree_s": 5.1,
+  "ecarts": 1,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M01_14",
+    "envoi": "rapport",
+    "reference": 173,
+    "v2": 174
+   }
+  ]
+ },
+ "M01_16": {
+  "duree_s": 11.0,
+  "ecarts": 2,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M01_16",
+    "envoi": "rapport",
+    "reference": 1258,
+    "v2": 1259
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M01-16-AO-26-92838",
+    "couple": "M01_16",
+    "envoi": "opportunites",
+    "reference": 1033,
+    "v2": 1034
+   }
+  ]
+ },
+ "M01_24": {
+  "duree_s": 10.9,
+  "ecarts": 1,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M01_24",
+    "envoi": "rapport",
+    "reference": 1258,
+    "v2": 1259
+   }
+  ]
+ },
+ "M01_59": {
+  "duree_s": 8.6,
+  "ecarts": 17,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M01_59",
+    "envoi": "rapport",
+    "reference": 18,
+    "v2": 19
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+    "couple": "M01_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Centre Historique Minier",
+     "date_limite": "2026-11-20",
+     "idweb": "26-100093",
+     "intitule": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX",
+    "couple": "M01_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE QUIEVRECHAIN",
+     "date_limite": "2026-11-20",
+     "idweb": "26-95393",
+     "intitule": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux. — n",
+    "couple": "M01_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Centre Historique Minier",
+     "date_limite": "2026-11-20",
+     "idweb": "26-100093",
+     "intitule": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux. — nettoyage des locaux accueillant du public et ramassage des détritus/papiers des abords du site",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX ADMINISTR",
+    "couple": "M01_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE QUIEVRECHAIN",
+     "date_limite": "2026-11-20",
+     "idweb": "26-95393",
+     "intitule": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX ADMINISTRATIFS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX DE L'ECOL",
+    "couple": "M01_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE QUIEVRECHAIN",
+     "date_limite": "2026-11-20",
+     "idweb": "26-95393",
+     "intitule": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX DE L'ECOLE JEAN MARIE BRISON",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M01-59-AO-26-95393-2",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "acheteur_commune",
+    "cle": "M01-59-AO-26-100093",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": "Lewarde"
+   },
+   {
+    "champ": "acheteur_latitude",
+    "cle": "M01-59-AO-26-100093",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 50.33542
+   },
+   {
+    "champ": "acheteur_longitude",
+    "cle": "M01-59-AO-26-100093",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 3.16855
+   },
+   {
+    "champ": "intitule",
+    "cle": "M01-59-AO-26-100093",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+    "v2": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux. — nettoyage des locaux accueillant du public et ramassage des détritus/papiers des abords du site"
+   },
+   {
+    "champ": "texte_recherche",
+    "cle": "M01-59-AO-26-100093",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+    "v2": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux. nettoyage des locaux accueillant du public et ramassage des détritus/papiers des abords du site"
+   },
+   {
+    "champ": "acheteur_commune",
+    "cle": "M01-59-AO-26-95393",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": "Quievrechain"
+   },
+   {
+    "champ": "acheteur_latitude",
+    "cle": "M01-59-AO-26-95393",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 50.39456
+   },
+   {
+    "champ": "acheteur_longitude",
+    "cle": "M01-59-AO-26-95393",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 3.66114
+   },
+   {
+    "champ": "intitule",
+    "cle": "M01-59-AO-26-95393",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX",
+    "v2": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX DE L'ECOLE JEAN MARIE BRISON"
+   },
+   {
+    "champ": "texte_recherche",
+    "cle": "M01-59-AO-26-95393",
+    "couple": "M01_59",
+    "envoi": "opportunites",
+    "reference": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX",
+    "v2": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX ENTRETIEN DES LOCAUX DE L'ECOLE JEAN MARIE BRISON"
+   }
+  ]
+ },
+ "M01_75": {
+  "duree_s": 13.8,
+  "ecarts": 11,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M01_75",
+    "envoi": "rapport",
+    "reference": 347,
+    "v2": 349
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M01_75",
+    "envoi": "rapport",
+    "reference": 1283,
+    "v2": 1286
+   },
+   {
+    "champ": "acheteur_commune",
+    "cle": "M01-75-AO-26-93810",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": "Paris"
+   },
+   {
+    "champ": "acheteur_latitude",
+    "cle": "M01-75-AO-26-93810",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 48.85022
+   },
+   {
+    "champ": "acheteur_longitude",
+    "cle": "M01-75-AO-26-93810",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 2.36163
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M01-75-AO-26-93810",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 20600,
+    "v2": 20300
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M01-75-AO-26-93810",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 75700,
+    "v2": 75600
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M01-75-AO-26-93810",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 880,
+    "v2": 881
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M01-75-AO-26-94686",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 20600,
+    "v2": 20300
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M01-75-AO-26-94686",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 75700,
+    "v2": 75600
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M01-75-AO-26-94686",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 880,
+    "v2": 881
+   }
+  ]
+ },
+ "M01_FR": {
+  "duree_s": 61.0,
+  "ecarts": 379,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M01_FR",
+    "envoi": "rapport",
+    "reference": 287,
+    "v2": 283
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M01_FR",
+    "envoi": "rapport",
+    "reference": 2595,
+    "v2": 2599
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M01_FR",
+    "envoi": "rapport",
+    "reference": 19845,
+    "v2": 19862
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Accord-cadre de travaux d’entretien des locaux et sites du CH Comminges Pyrénées",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "31 CHU",
+     "date_limite": "2026-12-04",
+     "idweb": "26-100451",
+     "intitule": "Accord-cadre de travaux d’entretien des locaux et sites du CH Comminges Pyrénées et des Hôpitaux de Luchon",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "NETTOYAGE DES LOCAUX ET ENTRETIEN DES ESPACES VERTS DU TECHNOPOLE DE MAYOTTE",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "ASSOCIATION MAYOTTE TECHNOPOLE",
+     "date_limite": "2026-10-21",
+     "idweb": "26-91832",
+     "intitule": "NETTOYAGE DES LOCAUX ET ENTRETIEN DES ESPACES VERTS DU TECHNOPOLE DE MAYOTTE",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Centre Historique Minier",
+     "date_limite": "2026-11-20",
+     "idweb": "26-100093",
+     "intitule": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestation de nettoyage des vitres des établissements du GHT Centre Manche",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Centre hospitalier Mémorial France Etats-Unis de Saint-Lô",
+     "date_limite": "2026-10-30",
+     "idweb": "26-93212",
+     "intitule": "Prestation de nettoyage des vitres des établissements du GHT Centre Manche",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Nettoyage et entretien des locaux communaux et vitrerie-.",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Commune de GONDREVILLE",
+     "date_limite": "2026-11-16",
+     "idweb": "26-98333",
+     "intitule": "Nettoyage et entretien des locaux communaux et vitrerie-.",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE QUIEVRECHAIN",
+     "date_limite": "2026-11-20",
+     "idweb": "26-95393",
+     "intitule": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestations d'entretien des locaux et de nettoyage des vitreries des bâtiments c",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Mairie de Fayence (83)",
+     "date_limite": "2026-10-21",
+     "idweb": "26-91864",
+     "intitule": "Prestations d'entretien des locaux et de nettoyage des vitreries des bâtiments communaux de la commune de Fayence - 2 lots",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestations de nettoyage des locaux, de la vitrerie ainsi que la fourniture des ",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "ODARC - Etablissement public à caractère industriel et commercial",
+     "date_limite": "2026-10-20",
+     "idweb": "26-92922",
+     "intitule": "Prestations de nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et d'évacuation des déchets pour les antennes de l'ODARC",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DU SIEGE DE RIVES et EAUX ",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Rives et Eaux du Sud Ouest",
+     "date_limite": "2026-10-26",
+     "idweb": "26-90988",
+     "intitule": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DU SIEGE DE RIVES et EAUX DU SUD OUEST",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Entretien Ménager - Service Ordures Ménagères -",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SAEM de construction Maisons-Laffitte",
+     "date_limite": "2026-10-31",
+     "idweb": "26-80740",
+     "intitule": "Entretien Ménager - Service Ordures Ménagères -",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestations de nettoyage des locaux et vitrerie pour la DDSIS du Gers",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SDIS DU GERS",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100289",
+     "intitule": "Prestations de nettoyage des locaux et vitrerie pour la DDSIS du Gers",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux. — n",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Centre Historique Minier",
+     "date_limite": "2026-11-20",
+     "idweb": "26-100093",
+     "intitule": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux. — nettoyage des locaux accueillant du public et ramassage des détritus/papiers des abords du site",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Nettoyage et entretien des locaux communaux et vitrerie-. — Nettoyage des bâtime",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune de GONDREVILLE",
+     "date_limite": "2026-11-16",
+     "idweb": "26-98333",
+     "intitule": "Nettoyage et entretien des locaux communaux et vitrerie-. — Nettoyage des bâtiments communaux",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX ADMINISTR",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE QUIEVRECHAIN",
+     "date_limite": "2026-11-20",
+     "idweb": "26-95393",
+     "intitule": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX ADMINISTRATIFS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX DE L'ECOL",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE QUIEVRECHAIN",
+     "date_limite": "2026-11-20",
+     "idweb": "26-95393",
+     "intitule": "PRESTATIONS DE SERVICES DE NETTOYAGE DES LOCAUX — ENTRETIEN DES LOCAUX DE L'ECOLE JEAN MARIE BRISON",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Prestations d'entretien des locaux et de nettoyage des vitreries des bâtiments c",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie de Fayence (83)",
+     "date_limite": "2026-10-21",
+     "idweb": "26-91864",
+     "intitule": "Prestations d'entretien des locaux et de nettoyage des vitreries des bâtiments communaux de la commune de Fayence - 2 lots — Lot 01 - Entretien courant des locaux de différents bâtiments communaux : nettoyage des locaux, sanitaires et espaces communs, gestion des déchets, fourniture des produits et matériels nécessaires",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DU SIEGE DE RIVES et EAUX ",
+    "couple": "M01_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Rives et Eaux du Sud Ouest",
+     "date_limite": "2026-10-26",
+     "idweb": "26-90988",
+     "intitule": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DU SIEGE DE RIVES et EAUX DU SUD OUEST — Lot 1 - Nettoyage des locaux",
+     "type": "ao"
+    }
+   }
+  ]
+ },
+ "M04_62": {
+  "duree_s": 8.0,
+  "ecarts": 15,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M04_62",
+    "envoi": "rapport",
+    "reference": 144,
+    "v2": 145
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M04_62",
+    "envoi": "rapport",
+    "reference": 391,
+    "v2": 392
+   },
+   {
+    "champ": "acheteur_commune",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": "Arras Cedex"
+   },
+   {
+    "champ": "acheteur_latitude",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 50.28926
+   },
+   {
+    "champ": "acheteur_longitude",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 2.76573
+   },
+   {
+    "champ": "confiance",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": 0.35,
+    "v2": 0.45
+   },
+   {
+    "champ": "montant_annuel",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 1000000
+   },
+   {
+    "champ": "prix_bas",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 900000
+   },
+   {
+    "champ": "prix_haut",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 1100000
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": 32200,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": 254400,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": 90700,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": 298,
+    "v2": null
+   },
+   {
+    "champ": "source_prix",
+    "cle": "M04-62-AO-26-94984",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": "montant publié"
+   },
+   {
+    "champ": "acheteur_commune",
+    "cle": "M04-62-AO-26-95173",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": "Boulogne-sur-Mer",
+    "v2": "BOULOGNE SUR MER"
+   }
+  ]
+ },
+ "M07_59": {
+  "duree_s": 5.9,
+  "ecarts": 37,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 10,
+    "v2": 19
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 138,
+    "v2": 139
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 457,
+    "v2": 459
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Création d'une mezzanine pour Centrale Lille. Lot 1 : Démolition et désamiantage",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Centrale Lille Institut",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100819",
+     "intitule": "Création d'une mezzanine pour Centrale Lille. Lot 1 : Démolition et désamiantage / Lot 2 : Charpente et Serrurerie / Lot 3 : Second oeuvre / Lot 4 : CVC - Plomberie / Lot 5 : Electricité",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de construction de locaux sociaux — Lot 3 - CVC/Plomberie/Sanitaires",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "AGGLOMERATION MAUBEUGE VAL DE SAMBRE (AMVS)",
+     "date_limite": "2026-11-03",
+     "idweb": "26-93231",
+     "intitule": "Travaux de construction de locaux sociaux — Lot 3 - CVC/Plomberie/Sanitaires",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Création d'une mezzanine pour Centrale Lille. Lot 1 : Démolition et désamiantage",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Centrale Lille Institut",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100819",
+     "intitule": "Création d'une mezzanine pour Centrale Lille. Lot 1 : Démolition et désamiantage / Lot 2 : Charpente et Serrurerie / Lot 3 : Second oeuvre / Lot 4 : CVC - Plomberie / Lot 5 : Electricité — Lot 4 - CVC - Plomberie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d’aménagement du Stade Léo Lagrange - Phase 2 _ Tribunes, vestiaires et ",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune de Fourmies (59)",
+     "date_limite": "2026-10-28",
+     "idweb": "26-89721",
+     "intitule": "Travaux d’aménagement du Stade Léo Lagrange - Phase 2 _ Tribunes, vestiaires et Club House à FOURMIES — Lot 5 - CVC PLOMBERIE SANITAIRE CF CCTP LOT CONCERNE PAR LA CLAUSE D'INSERTION",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "La présente consultation concerne un marché de travaux de création d’un tiers-li",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EHPAD Résidence Saint Jean",
+     "date_limite": "2026-10-30",
+     "idweb": "26-88721",
+     "intitule": "La présente consultation concerne un marché de travaux de création d’un tiers-lieu et l’extension/restructuration du pôle médical. — Lot 8 - Plomberie Sanitaires- CVC",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "FLETRE59REHABILITATIONEXTENSION — plomberie CVC",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE FLETRE",
+     "date_limite": "2026-11-10",
+     "idweb": "26-95278",
+     "intitule": "FLETRE59REHABILITATIONEXTENSION — plomberie CVC",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE RENOVATION ENERGETIQUE DE LA SALLE COMMUNALE DE MARESCHES — CVC Plomb",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MAIRIE DE MARESCHES",
+     "date_limite": "2026-10-30",
+     "idweb": "26-97734",
+     "intitule": "TRAVAUX DE RENOVATION ENERGETIQUE DE LA SALLE COMMUNALE DE MARESCHES — CVC Plomberie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d’aménagement du comble du Tribunal de Soissons (02) — Lot 6 - Chauffage",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "MINISTERE DE LA JUSTICE DI Lille",
+     "date_limite": "2026-11-06",
+     "idweb": "26-99344",
+     "intitule": "Travaux d’aménagement du comble du Tribunal de Soissons (02) — Lot 6 - Chauffage / Ventilation / Climatisation / Plomberie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de restauration et de réhabilitation de l'ancien Hôtel de Ville de Wambr",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie de Wambrechies",
+     "date_limite": "2026-10-23",
+     "idweb": "26-88107",
+     "intitule": "Travaux de restauration et de réhabilitation de l'ancien Hôtel de Ville de Wambrechies — CVC - Plomberie",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de rénovation énergétique du Foyer Rural de Beaurieux — Climatisation",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Monsieur DURSENT Emmanuel, Maire de Beaurieux",
+     "date_limite": "2026-11-02",
+     "idweb": "26-98856",
+     "intitule": "Travaux de rénovation énergétique du Foyer Rural de Beaurieux — Climatisation",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "REHABILITATION THERMIQUE DE LA COPROPRIETE « RESIDENCE JEAN BART » à LILLE (59) ",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "REGIE REGIONALE DU SPEE",
+     "date_limite": "2026-11-09",
+     "idweb": "26-98801",
+     "intitule": "REHABILITATION THERMIQUE DE LA COPROPRIETE « RESIDENCE JEAN BART » à LILLE (59) — Plomberie - Chauffage - Ventilation",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-59-AO-26-88107",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-59-AO-26-88721",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-59-AO-26-89721",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-59-AO-26-93231",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-59-AO-26-95278",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-59-AO-26-97734",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M07_76": {
+  "duree_s": 4.7,
+  "ecarts": 10,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M07_76",
+    "envoi": "rapport",
+    "reference": 2,
+    "v2": 6
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M07_76",
+    "envoi": "rapport",
+    "reference": 225,
+    "v2": 226
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf ",
+    "couple": "M07_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie Elbeuf Sur Seine",
+     "date_limite": "2026-12-09",
+     "idweb": "26-97767",
+     "intitule": "Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf sur Seine — Lot 4 - Plomberie - Cvc",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — L",
+    "couple": "M07_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Spl Rnas",
+     "date_limite": "2026-10-23",
+     "idweb": "26-90035",
+     "intitule": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — Lot 10 - Plomberie chauffage ventilation climatisation",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Aménagement des laboratoires de recherche du bâtiment CORIA - Salle blanche ISO ",
+    "couple": "M07_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Université de Rouen Normandie",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100338",
+     "intitule": "Aménagement des laboratoires de recherche du bâtiment CORIA - Salle blanche ISO 7 au plot E — Chauffage, ventilation et fluides",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Le 99 Lecesne - Bâtiment Est - Aménagement du Sepsh — Lot 5 - Chauffage - Plombe",
+    "couple": "M07_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville du Havre",
+     "date_limite": "2026-11-13",
+     "idweb": "26-96118",
+     "intitule": "Le 99 Lecesne - Bâtiment Est - Aménagement du Sepsh — Lot 5 - Chauffage - Plomberie - Ventilation",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-76-AO-26-100338",
+    "couple": "M07_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-76-AO-26-90035",
+    "couple": "M07_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-76-AO-26-96118",
+    "couple": "M07_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M07-76-AO-26-97767",
+    "couple": "M07_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M08_76": {
+  "duree_s": 3.7,
+  "ecarts": 30,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M08_76",
+    "envoi": "rapport",
+    "reference": 4,
+    "v2": 5
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M08_76",
+    "envoi": "rapport",
+    "reference": 31,
+    "v2": 32
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M08_76",
+    "envoi": "rapport",
+    "reference": 182,
+    "v2": 184
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Entretien, maintenance et travaux des ascenseurs, portes portails automatiques e",
+    "couple": "M08_76",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ville de Fécamp",
+     "date_limite": "2026-11-06",
+     "idweb": "26-98150",
+     "intitule": "Entretien, maintenance et travaux des ascenseurs, portes portails automatiques et automatismes de la Ville de Fécamp",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — L",
+    "couple": "M08_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Spl Rnas",
+     "date_limite": "2026-10-23",
+     "idweb": "26-90035",
+     "intitule": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — Lot 09 - Ascenseurs",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Entretien, maintenance et travaux des ascenseurs, portes portails automatiques e",
+    "couple": "M08_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Fécamp",
+     "date_limite": "2026-11-06",
+     "idweb": "26-98150",
+     "intitule": "Entretien, maintenance et travaux des ascenseurs, portes portails automatiques et automatismes de la Ville de Fécamp — Lot 1 - Entretien, maintenance et travaux ascenseurs",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M08-76-AO-26-90035",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M08-76-AO-26-96210",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 14900,
+    "v2": 14800
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M08-76-AO-26-96210",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 130700,
+    "v2": 129100
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M08-76-AO-26-96210",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 35100,
+    "v2": 35000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M08-76-AO-26-96210",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 134,
+    "v2": 135
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M08-76-AO-26-97030",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 14900,
+    "v2": 14800
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M08-76-AO-26-97030",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 130700,
+    "v2": 129100
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M08-76-AO-26-97030",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 35100,
+    "v2": 35000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M08-76-AO-26-97030",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 134,
+    "v2": 135
+   },
+   {
+    "champ": "acheteur_commune",
+    "cle": "M08-76-AO-26-98150",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": "FECAMP Cedex"
+   },
+   {
+    "champ": "acheteur_latitude",
+    "cle": "M08-76-AO-26-98150",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 49.74924
+   },
+   {
+    "champ": "acheteur_longitude",
+    "cle": "M08-76-AO-26-98150",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": 0.39868
+   },
+   {
+    "champ": "confiance",
+    "cle": "M08-76-AO-26-98150",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": 0.35,
+    "v2": 0.45
+   },
+   {
+    "champ": "intitule",
+    "cle": "M08-76-AO-26-98150",
+    "couple": "M08_76",
+    "envoi": "opportunites",
+    "reference": "Entretien, maintenance et travaux des ascenseurs, portes portails automatiques et automatismes de la Ville de Fécamp",
+    "v2": "Entretien, maintenance et travaux des ascenseurs, portes portails automatiques et automatismes de la Ville de Fécamp — Lot 1 - Entretien, maintenance et travaux ascenseurs"
+   }
+  ]
+ },
+ "M22_05": {
+  "etat": "jamais publié par le PC"
+ },
+ "M22_07": {
+  "etat": "jamais publié par le PC"
+ },
+ "M22_16": {
+  "duree_s": 12.6,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M22_16",
+    "envoi": "rapport",
+    "reference": 0,
+    "v2": 1
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_16",
+    "envoi": "rapport",
+    "reference": 9,
+    "v2": 10
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lo",
+    "couple": "M22_16",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EHPAD Les Capucines - CIVRAY",
+     "date_limite": "2026-11-23",
+     "idweb": "26-98914",
+     "intitule": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lot 07 - MENUISERIES EXTERIEURES - OCCULTATIONS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de coordination en matière de sécurité et protect",
+    "couple": "M22_16",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "UGECAM Aquitaine\n100 RUE DE LA TOUR DE GASSIES\nCS 10003\n33523 BRUGES CEDEX\nSIRET : 423 494 335 00155\n\npour l'établissement Centre médico-social d'Herauritz à Ustaritz",
+     "date_limite": null,
+     "idweb": "24-110532",
+     "intitule": "Projet en conception : Mission de coordination en matière de sécurité et protection de la santé des travailleurs (CSPS) pour la reconstruction du centre médico-social d'Hérauritz",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien ",
+    "couple": "M22_16",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "VILLE SAINTES",
+     "date_limite": null,
+     "idweb": "25-125041",
+     "intitule": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien hôpital Saint Louis à Saintes",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M22_17": {
+  "duree_s": 12.8,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M22_17",
+    "envoi": "rapport",
+    "reference": 0,
+    "v2": 1
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_17",
+    "envoi": "rapport",
+    "reference": 9,
+    "v2": 10
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lo",
+    "couple": "M22_17",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EHPAD Les Capucines - CIVRAY",
+     "date_limite": "2026-11-23",
+     "idweb": "26-98914",
+     "intitule": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lot 07 - MENUISERIES EXTERIEURES - OCCULTATIONS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de coordination en matière de sécurité et protect",
+    "couple": "M22_17",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "UGECAM Aquitaine\n100 RUE DE LA TOUR DE GASSIES\nCS 10003\n33523 BRUGES CEDEX\nSIRET : 423 494 335 00155\n\npour l'établissement Centre médico-social d'Herauritz à Ustaritz",
+     "date_limite": null,
+     "idweb": "24-110532",
+     "intitule": "Projet en conception : Mission de coordination en matière de sécurité et protection de la santé des travailleurs (CSPS) pour la reconstruction du centre médico-social d'Hérauritz",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien ",
+    "couple": "M22_17",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "VILLE SAINTES",
+     "date_limite": null,
+     "idweb": "25-125041",
+     "intitule": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien hôpital Saint Louis à Saintes",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M22_21": {
+  "duree_s": 10.7,
+  "ecarts": 2,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M22_21",
+    "envoi": "rapport",
+    "reference": 134,
+    "v2": 135
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M22_21",
+    "envoi": "rapport",
+    "reference": 210,
+    "v2": 211
+   }
+  ]
+ },
+ "M22_24": {
+  "duree_s": 12.4,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M22_24",
+    "envoi": "rapport",
+    "reference": 0,
+    "v2": 1
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_24",
+    "envoi": "rapport",
+    "reference": 9,
+    "v2": 10
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lo",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EHPAD Les Capucines - CIVRAY",
+     "date_limite": "2026-11-23",
+     "idweb": "26-98914",
+     "intitule": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lot 07 - MENUISERIES EXTERIEURES - OCCULTATIONS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de coordination en matière de sécurité et protect",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "UGECAM Aquitaine\n100 RUE DE LA TOUR DE GASSIES\nCS 10003\n33523 BRUGES CEDEX\nSIRET : 423 494 335 00155\n\npour l'établissement Centre médico-social d'Herauritz à Ustaritz",
+     "date_limite": null,
+     "idweb": "24-110532",
+     "intitule": "Projet en conception : Mission de coordination en matière de sécurité et protection de la santé des travailleurs (CSPS) pour la reconstruction du centre médico-social d'Hérauritz",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien ",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "VILLE SAINTES",
+     "date_limite": null,
+     "idweb": "25-125041",
+     "intitule": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien hôpital Saint Louis à Saintes",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M22_27": {
+  "duree_s": 11.3,
+  "ecarts": 8,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M22_27",
+    "envoi": "rapport",
+    "reference": 6,
+    "v2": 8
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M22_27",
+    "envoi": "rapport",
+    "reference": 72,
+    "v2": 73
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M22_27",
+    "envoi": "rapport",
+    "reference": 143,
+    "v2": 144
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE REHABILITATION DE LA CITE JUDICIAIRE DE CHARTRES (28) — MENUISERIES E",
+    "couple": "M22_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département Immobilier de Paris",
+     "date_limite": "2026-10-26",
+     "idweb": "26-92107",
+     "intitule": "TRAVAUX DE REHABILITATION DE LA CITE JUDICIAIRE DE CHARTRES (28) — MENUISERIES EXTERIEURES ET OCCULTATIONS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Collège \"Emile Zola\" à Cherbourg-en-Cotentin (La Glacerie",
+    "couple": "M22_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de la Manche",
+     "date_limite": null,
+     "idweb": "25-7082",
+     "intitule": "Projet en conception : Collège \"Emile Zola\" à Cherbourg-en-Cotentin (La Glacerie)\nExtension des locaux scolaires et travaux sur l'amélioration des performances énergétiques du bâti",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Le présent marché public a pour objet une mission d'étude",
+    "couple": "M22_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie d'Ifs - commune",
+     "date_limite": null,
+     "idweb": "25-133703",
+     "intitule": "Projet en conception : Le présent marché public a pour objet une mission d'étude d'opportunité et de faisabilité technique, juridique, programmatique et financière pour la création d'un équipement petite enfance à Ifs.",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — L",
+    "couple": "M22_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Spl Rnas",
+     "date_limite": "2026-10-23",
+     "idweb": "26-90035",
+     "intitule": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — Lot 03 - Menuiseries extérieures Occultations",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M22-27-AO-26-92107",
+    "couple": "M22_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M22_74": {
+  "duree_s": 5.7,
+  "ecarts": 2,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Réalisation d'un bâtiment industriel et administratif pou",
+    "couple": "M22_74",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Cte De Cnes Des Quatre Rivieres",
+     "date_limite": null,
+     "idweb": "24-71802",
+     "intitule": "Projet en conception : Réalisation d'un bâtiment industriel et administratif pour les services déchets et environnement de la Communauté de Communes",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise  d'oeuvre pour les travaux de rénovat",
+    "couple": "M22_74",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie de Chavanod",
+     "date_limite": null,
+     "idweb": "25-73781",
+     "intitule": "Projet en conception : Mission de maîtrise  d'oeuvre pour les travaux de rénovation du Bar Restaurant \"Chez Jeannot\"",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M22_87": {
+  "duree_s": 12.9,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M22_87",
+    "envoi": "rapport",
+    "reference": 0,
+    "v2": 1
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_87",
+    "envoi": "rapport",
+    "reference": 9,
+    "v2": 10
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lo",
+    "couple": "M22_87",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EHPAD Les Capucines - CIVRAY",
+     "date_limite": "2026-11-23",
+     "idweb": "26-98914",
+     "intitule": "Marché de travaux pour la restructuration et extension de l'EHPAD de Civray — Lot 07 - MENUISERIES EXTERIEURES - OCCULTATIONS",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de coordination en matière de sécurité et protect",
+    "couple": "M22_87",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "UGECAM Aquitaine\n100 RUE DE LA TOUR DE GASSIES\nCS 10003\n33523 BRUGES CEDEX\nSIRET : 423 494 335 00155\n\npour l'établissement Centre médico-social d'Herauritz à Ustaritz",
+     "date_limite": null,
+     "idweb": "24-110532",
+     "intitule": "Projet en conception : Mission de coordination en matière de sécurité et protection de la santé des travailleurs (CSPS) pour la reconstruction du centre médico-social d'Hérauritz",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien ",
+    "couple": "M22_87",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "VILLE SAINTES",
+     "date_limite": null,
+     "idweb": "25-125041",
+     "intitule": "Projet en conception : Suivi écologique des travaux de reconversion de l'ancien hôpital Saint Louis à Saintes",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M24_76": {
+  "duree_s": 7.2,
+  "ecarts": 17,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M24_76",
+    "envoi": "rapport",
+    "reference": 3,
+    "v2": 10
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M24_76",
+    "envoi": "rapport",
+    "reference": 13,
+    "v2": 14
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Construction d'une extension destinée à accueillir un bureau et un espace du per",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DES 4 RIVIERES EN BRAY - SIEOM",
+     "date_limite": "2026-10-30",
+     "idweb": "26-93644",
+     "intitule": "Construction d'une extension destinée à accueillir un bureau et un espace du personnel — Menuiseries intérieures - Isolations - Doublages",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf ",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie Elbeuf Sur Seine",
+     "date_limite": "2026-12-09",
+     "idweb": "26-97767",
+     "intitule": "Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf sur Seine — Lot 2 - Menuiseries intérieures et extérieures",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours de maitrise d'oeuvre pour la reconstruction du c",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Rouen Normandie Aménagement",
+     "date_limite": null,
+     "idweb": "25-78934",
+     "intitule": "Projet en conception : Concours de maitrise d'oeuvre pour la reconstruction du centre commercial Châtelet",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — L",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Spl Rnas",
+     "date_limite": "2026-10-23",
+     "idweb": "26-90035",
+     "intitule": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — Lot 03 - Menuiseries extérieures Occultations",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — L",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Spl Rnas",
+     "date_limite": "2026-10-23",
+     "idweb": "26-90035",
+     "intitule": "Chatelet - Reconstruction du Centre Commercial et de services - Clos couvert — Lot 05 - Menuiseries intérieures",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Aménagement des laboratoires de recherche du bâtiment CORIA - Salle blanche ISO ",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Université de Rouen Normandie",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100338",
+     "intitule": "Aménagement des laboratoires de recherche du bâtiment CORIA - Salle blanche ISO 7 au plot E — Salle blanche : Cloisons, plafonds et menuiseries intérieures",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Construction D'Un Escalier De Secours Metallique A L'Hotel De Ville De Sottevill",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Sotteville-lès-Rouen",
+     "date_limite": "2026-11-02",
+     "idweb": "26-96049",
+     "intitule": "Construction D'Un Escalier De Secours Metallique A L'Hotel De Ville De Sotteville-Les-Rouen — Lot 05 - Menuiserie Intérieure - Revêtements de sols - Peinture",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Le 99 Lecesne - Bâtiment Est - Aménagement du Sepsh — Lot 3 - Menuiseries intéri",
+    "couple": "M24_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville du Havre",
+     "date_limite": "2026-11-13",
+     "idweb": "26-96118",
+     "intitule": "Le 99 Lecesne - Bâtiment Est - Aménagement du Sepsh — Lot 3 - Menuiseries intérieures - Plafonds",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-100338",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-90035",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-90035-2",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-93644",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-96049",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-96118",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M24-76-AO-26-97767",
+    "couple": "M24_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M33_27": {
+  "duree_s": 5.4,
+  "ecarts": 15,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M33_27",
+    "envoi": "rapport",
+    "reference": 1,
+    "v2": 8
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Construction d'une extension destinée à accueillir un bureau et un espace du per",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DES 4 RIVIERES EN BRAY - SIEOM",
+     "date_limite": "2026-10-30",
+     "idweb": "26-93644",
+     "intitule": "Construction d'une extension destinée à accueillir un bureau et un espace du personnel — Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "RESTAURATION GENERALE DE L'EGLISE SAINT-PIERRE — ELECTRICITE CHAUFFAGE",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE DE MARVILLE MOUTIERS BRULE",
+     "date_limite": "2026-10-30",
+     "idweb": "26-90793",
+     "intitule": "RESTAURATION GENERALE DE L'EGLISE SAINT-PIERRE — ELECTRICITE CHAUFFAGE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de réhabilitation d'une maison à l'état d'abandon en gîte communal touri",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE HACQUEVILLE",
+     "date_limite": "2026-11-30",
+     "idweb": "26-101165",
+     "intitule": "Travaux de réhabilitation d'une maison à l'état d'abandon en gîte communal touristique — Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Restauration et mise en valeur de l'Église Saint-André — LOT06 ELECTRICITE CHAUF",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE ÉZY SUR EURE",
+     "date_limite": "2026-10-29",
+     "idweb": "26-93948",
+     "intitule": "Restauration et mise en valeur de l'Église Saint-André — LOT06 ELECTRICITE CHAUFFAGE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Marché de travaux pour la reconversion d'une maison d'habitation en bureaux situ",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Chambre rég. agriculture de Normandie",
+     "date_limite": "2026-11-17",
+     "idweb": "26-100915",
+     "intitule": "Marché de travaux pour la reconversion d'une maison d'habitation en bureaux située à Mesnil sur Iton (27) — ELECTRICITE CFO CFA",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX DE REHABILITATION DE LA CITE JUDICIAIRE DE CHARTRES (28) — ELECTRICITE C",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département Immobilier de Paris",
+     "date_limite": "2026-10-26",
+     "idweb": "26-92107",
+     "intitule": "TRAVAUX DE REHABILITATION DE LA CITE JUDICIAIRE DE CHARTRES (28) — ELECTRICITE CFO-CFA",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "TRAVAUX D'AMENAGEMENT ET D'ENFOUISEMENT DE RESEAU AVEC UNE OBTION REABILITATION ",
+    "couple": "M33_27",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie de Moisselles",
+     "date_limite": "2026-10-30",
+     "idweb": "26-91743",
+     "intitule": "TRAVAUX D'AMENAGEMENT ET D'ENFOUISEMENT DE RESEAU AVEC UNE OBTION REABILITATION D'UN ARRËT BUS — Lot 02 - CABLAGE ET ECLAIRAGE",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-100915",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-101165",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-90793",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-91743",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-92107",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-93644",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-27-AO-26-93948",
+    "couple": "M33_27",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M33_38": {
+  "duree_s": 6.3,
+  "ecarts": 51,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M33_38",
+    "envoi": "rapport",
+    "reference": 4,
+    "v2": 12
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M33_38",
+    "envoi": "rapport",
+    "reference": 172,
+    "v2": 173
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M33_38",
+    "envoi": "rapport",
+    "reference": 541,
+    "v2": 542
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux d'aménagement du magasin des Epi (équipements de protection individuelle",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Grenoble Alpes Metropole",
+     "date_limite": "2026-11-17",
+     "idweb": "26-101534",
+     "intitule": "Travaux d'aménagement du magasin des Epi (équipements de protection individuelle) - relance du lot 4 \"électricité Cfa / Cfo, contrôle d'accès, anti-intrusion, vidéo-protection\" et",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux pour la réfection thermique de la toiture du bâtiment La Passerelle appa",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de communes Le Gresivaudan",
+     "date_limite": "2026-11-09",
+     "idweb": "26-97926",
+     "intitule": "Travaux pour la réfection thermique de la toiture du bâtiment La Passerelle appartenant à la Communauté de communes Le Grésivaudan -\nReconsultation suite à infructuosité — Lot 02 - Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Rehabilitation Des Elements Constitutifs Des Ouvrages De Captage Et De Stockage ",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de communes Le Gresivaudan",
+     "date_limite": "2026-11-12",
+     "idweb": "26-96522",
+     "intitule": "Rehabilitation Des Elements Constitutifs Des Ouvrages De Captage Et De Stockage D'Eau Potable Et Mise En Place De Systemes De Traitement — Lot 4 - Traitement, électricité, Nord",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Rehabilitation Des Elements Constitutifs Des Ouvrages De Captage Et De Stockage ",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de communes Le Gresivaudan",
+     "date_limite": "2026-11-12",
+     "idweb": "26-96522",
+     "intitule": "Rehabilitation Des Elements Constitutifs Des Ouvrages De Captage Et De Stockage D'Eau Potable Et Mise En Place De Systemes De Traitement — Lot 5 - Traitement, électricité, Sud",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Aménagement d'une plateforme technologique SmartGrid pédagogique au lycée Pablo ",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "DEL - Direction de l éducation et des lycées",
+     "date_limite": "2026-10-22",
+     "idweb": "26-93665",
+     "intitule": "Aménagement d'une plateforme technologique SmartGrid pédagogique au lycée Pablo Neruda de Saint-Martin-d¿Hères (38) — Courant fort - Courant faible",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Agrandissement de la salle 217, aménagement du bureau 214 et des locaux de ménag",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de l'Isère",
+     "date_limite": "2026-10-30",
+     "idweb": "26-99455",
+     "intitule": "Agrandissement de la salle 217, aménagement du bureau 214 et des locaux de ménage à la Maison du Département des Vals du Dauphiné à La Tour du Pin — Lot 02 - Courants forts - Courants faibles Courants forts - Courants faibles",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux d'aménagement du magasin des Epi (équipements de protection individuelle",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Grenoble Alpes Metropole",
+     "date_limite": "2026-11-17",
+     "idweb": "26-101534",
+     "intitule": "Travaux d'aménagement du magasin des Epi (équipements de protection individuelle) - relance du lot 4 \"électricité Cfa / Cfo, contrôle d'accès, anti-intrusion, vidéo-protection\" et — Lot 4 - électricité Cfa / Cfo, contrôle d'accès, anti-intrusion, vidéo-protection",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité de l'EREA Pierre Rabhi à Claix (38) — Lot 6 - E",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "REGION AUVERGNE RHONE ALPES",
+     "date_limite": "2026-10-26",
+     "idweb": "26-91380",
+     "intitule": "Travaux de mise en accessibilité de l'EREA Pierre Rabhi à Claix (38) — Lot 6 - Electricité Descriptif : Déplacement de prises et interrupteurs, adaptation SSI",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux pour la création du pole medico-social sur le site Vallier à Grenoble — ",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "SGCD38",
+     "date_limite": "2026-10-30",
+     "idweb": "26-97943",
+     "intitule": "Travaux pour la création du pole medico-social sur le site Vallier à Grenoble — Lot 7 - Électricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères)",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "région Auvergne Rhône Alpes",
+     "date_limite": "2026-10-27",
+     "idweb": "26-90734",
+     "intitule": "Travaux de mise en accessibilité - Lycée Pablo NERUDA (38- Saint Martin d'Hères) — Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-90734",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-91380",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-93665",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-96522",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-96522-2",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-97926",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-38-AO-26-97943",
+    "couple": "M33_38",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M33_76": {
+  "duree_s": 6.8,
+  "ecarts": 15,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M33_76",
+    "envoi": "rapport",
+    "reference": 5,
+    "v2": 11
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M33_76",
+    "envoi": "rapport",
+    "reference": 178,
+    "v2": 179
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M33_76",
+    "envoi": "rapport",
+    "reference": 653,
+    "v2": 655
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Construction d'une extension destinée à accueillir un bureau et un espace du per",
+    "couple": "M33_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CC DES 4 RIVIERES EN BRAY - SIEOM",
+     "date_limite": "2026-10-30",
+     "idweb": "26-93644",
+     "intitule": "Construction d'une extension destinée à accueillir un bureau et un espace du personnel — Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Construction D'Une Chaufferie Bois Pour Les Bâtiments Intercommunaux  A Lillebon",
+    "couple": "M33_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ca Caux Seine Agglo",
+     "date_limite": "2026-11-13",
+     "idweb": "26-98687",
+     "intitule": "Construction D'Une Chaufferie Bois Pour Les Bâtiments Intercommunaux  A Lillebonne — Lot 3",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf ",
+    "couple": "M33_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie Elbeuf Sur Seine",
+     "date_limite": "2026-12-09",
+     "idweb": "26-97767",
+     "intitule": "Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf sur Seine — Lot 5 - Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Aménagement des laboratoires de recherche du bâtiment CORIA - Salle blanche ISO ",
+    "couple": "M33_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Université de Rouen Normandie",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100338",
+     "intitule": "Aménagement des laboratoires de recherche du bâtiment CORIA - Salle blanche ISO 7 au plot E — Électricité : Courants forts et faibles",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Construction D'Un Escalier De Secours Metallique A L'Hotel De Ville De Sottevill",
+    "couple": "M33_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Sotteville-lès-Rouen",
+     "date_limite": "2026-11-02",
+     "idweb": "26-96049",
+     "intitule": "Construction D'Un Escalier De Secours Metallique A L'Hotel De Ville De Sotteville-Les-Rouen — Lot 06 - Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Le 99 Lecesne - Bâtiment Est - Aménagement du Sepsh — Lot 6 - Electricité",
+    "couple": "M33_76",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville du Havre",
+     "date_limite": "2026-11-13",
+     "idweb": "26-96118",
+     "intitule": "Le 99 Lecesne - Bâtiment Est - Aménagement du Sepsh — Lot 6 - Electricité",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-76-AO-26-100338",
+    "couple": "M33_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-76-AO-26-93644",
+    "couple": "M33_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-76-AO-26-96049",
+    "couple": "M33_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-76-AO-26-96118",
+    "couple": "M33_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-76-AO-26-97767",
+    "couple": "M33_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M33-76-AO-26-98687",
+    "couple": "M33_76",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ }
+}
