@@ -1,2 +1,116 @@
 # rejouer
-En cours depuis 20/10 19:20
+Lancée le 20/10/2026 19:20, finie le 20/10/2026 19:31, code 1
+
+  C093_69    publié un autre jour, non comparé
+  C093_75    publié un autre jour, non comparé
+  C451_01    publié un autre jour, non comparé
+  C451_26    publié un autre jour, non comparé
+  C451_38    écarts (17) · 7.1 s
+  C451_42    publié un autre jour, non comparé
+  C451_69    publié un autre jour, non comparé
+  C451_71    publié un autre jour, non comparé
+  C451_74    publié un autre jour, non comparé
+  C451_FR    écarts (799) · 146.9 s
+  C642_FR    écarts (5) · 12.0 s
+  C712_04    publié un autre jour, non comparé
+  C712_05    publié un autre jour, non comparé
+  C712_06    publié un autre jour, non comparé
+  C712_13    publié un autre jour, non comparé
+  C712_69    publié un autre jour, non comparé
+  C712_74    identique · 5.1 s
+  C712_75    écarts (5) · 7.6 s
+  C712_83    identique · 4.8 s
+  C712_84    écarts (5) · 3.9 s
+  C713_04    publié un autre jour, non comparé
+  C713_05    publié un autre jour, non comparé
+  C713_06    publié un autre jour, non comparé
+  C713_13    publié un autre jour, non comparé
+  C713_69    publié un autre jour, non comparé
+  C713_74    publié un autre jour, non comparé
+  C713_75    écarts (29) · 12.0 s
+  C713_83    publié un autre jour, non comparé
+  C713_84    publié un autre jour, non comparé
+  C713_FR    écarts (311) · 150.5 s
+  C715_04    publié un autre jour, non comparé
+  C715_05    publié un autre jour, non comparé
+  C715_06    publié un autre jour, non comparé
+  C715_13    publié un autre jour, non comparé
+  C715_69    publié un autre jour, non comparé
+  C715_74    publié un autre jour, non comparé
+  C715_75    publié un autre jour, non comparé
+  C715_83    publié un autre jour, non comparé
+  C715_84    publié un autre jour, non comparé
+  C722_76    publié un autre jour, non comparé
+  C728_69    publié un autre jour, non comparé
+  C728_75    publié un autre jour, non comparé
+  C772_01    publié un autre jour, non comparé
+  C772_26    publié un autre jour, non comparé
+  C772_38    publié un autre jour, non comparé
+  C772_42    publié un autre jour, non comparé
+  C772_69    publié un autre jour, non comparé
+  C772_71    publié un autre jour, non comparé
+  C772_74    publié un autre jour, non comparé
+  C772_FR    écarts (19) · 72.4 s
+  C794_FR    écarts (35) · 12.0 s
+  C805_34    publié un autre jour, non comparé
+  M01_01     publié un autre jour, non comparé
+  M01_04     publié un autre jour, non comparé
+  M01_14     écarts (1) · 5.1 s
+  M01_16     écarts (2) · 11.0 s
+  M01_17     publié un autre jour, non comparé
+  M01_24     écarts (1) · 10.9 s
+  M01_26     publié un autre jour, non comparé
+  M01_27     publié un autre jour, non comparé
+  M01_38     publié un autre jour, non comparé
+  M01_42     publié un autre jour, non comparé
+  M01_59     écarts (17) · 8.6 s
+  M01_69     publié un autre jour, non comparé
+  M01_71     publié un autre jour, non comparé
+  M01_73     publié un autre jour, non comparé
+  M01_74     publié un autre jour, non comparé
+  M01_75     écarts (11) · 13.8 s
+  M01_76     publié un autre jour, non comparé
+  M01_83     publié un autre jour, non comparé
+  M01_92     publié un autre jour, non comparé
+  M01_93     publié un autre jour, non comparé
+  M01_94     publié un autre jour, non comparé
+  M01_FR     écarts (379) · 61.0 s
+  M03_76     publié un autre jour, non comparé
+  M04_62     écarts (15) · 8.0 s
+  M04_76     publié un autre jour, non comparé
+  M07_59     écarts (37) · 5.9 s
+  M07_76     écarts (10) · 4.7 s
+  M08_76     écarts (30) · 3.7 s
+  M08_81     publié un autre jour, non comparé
+  M22_05     jamais publié par le PC
+  M22_07     jamais publié par le PC
+  M22_16     écarts (5) · 12.6 s
+  M22_17     écarts (5) · 12.8 s
+  M22_21     écarts (2) · 10.7 s
+  M22_24     écarts (5) · 12.4 s
+  M22_27     écarts (8) · 11.3 s
+  M22_74     écarts (2) · 5.7 s
+  M22_75     publié un autre jour, non comparé
+  M22_76     publié un autre jour, non comparé
+  M22_83     publié un autre jour, non comparé
+  M22_87     écarts (5) · 12.9 s
+  M22_92     publié un autre jour, non comparé
+  M22_93     publié un autre jour, non comparé
+  M22_94     publié un autre jour, non comparé
+  M23_27     publié un autre jour, non comparé
+  M23_44     publié un autre jour, non comparé
+  M23_76     publié un autre jour, non comparé
+  M24_69     publié un autre jour, non comparé
+  M24_76     écarts (17) · 7.2 s
+  M30_69     publié un autre jour, non comparé
+  M33_01     publié un autre jour, non comparé
+  M33_27     écarts (15) · 5.4 s
+  M33_38     écarts (51) · 6.3 s
+  M33_42     publié un autre jour, non comparé
+  M33_69     publié un autre jour, non comparé
+  M33_71     publié un autre jour, non comparé
+  M33_76     écarts (15) · 6.8 s
+  M33_85     publié un autre jour, non comparé
+  M40_05     publié un autre jour, non comparé
+  M40_76     publié un autre jour, non comparé
+2026-10-20 19:31:21  Rejeu sur le serveur : rouge — 2 couples identiques au PC sur 32 comparés ; en écart ou en échec : C451_38, C451_FR, C642_FR, C712_75, C712_84, C713_75, C713_FR, C772_FR, C794_FR, M01_14, M01_16, M01_24, M01_59, M01_75, M01_FR, M04_62, M07_59, M07_76, M08_76, M22_16, M22_17, M22_21, M22_24, M22_27, M22_74, M22_87, M24_76, M33_27, M33_38, M33_76 ; 10.7 s par couple (médiane), 11 min au total
