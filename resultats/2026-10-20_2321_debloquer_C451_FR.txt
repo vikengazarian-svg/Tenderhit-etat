@@ -1,2 +1,5 @@
 # debloquer C451_FR
-En cours depuis 20/10 23:22
+Lancée le 20/10/2026 23:22, finie le 20/10/2026 23:23, code 0
+
+2026-10-20 23:23:44  débloqués (retentés à la prochaine passe) : aucun
+Débloqués : aucun ; restent en échec : aucun
