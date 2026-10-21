@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 21/10/2026 à 23:36 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 22/10/2026 à 00:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : contrôle quotidien rouge
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-21 23:36:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-21 23:59:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-21 06:54:19  OK, 685 avis collectés, 96 couples recalculés, 80 republiés en 24.2 min |
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-21 06:55:34  Contrôle du 21/10 : rouge — 95 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C451_42, C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74, C772_42, M01_42, M01_71, M03_76, M33_27, M33_76, M33_FR ; demandes : dernière passe il y a 25 min (attendu : toutes les minutes) |
 
-**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.00 · disque 22.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.5 Go sur 7.6 · charge 0.00 · disque 22.4 % · échange 0.0 Go
 
 ## Performances
 
@@ -45,26 +45,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-- 17:12 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 17:12 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 17:12 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 17:13 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 17:13 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 17:13 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 17:13 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 17:13 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 17:13 : (édition 2026-10, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 12 s
-- 17:13 : (édition 2026-10, 5 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 11 s
-- 17:14 : (édition 2026-10, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
-- 17:14 : (édition 2026-10, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 12 s
-- 17:14 : (édition 2026-10, 13 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 15 s
-- 17:14 : (édition 2026-10, 10 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 13 s
-- 17:15 : (édition 2026-10, 25 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 22 s
-- 17:15 : (édition 2026-10, 5 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 12 s
-- 17:15 : (édition 2026-10, 30 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 30 s
-- 17:16 : (édition 2026-10, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP)) en 15 s
-- 17:16 : (édition 2026-10, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
-- 17:16 : (édition 2026-10, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 15 s
+Aucune pour l'instant.
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -77,10 +58,10 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                           LEFT LAST                          PASSED UNIT                     ACTIVATES
-Wed 2026-10-21 23:37:00 CEST    50s Wed 2026-10-21 23:36:04 CEST  5s ago tenderhit-demandes.timer tenderhit-demandes.service
 Thu 2026-10-22 06:30:00 CEST     6h Wed 2026-10-21 06:30:04 CEST 17h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-10-24 03:00:00 CEST 2 days Sun 2026-10-18 10:14:39 CEST       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                 - Wed 2026-10-21 23:36:04 CEST  5s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                 - Thu 2026-10-22 00:00:04 CEST  1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                 - Thu 2026-10-22 00:00:04 CEST  1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
