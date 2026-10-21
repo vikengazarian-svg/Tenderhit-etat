@@ -1,2 +1,11 @@
 # stats_boamp 90 --essai
-En cours depuis 22/10 00:36
+Lancée le 22/10/2026 00:36, finie le 22/10/2026 00:36, code 0
+
+90 jours (2026-07-23 → 2026-10-20) calculés en 1.6 s, 352 Ko
+  2026-10-14 : 358 AO parus, 121 attributions, stock 7607
+  2026-10-15 : 400 AO parus, 153 attributions, stock 7667
+  2026-10-16 : 410 AO parus, 127 attributions, stock 7582
+  2026-10-17 : 118 AO parus, 37 attributions, stock 7688
+  2026-10-18 : 293 AO parus, 88 attributions, stock 7951
+  2026-10-19 : 166 AO parus, 26 attributions, stock 7649
+  2026-10-20 : 268 AO parus, 102 attributions, stock 7670
