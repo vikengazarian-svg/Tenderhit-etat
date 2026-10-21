@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 22/10/2026 à 00:36 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 22/10/2026 à 00:46 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-22 00:36:05  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-22 00:46:06  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-21 06:54:19  OK, 685 avis collectés, 96 couples recalculés, 80 republiés en 24.2 min |
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-21 06:55:34  Contrôle du 21/10 : rouge — 95 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : C451_42, C712_69, C712_74, C713_69, C713_74, C713_75, C713_FR, C715_69, C715_74, C772_42, M01_42, M01_71, M03_76, M33_27, M33_76, M33_FR ; demandes : dernière passe il y a 25 min (attendu : toutes les minutes) |
 
-**Machine maintenant** : mémoire 0.96 Go sur 7.6 · charge 0.16 · disque 22.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.89 Go sur 7.6 · charge 0.16 · disque 22.4 % · échange 0.0 Go
 
 ## Performances
 
@@ -58,17 +58,16 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                             LEFT LAST                          PASSED UNIT                     ACTIVATES
-Thu 2026-10-22 00:37:00 CEST      50s Thu 2026-10-22 00:36:04 CEST  5s ago tenderhit-demandes.timer tenderhit-demandes.service
-Thu 2026-10-22 06:30:00 CEST 5h 53min Wed 2026-10-21 06:30:04 CEST 18h ago tenderhit-collecte.timer tenderhit-collecte.service
+Thu 2026-10-22 00:47:00 CEST      49s Thu 2026-10-22 00:46:04 CEST  6s ago tenderhit-demandes.timer tenderhit-demandes.service
+Thu 2026-10-22 06:30:00 CEST 5h 43min Wed 2026-10-21 06:30:04 CEST 18h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-10-24 03:00:00 CEST   2 days Sun 2026-10-18 10:14:39 CEST       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-10-22 00:36:04 CEST  5s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                   - Thu 2026-10-22 00:46:04 CEST  6s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-21 17:12:41    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
 2026-10-21 17:12:41  C741_56 : demande en attente
 2026-10-21 17:12:49    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
 2026-10-21 17:12:49  C741_59 : demande en attente
@@ -108,4 +107,5 @@ Sat 2026-10-24 03:00:00 CEST   2 days Sun 2026-10-18 10:14:39 CEST       - tende
 2026-10-21 17:16:22  P1005_93 : demande en attente
 2026-10-21 17:16:37    publié (édition 2026-10, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 15 s
 2026-10-21 17:17:39  tables du marché : 2 activité(s) envoyée(s), 0 inchangée(s), 73457 lignes en 20 paquets
+2026-10-22 00:46:10  statistiques BOAMP : rattrapage de 90 jours envoyé (1.6 s)
 ```
