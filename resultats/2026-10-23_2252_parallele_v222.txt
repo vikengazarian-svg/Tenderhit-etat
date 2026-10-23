@@ -1,2 +1,254 @@
 # parallele --budget 1800
-En cours depuis 23/10 22:52
+Lancée le 23/10/2026 22:52, finie le 23/10/2026 23:22, code 3
+
+Atexo : 28/28 lues, 4 546 consultations, 4 546 nouvelles
+Fusion : 1998 avis gardés, 2525 doublons {'ressemblance': 949, 'numero': 1576}
+  C451_69    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 7.2 s
+  C451_74    +0 AO, 0 écart(s) BOAMP · 6.7 s
+  C451_FR    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 143.9 s
+  C710_14    +0 AO, 0 écart(s) BOAMP · 3.6 s
+  C710_27    +0 AO, 0 écart(s) BOAMP · 6.0 s
+  C712_59    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 6.3 s
+  C712_69    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 6.3 s
+  C712_74    +0 AO, 0 écart(s) BOAMP · 5.1 s
+  C712_76    +0 AO, 0 écart(s) BOAMP · 4.7 s
+  C712_93    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 5.4 s
+  C713_69    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 8.0 s
+  C713_74    +0 AO, 0 écart(s) BOAMP · 6.2 s
+  C713_75    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 11.8 s
+  C713_83    +0 AO, 0 écart(s) BOAMP · 5.9 s
+  C713_FR    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 147.4 s
+  C772_26    +0 AO, 74 écart(s) BOAMP · 4.8 s
+  C772_38    +0 AO, 60 écart(s) BOAMP · 5.4 s
+  C772_42    +0 AO, 60 écart(s) BOAMP · 5.1 s
+  C772_69    +0 AO, 0 écart(s) BOAMP · 3.3 s
+  C772_FR    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 73.2 s
+  C794_FR    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 11.9 s
+  M01_14     +0 AO, 0 écart(s) BOAMP · 5.1 s
+  M01_76     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 6.6 s
+  M01_FR     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 60.8 s
+  M04_62     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 8.2 s
+  M07_59     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 6.1 s
+  M22_21     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 11.3 s
+  M22_27     +0 AO, 0 écart(s) BOAMP · 11.9 s
+  M22_74     +0 AO, 0 écart(s) BOAMP · 5.9 s
+  M22_75     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 8.4 s
+  M22_76     +0 AO, 0 écart(s) BOAMP · 12.9 s
+  M22_94     +0 AO, 0 écart(s) BOAMP · 6.2 s
+  M23_44     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 7.5 s
+  M24_69     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 8.6 s
+  M30_69     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 8.3 s
+  M33_27     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 5.7 s
+  M33_38     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 6.4 s
+  M33_69     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 9.3 s
+  M33_FR     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 243.8 s
+  P1005_59   ÉCHEC RuntimeError : generer.py", line 53, in <module>
+    B, n = extraire(zone_imposee)
+           ~~~~~~~~^^^^^^^^^^^^^^
+  F · 0.6 s
+  P1005_75   ÉCHEC RuntimeError : generer.py", line 53, in <module>
+    B, n = extraire(zone_imposee)
+           ~~~~~~~~^^^^^^^^^^^^^^
+  F · 0.5 s
+  C093_69    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 3.8 s
+  C093_75    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.0 s
+  C451_01    +0 AO, 0 écart(s) BOAMP · 6.6 s
+  C451_26    +0 AO, 0 écart(s) BOAMP · 8.7 s
+  C451_38    +0 AO, 0 écart(s) BOAMP · 13.7 s
+  C451_42    +0 AO, 0 écart(s) BOAMP · 10.1 s
+  C451_71    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.8 s
+  C642_FR    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 11.7 s
+  C710_22    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 3.8 s
+  C710_29    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.1 s
+  C710_35    +4 AO, 0 écart(s) BOAMP · 9.2 s
+  C710_56    +3 AO, 0 écart(s) BOAMP · 7.5 s
+  C710_59    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.6 s
+  C710_60    +0 AO, 0 écart(s) BOAMP · 7.7 s
+  C710_75    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 5.1 s
+  C710_76    +0 AO, 0 écart(s) BOAMP · 7.2 s
+  C710_80    +0 AO, 0 écart(s) BOAMP · 7.0 s
+  C710_93    +0 AO, 0 écart(s) BOAMP · 8.1 s
+  C712_04    +0 AO, 0 écart(s) BOAMP · 3.5 s
+  C712_05    +0 AO, 0 écart(s) BOAMP · 3.9 s
+  C712_06    +0 AO, 0 écart(s) BOAMP · 5.0 s
+  C712_13    +0 AO, 0 écart(s) BOAMP · 12.2 s
+  C712_14    +0 AO, 0 écart(s) BOAMP · 8.6 s
+  C712_22    +4 AO, 0 écart(s) BOAMP · 8.0 s
+  C712_27    +0 AO, 0 écart(s) BOAMP · 7.5 s
+  C712_29    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.3 s
+  C712_35    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 5.0 s
+  C712_56    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.3 s
+  C712_60    +0 AO, 0 écart(s) BOAMP · 8.1 s
+  C712_75    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 7.6 s
+  C712_80    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 3.9 s
+  C712_83    +0 AO, 0 écart(s) BOAMP · 9.8 s
+  C712_84    +0 AO, 0 écart(s) BOAMP · 8.1 s
+  C713_04    +0 AO, 0 écart(s) BOAMP · 3.9 s
+  C713_05    +0 AO, 0 écart(s) BOAMP · 4.2 s
+  C713_06    +0 AO, 0 écart(s) BOAMP · 7.4 s
+  C713_13    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 9.5 s
+  C713_84    +0 AO, 0 écart(s) BOAMP · 8.5 s
+  C715_04    +0 AO, 0 écart(s) BOAMP · 6.7 s
+  C715_05    +0 AO, 0 écart(s) BOAMP · 6.7 s
+  C715_06    +0 AO, 0 écart(s) BOAMP · 6.9 s
+  C715_13    +0 AO, 0 écart(s) BOAMP · 10.3 s
+  C715_69    +0 AO, 0 écart(s) BOAMP · 6.5 s
+  C715_74    +0 AO, 0 écart(s) BOAMP · 10.0 s
+  C715_75    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 3.7 s
+  C715_83    +0 AO, 0 écart(s) BOAMP · 10.0 s
+  C715_84    +0 AO, 0 écart(s) BOAMP · 9.1 s
+  C722_76    +0 AO, 0 écart(s) BOAMP · 7.9 s
+  C728_69    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 6.3 s
+  C728_75    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 7.0 s
+  C741_14    +0 AO, 0 écart(s) BOAMP · 10.5 s
+  C741_22    +0 AO, 0 écart(s) BOAMP · 10.2 s
+  C741_27    +0 AO, 0 écart(s) BOAMP · 10.0 s
+  C741_29    +0 AO, 0 écart(s) BOAMP · 10.5 s
+  C741_35    +0 AO, 0 écart(s) BOAMP · 10.5 s
+  C741_56    +0 AO, 0 écart(s) BOAMP · 10.1 s
+  C741_59    +0 AO, 0 écart(s) BOAMP · 11.1 s
+  C741_60    +0 AO, 0 écart(s) BOAMP · 10.7 s
+  C741_75    +0 AO, 0 écart(s) BOAMP · 11.3 s
+  C741_76    +0 AO, 0 écart(s) BOAMP · 10.6 s
+  C741_80    +0 AO, 0 écart(s) BOAMP · 10.5 s
+  C741_93    +0 AO, 0 écart(s) BOAMP · 10.6 s
+  C772_01    +0 AO, 0 écart(s) BOAMP · 8.1 s
+  C772_71    ÉCHEC RuntimeError : first` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mote · 4.7 s
+  C772_74    +0 AO, 0 écart(s) BOAMP · 5.7 s
+  C805_34    +0 AO, 0 écart(s) BOAMP · 7.6 s
+  M01_01     +1 AO, 0 écart(s) BOAMP · 4.3 s
+  M01_04     +0 AO, 0 écart(s) BOAMP · 4.0 s
+  M01_16     +0 AO, 0 écart(s) BOAMP · 22.4 s
+  M01_17     +0 AO, 0 écart(s) BOAMP · 9.4 s
+  M01_24     +0 AO, 0 écart(s) BOAMP · 22.6 s
+  M01_26     +0 AO, 0 écart(s) BOAMP · 9.1 s
+  M01_27     +0 AO, 0 écart(s) BOAMP · 9.5 s
+  M01_38     +0 AO, 0 écart(s) BOAMP · 12.8 s
+  M01_42     +0 AO, 0 écart(s) BOAMP · 10.3 s
+  M01_59     +0 AO, 0 écart(s) BOAMP · 16.6 s
+  M01_69     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 7.9 s
+  M01_71     +0 AO, 0 écart(s) BOAMP · 9.0 s
+  M01_73     +0 AO, 0 écart(s) BOAMP · 10.7 s
+  M01_74     +0 AO, 0 écart(s) BOAMP · 11.7 s
+  M01_75     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 13.9 s
+  M01_83     +0 AO, 0 écart(s) BOAMP · 14.8 s
+  M01_92     +0 AO, 0 écart(s) BOAMP · 17.0 s
+  M01_93     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 7.9 s
+  M01_94     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 7.3 s
+  M03_76     +0 AO, 0 écart(s) BOAMP · 13.6 s
+  M04_76     +0 AO, 0 écart(s) BOAMP · 7.7 s
+  M07_76     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 4.9 s
+  M08_76     +0 AO, 0 écart(s) BOAMP · 7.8 s
+  M08_81     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 7.3 s
+  M22_05     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 9.5 s
+  M22_07     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 13.6 s
+  M22_16     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 13.2 s
+  M22_17     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 13.5 s
+  M22_24     ÉCHEC RuntimeError : yfirst` alongside this.
+Traceback (most recent call last):
+  File "/srv/tenderhit/parallele/execution/mot · 12.8 s
+  M22_83     +0 AO, 0 écart(s) BOAMP · 12.7 s
+Parallèle : +12 AO (dont 11 MAPA distincts), 194 écart BOAMP, 30 min, 54 couple(s) en échec, 137/160 couples
+Passe parallèle : en cours, 137/160 couples (relancer pour continuer)
