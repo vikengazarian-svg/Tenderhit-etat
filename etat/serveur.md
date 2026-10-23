@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 23/10/2026 à 22:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 23/10/2026 à 22:08 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-23 21:59:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-23 22:08:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-23 06:58:02  OK, 672 avis collectés, 143 couples recalculés, 41 republiés en 28.0 min |
 | Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-23 07:03:17  Contrôle du 23/10 : rouge — 157 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : M04_62 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.49 Go sur 7.6 · charge 0.00 · disque 23.0 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.69 Go sur 7.6 · charge 0.28 · disque 23.0 % · échange 0.0 Go
 
 ## Performances
 
@@ -62,17 +62,16 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                             LEFT LAST                          PASSED UNIT                     ACTIVATES
-Sat 2026-10-24 03:00:00 CEST 4h 59min Sun 2026-10-18 10:14:39 CEST       - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Fri 2026-10-23 22:09:00 CEST      30s Fri 2026-10-23 22:08:04 CEST 25s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-10-24 03:00:00 CEST 4h 51min Sun 2026-10-18 10:14:39 CEST       - tenderhit-hebdo.timer    tenderhit-hebdo.service
 Sat 2026-10-24 06:30:00 CEST       8h Fri 2026-10-23 06:30:04 CEST 15h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                   - Fri 2026-10-23 22:00:04 CEST  1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                   - Fri 2026-10-23 22:00:04 CEST  1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                   - Fri 2026-10-23 22:08:04 CEST 25s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-23 06:49:06    M22_75 : 23 opportunités · rapport et opportunités · 9 s
 2026-10-23 06:49:20    M22_76 : 7 opportunités · rapport et opportunités · 14 s
 2026-10-23 06:49:26    M22_83 : 8 opportunités · inchangé · 6 s
 2026-10-23 06:49:39    M22_87 : 1 opportunités · inchangé · 13 s
@@ -112,4 +111,5 @@ Sat 2026-10-24 06:30:00 CEST       8h Fri 2026-10-23 06:30:04 CEST 15h ago tende
 2026-10-23 14:30:42  observatoire (commande) : {"avis_ouverts": 7681, "sans_activite": 74, "a_envoyer": 7681, "a_retirer": 0, "disparues": 0, "envoi": "envoyé", "paquets": 8, "donnees_personnelles_retirees": 0, "duree_s": 33.8}
 2026-10-23 15:08:29  observatoire (commande) : {"avis_ouverts": 7676, "sans_activite": 1235, "a_envoyer": 7395, "a_retirer": 5, "disparues": 5, "envoi": "essai, rien n'est envoyé", "duree_s": 17.6}
 2026-10-23 15:10:40  observatoire (commande) : {"avis_ouverts": 7676, "sans_activite": 1235, "a_envoyer": 7395, "a_retirer": 5, "disparues": 5, "envoi": "envoyé", "paquets": 8, "donnees_personnelles_retirees": 0, "duree_s": 32.3}
+2026-10-23 22:08:29  observatoire (commande) : {"avis_ouverts": 7570, "sans_activite": 1224, "a_envoyer": 79, "a_retirer": 106, "disparues": 106, "envoi": "essai, rien n'est envoyé", "duree_s": 17.4}
 ```
