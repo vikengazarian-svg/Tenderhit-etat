@@ -10,19 +10,22 @@
 <text x="46" y="107.0" font-size="11" fill="#59636e" text-anchor="end">20</text>
 <line x1="52" x2="744" y1="51.5" y2="51.5" stroke="#d1d9e0" stroke-width="1"/>
 <text x="46" y="55.5" font-size="11" fill="#59636e" text-anchor="end">30</text>
-<rect x="103.2" y="69.0" width="36.0" height="137.0" rx="4.0" fill="#2f6fdb"><title>10/17 12h : 26.6 minutes</title></rect>
-<text x="121.2" y="63.0" font-size="11" fill="#1f2328" text-anchor="middle">26.6</text>
-<text x="121.2" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/17 12h</text>
-<rect x="241.6" y="111.7" width="36.0" height="94.3" rx="4.0" fill="#2f6fdb"><title>10/19 06h : 18.3 minutes</title></rect>
-<text x="259.6" y="105.7" font-size="11" fill="#1f2328" text-anchor="middle">18.3</text>
-<text x="259.6" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/19 06h</text>
-<rect x="380.0" y="114.3" width="36.0" height="91.7" rx="4.0" fill="#2f6fdb"><title>10/20 06h : 17.8 minutes</title></rect>
-<text x="398.0" y="108.3" font-size="11" fill="#1f2328" text-anchor="middle">17.8</text>
-<text x="398.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/20 06h</text>
-<rect x="518.4" y="80.8" width="36.0" height="125.2" rx="4.0" fill="#2f6fdb"><title>10/21 06h : 24.3 minutes</title></rect>
-<text x="536.4" y="74.8" font-size="11" fill="#1f2328" text-anchor="middle">24.3</text>
-<text x="536.4" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/21 06h</text>
-<rect x="656.8" y="55.1" width="36.0" height="150.9" rx="4.0" fill="#2f6fdb"><title>10/22 06h : 29.3 minutes</title></rect>
-<text x="674.8" y="49.1" font-size="11" fill="#1f2328" text-anchor="middle">29.3</text>
-<text x="674.8" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/22 06h</text>
+<rect x="91.7" y="69.0" width="36.0" height="137.0" rx="4.0" fill="#2f6fdb"><title>10/17 12h : 26.6 minutes</title></rect>
+<text x="109.7" y="63.0" font-size="11" fill="#1f2328" text-anchor="middle">26.6</text>
+<text x="109.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/17 12h</text>
+<rect x="207.0" y="111.7" width="36.0" height="94.3" rx="4.0" fill="#2f6fdb"><title>10/19 06h : 18.3 minutes</title></rect>
+<text x="225.0" y="105.7" font-size="11" fill="#1f2328" text-anchor="middle">18.3</text>
+<text x="225.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/19 06h</text>
+<rect x="322.3" y="114.3" width="36.0" height="91.7" rx="4.0" fill="#2f6fdb"><title>10/20 06h : 17.8 minutes</title></rect>
+<text x="340.3" y="108.3" font-size="11" fill="#1f2328" text-anchor="middle">17.8</text>
+<text x="340.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/20 06h</text>
+<rect x="437.7" y="80.8" width="36.0" height="125.2" rx="4.0" fill="#2f6fdb"><title>10/21 06h : 24.3 minutes</title></rect>
+<text x="455.7" y="74.8" font-size="11" fill="#1f2328" text-anchor="middle">24.3</text>
+<text x="455.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/21 06h</text>
+<rect x="553.0" y="55.1" width="36.0" height="150.9" rx="4.0" fill="#2f6fdb"><title>10/22 06h : 29.3 minutes</title></rect>
+<text x="571.0" y="49.1" font-size="11" fill="#1f2328" text-anchor="middle">29.3</text>
+<text x="571.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/22 06h</text>
+<rect x="668.3" y="61.8" width="36.0" height="144.2" rx="4.0" fill="#2f6fdb"><title>10/23 06h : 28 minutes</title></rect>
+<text x="686.3" y="55.8" font-size="11" fill="#1f2328" text-anchor="middle">28</text>
+<text x="686.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/23 06h</text>
 </svg>
