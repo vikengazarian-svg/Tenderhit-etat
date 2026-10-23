@@ -1,2 +1,286 @@
 # rejeu_detail C451_FR C712_74 C713_75 C713_FR C794_FR M22_75
-En cours depuis 23/10 22:40
+Lancée le 23/10/2026 22:40, finie le 23/10/2026 22:40, code 0
+
+2026-10-23.json
+Rejeu sur le serveur : rouge — 34 couples identiques au PC sur 41 comparés ; en écart ou en échec : C451_FR, C712_74, C713_75, C713_FR, C794_FR, M22_75, M33_FR ; 7.0 s par couple (médiane), 16 min au total
+
+{
+ "C451_FR": {
+  "duree_s": 141.8,
+  "ecarts": 6,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_dep",
+    "cle": "C451-FR-AO-26-92067",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": "20B",
+    "v2": "2B"
+   },
+   {
+    "champ": "acheteur_dep",
+    "cle": "C451-FR-AO-26-93488",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": "20A",
+    "v2": "2A"
+   },
+   {
+    "champ": "acheteur_dep",
+    "cle": "C451-FR-AO-26-96452",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": "20B",
+    "v2": "2B"
+   },
+   {
+    "champ": "acheteur_dep",
+    "cle": "C451-FR-AO-26-96581",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": "20B",
+    "v2": "2B"
+   },
+   {
+    "champ": "acheteur_dep",
+    "cle": "C451-FR-AO-26-96581-2",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": "20B",
+    "v2": "2B"
+   },
+   {
+    "champ": "acheteur_dep",
+    "cle": "C451-FR-AO-26-96581-3",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": "20B",
+    "v2": "2B"
+   }
+  ]
+ },
+ "C712_74": {
+  "duree_s": 5.0,
+  "ecarts": 15,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C712-74-AO-26-101260",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 289700,
+    "v2": 290900
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C712-74-AO-26-101260",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 122400,
+    "v2": 122500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C712-74-AO-26-101260",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 893,
+    "v2": 894
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C712-74-AO-26-101984",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 289700,
+    "v2": 290900
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C712-74-AO-26-101984",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 122400,
+    "v2": 122500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C712-74-AO-26-101984",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 893,
+    "v2": 894
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C712-74-AO-26-102115",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 289700,
+    "v2": 290900
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C712-74-AO-26-102115",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 122400,
+    "v2": 122500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C712-74-AO-26-102115",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 893,
+    "v2": 894
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C712-74-AO-26-79879",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 289700,
+    "v2": 290900
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C712-74-AO-26-79879",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 122400,
+    "v2": 122500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C712-74-AO-26-79879",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 893,
+    "v2": 894
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C712-74-AO-26-97616",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 289700,
+    "v2": 290900
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C712-74-AO-26-97616",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 122400,
+    "v2": 122500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C712-74-AO-26-97616",
+    "couple": "C712_74",
+    "envoi": "opportunites",
+    "reference": 893,
+    "v2": 894
+   }
+  ]
+ },
+ "C713_75": {
+  "duree_s": 11.9,
+  "ecarts": 3,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S02208_71313000#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "PROGEXIAL",
+    "v2": "CIRCULAB"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S03188_71356100#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "GTA GEOMETRES EXPERTS",
+    "v2": "PROGEXIAL"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "217500016000192023S03556_71315000#0",
+    "couple": "C713_75",
+    "envoi": "attributions",
+    "reference": "CIRCULAB",
+    "v2": "GTA GEOMETRES EXPERTS"
+   }
+  ]
+ },
+ "C713_FR": {
+  "duree_s": 143.6,
+  "ecarts": 1,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_dep",
+    "cle": "C713-FR-AO-26-99420",
+    "couple": "C713_FR",
+    "envoi": "opportunites",
+    "reference": "20A",
+    "v2": "2A"
+   }
+  ]
+ },
+ "C794_FR": {
+  "duree_s": 11.8,
+  "ecarts": 1,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_dep",
+    "cle": "C794-FR-AO-26-100837",
+    "couple": "C794_FR",
+    "envoi": "opportunites",
+    "reference": "20B",
+    "v2": "2B"
+   }
+  ]
+ },
+ "M22_75": {
+  "duree_s": 8.6,
+  "ecarts": 2,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "absente du V2",
+    "cle": "Projet en conception : Conception et suivi de réalisation de la scénographie de ",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Paris Musées",
+     "date_limite": null,
+     "idweb": "26-100253",
+     "intitule": "Projet en conception : Conception et suivi de réalisation de la scénographie de l'exposition « Alex Katz » (titre provisoire) présentée au musée d'Art moderne de Paris du 8 octobre 2027 au 13 février 2028",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Conception et suivi de réalisation de la scénographie de ",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Paris Musées",
+     "date_limite": null,
+     "idweb": "26-100261",
+     "intitule": "Projet en conception : Conception et suivi de réalisation de la scénographie de l'exposition « Des Halles à Barbès » (titre provisoire), présentée du 25 septembre 2027 au 2 avril 2028 au Palais Galliera, musée de la mode...",
+     "type": "projet"
+    }
+   }
+  ]
+ }
+}
