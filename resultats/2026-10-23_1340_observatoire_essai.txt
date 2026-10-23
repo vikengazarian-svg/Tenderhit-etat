@@ -1,2 +1,5 @@
 # observatoire --essai
-En cours depuis 23/10 13:32
+Lancée le 23/10/2026 13:32, finie le 23/10/2026 13:32, code 0
+
+2026-10-23 13:32:18  observatoire (commande) : {"avis_ouverts": 7846, "sans_activite": 75, "a_envoyer": 7846, "a_retirer": 0, "disparues": 0, "envoi": "essai, rien n'est envoyé", "duree_s": 10.7}
+{"avis_ouverts": 7846, "sans_activite": 75, "a_envoyer": 7846, "a_retirer": 0, "disparues": 0, "envoi": "essai, rien n'est envoyé", "duree_s": 10.7}
