@@ -1,2 +1,1071 @@
 # rejeu_detail C451_FR C713_FR M22_05 M22_24 M22_75 M23_44 M33_38 M33_FR M40_05
-En cours depuis 24/10 13:44
+Lancée le 24/10/2026 13:44, finie le 24/10/2026 13:44, code 0
+
+2026-10-24.json
+Rejeu sur le serveur : rouge — 133 couples identiques au PC sur 155 comparés ; en écart ou en échec : C451_FR, C713_FR, M22_05, M22_07, M22_16, M22_17, M22_24, M22_27, M22_74, M22_75, M22_76, M22_87, M22_93, M23_44, M23_76, M24_76, M33_38, M33_76, M33_85, M33_FR, M40_05, M40_76 ; 5.6 s par couple (médiane), 27 min au total
+
+{
+ "C451_FR": {
+  "duree_s": 143.9,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C451_FR",
+    "envoi": "rapport",
+    "reference": 552,
+    "v2": 554
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de désamiantage et de déconstruction d'un ensemble immobilier - Ilôt St ",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EPF DE LA VENDEE\n123 BOULEVARD LOUIS BLANC\n85000 LA ROCHE SUR YON",
+     "date_limite": "2026-10-30",
+     "idweb": "26-92829",
+     "intitule": "Travaux de désamiantage et de déconstruction d'un ensemble immobilier - Ilôt St Jacques LES HERBIERS (85)",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Travaux de désamiantage et de déconstruction d'un ensemble de bâtiments sis 8, P",
+    "couple": "C451_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Établissement Public Foncier de Bretagne",
+     "date_limite": "2026-11-13",
+     "idweb": "26-98952",
+     "intitule": "Travaux de désamiantage et de déconstruction d'un ensemble de bâtiments sis 8, Place de la Mairie à TAULE (29670).",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-FR-AO-26-92829",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C451-FR-AO-26-98952",
+    "couple": "C451_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "C713_FR": {
+  "duree_s": 143.2,
+  "ecarts": 9,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C713_FR",
+    "envoi": "rapport",
+    "reference": 518,
+    "v2": 522
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MISSIONS DE PRESTATIONS TOPOGRAPHIQUES, DE DETECTION/GEO-DETECTION/GEOLOCALISATI",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté d'Agglomération Melun Val de Seine",
+     "date_limite": "2026-11-02",
+     "idweb": "26-93250",
+     "intitule": "MISSIONS DE PRESTATIONS TOPOGRAPHIQUES, DE DETECTION/GEO-DETECTION/GEOLOCALISATION DE RESEAUX ET DE RELEVES FONCIERS SUR LE TERRITOIRE DE LA CAMVS (2 LOTS) - 26CA01 — Lot 1 - Prestations topographiques et de détection et géolocalisation des réseaux enterrés",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "MISSIONS DE PRESTATIONS TOPOGRAPHIQUES, DE DETECTION/GEO-DETECTION/GEOLOCALISATI",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté d'Agglomération Melun Val de Seine",
+     "date_limite": "2026-11-02",
+     "idweb": "26-93250",
+     "intitule": "MISSIONS DE PRESTATIONS TOPOGRAPHIQUES, DE DETECTION/GEO-DETECTION/GEOLOCALISATION DE RESEAUX ET DE RELEVES FONCIERS SUR LE TERRITOIRE DE LA CAMVS (2 LOTS) - 26CA01 — Lot 2 - Prestations de relevé foncier",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Accord-cadre mono-attributaire à bons de commande ayant pour objet des missions ",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "SAS Aéroports de Bretagne Ouest",
+     "date_limite": "2026-11-06",
+     "idweb": "26-98190",
+     "intitule": "Accord-cadre mono-attributaire à bons de commande ayant pour objet des missions de géodétection, de localisation et de géoréférencement des réseaux souterrains de l'aéroport Brest Bretagne",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Accord-cadre mono-attributaire à bons de commande ayant pour objet la réalisatio",
+    "couple": "C713_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "SAS Aéroports de Bretagne Ouest",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100991",
+     "intitule": "Accord-cadre mono-attributaire à bons de commande ayant pour objet la réalisation de prestations de relevés topographiques altimétriques des chaussées aéronautiques de l'aéroport de Brest Bretagne.",
+     "type": "ao"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-FR-AO-26-100991",
+    "couple": "C713_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-FR-AO-26-93250",
+    "couple": "C713_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-FR-AO-26-93250-2",
+    "couple": "C713_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "C713-FR-AO-26-98190",
+    "couple": "C713_FR",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ },
+ "M22_05": {
+  "duree_s": 9.3,
+  "ecarts": 7,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_05",
+    "envoi": "rapport",
+    "reference": 15,
+    "v2": 16
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'œuvre pour la Démolition - Reconstr",
+    "couple": "M22_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Métropole Aix Marseille Provence",
+     "date_limite": null,
+     "idweb": "26-6802",
+     "intitule": "Projet en conception : Mission de maîtrise d'œuvre pour la Démolition - Reconstruction du TECHNOCENTRE SUD pour la Direction du Pôle Propreté, Cadre de Vie et Valorisation des Déchets",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M22_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-56367",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école élémentaire Convalescents - 13 rue des Convalescents - 13001 Marseille",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M22_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-56515",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école Primaire La Savine - 99 bd de la Savine - 13015 Marseille",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M22_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-56573",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation du site des écoles de Saint Jérôme Susini - 2 traverse Susini 13013 MARSEILLE",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M22_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-90354",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école Primaire La CALADE - 19 Traverse Maritime - 13015 Marseille",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M22_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-90551",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école Primaire Les OLIVES - 147 avenue des Poilus - 13013 Marseille",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M22_24": {
+  "duree_s": 13.4,
+  "ecarts": 10,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_24",
+    "envoi": "rapport",
+    "reference": 10,
+    "v2": 12
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre sur esquisse pour la démoliti",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CHARENTE MARITIME DEVELOPPEMENT SPL, agissant au nom et pour le compte de la commune de Chatelaillon",
+     "date_limite": null,
+     "idweb": "24-56117",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre sur esquisse pour la démolition/construction de la base nautique de Chatelaillon (17).",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la rénovatio",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune d'Arès",
+     "date_limite": null,
+     "idweb": "24-97581",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la rénovation et l'extension de la salle omnisport et création d'un skate-park sur la commune d'Arès",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de trava",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental de la Gironde",
+     "date_limite": null,
+     "idweb": "24-74511",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de travaux dans l'espace dépose de la demi-pension de 6 collèges publics de compétence départementale",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de trava",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental de la Gironde",
+     "date_limite": null,
+     "idweb": "24-80264",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de travaux dans l'espace de restauration de 3 collèges du Département de la Gironde",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission De Maîtrise D'oeuvre Pour La Réalisation De Trava",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental de la Gironde",
+     "date_limite": null,
+     "idweb": "24-92822",
+     "intitule": "Projet en conception : Mission De Maîtrise D'oeuvre Pour La Réalisation De Travaux Dans L'Espace De Restauration De 4 Collèges De Competence Départementale De La Gironde",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Maîtrise d'oeuvre par concours restreint pour la construc",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental des Landes",
+     "date_limite": null,
+     "idweb": "25-33454",
+     "intitule": "Projet en conception : Maîtrise d'oeuvre par concours restreint pour la construction d'un collège et d'un gymnase sur la\ncommune de Saint-Vincent-de-Tyrosse (40230) - Attribution",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Réalisation d'un pôle d'enseignement artistique sur le si",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Mairie de Brive",
+     "date_limite": null,
+     "idweb": "24-70540",
+     "intitule": "Projet en conception : Réalisation d'un pôle d'enseignement artistique sur le site de l'ancienne caserne Brune - Concours de maîtrise d'oeuvre \"esquisse +\" pour la reconversion du bâtiment de commandement",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Construction du bâtiment G et restructuration partielle d",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Région Nouvelle-Aquitaine",
+     "date_limite": null,
+     "idweb": "26-11688",
+     "intitule": "Projet en conception : Construction du bâtiment G et restructuration partielle des bâtiments A et B de l’ISAE-ENSMA - Technopole du FUTUROSCOPE - Concours de maîtrise d’oeuvre",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : MARCHE DE MAITRISE D'OEUVRE POUR L'EXTENSION ET LA REHABI",
+    "couple": "M22_24",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Service Départemental d'Incendie et de Secours de Lot-et-Garonne",
+     "date_limite": null,
+     "idweb": "24-78293",
+     "intitule": "Projet en conception : MARCHE DE MAITRISE D'OEUVRE POUR L'EXTENSION ET LA REHABILITATION DU CENTRE D'INCENDIE ET DE SECOURS DE CANCON",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M22_75": {
+  "duree_s": 8.4,
+  "ecarts": 6,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M22_75",
+    "envoi": "rapport",
+    "reference": 7,
+    "v2": 8
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Procédure avec négociation pour le recrutement de la maît",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EPAURIF",
+     "date_limite": null,
+     "idweb": "25-61202",
+     "intitule": "Projet en conception : Procédure avec négociation pour le recrutement de la maîtrise d'oeuvre du projet de réhabilitation de l'immeuble Tarnier à Paris (6e arrondissement) - Université Paris Cité et RIVP.",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Procédure avec négociation pour le recrutement de la maît",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "EPAURIF",
+     "date_limite": null,
+     "idweb": "26-40446",
+     "intitule": "Projet en conception : Procédure avec négociation pour le recrutement de la maîtrise d'oeuvre du projet de réhabilitation de la faculté de Cochin (Paris 14ème), Université Paris Cité.",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Conception et suivi de réalisation de la scénographie de ",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Paris Musées",
+     "date_limite": null,
+     "idweb": "26-100261",
+     "intitule": "Projet en conception : Conception et suivi de réalisation de la scénographie de l'exposition « Des Halles à Barbès » (titre provisoire), présentée du 25 septembre 2027 au 2 avril 2028 au Palais Galliera, musée de la mode...",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission complète de Maîtrise d'oeuvre relative à la réhab",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Régie Immobilière de la Ville de Paris",
+     "date_limite": null,
+     "idweb": "24-57702",
+     "intitule": "Projet en conception : Mission complète de Maîtrise d'oeuvre relative à la réhabilitation d'un immeuble sis 70 bis rue René Boulanger, Paris 10eme",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre dans le cadre de travaux de ",
+    "couple": "M22_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Région Ile de France - Pole Lycées - Direction des Opérations",
+     "date_limite": null,
+     "idweb": "24-116411",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre dans le cadre de travaux de rénovation du lycée BRASSAÏ - Paris 15",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M23_44": {
+  "duree_s": 7.6,
+  "ecarts": 8,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur esquisse pour",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil départemental Loire Atlantique",
+     "date_limite": null,
+     "idweb": "26-29377",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur esquisse pour la reconstruction d'une demi-pension et le réaménagement des espaces libérés au collège Pierre et Marie Curie au Pellerin (44)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation énerg",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "NANTES UNIVERSITE",
+     "date_limite": null,
+     "idweb": "24-142061",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation énergétique de la Bibliothèque Universitaire de Lettres de Nantes Université - PHASE OFFRE FINALE",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : MISSION DE MAITRISE D’OEUVRE RELATIVE A LA RESTRUCTURATIO",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Région des Pays de la Loire",
+     "date_limite": null,
+     "idweb": "25-123752",
+     "intitule": "Projet en conception : MISSION DE MAITRISE D’OEUVRE RELATIVE A LA RESTRUCTURATION DES EXTERNATS ET DE L’ADMINISTRATION AU LYCEE FRANCOIS RABELAIS A FONTENAY LE COMTE (85)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : MISSION DE MAITRISE D'OEUVRE RELATIVE A L'EXTENSION ET LA",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Région des Pays de la Loire",
+     "date_limite": null,
+     "idweb": "25-140470",
+     "intitule": "Projet en conception : MISSION DE MAITRISE D'OEUVRE RELATIVE A L'EXTENSION ET LA RESTRUCTURATION DES LOCAUX DU LYCEE NANTES TERRE ATLANTIQUE-GRAND BLOTTEREAU A NANTES (44)-CONCOURS RESTREINT SUR ESQUISSE",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : MISSION DE MAITRISE D'OEUVRE RELATIVE A LA RENOVATION DU ",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Région des Pays de la Loire",
+     "date_limite": null,
+     "idweb": "25-78550",
+     "intitule": "Projet en conception : MISSION DE MAITRISE D'OEUVRE RELATIVE A LA RENOVATION DU SECTEUR HOTELLERIE RESTAURATION AU LYCEE O. GUICHARD A GUERANDE (44)-CONCOURS RESTREINT SUR ESQUISSE",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur Esquisse + po",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de SAINT-SEBASTIEN-SUR-LOIRE",
+     "date_limite": null,
+     "idweb": "24-55531",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur Esquisse + pour la construction du nouvel équipement sportif des Savarières à Saint-Sébastien-sur-Loire (44)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : CONCOURS RESTREINT DE MAITRISE D'OEUVRE SUR ESQUISSE + PO",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de SAINT-SEBASTIEN-SUR-LOIRE",
+     "date_limite": null,
+     "idweb": "24-85529",
+     "intitule": "Projet en conception : CONCOURS RESTREINT DE MAITRISE D'OEUVRE SUR ESQUISSE + POUR L'EXTENSION DU GYMNASE DE L'OUCHE QUINET A SAINT-SEBASTIEN-SUR-LOIRE (44)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur Esquisse + po",
+    "couple": "M23_44",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Ville de Saint-Sébastien-sur-Loire",
+     "date_limite": null,
+     "idweb": "25-311",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur Esquisse + pour l'extension du gymnase de l'Ouche Quinet à Saint-Sébastien-sur-Loire (44).",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M33_38": {
+  "duree_s": 6.8,
+  "ecarts": 5,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation de la",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "ADVIVO",
+     "date_limite": null,
+     "idweb": "24-90760",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation de la résidence \"Malissol VI\" à Vienne 38200",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du c",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de l'Isère",
+     "date_limite": null,
+     "idweb": "24-66125",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du collège Condorcet et construction d'une salle de sport à Tullins (38210)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du c",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de l'Isère",
+     "date_limite": null,
+     "idweb": "24-75669",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du collège Arc-en-Ciers et construction d'une salle de sport à Les Avenières-Veyrins-Thuellin (38630)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du c",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de l'Isère",
+     "date_limite": null,
+     "idweb": "24-90564",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du collège Pierre Dubois à Seyssinet - Pariset (38170)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du c",
+    "couple": "M33_38",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Département de l'Isère",
+     "date_limite": null,
+     "idweb": "25-37057",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la restructuration du collège Les Buclos à Meylan (38240)",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M33_FR": {
+  "duree_s": 251.0,
+  "ecarts": 91,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M33_FR",
+    "envoi": "rapport",
+    "reference": 177,
+    "v2": 190
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Projet en conception : Marché de Maitrise d'œuvre Privé pour la Création d'un pô",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Service d'Infrastructure de la Défense Sud-Est",
+     "date_limite": null,
+     "idweb": "26-59788",
+     "intitule": "Projet en conception : Marché de Maitrise d'œuvre Privé pour la Création d'un pôle sportif",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation de la",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "ADVIVO",
+     "date_limite": null,
+     "idweb": "24-90760",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation de la résidence \"Malissol VI\" à Vienne 38200",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation du bâ",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CCI ROUEN METROPOLE",
+     "date_limite": null,
+     "idweb": "25-141564",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réhabilitation du bâtiment Marco Polo à Rouen",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : CONCOURS RESTREINT DE MAITRISE D'OEUVRE POUR LA CONSTRUCT",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CH Blois Etablissement support du GHT Santé 41",
+     "date_limite": null,
+     "idweb": "26-6542",
+     "intitule": "Projet en conception : CONCOURS RESTREINT DE MAITRISE D'OEUVRE POUR LA CONSTRUCTION D'UN EHPAD DE 138 LITS ET D'UN ACCUEIL DE JOUR DE 10 LITS AU CENTRE HOSPITALIER DE ROMORANTIN-LANTHENAY",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : MARCHE SANS PUBLICITE NI MISE EN CONCURRENCE FAISANT SUIT",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION HAUTS-DE-FRANCE",
+     "date_limite": null,
+     "idweb": "25-99017",
+     "intitule": "Projet en conception : MARCHE SANS PUBLICITE NI MISE EN CONCURRENCE FAISANT SUITE A LA REALISATION D'UN CONCOURS - MAITRISE D'OEUVRE POUR LA CONSTRUCTION D'UN BATIMENT NEUF DESTINE A DES ACTIVITES DE FORMATION SUR LE SITE D",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre sur esquisse pour la démoliti",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CHARENTE MARITIME DEVELOPPEMENT SPL, agissant au nom et pour le compte de la commune de Chatelaillon",
+     "date_limite": null,
+     "idweb": "24-56117",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre sur esquisse pour la démolition/construction de la base nautique de Chatelaillon (17).",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la construct",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNAUTE DE COMMUNES DES COEVRONS",
+     "date_limite": null,
+     "idweb": "24-119007",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la construction d'une Maison de Santé Pluriprofessionnelle et d'un laboratoire à Evron",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'œuvre pour la reconstruc",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE DE TRELIVAN",
+     "date_limite": null,
+     "idweb": "25-118799",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'œuvre pour la reconstruction de l'école maternelle du groupe scolaire Jean Ferrat",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : CONCOURS RESTREINT DE MAITRISE D'OEUVRE POUR LA RESTRUCTU",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "CONSEIL DEPARTEMENTAL DES PYRENEES-ORIENTALES",
+     "date_limite": null,
+     "idweb": "24-133756",
+     "intitule": "Projet en conception : CONCOURS RESTREINT DE MAITRISE D'OEUVRE POUR LA RESTRUCTURATION 2eme PHASE DU COLLEGE GUSTAVE VIOLET A PRADES",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur \"esquisse +\" ",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de Communes St Pourçain Sioule Limagne",
+     "date_limite": null,
+     "idweb": "25-129743",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre sur \"esquisse +\" pour la construction d'une nouvelle piscine à Gannat",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la construct",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Communauté de communes des Montagnes du Giffre",
+     "date_limite": null,
+     "idweb": "24-116291",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la construction d'un bâtiment Enfance Jeunesse Aînés sur la commune de Taninges (74)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Missions de maîtrise d'oeuvre pour les travaux de restaur",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune Mauges sur Loire",
+     "date_limite": null,
+     "idweb": "25-2464",
+     "intitule": "Projet en conception : Missions de maîtrise d'oeuvre pour les travaux de restauration de l'église Abbatiale de Saint Florent le Vieil",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la rénovatio",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune d'Arès",
+     "date_limite": null,
+     "idweb": "24-97581",
+     "intitule": "Projet en conception : Concours restreint de maîtrise d'oeuvre pour la rénovation et l'extension de la salle omnisport et création d'un skate-park sur la commune d'Arès",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la démolition et la reco",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune de Challans",
+     "date_limite": null,
+     "idweb": "26-1060",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la démolition et la reconstruction d'un complexe sportif, site de la Cailletière, à Challans (85).",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Concours restreint de maitrise d'oeuvre pour la construct",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Commune de Plabennec",
+     "date_limite": null,
+     "idweb": "25-66187",
+     "intitule": "Projet en conception : Concours restreint de maitrise d'oeuvre pour la construction d'une salle de sport- Résultat de concours",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de trava",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental de la Gironde",
+     "date_limite": null,
+     "idweb": "24-74511",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de travaux dans l'espace dépose de la demi-pension de 6 collèges publics de compétence départementale",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de trava",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental de la Gironde",
+     "date_limite": null,
+     "idweb": "24-80264",
+     "intitule": "Projet en conception : Mission de maîtrise d'oeuvre pour la réalisation de travaux dans l'espace de restauration de 3 collèges du Département de la Gironde",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission De Maîtrise D'oeuvre Pour La Réalisation De Trava",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental de la Gironde",
+     "date_limite": null,
+     "idweb": "24-92822",
+     "intitule": "Projet en conception : Mission De Maîtrise D'oeuvre Pour La Réalisation De Travaux Dans L'Espace De Restauration De 4 Collèges De Competence Départementale De La Gironde",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Maîtrise d'oeuvre par concours restreint pour la construc",
+    "couple": "M33_FR",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Conseil Départemental des Landes",
+     "date_limite": null,
+     "idweb": "25-33454",
+     "intitule": "Projet en conception : Maîtrise d'oeuvre par concours restreint pour la construction d'un collège et d'un gymnase sur la\ncommune de Saint-Vincent-de-Tyrosse (40230) - Attribution",
+     "type": "projet"
+    }
+   }
+  ]
+ },
+ "M40_05": {
+  "duree_s": 9.2,
+  "ecarts": 7,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M40_05",
+    "envoi": "rapport",
+    "reference": 15,
+    "v2": 16
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Mission de maîtrise d'œuvre pour la Démolition - Reconstr",
+    "couple": "M40_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Métropole Aix Marseille Provence",
+     "date_limite": null,
+     "idweb": "26-6802",
+     "intitule": "Projet en conception : Mission de maîtrise d'œuvre pour la Démolition - Reconstruction du TECHNOCENTRE SUD pour la Direction du Pôle Propreté, Cadre de Vie et Valorisation des Déchets",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M40_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-56367",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école élémentaire Convalescents - 13 rue des Convalescents - 13001 Marseille",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M40_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-56515",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école Primaire La Savine - 99 bd de la Savine - 13015 Marseille",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M40_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-56573",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation du site des écoles de Saint Jérôme Susini - 2 traverse Susini 13013 MARSEILLE",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M40_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-90354",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école Primaire La CALADE - 19 Traverse Maritime - 13015 Marseille",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rén",
+    "couple": "M40_05",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Société publique des écoles marseillaises",
+     "date_limite": null,
+     "idweb": "25-90551",
+     "intitule": "Projet en conception : Marché de maîtrise d'oeuvre pour la réalisation de la rénovation de l'école Primaire Les OLIVES - 147 avenue des Poilus - 13013 Marseille",
+     "type": "projet"
+    }
+   }
+  ]
+ }
+}
