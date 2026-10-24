@@ -1,2 +1,164 @@
 # rejouer
-En cours depuis 24/10 13:16
+Lancée le 24/10/2026 13:16, finie le 24/10/2026 13:43, code 1
+
+  C093_69    identique · 4.0 s
+  C093_75    identique · 4.0 s
+  C451_01    identique · 3.2 s
+  C451_26    identique · 4.4 s
+  C451_38    identique · 6.7 s
+  C451_42    identique · 5.2 s
+  C451_69    identique · 7.2 s
+  C451_71    identique · 4.7 s
+  C451_74    identique · 6.7 s
+  C451_FR    écarts (5) · 143.9 s
+  C642_FR    identique · 11.7 s
+  C710_14    identique · 3.7 s
+  C710_22    identique · 3.8 s
+  C710_27    identique · 5.7 s
+  C710_29    identique · 4.1 s
+  C710_35    identique · 4.5 s
+  C710_56    identique · 3.9 s
+  C710_59    identique · 4.5 s
+  C710_60    identique · 3.7 s
+  C710_75    identique · 5.0 s
+  C710_76    identique · 3.7 s
+  C710_80    identique · 3.4 s
+  C710_93    identique · 3.9 s
+  C712_04    identique · 1.7 s
+  C712_05    identique · 1.9 s
+  C712_06    identique · 2.4 s
+  C712_13    identique · 6.2 s
+  C712_14    identique · 4.4 s
+  C712_22    identique · 3.9 s
+  C712_27    identique · 3.7 s
+  C712_29    identique · 4.2 s
+  C712_35    identique · 4.9 s
+  C712_56    identique · 4.3 s
+  C712_59    identique · 6.4 s
+  C712_60    identique · 4.3 s
+  C712_69    identique · 6.3 s
+  C712_74    identique · 5.1 s
+  C712_75    identique · 7.5 s
+  C712_76    identique · 4.6 s
+  C712_80    identique · 3.7 s
+  C712_83    identique · 4.7 s
+  C712_84    identique · 3.9 s
+  C712_93    identique · 5.3 s
+  C713_04    identique · 1.9 s
+  C713_05    identique · 2.0 s
+  C713_06    identique · 3.7 s
+  C713_13    identique · 9.7 s
+  C713_69    identique · 8.0 s
+  C713_74    identique · 6.1 s
+  C713_75    identique · 12.0 s
+  C713_83    identique · 5.8 s
+  C713_84    identique · 4.4 s
+  C713_FR    écarts (9) · 143.2 s
+  C715_04    identique · 3.3 s
+  C715_05    identique · 3.3 s
+  C715_06    identique · 3.5 s
+  C715_13    identique · 5.0 s
+  C715_69    identique · 3.3 s
+  C715_74    identique · 5.1 s
+  C715_75    identique · 3.7 s
+  C715_83    identique · 5.0 s
+  C715_84    identique · 4.5 s
+  C722_76    identique · 3.9 s
+  C728_69    identique · 6.1 s
+  C728_75    identique · 6.6 s
+  C741_14    identique · 5.1 s
+  C741_22    identique · 5.0 s
+  C741_27    identique · 4.9 s
+  C741_29    identique · 5.2 s
+  C741_35    identique · 5.2 s
+  C741_56    identique · 5.0 s
+  C741_59    identique · 5.5 s
+  C741_60    identique · 5.2 s
+  C741_75    identique · 5.4 s
+  C741_76    identique · 5.2 s
+  C741_80    identique · 5.0 s
+  C741_93    identique · 5.2 s
+  C772_01    identique · 3.9 s
+  C772_26    identique · 4.7 s
+  C772_38    identique · 5.3 s
+  C772_42    identique · 5.0 s
+  C772_69    identique · 3.3 s
+  C772_71    identique · 4.5 s
+  C772_74    identique · 3.0 s
+  C772_FR    identique · 71.2 s
+  C794_FR    identique · 12.0 s
+  C805_34    identique · 3.9 s
+  M01_01     identique · 2.3 s
+  M01_04     identique · 2.0 s
+  M01_14     identique · 5.3 s
+  M01_16     identique · 11.2 s
+  M01_17     publié un autre jour, non comparé
+  M01_24     identique · 11.1 s
+  M01_26     publié un autre jour, non comparé
+  M01_27     publié un autre jour, non comparé
+  M01_38     identique · 6.3 s
+  M01_42     publié un autre jour, non comparé
+  M01_59     identique · 8.5 s
+  M01_69     identique · 8.3 s
+  M01_71     identique · 4.4 s
+  M01_73     identique · 5.6 s
+  M01_74     identique · 5.6 s
+  M01_75     identique · 13.8 s
+  M01_76     identique · 6.4 s
+  M01_83     identique · 7.2 s
+  M01_92     identique · 8.4 s
+  M01_93     identique · 7.7 s
+  M01_94     identique · 6.8 s
+  M01_FR     identique · 59.9 s
+  M03_76     identique · 6.8 s
+  M04_62     identique · 8.0 s
+  M04_76     identique · 3.9 s
+  M07_59     identique · 6.0 s
+  M07_76     identique · 4.7 s
+  M08_76     identique · 3.9 s
+  M08_81     identique · 7.1 s
+  M22_05     écarts (7) · 9.3 s
+  M22_07     écarts (11) · 13.3 s
+  M22_16     écarts (10) · 13.0 s
+  M22_17     écarts (10) · 13.5 s
+  M22_21     identique · 11.2 s
+  M22_24     écarts (10) · 13.4 s
+  M22_27     écarts (2) · 11.8 s
+  M22_74     écarts (3) · 5.9 s
+  M22_75     écarts (6) · 8.4 s
+  M22_76     écarts (2) · 12.6 s
+  M22_83     identique · 6.1 s
+  M22_87     écarts (10) · 13.5 s
+  M22_92     identique · 6.3 s
+  M22_93     écarts (1) · 6.4 s
+  M22_94     publié un autre jour, non comparé
+  M23_27     identique · 5.7 s
+  M23_44     écarts (8) · 7.6 s
+  M23_76     écarts (2) · 7.6 s
+  M24_69     identique · 8.3 s
+  M24_76     écarts (2) · 7.4 s
+  M30_69     identique · 8.7 s
+  M33_01     identique · 2.7 s
+  M33_27     identique · 5.6 s
+  M33_38     écarts (5) · 6.8 s
+  M33_42     identique · 5.8 s
+  M33_69     identique · 8.9 s
+  M33_71     identique · 5.9 s
+  M33_76     écarts (2) · 7.2 s
+  M33_85     écarts (3) · 6.4 s
+  M33_FR     écarts (91) · 251.0 s
+  M40_05     écarts (7) · 9.2 s
+  M40_76     écarts (2) · 5.9 s
+  P1005_14   identique · 8.5 s
+  P1005_22   identique · 7.9 s
+  P1005_27   identique · 7.5 s
+  P1005_29   identique · 8.7 s
+  P1005_35   identique · 10.2 s
+  P1005_56   identique · 8.3 s
+  P1005_59   identique · 14.5 s
+  P1005_60   identique · 8.4 s
+  P1005_75   identique · 21.5 s
+  P1005_76   identique · 10.5 s
+  P1005_80   identique · 8.1 s
+  P1005_93   identique · 11.8 s
+2026-10-24 13:43:13  Rejeu sur le serveur : rouge — 133 couples identiques au PC sur 155 comparés ; en écart ou en échec : C451_FR, C713_FR, M22_05, M22_07, M22_16, M22_17, M22_24, M22_27, M22_74, M22_75, M22_76, M22_87, M22_93, M23_44, M23_76, M24_76, M33_38, M33_76, M33_85, M33_FR, M40_05, M40_76 ; 5.6 s par couple (médiane), 27 min au total
