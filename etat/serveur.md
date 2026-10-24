@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 24/10/2026 à 04:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 24/10/2026 à 04:18 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-24 02:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-24 04:17:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-23 06:58:02  OK, 672 avis collectés, 143 couples recalculés, 41 republiés en 28.0 min |
-| Passe DECP hebdomadaire | 2026-10-17 16:00:21  Passe hebdomadaire DECP 2026-10-17_decp : terminée en 69.6 min, mémoire max 0 Mo ; 92 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 88 couples publiés, tables d'aide publiées |
+| Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-23 07:03:17  Contrôle du 23/10 : rouge — 157 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : M04_62 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 2.0 Go sur 7.6 · charge 1.09 · disque 25.7 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.53 Go sur 7.6 · charge 0.00 · disque 25.7 % · échange 0.0 Go
 
 ## Performances
 
@@ -38,12 +38,12 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 | Passe | Durée des couples | Mémoire max |
 |---|---:|---:|
+| 2026-10-24_decp | 33.0 min | 2373 Mo |
 | 2026-10-17_decp | 41.8 min | — Mo |
 | essai_pc | 26.3 min | 1616 Mo |
 | essai_2026-10-16 | 26.4 min | 1950 Mo |
 | essai_2026-10-16 | 25.6 min | 1950 Mo |
 | essai_2026-10-16 | 23.9 min | 1950 Mo |
-| essai_2026-10-16 | 21.9 min | 1950 Mo |
 
 ### Demandes des clients aujourd'hui
 
@@ -61,18 +61,17 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                             LEFT LAST                            PASSED UNIT                     ACTIVATES
-Sat 2026-10-24 04:01:00 CEST      58s Sat 2026-10-24 04:00:00 CEST    1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-10-24 06:30:00 CEST 2h 29min Fri 2026-10-23 06:30:04 CEST   21h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                   - Sat 2026-10-24 03:00:04 CEST 59min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Sat 2026-10-24 04:00:00 CEST    1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                             LEFT LAST                               PASSED UNIT                     ACTIVATES
+Sat 2026-10-24 06:30:00 CEST 2h 11min Fri 2026-10-23 06:30:04 CEST      21h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-10-31 03:00:00 CET    6 days Sat 2026-10-24 03:00:04 CEST 1h 18min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Sat 2026-10-24 04:18:04 CEST       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                   - Sat 2026-10-24 04:18:04 CEST       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-23 06:49:45    M22_92 : 17 opportunités · inchangé · 6 s
 2026-10-23 06:49:52    M22_93 : 11 opportunités · inchangé · 6 s
 2026-10-23 06:49:59    M22_94 : 12 opportunités · rapport et opportunités · 7 s
 2026-10-23 06:50:04    M23_27 : 6 opportunités · inchangé · 6 s
@@ -112,4 +111,5 @@ Sat 2026-10-24 06:30:00 CEST 2h 29min Fri 2026-10-23 06:30:04 CEST   21h ago ten
 2026-10-23 22:10:30  observatoire (commande) : {"avis_ouverts": 7570, "sans_activite": 1224, "a_envoyer": 79, "a_retirer": 106, "disparues": 106, "envoi": "envoyé", "paquets": 1, "donnees_personnelles_retirees": 0, "duree_s": 22.0}
 2026-10-23 22:37:46  Rejeu sur le serveur : rouge — 34 couples identiques au PC sur 41 comparés ; en écart ou en échec : C451_FR, C712_74, C713_75, C713_FR, C794_FR, M22_75, M33_FR ; 7.0 s par couple (médiane), 16 min au total
 2026-10-24 03:31:42  tables du marché : 294 activité(s) envoyée(s), 30 inchangée(s), 1014701 lignes en 521 paquets ; erreurs : C712, C713, C722
+2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées
 ```
