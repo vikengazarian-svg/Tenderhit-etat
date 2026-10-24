@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 24/10/2026 à 07:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 24/10/2026 à 07:04 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
 | Demandes des clients | 2026-10-24 06:29:04  connexion OK, 0 couple(s) en attente : aucun |
-| Collecte des appels d'offres | 2026-10-23 06:58:02  OK, 672 avis collectés, 143 couples recalculés, 41 republiés en 28.0 min |
+| Collecte des appels d'offres | 2026-10-24 07:03:47  OK, 478 avis collectés, 160 couples recalculés, 50 republiés en 33.7 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-23 07:03:17  Contrôle du 23/10 : rouge — 157 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : M04_62 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 2.01 Go sur 7.6 · charge 1.04 · disque 25.7 % · échange 0.0 Go
+**Machine maintenant** : mémoire 1.03 Go sur 7.6 · charge 1.39 · disque 25.8 % · échange 0.0 Go
 
 ## Performances
 
@@ -27,6 +27,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 | Quand | Avis | Couples recalculés | Republiés | Échecs | Durée |
 |---|---:|---:|---:|---:|---:|
+| 24/10 07:03 | 478 | 160 | 50 | 0 | 33.7 min |
 | 23/10 06:58 | 672 | 143 | 41 | 0 | 28.0 min |
 | 22/10 06:59 | 716 | 143 | 38 | 0 | 29.3 min |
 | 21/10 06:54 | 685 | 96 | 80 | 0 | 24.3 min |
@@ -61,33 +62,17 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                           LEFT LAST                               PASSED UNIT                     ACTIVATES
-Sat 2026-10-24 07:01:00 CEST    58s Sat 2026-10-24 07:00:00 CEST       1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-10-31 03:00:00 CET  6 days Sat 2026-10-24 03:00:04 CEST 3h 59min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                 - Sat 2026-10-24 06:30:04 CEST    29min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                 - Sat 2026-10-24 07:00:00 CEST       1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                           LEFT LAST                              PASSED UNIT                     ACTIVATES
+Sat 2026-10-24 07:05:00 CEST    58s Sat 2026-10-24 07:04:00 CEST      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-10-31 03:00:00 CET  6 days Sat 2026-10-24 03:00:04 CEST 4h 3min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                 - Sat 2026-10-24 06:30:04 CEST   33min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                 - Sat 2026-10-24 07:04:00 CEST      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-24 06:50:38    M01_92 : 27 opportunités · inchangé · 8 s
-2026-10-24 06:50:46    M01_93 : 21 opportunités · inchangé · 8 s
-2026-10-24 06:50:53    M01_94 : 16 opportunités · inchangé · 7 s
-2026-10-24 06:52:10    M01_FR : 1458 opportunités · rapport et opportunités · 76 s
-2026-10-24 06:52:16    M03_76 : 2 opportunités · inchangé · 7 s
-2026-10-24 06:52:25    M04_62 : 16 opportunités · inchangé · 8 s
-2026-10-24 06:52:28    M04_76 : 12 opportunités · inchangé · 4 s
-2026-10-24 06:52:37    M07_59 : 46 opportunités · rapport et opportunités · 9 s
-2026-10-24 06:52:44    M07_76 : 15 opportunités · rapport et opportunités · 7 s
-2026-10-24 06:52:49    M08_76 : 11 opportunités · rapport et opportunités · 5 s
-2026-10-24 06:52:57    M08_81 : 2 opportunités · rapport et opportunités · 8 s
-2026-10-24 06:53:07    M22_05 : 0 opportunités · rapport et opportunités · 10 s
-2026-10-24 06:53:22    M22_07 : 1 opportunités · rapport et opportunités · 15 s
-2026-10-24 06:53:35    M22_16 : 1 opportunités · inchangé · 13 s
-2026-10-24 06:53:48    M22_17 : 1 opportunités · inchangé · 13 s
-2026-10-24 06:54:01    M22_21 : 0 opportunités · rapport et opportunités · 13 s
 2026-10-24 06:54:14    M22_24 : 0 opportunités · inchangé · 13 s
 2026-10-24 06:54:26    M22_27 : 1 opportunités · rapport et opportunités · 13 s
 2026-10-24 06:54:32    M22_74 : 3 opportunités · inchangé · 6 s
@@ -112,4 +97,20 @@ Sat 2026-10-31 03:00:00 CET  6 days Sat 2026-10-24 03:00:04 CEST 3h 59min ago te
 2026-10-24 06:56:59    M33_71 : 4 opportunités · inchangé · 6 s
 2026-10-24 06:57:06    M33_76 : 10 opportunités · inchangé · 7 s
 2026-10-24 06:57:14    M33_85 : 4 opportunités · rapport et opportunités · 7 s
+2026-10-24 07:01:22    M33_FR : 444 opportunités · rapport et opportunités · 248 s
+2026-10-24 07:01:32    M40_05 : 0 opportunités · rapport et opportunités · 10 s
+2026-10-24 07:01:38    M40_76 : 2 opportunités · inchangé · 6 s
+2026-10-24 07:01:47    P1005_14 : 6 opportunités · inchangé · 9 s
+2026-10-24 07:01:54    P1005_22 : 5 opportunités · inchangé · 8 s
+2026-10-24 07:02:02    P1005_27 : 6 opportunités · inchangé · 8 s
+2026-10-24 07:02:10    P1005_29 : 9 opportunités · inchangé · 8 s
+2026-10-24 07:02:22    P1005_35 : 14 opportunités · rapport et opportunités · 12 s
+2026-10-24 07:02:30    P1005_56 : 10 opportunités · inchangé · 8 s
+2026-10-24 07:02:46    P1005_59 : 24 opportunités · rapport et opportunités · 16 s
+2026-10-24 07:02:54    P1005_60 : 5 opportunités · inchangé · 8 s
+2026-10-24 07:03:16    P1005_75 : 31 opportunités · inchangé · 22 s
+2026-10-24 07:03:27    P1005_76 : 6 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP) · 11 s
+2026-10-24 07:03:35    P1005_80 : 4 opportunités · inchangé · 8 s
+2026-10-24 07:03:47    P1005_93 : 7 opportunités · inchangé · 12 s
+2026-10-24 07:03:47  OK, 478 avis collectés, 160 couples recalculés, 50 republiés en 33.7 min
 ```
