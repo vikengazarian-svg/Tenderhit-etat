@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/10/2026 à 07:06 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/10/2026 à 07:10 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
@@ -9,9 +9,9 @@ Mis à jour le 26/10/2026 à 07:06 · publication : **EN SERVICE (publie sur le 
 | Demandes des clients | 2026-10-26 06:29:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-26 07:05:10  OK, 533 avis collectés, 163 couples recalculés, 49 republiés en 35.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-10-25 07:08:27  Contrôle du 25/10 : vert — 160 couples identiques au site ; tâches à l'heure, site à jour |
+| Contrôle quotidien | 2026-10-26 07:09:41  Contrôle du 26/10 : vert — 163 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.03 Go sur 7.6 · charge 0.66 · disque 26.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.53 Go sur 7.6 · charge 0.65 · disque 26.9 % · échange 0.0 Go
 
 ## Performances
 
@@ -63,22 +63,22 @@ Aucune pour l'instant.
 2026-10-23 07:03  Contrôle du 23/10 : rouge — 157 couples identiques au site, 2 pas encore republiés par le V2, 124 attributions anciennes gardées par le site ; EN ÉCART : M04_62 ; tâches à l'heure, site à jour
 2026-10-24 07:06  Contrôle du 24/10 : rouge — 47 couples identiques au site, 175 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_26, C451_38, C451_69, C451_71, C451_74, C451_FR, C642_FR, C710_14, C710_22, C710_27, C710_29, C710_35, C710_56, C710_59, C710_60, C710_75, C710_76, C710_80, C710_93, C715_04, C715_05, C715_06, C715_13, C715_75, C715_83, C715_84, C728_69, C728_75, C741_14, C741_22, C741_27, C741_29, C741_35, C741_56, C741_59, C741_60, C741_75, C741_76, C741_80, C741_93, C772_01, C772_26, C772_38, C772_69, C772_71, C772_74, C772_FR, C794_FR, C805_34, M01_01, M01_14, M01_16, M01_24, M01_38, M01_59, M01_69, M01_73, M01_74, M01_75, M01_76, M01_83, M01_92, M01_93, M01_94, M01_FR, M03_76, M04_62, M04_76, M07_59, M07_76, M08_76, M08_81, M22_05, M22_07, M22_16, M22_17, M22_21, M22_24, M22_74, M22_75, M22_83, M22_87, M22_92, M22_93, M23_27, M23_44, M23_76, M24_69, M24_76, M30_69, M33_01, M33_38, M33_42, M33_69, M33_71, M33_85, M40_05, M40_76, P1005_14, P1005_22, P1005_27, P1005_29, P1005_35, P1005_56, P1005_59, P1005_60, P1005_75, P1005_76, P1005_80, P1005_93 ; tâches à l'heure, site à jour
 2026-10-25 07:08  Contrôle du 25/10 : vert — 160 couples identiques au site ; tâches à l'heure, site à jour
+2026-10-26 07:09  Contrôle du 26/10 : vert — 163 couples identiques au site ; tâches à l'heure, site à jour
 ```
 
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                             PASSED UNIT                     ACTIVATES
-Mon 2026-10-26 07:07:00 CET    58s Mon 2026-10-26 07:06:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Tue 2026-10-27 06:30:00 CET    23h Mon 2026-10-26 06:30:04 CET   40min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Mon 2026-10-26 06:30:04 CET   35min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                - Mon 2026-10-26 07:06:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Mon 2026-10-26 07:10:04 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Mon 2026-10-26 07:10:04 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-26 06:55:09    M22_75 : 26 opportunités · rapport et opportunités · 10 s
 2026-10-26 06:55:23    M22_76 : 6 opportunités · rapport et opportunités · 14 s
 2026-10-26 06:55:29    M22_78 : 9 opportunités · inchangé · 6 s
 2026-10-26 06:55:35    M22_83 : 7 opportunités · inchangé · 7 s
@@ -118,4 +118,5 @@ Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tende
 2026-10-26 07:04:58    P1005_80 : 5 opportunités · inchangé · 8 s
 2026-10-26 07:05:10    P1005_93 : 9 opportunités · inchangé · 12 s
 2026-10-26 07:05:10  OK, 533 avis collectés, 163 couples recalculés, 49 republiés en 35.1 min
+2026-10-26 07:09:41  Contrôle du 26/10 : vert — 163 couples identiques au site ; tâches à l'heure, site à jour
 ```
