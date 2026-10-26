@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/10/2026 à 13:08 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/10/2026 à 13:29 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-26 13:08:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-26 13:29:01  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-26 07:05:10  OK, 533 avis collectés, 163 couples recalculés, 49 republiés en 35.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-26 07:09:41  Contrôle du 26/10 : vert — 163 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.51 Go sur 7.6 · charge 0.00 · disque 27.0 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.72 Go sur 7.6 · charge 1.32 · disque 27.0 % · échange 0.0 Go
 
 ## Performances
 
@@ -71,17 +71,16 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                             PASSED UNIT                     ACTIVATES
-Mon 2026-10-26 13:09:00 CET    50s Mon 2026-10-26 13:08:04 CET      5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Mon 2026-10-26 13:30:00 CET    53s Mon 2026-10-26 13:29:00 CET      5s ago tenderhit-demandes.timer tenderhit-demandes.service
 Tue 2026-10-27 06:30:00 CET    17h Mon 2026-10-26 06:30:04 CET      6h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Mon 2026-10-26 13:08:04 CET      5s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Mon 2026-10-26 13:10:04 CET   19min ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-26 06:56:51    M23_44 : 9 opportunités · inchangé · 7 s
 2026-10-26 06:56:59    M23_76 : 6 opportunités · rapport et opportunités · 8 s
 2026-10-26 06:57:09    M24_69 : 13 opportunités · rapport et opportunités · 10 s
 2026-10-26 06:57:17    M24_76 : 9 opportunités · rapport et opportunités · 8 s
@@ -121,4 +120,5 @@ Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tende
 2026-10-26 09:16:27    carte du 61 téléchargée
 2026-10-26 09:16:35    publié (édition 2026-10, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
 2026-10-26 10:18:39  Rejeu sur le serveur : rouge — 44 couples identiques au PC sur 52 comparés ; en écart ou en échec : C712_74, C713_75, C713_FR, C794_FR, M03_76, M22_27, M22_76, P1005_76 ; 8.6 s par couple (médiane), 19 min au total
+2026-10-26 13:29:05  Rejeu sur le serveur : rouge — 0 couples identiques au PC sur 52 comparés ; en écart ou en échec : C451_FR, C710_29, C710_35, C710_75, C712_13, C712_74, C712_83, C713_13, C713_74, C713_75, C713_FR, C728_69, C728_75, C772_71, C772_FR, C794_FR, M01_59, M01_71, M01_FR, M03_76, M07_59, M22_05, M22_07, M22_16, M22_17, M22_24, M22_27, M22_74, M22_75, M22_76, M22_87, M22_94, M22_95, M23_27, M23_76, M24_69, M24_76, M30_69, M33_14, M33_27, M33_38, M33_50, M33_61, M33_69, M33_76, M33_85, M33_FR, M40_05, M40_76, P1005_29, P1005_75, P1005_76 ; 8.3 s par couple (médiane), 19 min au total
 ```
