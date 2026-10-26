@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/10/2026 à 07:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/10/2026 à 07:06 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
 | Demandes des clients | 2026-10-26 06:29:05  connexion OK, 0 couple(s) en attente : aucun |
-| Collecte des appels d'offres | 2026-10-25 07:03:48  OK, 138 avis collectés, 160 couples recalculés, 15 republiés en 33.7 min |
+| Collecte des appels d'offres | 2026-10-26 07:05:10  OK, 533 avis collectés, 163 couples recalculés, 49 republiés en 35.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-25 07:08:27  Contrôle du 25/10 : vert — 160 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 2.04 Go sur 7.6 · charge 1.11 · disque 26.8 % · échange 0.0 Go
+**Machine maintenant** : mémoire 1.03 Go sur 7.6 · charge 0.66 · disque 26.9 % · échange 0.0 Go
 
 ## Performances
 
@@ -27,6 +27,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 | Quand | Avis | Couples recalculés | Republiés | Échecs | Durée |
 |---|---:|---:|---:|---:|---:|
+| 26/10 07:05 | 533 | 163 | 49 | 0 | 35.1 min |
 | 25/10 07:03 | 138 | 160 | 15 | 0 | 33.7 min |
 | 24/10 15:18 | 3 | 155 | 78 | 0 | 38.2 min |
 | 24/10 07:03 | 478 | 160 | 50 | 0 | 33.7 min |
@@ -67,32 +68,16 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                             PASSED UNIT                     ACTIVATES
-Mon 2026-10-26 07:01:00 CET    58s Mon 2026-10-26 07:00:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Mon 2026-10-26 07:07:00 CET    58s Mon 2026-10-26 07:06:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
 Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Mon 2026-10-26 06:30:04 CET   29min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                - Mon 2026-10-26 07:00:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Mon 2026-10-26 06:30:04 CET   35min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                - Mon 2026-10-26 07:06:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-26 06:52:35    M01_FR : 1476 opportunités · rapport et opportunités · 78 s
-2026-10-26 06:52:43    M03_76 : 2 opportunités · rapport et opportunités · 8 s
-2026-10-26 06:52:51    M04_62 : 16 opportunités · inchangé · 8 s
-2026-10-26 06:52:55    M04_76 : 12 opportunités · inchangé · 4 s
-2026-10-26 06:53:03    M07_59 : 53 opportunités · rapport et opportunités · 8 s
-2026-10-26 06:53:07    M07_76 : 17 opportunités · inchangé · 5 s
-2026-10-26 06:53:11    M08_76 : 11 opportunités · inchangé · 4 s
-2026-10-26 06:53:19    M08_81 : 2 opportunités · inchangé · 7 s
-2026-10-26 06:53:29    M22_05 : 0 opportunités · rapport et opportunités · 10 s
-2026-10-26 06:53:44    M22_07 : 1 opportunités · rapport et opportunités · 15 s
-2026-10-26 06:53:58    M22_16 : 1 opportunités · rapport et opportunités · 14 s
-2026-10-26 06:54:13    M22_17 : 1 opportunités · rapport et opportunités · 15 s
-2026-10-26 06:54:24    M22_21 : 1 opportunités · inchangé · 11 s
-2026-10-26 06:54:38    M22_24 : 0 opportunités · rapport et opportunités · 14 s
-2026-10-26 06:54:52    M22_27 : 1 opportunités · rapport et opportunités · 13 s
-2026-10-26 06:54:59    M22_74 : 3 opportunités · rapport et opportunités · 7 s
 2026-10-26 06:55:09    M22_75 : 26 opportunités · rapport et opportunités · 10 s
 2026-10-26 06:55:23    M22_76 : 6 opportunités · rapport et opportunités · 14 s
 2026-10-26 06:55:29    M22_78 : 9 opportunités · inchangé · 6 s
@@ -117,4 +102,20 @@ Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tende
 2026-10-26 06:58:06    M33_71 : 8 opportunités · inchangé · 6 s
 2026-10-26 06:58:14    M33_76 : 14 opportunités · rapport et opportunités · 8 s
 2026-10-26 06:58:22    M33_85 : 5 opportunités · rapport et opportunités · 8 s
+2026-10-26 07:02:39    M33_FR : 586 opportunités · rapport et opportunités · 258 s
+2026-10-26 07:02:51    M40_05 : 0 opportunités · rapport et opportunités · 12 s
+2026-10-26 07:02:58    M40_76 : 2 opportunités · rapport et opportunités · 7 s
+2026-10-26 07:03:07    P1005_14 : 6 opportunités · inchangé · 9 s
+2026-10-26 07:03:15    P1005_22 : 12 opportunités · inchangé · 8 s
+2026-10-26 07:03:22    P1005_27 : 6 opportunités · inchangé · 8 s
+2026-10-26 07:03:33    P1005_29 : 19 opportunités · rapport et opportunités · 10 s
+2026-10-26 07:03:43    P1005_35 : 29 opportunités · inchangé · 10 s
+2026-10-26 07:03:51    P1005_56 : 17 opportunités · inchangé · 9 s
+2026-10-26 07:04:06    P1005_59 : 28 opportunités · inchangé · 14 s
+2026-10-26 07:04:14    P1005_60 : 5 opportunités · inchangé · 9 s
+2026-10-26 07:04:38    P1005_75 : 49 opportunités · rapport et opportunités · 23 s
+2026-10-26 07:04:50    P1005_76 : 9 opportunités · rapport et opportunités · attributions anciennes retirées : non fait (identifiant de plus de 300 caractères dans la DECP) · 12 s
+2026-10-26 07:04:58    P1005_80 : 5 opportunités · inchangé · 8 s
+2026-10-26 07:05:10    P1005_93 : 9 opportunités · inchangé · 12 s
+2026-10-26 07:05:10  OK, 533 avis collectés, 163 couples recalculés, 49 republiés en 35.1 min
 ```
