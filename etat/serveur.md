@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/10/2026 à 15:58 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/10/2026 à 17:12 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-26 15:58:05  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-26 17:12:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-26 07:05:10  OK, 533 avis collectés, 163 couples recalculés, 49 republiés en 35.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-26 07:09:41  Contrôle du 26/10 : vert — 163 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.52 Go sur 7.6 · charge 0.08 · disque 27.0 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.67 Go sur 7.6 · charge 1.66 · disque 27.0 % · échange 0.0 Go
 
 ## Performances
 
@@ -70,55 +70,55 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ## Tâches planifiées
 ```
-NEXT                          LEFT LAST                             PASSED UNIT                     ACTIVATES
-Mon 2026-10-26 15:59:00 CET    50s Mon 2026-10-26 15:58:04 CET      5s ago tenderhit-demandes.timer tenderhit-demandes.service
-Tue 2026-10-27 06:30:00 CET    14h Mon 2026-10-26 06:30:04 CET      9h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Mon 2026-10-26 15:58:04 CET      5s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                               PASSED UNIT                     ACTIVATES
+Mon 2026-10-26 17:13:00 CET    48s Mon 2026-10-26 17:12:00 CET       11s ago tenderhit-demandes.timer tenderhit-demandes.service
+Tue 2026-10-27 06:30:00 CET    13h Mon 2026-10-26 06:30:04 CET       10h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-10-31 03:00:00 CET 4 days Sat 2026-10-24 03:00:04 CEST   2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Mon 2026-10-26 16:00:04 CET  1h 12min ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-26 14:02:42  M22_78 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
-2026-10-26 14:03:03  M22_83 republié : 6 opportunités, attributions anciennes retirées : None (21 s)
-2026-10-26 14:03:19  M22_87 republié : 1 opportunités, attributions anciennes retirées : None (16 s)
-2026-10-26 14:03:27  M22_91 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
-2026-10-26 14:03:37  M22_92 republié : 9 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:03:47  M22_93 republié : 5 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:03:55  M22_94 republié : 6 opportunités, attributions anciennes retirées : None (9 s)
-2026-10-26 14:04:17  M22_95 republié : 6 opportunités, attributions anciennes retirées : None (22 s)
-2026-10-26 14:04:25  M23_27 republié : 6 opportunités, attributions anciennes retirées : None (7 s)
-2026-10-26 14:04:35  M23_44 republié : 9 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:04:44  M23_76 republié : 6 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:04:58  M24_69 republié : 13 opportunités, attributions anciennes retirées : None (13 s)
-2026-10-26 14:05:30  M24_76 republié : 9 opportunités, attributions anciennes retirées : None (32 s)
-2026-10-26 14:06:23  M30_69 republié : 19 opportunités, attributions anciennes retirées : None (53 s)
-2026-10-26 14:06:27  M33_01 republié : 2 opportunités, attributions anciennes retirées : None (4 s)
-2026-10-26 14:06:38  M33_14 republié : 8 opportunités, attributions anciennes retirées : None (11 s)
-2026-10-26 14:06:45  M33_27 republié : 8 opportunités, attributions anciennes retirées : None (8 s)
-2026-10-26 14:06:58  M33_38 republié : 14 opportunités, attributions anciennes retirées : None (13 s)
-2026-10-26 14:07:06  M33_42 republié : 1 opportunités, attributions anciennes retirées : None (8 s)
-2026-10-26 14:07:13  M33_50 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
-2026-10-26 14:07:20  M33_61 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
-2026-10-26 14:07:31  M33_69 republié : 22 opportunités, attributions anciennes retirées : None (11 s)
-2026-10-26 14:07:41  M33_71 republié : 8 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:07:56  M33_76 republié : 14 opportunités, attributions anciennes retirées : None (15 s)
-2026-10-26 14:08:04  M33_85 republié : 5 opportunités, attributions anciennes retirées : None (8 s)
-2026-10-26 14:12:31  M33_FR republié : 586 opportunités, attributions anciennes retirées : None (267 s)
-2026-10-26 14:12:45  M40_05 republié : 0 opportunités, attributions anciennes retirées : None (14 s)
-2026-10-26 14:13:01  M40_76 republié : 2 opportunités, attributions anciennes retirées : None (16 s)
-2026-10-26 14:13:11  P1005_14 republié : 1 opportunités, attributions anciennes retirées : None (11 s)
-2026-10-26 14:13:21  P1005_22 republié : 9 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:13:30  P1005_27 republié : 3 opportunités, attributions anciennes retirées : None (9 s)
-2026-10-26 14:13:41  P1005_29 republié : 16 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:14:09  P1005_35 republié : 25 opportunités, attributions anciennes retirées : None (29 s)
-2026-10-26 14:14:25  P1005_56 republié : 10 opportunités, attributions anciennes retirées : None (16 s)
-2026-10-26 14:14:42  P1005_59 republié : 24 opportunités, attributions anciennes retirées : None (16 s)
-2026-10-26 14:14:52  P1005_60 republié : 4 opportunités, attributions anciennes retirées : None (10 s)
-2026-10-26 14:15:20  P1005_75 republié : 44 opportunités, attributions anciennes retirées : None (28 s)
-2026-10-26 14:15:39  P1005_76 republié : 8 opportunités, attributions anciennes retirées : None, 3 identifiants DECP raccourcis (19 s)
-2026-10-26 14:15:50  P1005_80 republié : 1 opportunités, attributions anciennes retirées : None (11 s)
-2026-10-26 14:16:04  P1005_93 republié : 13 opportunités, attributions anciennes retirées : None (14 s)
+2026-10-26 16:31:01  M22_83 republié : 6 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:31:16  M22_87 republié : 1 opportunités, attributions anciennes retirées : None (15 s)
+2026-10-26 16:31:23  M22_91 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:31:31  M22_92 republié : 9 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:31:39  M22_93 republié : 5 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:31:46  M22_94 republié : 6 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:32:07  M22_95 republié : 6 opportunités, attributions anciennes retirées : None (21 s)
+2026-10-26 16:32:14  M23_27 republié : 6 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:32:23  M23_44 republié : 9 opportunités, attributions anciennes retirées : None (9 s)
+2026-10-26 16:32:32  M23_76 republié : 6 opportunités, attributions anciennes retirées : None (9 s)
+2026-10-26 16:32:42  M24_69 republié : 13 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:32:50  M24_76 republié : 9 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:33:00  M30_69 republié : 19 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:33:04  M33_01 republié : 2 opportunités, attributions anciennes retirées : None (4 s)
+2026-10-26 16:33:12  M33_14 republié : 8 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:33:19  M33_27 republié : 8 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:33:27  M33_38 republié : 14 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:33:34  M33_42 republié : 1 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:33:41  M33_50 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:33:48  M33_61 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:34:06  M33_69 republié : 22 opportunités, attributions anciennes retirées : None (18 s)
+2026-10-26 16:34:14  M33_71 republié : 8 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:34:23  M33_76 republié : 14 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:34:31  M33_85 republié : 5 opportunités, attributions anciennes retirées : None (8 s)
+2026-10-26 16:38:56  M33_FR republié : 586 opportunités, attributions anciennes retirées : None (265 s)
+2026-10-26 16:39:06  M40_05 republié : 0 opportunités, attributions anciennes retirées : None (11 s)
+2026-10-26 16:39:13  M40_76 republié : 2 opportunités, attributions anciennes retirées : None (7 s)
+2026-10-26 16:39:23  P1005_14 republié : 1 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:39:32  P1005_22 republié : 9 opportunités, attributions anciennes retirées : None (9 s)
+2026-10-26 16:39:41  P1005_27 republié : 3 opportunités, attributions anciennes retirées : None (9 s)
+2026-10-26 16:39:52  P1005_29 republié : 16 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:40:03  P1005_35 republié : 25 opportunités, attributions anciennes retirées : None (12 s)
+2026-10-26 16:40:13  P1005_56 republié : 10 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:40:30  P1005_59 republié : 24 opportunités, attributions anciennes retirées : None (16 s)
+2026-10-26 16:40:40  P1005_60 republié : 4 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:41:05  P1005_75 republié : 44 opportunités, attributions anciennes retirées : None (25 s)
+2026-10-26 16:41:17  P1005_76 republié : 8 opportunités, attributions anciennes retirées : None, 3 identifiants DECP raccourcis (12 s)
+2026-10-26 16:41:26  P1005_80 republié : 1 opportunités, attributions anciennes retirées : None (10 s)
+2026-10-26 16:41:40  P1005_93 republié : 13 opportunités, attributions anciennes retirées : None (14 s)
+2026-10-26 17:12:10  Rejeu sur le serveur : vert — 166 couples identiques au PC sur 166 comparés ; 5.9 s par couple (médiane), 30 min au total
 ```
