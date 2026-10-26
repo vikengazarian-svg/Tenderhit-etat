@@ -1,2 +1,420 @@
 # rejeu_detail C710_29 M01_71
-En cours depuis 26/10 13:30
+Lancée le 26/10/2026 13:30, finie le 26/10/2026 13:30, code 0
+
+2026-10-26.json
+Rejeu sur le serveur : rouge — 0 couples identiques au PC sur 52 comparés ; en écart ou en échec : C451_FR, C710_29, C710_35, C710_75, C712_13, C712_74, C712_83, C713_13, C713_74, C713_75, C713_FR, C728_69, C728_75, C772_71, C772_FR, C794_FR, M01_59, M01_71, M01_FR, M03_76, M07_59, M22_05, M22_07, M22_16, M22_17, M22_24, M22_27, M22_74, M22_75, M22_76, M22_87, M22_94, M22_95, M23_27, M23_76, M24_69, M24_76, M30_69, M33_14, M33_27, M33_38, M33_50, M33_61, M33_69, M33_76, M33_85, M33_FR, M40_05, M40_76, P1005_29, P1005_75, P1005_76 ; 8.3 s par couple (médiane), 19 min au total
+
+{
+ "C710_29": {
+  "duree_s": 4.2,
+  "ecarts": 102,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C710-29-AO-26-103294",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 27900,
+    "v2": 35500
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C710-29-AO-26-103294",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 201500,
+    "v2": 216900
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C710-29-AO-26-103294",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 25,
+    "v2": 29
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C710-29-AO-26-96987",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 49400
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C710-29-AO-26-96987",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 209100,
+    "v2": 216200
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C710-29-AO-26-96987",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 101000,
+    "v2": 105000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C710-29-AO-26-96987",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 403,
+    "v2": 413
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C710-29-AO-ax-megalis-241245",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 49400
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C710-29-AO-ax-megalis-241245",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 209100,
+    "v2": 216200
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C710-29-AO-ax-megalis-241245",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 101000,
+    "v2": 105000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C710-29-AO-ax-megalis-241245",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 403,
+    "v2": 413
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C710-29-AO-ax-megalis-242512",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 49400
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C710-29-AO-ax-megalis-242512",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 209100,
+    "v2": 216200
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C710-29-AO-ax-megalis-242512",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 101000,
+    "v2": 105000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C710-29-AO-ax-megalis-242512",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 403,
+    "v2": 413
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C710-29-AO-ax-megalis-242606",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 49400
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C710-29-AO-ax-megalis-242606",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 209100,
+    "v2": 216200
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C710-29-AO-ax-megalis-242606",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 101000,
+    "v2": 105000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C710-29-AO-ax-megalis-242606",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 403,
+    "v2": 413
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C710-29-AO-ax-megalis-242861",
+    "couple": "C710_29",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 49400
+   }
+  ]
+ },
+ "M01_71": {
+  "duree_s": 4.6,
+  "ecarts": 37,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M01_71",
+    "envoi": "rapport",
+    "reference": 8,
+    "v2": 5
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : ACCORD-CADRE _ PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN ",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "AGENCE TECHNIQUE DEPARTEMENTALE DE SAONE-ET-LOIRE",
+     "date_limite": "2027-06-01",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : ACCORD-CADRE _ PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN DE QUALITE ECOLOGIQUE Dans les locaux de l’Agence Technique Départementale de Saône-et-Loire situés à : 16-18 Rue des Prés_71300 Montceau les Mines",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : La commune de Digoin souhaite confier l’entretien et le",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE DIGOIN (MAIRIE)",
+     "date_limite": "2028-03-19",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : La commune de Digoin souhaite confier l’entretien et le nettoyage de ses locaux sportifs à une entreprise spécialisée.\nCes prestations, qu’elles soient hebdomadaires, mensuelles ou annuelles sont décrites dans le CCTP.\nLieux d’exécution :\nGymnase du Lycée - Route de Roanne\nStade et vestiaires Honneur - 45 route de Roanne\nStade et  vestiaires Coubertin - 45 route de Roanne\nStade de la Chaume - 2, rue des Mouleurs\nStade Chopin - 11, rue du Bac",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : MARCHE ENTRETIEN DES LOCAUX SPORTIFS DE LA COMMUNE",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE DIGOIN (MAIRIE)",
+     "date_limite": "2028-03-19",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : MARCHE ENTRETIEN DES LOCAUX SPORTIFS DE LA COMMUNE",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : Prestations de nettoyage et entretien des bâtiments com",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE GIVRY (MAIRIE)",
+     "date_limite": "2026-08-25",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : Prestations de nettoyage et entretien des bâtiments communaux avec fourniture de produits d’entretien et consommables, réparties en 2 lots, attribués par marchés séparés : - Lot n°1 : PRESTATIONS COURANTES - Lot n°2 : PRESTATIONS EXCEPTIONNELLES  -  - PRE",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : Le présent marché a pour objet la réalisation de presta",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE SAINT-MARCEL (MAIRIE)",
+     "date_limite": "2026-12-11",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : Le présent marché a pour objet la réalisation de prestations de nettoyage des équipements sportifs de la ville de Saint-Marcel.",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : PRESTATION DE NETTOYAGE DE L’ECOLE M. CURIE",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE SAINT-VALLIER (MAIRIE)",
+     "date_limite": "2026-07-20",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : PRESTATION DE NETTOYAGE DE L’ECOLE M. CURIE",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : Nettoyage des locaux du SDIS 71 : relance des lots (sit",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SCE DEPARTEMENTAL INCENDIE ET SECOURS",
+     "date_limite": "2027-11-03",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : Nettoyage des locaux du SDIS 71 : relance des lots (sites de la Compagnie de Louhans) 5 et 9 (sites de la Compagnie de Tournus) - Prestation de nettoyage des locaux : sites de la Compagnie de",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement attendu : Exécution des prestations de nettoyage des locaux du SI",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SIRTOM DE LA REGION DE CHAGNY",
+     "date_limite": "2027-12-24",
+     "idweb": null,
+     "intitule": "Renouvellement attendu : Exécution des prestations de nettoyage des locaux du SIRTOM de la région de Chagny",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement probable : ACCORD-CADRE _ PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "AGENCE TECHNIQUE DEPARTEMENTALE DE SAONE-ET-LOIRE",
+     "date_limite": "2027-06-01",
+     "idweb": null,
+     "intitule": "Renouvellement probable : ACCORD-CADRE _ PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN DE QUALITE ECOLOGIQUE Dans les locaux de l’Agence Technique Départementale de Saône-et-Loire situés à : 16-18 Rue des Prés_71300 Montceau les Mines",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement probable : Prestations de nettoyage et entretien des bâtiments co",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE DE GIVRY (MAIRIE)",
+     "date_limite": "2026-08-25",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Prestations de nettoyage et entretien des bâtiments communaux avec fourniture de produits d’entretien et consommables, réparties en 2 lots, attribués par marchés séparés : - Lot n°1 : PRESTATIONS COURANTES - Lot n°2 : PRESTATIONS EXCEPTIONNELLES  -  - PRE",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement probable : Le présent marché a pour objet la réalisation de prest",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE DE SAINT-MARCEL (MAIRIE)",
+     "date_limite": "2026-12-11",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Le présent marché a pour objet la réalisation de prestations de nettoyage des équipements sportifs de la ville de Saint-Marcel.",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement probable : MARCHE DE QUALIFICATION ET D’INSERTION PROFESSIONNELLE",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "COMMUNE DU CREUSOT (MAIRIE)",
+     "date_limite": "2027-05-15",
+     "idweb": null,
+     "intitule": "Renouvellement probable : MARCHE DE QUALIFICATION ET D’INSERTION PROFESSIONNELLE / « Entretien de l’école de la Rosa Parks »",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement probable : Nettoyage des locaux du SDIS 71 - Prestation de nettoy",
+    "couple": "M01_71",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "SCE DEPARTEMENTAL INCENDIE ET SECOURS",
+     "date_limite": "2027-10-09",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Nettoyage des locaux du SDIS 71 - Prestation de nettoyage des locaux : État-Major et Centre de formation départemental (CFD)",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-71-REC-2171017650001420250000000137_90911200",
+    "couple": "M01_71",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-71-REC-217101765000142025S00003_90911200",
+    "couple": "M01_71",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-71-REC-217104868000132023S00001_90919300",
+    "couple": "M01_71",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-71-REC-257102541000302023S00009_90911000",
+    "couple": "M01_71",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-71-REC-287100010000192023S00009_90910000",
+    "couple": "M01_71",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M01-71-REC-217101534000142024S00038_90911200",
+    "couple": "M01_71",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   }
+  ]
+ }
+}
