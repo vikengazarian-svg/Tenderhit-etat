@@ -1,0 +1,79 @@
+passes : ['2026-10-24_decp']
+
+===== M22_05
+  photographie du site (V1) : zone R93 (region) · 21 opportunités {'projet': 21} · départements des acheteurs {'06': 6, '83': 5, '13': 5, '84': 5} · chiffres {'ao': 0, 'projets': 17, 'historique': 413, 'entreprises': 161} · 416 attributions · édition 2026-10-01
+  2026-10-24_decp : zone R93 (region) · 0 opportunités {} · départements des acheteurs {} · chiffres {'ao': 5, 'entreprises': 160, 'historique': 413, 'projets': 16} · 417 attributions · édition 2026-10-01
+  publies (dernier envoi du matin) : zone R93 (region) · 0 opportunités {} · départements des acheteurs {} · chiffres {'ao': 5, 'entreprises': 160, 'historique': 413, 'projets': 17} · 417 attributions · édition 2026-10-01
+
+  photographie du site (V1) → 2026-10-24_decp
+    avant : zone R93 (region) · 21 opportunités {'projet': 21} · départements des acheteurs {'06': 6, '83': 5, '13': 5, '84': 5} · chiffres {'ao': 0, 'projets': 17, 'historique': 413, 'entreprises': 161} · 416 attributions · édition 2026-10-01
+    après : zone R93 (region) · 0 opportunités {} · départements des acheteurs {} · chiffres {'ao': 5, 'entreprises': 160, 'historique': 413, 'projets': 16} · 417 attributions · édition 2026-10-01
+    disparues encore valables : 16 sur 16 (100.0 %) · nouvelles : 0
+    parmi les disparues : (a) même acheteur et même objet présents après sous un autre id : 0 · (c) sans date limite ni échéance : 0 · (d) acheteur hors du département 05 : 16
+    -- disparues
+    M22-05-REC-180090045000142548109_50532000                    projet limite -          échéance 2028-08-27 dép. 83  CAISSE NATIONALE MILITAIRE DE SECURITE S · Renouvellement attendu : Maintenance, réparation, remplacement de stor
+    M22-05-REC-20003019500115202019V0189-0103_39515400           projet limite -          échéance 2027-03-20 dép. 06  METROPOLE NICE COTE D AZUR · Renouvellement attendu : GJ LOT 1 FOURNITURE ET POSE D’EQUIPEMENTS D’O
+    M22-05-REC-210600045000122023221480001200_45261420           projet limite -          échéance 2027-01-09 dép. 06  COMMUNE D'ANTIBES (MAIRIE) · Renouvellement attendu : Lot n°8 : Menuiserie PVC - Stores - 22F146_22
+    M22-05-REC-21060004500012202322F14800100_45421000            projet limite -          échéance 2027-01-09 dép. 06  COMMUNE D'ANTIBES (MAIRIE) · Renouvellement attendu : GPT COMMANDES TVX DANS BATIMENTS DE LA COMMUN
+    M22-05-REC-210601233003022023230181200_45421143              projet limite -          échéance 2027-09-26 dép. 06  COMMUNE DE SAINT LAURENT DU VAR (MAIRIE) · Renouvellement attendu : LOT 12 STORES - OCCULTATION
+    M22-05-REC-210601613000162023kep710000000_45421143           projet limite -          échéance 2027-05-22 dép. 06  COMMUNE DE VILLENEUVE LOUBET (MAIRIE) · Renouvellement attendu : Fourniture et pose de stores, volets roulants
+    M22-05-REC-2113000170001220222219800_45421145                projet limite -          échéance 2026-12-20 dép. 13  COMMUNE D AIX EN PROVENCE (MAIRIE) · Renouvellement attendu : ACCORD CADRE DE CONSTRUCTION ENTRETIEN RENOVA
+    M22-05-REC-211300553062862023T12053_45421143                 projet limite -          échéance 2027-12-23 dép. 13  COMMUNE DE MARSEILLE (DIRECTION RESSOURC · Renouvellement attendu : Travaux de réparation, d’entretien, de rénova
+    M22-05-REC-211300637000172023T001300_45421000                projet limite -          échéance 2027-11-27 dép. 13  COMMUNE DE MIRAMAS (MAIRIE) · Renouvellement attendu : LOT 3 MENUISERIE ALUMINIUM  VOLETS ROULANTS V
+    M22-05-REC-211301106000122023222000_45421000                 projet limite -          échéance 2027-04-04 dép. 13  COMMUNE DE TRETS (MAIRIE) · Renouvellement attendu : TRAVAUX COURANTS D’ENTRETIEN, DE GROSSES RÉPA
+    M22-05-REC-218300614000112023018000000000_45421000           projet limite -          échéance 2027-05-27 dép. 83  COMMUNE DE FREJUS (MAIRIE) · Renouvellement attendu : Menuiserie métallique -PVC - serrurerie - vol
+    M22-05-REC-218300614000112023M2301800_45421000               projet limite -          échéance 2027-01-27 dép. 83  COMMUNE DE FREJUS (MAIRIE) · Renouvellement attendu : TRAVAUX DENTRETIEN DE GROSSES REPARATIONS ET 
+    M22-05-REC-218400430000112024000002412C_45421000             projet limite -          échéance 2028-10-07 dép. 84  COMMUNE D'ENTRAIGUES SUR LA SORGUE (MAIR · Renouvellement attendu : Travaux d’entretien et de grosses réparations
+    M22-05-REC-218400877000132023116C1500_39515410               projet limite -          échéance 2026-12-07 dép. 84  COMMUNE D ORANGE (MAIRIE) · Renouvellement attendu : STORES ET RIDEAUX
+    M22-05-REC-218401388000102026_FIN_3600_45421145              projet limite -          échéance 2027-06-05 dép. 84  COMMUNE DE VALREAS (MAIRIE) · Renouvellement attendu : Remplacement Volets Roulants Ecole Marcel Pag
+    M22-05-REC-47990473200019202600_45421000                     projet limite -          échéance 2027-01-22 dép. 83  OFFICE PUBLIC DE L'HABITAT DU VAR · Renouvellement attendu : Travaux de remplacement des menuiseries et oc
+    -- nouvelles
+
+  2026-10-24_decp → publies (dernier envoi du matin)
+    avant : zone R93 (region) · 0 opportunités {} · départements des acheteurs {} · chiffres {'ao': 5, 'entreprises': 160, 'historique': 413, 'projets': 16} · 417 attributions · édition 2026-10-01
+    après : zone R93 (region) · 0 opportunités {} · départements des acheteurs {} · chiffres {'ao': 5, 'entreprises': 160, 'historique': 413, 'projets': 17} · 417 attributions · édition 2026-10-01
+    disparues encore valables : 0 sur 0 (0 %) · nouvelles : 0
+    parmi les disparues : (a) même acheteur et même objet présents après sous un autre id : 0 · (c) sans date limite ni échéance : 0 · (d) acheteur hors du département 05 : 0
+    -- disparues
+    -- nouvelles
+
+===== M22_07
+  photographie du site (V1) : zone R84 (region) · 22 opportunités {'ao': 4, 'projet': 18} · départements des acheteurs {'69': 7, '38': 5, '74': 3, '73': 2, '26': 1, '63': 1, '01': 1, '03': 1} · chiffres {'ao': 4, 'projets': 24, 'historique': 938, 'entreprises': 352} · 945 attributions · édition 2026-10-01
+  2026-10-24_decp : zone R84 (region) · 1 opportunités {'ao': 1} · départements des acheteurs {'07': 1} · chiffres {'ao': 10, 'entreprises': 350, 'historique': 930, 'projets': 24} · 941 attributions · édition 2026-10-01
+  publies (dernier envoi du matin) : zone R84 (region) · 1 opportunités {'ao': 1} · départements des acheteurs {'07': 1} · chiffres {'ao': 12, 'entreprises': 350, 'historique': 930, 'projets': 27} · 941 attributions · édition 2026-10-01
+
+  photographie du site (V1) → 2026-10-24_decp
+    avant : zone R84 (region) · 22 opportunités {'ao': 4, 'projet': 18} · départements des acheteurs {'69': 7, '38': 5, '74': 3, '73': 2, '26': 1, '63': 1, '01': 1, '03': 1} · chiffres {'ao': 4, 'projets': 24, 'historique': 938, 'entreprises': 352} · 945 attributions · édition 2026-10-01
+    après : zone R84 (region) · 1 opportunités {'ao': 1} · départements des acheteurs {'07': 1} · chiffres {'ao': 10, 'entreprises': 350, 'historique': 930, 'projets': 24} · 941 attributions · édition 2026-10-01
+    disparues encore valables : 19 sur 19 (100.0 %) · nouvelles : 1
+    parmi les disparues : (a) même acheteur et même objet présents après sous un autre id : 0 · (c) sans date limite ni échéance : 0 · (d) acheteur hors du département 07 : 19
+    -- disparues
+    M22-07-AO-26-89358                                           ao     limite 2026-10-30 échéance -          dép. 26  Centre Hospitalier de Valence - Etabliss · Extension et réhabilitation du centre hospitalier / EHPAD Fernand Lafo
+    M22-07-AO-26-94425                                           ao     limite 2026-12-11 échéance -          dép. 74  SERL Groupe · Travaux de construction d'un nouveau lycée à DOUVAINE (74) - Lots prin
+    M22-07-AO-26-96041                                           ao     limite 2026-11-05 échéance -          dép. 74  MAIRIE SAINT-JORIOZ · Réhabilitation, Extension de la Mairie et réaménagement de ses abords 
+    M22-07-AO-26-96265                                           ao     limite 2026-11-02 échéance -          dép. 73  Centre Hospitalier de Saint-Pierre d'Alb · Travaux de restructuration du Centre Hospitalier de Saint-Pierre d'Alb
+    M22-07-REC-130029515000172853667_45421143                    projet limite -          échéance 2026-12-10 dép. 69  RECTORAT DE REGION ACADEMIQUE AUVERGNE-R · Renouvellement attendu : DRAI38_2025_008AB_214_stores_champon_2eme_AE_
+    M22-07-REC-200053767000142023IfjI9rwiNb00_50700000           projet limite -          échéance 2027-05-12 dép. 69  REGION AUVERGNE-RHONE-ALPES · Renouvellement attendu : DAF_2023_000022-2 -  Maintenance préventive e
+    M22-07-REC-200053767000142023LAlU291tdD00_50700000           projet limite -          échéance 2027-05-12 dép. 69  REGION AUVERGNE-RHONE-ALPES · Renouvellement attendu : DAF_2023_000022-1 -  Maintenance préventive e
+    M22-07-REC-200053767000142023lEaEtOi5Ag00_50700000           projet limite -          échéance 2027-05-12 dép. 69  REGION AUVERGNE-RHONE-ALPES · Renouvellement attendu : DAF_2023_000022-3 -  Maintenance préventive e
+    M22-07-REC-2138031740001920266c7hk0000000_45000000           projet limite -          échéance 2028-01-05 dép. 38  COMMUNE DU PONT DE CLAIX (MAIRIE) · Renouvellement attendu : Menuiserie Extérieure-Store - TRAVAUX D’ENTRE
+    M22-07-REC-213805534000122024M_45421150                      projet limite -          échéance 2028-09-23 dép. 38  COMMUNE DE VILLEFONTAINE (MAIRIE) · Renouvellement attendu : Entretien, réparation, rénovation et installa
+    M22-07-REC-216301242000142023018100_45421000                 projet limite -          échéance 2027-07-12 dép. 63  COMMUNE DE COURNON D AUVERGNE (MAIRIE) · Renouvellement attendu : Accord cadre travaux bâtiments communaux - Me
+    M22-07-REC-216900290000182024755_39515400                    projet limite -          échéance 2028-04-09 dép. 69  COMMUNE DE BRON (MAIRIE) · Renouvellement attendu : FOURNITURE POSE ENTRETIEN ET REPARATION DE VO
+    M22-07-REC-21690034000011202320230060000_50800000            projet limite -          échéance 2027-04-17 dép. 69  COMMUNE DE CALUIRE ET CUIRE (MAIRIE) · Renouvellement attendu : MAINTENANCE PROTECTIONS SOLAIRES DANS BATIMEN
+    M22-07-REC-21730065600014202322080700_45421143               projet limite -          échéance 2027-01-08 dép. 73  COMMUNE DE CHAMBERY (MAIRIE) · Renouvellement attendu : TVX PARC IMMOBILIER DE LA VILLE LOT 7 OCCULTA
+    M22-07-REC-220100010000102021233GMP112_45000000              projet limite -          échéance 2027-01-29 dép. 01  DEPARTEMENT DE L AIN · Renouvellement attendu : TRAVAUX DE REFECTION ET D AMENAGEMENT DANS DI
+    M22-07-REC-2638003020001420232022T2516300_45421143           projet limite -          échéance 2027-01-01 dép. 38  CENTRE HOSPITALIER UNIVERSITAIRE GRENOBL · Renouvellement attendu : La nature et l’étendu du contrat sont dévelop
+    M22-07-REC-2703000230006520260_45421145                      projet limite -          échéance 2026-12-09 dép. 03  ALLIER HABITAT  · Renouvellement attendu : Travaux de remplacement des tabliers de volet
+    M22-07-REC-349185611000102026T2600_45331210                  projet limite -          échéance 2027-03-31 dép. 74  OFFICE PUBLIC DE L'HABITAT DE LA HAUTE S · Renouvellement attendu : Travaux de remplacement des menuiseries extér
+    M22-07-REC-514316934000742766118_71000000                    projet limite -          échéance 2027-03-24 dép. 42  CAISSE PRIMAIRE D ASSURANCE MALADIE DE L · Renouvellement attendu : Le marché a pour objet : la maîtrise d’oeuvre
+    -- nouvelles
+    M22-07-AO-26-97039                                           ao     limite 2026-11-05 échéance -          dép. 07  DEL - Direction de l éducation et des ly · Remplacement des BSO et volets roulants au lycée Boissy d'Anglas (07- 
+
+  2026-10-24_decp → publies (dernier envoi du matin)
+    avant : zone R84 (region) · 1 opportunités {'ao': 1} · départements des acheteurs {'07': 1} · chiffres {'ao': 10, 'entreprises': 350, 'historique': 930, 'projets': 24} · 941 attributions · édition 2026-10-01
+    après : zone R84 (region) · 1 opportunités {'ao': 1} · départements des acheteurs {'07': 1} · chiffres {'ao': 12, 'entreprises': 350, 'historique': 930, 'projets': 27} · 941 attributions · édition 2026-10-01
+    disparues encore valables : 0 sur 1 (0.0 %) · nouvelles : 0
+    parmi les disparues : (a) même acheteur et même objet présents après sous un autre id : 0 · (c) sans date limite ni échéance : 0 · (d) acheteur hors du département 07 : 0
+    -- disparues
+    -- nouvelles
