@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 30/10/2026 à 10:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 30/10/2026 à 11:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-30 09:59:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-30 10:59:06  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-30 07:07:12  OK, 695 avis collectés, 172 couples recalculés, 55 republiés en 37.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-30 07:12:10  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.56 Go sur 7.6 · charge 0.04 · disque 27.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.54 Go sur 7.6 · charge 0.00 · disque 28.0 % · échange 0.0 Go
 
 ## Performances
 
@@ -51,7 +51,26 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-Aucune pour l'instant.
+- 10:40 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+- 10:40 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:40 : (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:40 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:40 : (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:40 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+- 10:40 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+- 10:41 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:41 : (édition 2026-10, 24 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:41 : (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:41 : (édition 2026-10, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+- 10:41 : (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+- 10:41 : (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+- 10:42 : (édition 2026-10, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 10:42 : (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+- 10:50 : (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+- 10:50 : (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 22 s
+- 10:50 : (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+- 10:50 : (édition 2026-10, 10 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+- 10:51 : (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 16 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -73,54 +92,54 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                        LEFT LAST                               PASSED UNIT                     ACTIVATES
-Sat 2026-10-31 03:00:00 CET  16h Sat 2026-10-24 03:00:04 CEST   6 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-10-31 06:30:00 CET  20h Fri 2026-10-30 06:30:04 CET  3h 29min ago tenderhit-collecte.timer tenderhit-collecte.service
--                              - Fri 2026-10-30 10:00:00 CET        1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                              - Fri 2026-10-30 10:00:00 CET        1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sat 2026-10-31 03:00:00 CET  15h Sat 2026-10-24 03:00:04 CEST   6 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-10-31 06:30:00 CET  19h Fri 2026-10-30 06:30:04 CET  4h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-10-30 11:00:04 CET        1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                              - Fri 2026-10-30 11:00:04 CET        1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-30 06:57:25    M22_87 : 1 opportunités · rapport et opportunités · 15 s
-2026-10-30 06:57:31    M22_91 : 4 opportunités · inchangé · 6 s
-2026-10-30 06:57:39    M22_92 : 8 opportunités · rapport et opportunités · 8 s
-2026-10-30 06:57:45    M22_93 : 3 opportunités · inchangé · 7 s
-2026-10-30 06:57:52    M22_94 : 6 opportunités · inchangé · 7 s
-2026-10-30 06:58:14    M22_95 : 6 opportunités · rapport et opportunités · 22 s
-2026-10-30 06:58:20    M23_27 : 6 opportunités · inchangé · 6 s
-2026-10-30 06:58:27    M23_44 : 9 opportunités · inchangé · 8 s
-2026-10-30 06:58:36    M23_76 : 6 opportunités · rapport et opportunités · 9 s
-2026-10-30 06:58:45    M24_69 : 11 opportunités · inchangé · 9 s
-2026-10-30 06:58:53    M24_76 : 9 opportunités · rapport et opportunités · 9 s
-2026-10-30 06:59:02    M30_69 : 16 opportunités · inchangé · 9 s
-2026-10-30 06:59:05    M33_01 : 3 opportunités · inchangé · 3 s
-2026-10-30 06:59:12    M33_14 : 8 opportunités · inchangé · 7 s
-2026-10-30 06:59:19    M33_27 : 6 opportunités · rapport et opportunités · 7 s
-2026-10-30 06:59:25    M33_38 : 12 opportunités · inchangé · 7 s
-2026-10-30 06:59:31    M33_42 : 1 opportunités · inchangé · 6 s
-2026-10-30 06:59:37    M33_50 : 4 opportunités · inchangé · 6 s
-2026-10-30 06:59:42    M33_61 : 3 opportunités · inchangé · 5 s
-2026-10-30 06:59:53    M33_69 : 19 opportunités · rapport et opportunités · 11 s
-2026-10-30 06:59:59    M33_71 : 9 opportunités · inchangé · 6 s
-2026-10-30 07:00:08    M33_76 : 14 opportunités · rapport et opportunités · 9 s
-2026-10-30 07:00:14    M33_85 : 4 opportunités · inchangé · 7 s
-2026-10-30 07:04:39    M33_FR : 599 opportunités · rapport et opportunités · 265 s
-2026-10-30 07:04:50    M40_05 : 0 opportunités · rapport et opportunités · 11 s
-2026-10-30 07:04:57    M40_76 : 2 opportunités · rapport et opportunités · 7 s
-2026-10-30 07:05:06    P1005_14 : 1 opportunités · inchangé · 9 s
-2026-10-30 07:05:14    P1005_22 : 11 opportunités · inchangé · 8 s
-2026-10-30 07:05:22    P1005_27 : 4 opportunités · inchangé · 8 s
-2026-10-30 07:05:31    P1005_29 : 16 opportunités · inchangé · 9 s
-2026-10-30 07:05:41    P1005_35 : 24 opportunités · inchangé · 10 s
-2026-10-30 07:05:50    P1005_56 : 10 opportunités · inchangé · 9 s
-2026-10-30 07:06:06    P1005_59 : 21 opportunités · rapport et opportunités · 16 s
-2026-10-30 07:06:15    P1005_60 : 4 opportunités · inchangé · 9 s
-2026-10-30 07:06:39    P1005_75 : 43 opportunités · rapport et opportunités · 25 s
-2026-10-30 07:06:50    P1005_76 : 9 opportunités · inchangé · 11 s
-2026-10-30 07:06:58    P1005_80 : 1 opportunités · inchangé · 8 s
-2026-10-30 07:07:12    P1005_93 : 14 opportunités · rapport et opportunités · 14 s
-2026-10-30 07:07:12  OK, 695 avis collectés, 172 couples recalculés, 55 republiés en 37.1 min
-2026-10-30 07:12:10  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
+2026-10-30 10:39:57    carte du 90 téléchargée
+2026-10-30 10:40:04    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-10-30 10:40:04  C772_21 : demande en attente
+2026-10-30 10:40:12    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:40:12  C772_25 : demande en attente
+2026-10-30 10:40:20    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:40:21  C772_39 : demande en attente
+2026-10-30 10:40:29    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:40:29  C772_58 : demande en attente
+2026-10-30 10:40:37    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:40:37  C772_70 : demande en attente
+2026-10-30 10:40:45    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-10-30 10:40:45  C772_89 : demande en attente
+2026-10-30 10:40:54    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+2026-10-30 10:40:54  C772_90 : demande en attente
+2026-10-30 10:41:02    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:41:02  M01_21 : demande en attente
+2026-10-30 10:41:10    publié (édition 2026-10, 24 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:41:11  M01_25 : demande en attente
+2026-10-30 10:41:18    publié (édition 2026-10, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:41:19  M01_39 : demande en attente
+2026-10-30 10:41:32    publié (édition 2026-10, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+2026-10-30 10:41:32  M01_58 : demande en attente
+2026-10-30 10:41:45    publié (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+2026-10-30 10:41:46  M01_70 : demande en attente
+2026-10-30 10:41:58    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+2026-10-30 10:41:59  M01_89 : demande en attente
+2026-10-30 10:42:06    publié (édition 2026-10, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-10-30 10:42:06  M01_90 : demande en attente
+2026-10-30 10:42:20    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+2026-10-30 10:50:06  M22_01 : demande en attente
+2026-10-30 10:50:13    publié (édition 2026-10, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-10-30 10:50:13  M22_26 : demande en attente
+2026-10-30 10:50:35    publié (édition 2026-10, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 22 s
+2026-10-30 10:50:35  M22_42 : demande en attente
+2026-10-30 10:50:44    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+2026-10-30 10:50:44  M22_69 : demande en attente
+2026-10-30 10:50:57    publié (édition 2026-10, 10 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 13 s
+2026-10-30 10:50:58  M22_71 : demande en attente
+2026-10-30 10:51:14    publié (édition 2026-10, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 16 s
 ```
