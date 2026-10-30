@@ -1,2 +1,13 @@
 # mettre_a_jour v2.30
-En cours depuis 30/10 13:50
+Lancée le 30/10/2026 13:50, finie le 30/10/2026 13:50, code 0
+
+Moteur à la version v2.30 (5940314)
+
+Horaires des tâches (code 0) :
+NEXT                        LEFT LAST                             PASSED UNIT                     ACTIVATES
+Fri 2026-10-30 13:51:00 CET  54s Fri 2026-10-30 13:50:00 CET      5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-10-31 03:00:00 CET  13h Sat 2026-10-24 03:00:04 CEST 6 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-10-31 06:30:00 CET  16h Fri 2026-10-30 06:30:04 CET      7h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-10-30 13:50:00 CET      5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+4 timers listed.
