@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 30/10/2026 à 07:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 30/10/2026 à 07:08 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
 | Demandes des clients | 2026-10-30 06:29:05  connexion OK, 0 couple(s) en attente : aucun |
-| Collecte des appels d'offres | 2026-10-29 07:07:57  1 ÉCHEC(S), 704 avis collectés, 172 couples recalculés, 51 republiés en 37.9 min |
+| Collecte des appels d'offres | 2026-10-30 07:07:12  OK, 695 avis collectés, 172 couples recalculés, 55 republiés en 37.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-29 07:13:03  Contrôle du 29/10 : rouge — 171 couples identiques au site, 10 attributions anciennes gardées par le site ; EN ÉCART : C713_FR ; collecte du matin : 2026-10-29 07:07:57  1 ÉCHEC(S), 704 avis collectés, 172 couples recalculés, 51 republiés en 37.9 min |
 
-**Machine maintenant** : mémoire 1.87 Go sur 7.6 · charge 1.45 · disque 27.7 % · échange 0.0 Go
+**Machine maintenant** : mémoire 1.01 Go sur 7.6 · charge 0.76 · disque 27.8 % · échange 0.0 Go
 
 ## Performances
 
@@ -27,6 +27,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 | Quand | Avis | Couples recalculés | Republiés | Échecs | Durée |
 |---|---:|---:|---:|---:|---:|
+| 30/10 07:07 | 695 | 172 | 55 | 0 | 37.1 min |
 | 29/10 07:07 | 704 | 172 | 51 | 1 | 37.9 min |
 | 28/10 07:09 | 640 | 166 | 62 | 0 | 39.0 min |
 | 27/10 07:08 | 351 | 161 | 63 | 0 | 38.3 min |
@@ -36,7 +37,6 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 | 24/10 07:03 | 478 | 160 | 50 | 0 | 33.7 min |
 | 23/10 06:58 | 672 | 143 | 41 | 0 | 28.0 min |
 | 22/10 06:59 | 716 | 143 | 38 | 0 | 29.3 min |
-| 21/10 06:54 | 685 | 96 | 80 | 0 | 24.3 min |
 
 ### Passes DECP hebdomadaires
 
@@ -72,34 +72,16 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                        LEFT LAST                             PASSED UNIT                     ACTIVATES
-Fri 2026-10-30 07:01:00 CET  58s Fri 2026-10-30 07:00:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-10-30 07:09:00 CET  58s Fri 2026-10-30 07:08:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
 Sat 2026-10-31 03:00:00 CET  19h Sat 2026-10-24 03:00:04 CEST 6 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                              - Fri 2026-10-30 06:30:04 CET   29min ago tenderhit-collecte.timer tenderhit-collecte.service
--                              - Fri 2026-10-30 07:00:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                              - Fri 2026-10-30 06:30:04 CET   37min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-10-30 07:08:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-30 06:54:14    M03_76 : 6 opportunités · rapport et opportunités · 9 s
-2026-10-30 06:54:23    M04_62 : 14 opportunités · inchangé · 9 s
-2026-10-30 06:54:27    M04_76 : 6 opportunités · inchangé · 4 s
-2026-10-30 06:54:34    M07_59 : 49 opportunités · rapport et opportunités · 7 s
-2026-10-30 06:54:39    M07_76 : 14 opportunités · inchangé · 5 s
-2026-10-30 06:54:43    M08_76 : 16 opportunités · inchangé · 4 s
-2026-10-30 06:54:52    M08_81 : 1 opportunités · rapport et opportunités · 9 s
-2026-10-30 06:55:03    M22_05 : 0 opportunités · rapport et opportunités · 11 s
-2026-10-30 06:55:18    M22_07 : 2 opportunités · rapport et opportunités · 15 s
-2026-10-30 06:55:32    M22_16 : 0 opportunités · rapport et opportunités · 14 s
-2026-10-30 06:55:47    M22_17 : 0 opportunités · rapport et opportunités · 15 s
-2026-10-30 06:55:59    M22_21 : 1 opportunités · rapport et opportunités · 12 s
-2026-10-30 06:56:14    M22_24 : 0 opportunités · rapport et opportunités · 15 s
-2026-10-30 06:56:27    M22_27 : 1 opportunités · rapport et opportunités · 13 s
-2026-10-30 06:56:33    M22_74 : 3 opportunités · inchangé · 6 s
-2026-10-30 06:56:42    M22_75 : 14 opportunités · inchangé · 9 s
-2026-10-30 06:56:57    M22_76 : 5 opportunités · rapport et opportunités · 15 s
-2026-10-30 06:57:03    M22_78 : 6 opportunités · inchangé · 6 s
 2026-10-30 06:57:10    M22_83 : 6 opportunités · rapport et opportunités · 7 s
 2026-10-30 06:57:25    M22_87 : 1 opportunités · rapport et opportunités · 15 s
 2026-10-30 06:57:31    M22_91 : 4 opportunités · inchangé · 6 s
@@ -122,4 +104,22 @@ Sat 2026-10-31 03:00:00 CET  19h Sat 2026-10-24 03:00:04 CEST 6 days ago tenderh
 2026-10-30 06:59:42    M33_61 : 3 opportunités · inchangé · 5 s
 2026-10-30 06:59:53    M33_69 : 19 opportunités · rapport et opportunités · 11 s
 2026-10-30 06:59:59    M33_71 : 9 opportunités · inchangé · 6 s
+2026-10-30 07:00:08    M33_76 : 14 opportunités · rapport et opportunités · 9 s
+2026-10-30 07:00:14    M33_85 : 4 opportunités · inchangé · 7 s
+2026-10-30 07:04:39    M33_FR : 599 opportunités · rapport et opportunités · 265 s
+2026-10-30 07:04:50    M40_05 : 0 opportunités · rapport et opportunités · 11 s
+2026-10-30 07:04:57    M40_76 : 2 opportunités · rapport et opportunités · 7 s
+2026-10-30 07:05:06    P1005_14 : 1 opportunités · inchangé · 9 s
+2026-10-30 07:05:14    P1005_22 : 11 opportunités · inchangé · 8 s
+2026-10-30 07:05:22    P1005_27 : 4 opportunités · inchangé · 8 s
+2026-10-30 07:05:31    P1005_29 : 16 opportunités · inchangé · 9 s
+2026-10-30 07:05:41    P1005_35 : 24 opportunités · inchangé · 10 s
+2026-10-30 07:05:50    P1005_56 : 10 opportunités · inchangé · 9 s
+2026-10-30 07:06:06    P1005_59 : 21 opportunités · rapport et opportunités · 16 s
+2026-10-30 07:06:15    P1005_60 : 4 opportunités · inchangé · 9 s
+2026-10-30 07:06:39    P1005_75 : 43 opportunités · rapport et opportunités · 25 s
+2026-10-30 07:06:50    P1005_76 : 9 opportunités · inchangé · 11 s
+2026-10-30 07:06:58    P1005_80 : 1 opportunités · inchangé · 8 s
+2026-10-30 07:07:12    P1005_93 : 14 opportunités · rapport et opportunités · 14 s
+2026-10-30 07:07:12  OK, 695 avis collectés, 172 couples recalculés, 55 republiés en 37.1 min
 ```
