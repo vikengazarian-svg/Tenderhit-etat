@@ -1,12 +1,12 @@
 # Serveur du moteur V2
 
-Mis à jour le 31/10/2026 à 02:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 31/10/2026 à 03:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-31 02:00:05  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-31 02:59:04  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-30 07:07:12  OK, 695 avis collectés, 172 couples recalculés, 55 republiés en 37.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-30 07:12:10  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour |
@@ -72,11 +72,11 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                                    PASSED UNIT                     ACTIVATES
-Sat 2026-10-31 03:00:00 CET    59min Sat 2026-10-24 03:00:04 CEST 1 week 0 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-10-31 06:30:00 CET 4h 29min Fri 2026-10-30 06:30:04 CET            19h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                  - Sat 2026-10-31 02:00:04 CET             1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                  - Sat 2026-10-31 02:00:04 CET             1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
+Sat 2026-10-31 03:01:00 CET      54s Sat 2026-10-31 03:00:04 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-10-31 06:30:00 CET 3h 29min Fri 2026-10-30 06:30:04 CET 20h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                  - Sat 2026-10-31 03:00:04 CET  1s ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Sat 2026-10-31 03:00:04 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
