@@ -1,2 +1,21 @@
 # marche C712 C713 C714 C722 M01 M33 M38 P1005
-En cours depuis 31/10 11:08
+Lancée le 31/10/2026 11:08, finie le 31/10/2026 11:28, code 0
+
+2026-10-31 11:28:43  tables du marché : 8 activité(s) envoyée(s), 0 inchangée(s), 632391 lignes en 142 paquets
+{
+ "version": "2026-10-31",
+ "envoyees": [
+  "C712 (étage 2, 165033 lignes)",
+  "C713 (étage 2, 163000 lignes)",
+  "C714 (étage 1, 755 lignes)",
+  "C722 (étage 2, 44952 lignes)",
+  "M01 (étage 2, 33681 lignes)",
+  "M33 (étage 2, 74420 lignes)",
+  "M38 (étage 1, 1029 lignes)",
+  "P1005 (étage 2, 149521 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 632391,
+ "paquets": 142,
+ "erreurs": {}
+}
