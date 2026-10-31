@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 31/10/2026 à 04:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 31/10/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-31 02:59:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-31 04:59:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-30 07:07:12  OK, 695 avis collectés, 172 couples recalculés, 55 republiés en 37.1 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-10-30 07:12:10  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.62 Go sur 7.6 · charge 0.96 · disque 29.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.53 Go sur 7.6 · charge 0.00 · disque 30.0 % · échange 0.0 Go
 
 ## Performances
 
@@ -42,12 +42,12 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 | Passe | Durée des couples | Mémoire max |
 |---|---:|---:|
+| 2026-10-31_decp | 53.2 min | 2538 Mo |
 | 2026-10-24_decp | 33.0 min | 2373 Mo |
 | 2026-10-17_decp | 41.8 min | — Mo |
 | essai_pc | 26.3 min | 1616 Mo |
 | essai_2026-10-16 | 26.4 min | 1950 Mo |
 | essai_2026-10-16 | 25.6 min | 1950 Mo |
-| essai_2026-10-16 | 23.9 min | 1950 Mo |
 
 ### Demandes des clients aujourd'hui
 
@@ -72,11 +72,11 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                           PASSED UNIT                     ACTIVATES
-Sat 2026-10-31 04:01:00 CET      58s Sat 2026-10-31 04:00:00 CET    1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-10-31 06:30:00 CET 2h 29min Fri 2026-10-30 06:30:04 CET   21h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                  - Sat 2026-10-31 03:00:04 CET 59min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Sat 2026-10-31 04:00:00 CET    1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                             PASSED UNIT                     ACTIVATES
+Sat 2026-10-31 06:30:00 CET 1h 29min Fri 2026-10-30 06:30:04 CET     22h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET   6 days Sat 2026-10-31 03:00:04 CET 2h 0min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Sat 2026-10-31 05:00:04 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                  - Sat 2026-10-31 05:00:04 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
