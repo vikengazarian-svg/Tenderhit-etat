@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 31/10/2026 à 07:18 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 31/10/2026 à 07:22 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-10-31 06:29:08  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-10-31 07:22:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-10-31 07:17:03  OK, 410 avis collectés, 213 couples recalculés, 44 republiés en 47.0 min |
 | Passe DECP hebdomadaire | 2026-10-24 04:16:45  Passe hebdomadaire DECP 2026-10-24_decp : terminée en 76.7 min, mémoire max 3721 Mo ; 160 couples recalculés, 2 bloqués par la garde (M22_05, M22_07) ; 153 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-10-30 07:12:10  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour |
+| Contrôle quotidien | 2026-10-31 07:20:05  Contrôle du 31/10 : rouge — 215 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : M01_04, M01_27, M01_63, M01_71 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.04 Go sur 7.6 · charge 0.50 · disque 30.2 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.10 · disque 30.4 % · échange 0.0 Go
 
 ## Performances
 
@@ -68,22 +68,22 @@ Aucune pour l'instant.
 2026-10-28 07:14  Contrôle du 28/10 : vert — 166 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
 2026-10-29 07:13  Contrôle du 29/10 : rouge — 171 couples identiques au site, 10 attributions anciennes gardées par le site ; EN ÉCART : C713_FR ; collecte du matin : 2026-10-29 07:07:57  1 ÉCHEC(S), 704 avis collectés, 172 couples recalculés, 51 republiés en 37.9 min
 2026-10-30 07:12  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
+2026-10-31 07:20  Contrôle du 31/10 : rouge — 215 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : M01_04, M01_27, M01_63, M01_71 ; tâches à l'heure, site à jour
 ```
 
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Sat 2026-10-31 07:19:00 CET    58s Sat 2026-10-31 07:18:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-11-07 03:00:00 CET 6 days Sat 2026-10-31 03:00:04 CET 4h 17min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Sat 2026-10-31 06:30:04 CET    47min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                - Sat 2026-10-31 07:18:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sun 2026-11-01 06:30:00 CET    23h Sat 2026-10-31 06:30:04 CET    52min ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 6 days Sat 2026-10-31 03:00:04 CET 4h 22min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Sat 2026-10-31 07:22:04 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Sat 2026-10-31 07:22:04 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-10-31 07:04:38    M22_78 : 6 opportunités · inchangé · 6 s
 2026-10-31 07:04:45    M22_83 : 6 opportunités · inchangé · 7 s
 2026-10-31 07:04:59    M22_87 : 1 opportunités · inchangé · 14 s
 2026-10-31 07:05:06    M22_91 : 4 opportunités · inchangé · 6 s
@@ -123,4 +123,5 @@ Sat 2026-11-07 03:00:00 CET 6 days Sat 2026-10-31 03:00:04 CET 4h 17min ago tend
 2026-10-31 07:16:46    P1005_80 : 0 opportunités · rapport et opportunités · 11 s
 2026-10-31 07:17:03    P1005_93 : 14 opportunités · rapport et opportunités · 16 s
 2026-10-31 07:17:03  OK, 410 avis collectés, 213 couples recalculés, 44 republiés en 47.0 min
+2026-10-31 07:20:05  Contrôle du 31/10 : rouge — 215 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : M01_04, M01_27, M01_63, M01_71 ; tâches à l'heure, site à jour
 ```
