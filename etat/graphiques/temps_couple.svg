@@ -10,30 +10,31 @@
 <text x="46" y="114.5" font-size="11" fill="#59636e" text-anchor="end">10</text>
 <line x1="52" x2="744" y1="62.7" y2="62.7" stroke="#d1d9e0" stroke-width="1"/>
 <text x="46" y="66.7" font-size="11" fill="#59636e" text-anchor="end">15</text>
-<rect x="54.4" y="55.1" width="36.0" height="150.9" rx="4.0" fill="#2f6fdb"><title>10/16 : 15.8 secondes</title></rect>
-<text x="72.4" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/16</text>
-<rect x="95.1" y="107.6" width="36.0" height="98.4" rx="4.0" fill="#2f6fdb"><title>10/17 : 10.3 secondes</title></rect>
-<rect x="135.8" y="161.1" width="36.0" height="44.9" rx="4.0" fill="#2f6fdb"><title>10/18 : 4.7 secondes</title></rect>
-<text x="153.8" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/18</text>
-<rect x="176.5" y="149.6" width="36.0" height="56.4" rx="4.0" fill="#2f6fdb"><title>10/19 : 5.9 secondes</title></rect>
-<rect x="217.2" y="143.9" width="36.0" height="62.1" rx="4.0" fill="#2f6fdb"><title>10/20 : 6.5 secondes</title></rect>
-<text x="235.2" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/20</text>
-<rect x="257.9" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>10/21 : 5.8 secondes</title></rect>
-<rect x="298.6" y="149.6" width="36.0" height="56.4" rx="4.0" fill="#2f6fdb"><title>10/22 : 5.9 secondes</title></rect>
-<text x="316.6" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/22</text>
-<rect x="339.3" y="148.7" width="36.0" height="57.3" rx="4.0" fill="#2f6fdb"><title>10/23 : 6 secondes</title></rect>
-<rect x="380.0" y="152.5" width="36.0" height="53.5" rx="4.0" fill="#2f6fdb"><title>10/24 : 5.6 secondes</title></rect>
-<text x="398.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/24</text>
-<rect x="420.7" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>10/25 : 5.8 secondes</title></rect>
-<rect x="461.4" y="147.7" width="36.0" height="58.3" rx="4.0" fill="#2f6fdb"><title>10/26 : 6.1 secondes</title></rect>
-<text x="479.4" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/26</text>
-<rect x="502.1" y="149.6" width="36.0" height="56.4" rx="4.0" fill="#2f6fdb"><title>10/27 : 5.9 secondes</title></rect>
-<rect x="542.8" y="147.7" width="36.0" height="58.3" rx="4.0" fill="#2f6fdb"><title>10/28 : 6.1 secondes</title></rect>
-<text x="560.8" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/28</text>
-<rect x="583.5" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>10/29 : 5.8 secondes</title></rect>
-<rect x="624.2" y="153.5" width="36.0" height="52.5" rx="4.0" fill="#2f6fdb"><title>10/30 : 5.5 secondes</title></rect>
-<text x="642.2" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/30</text>
-<rect x="664.9" y="151.6" width="36.0" height="54.4" rx="4.0" fill="#2f6fdb"><title>10/31 : 5.7 secondes</title></rect>
-<rect x="705.6" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>11/01 : 5.8 secondes</title></rect>
-<text x="723.6" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/01</text>
+<rect x="53.2" y="55.1" width="36.0" height="150.9" rx="4.0" fill="#2f6fdb"><title>10/16 : 15.8 secondes</title></rect>
+<text x="71.2" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/16</text>
+<rect x="91.7" y="107.6" width="36.0" height="98.4" rx="4.0" fill="#2f6fdb"><title>10/17 : 10.3 secondes</title></rect>
+<rect x="130.1" y="161.1" width="36.0" height="44.9" rx="4.0" fill="#2f6fdb"><title>10/18 : 4.7 secondes</title></rect>
+<text x="148.1" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/18</text>
+<rect x="168.6" y="149.6" width="36.0" height="56.4" rx="4.0" fill="#2f6fdb"><title>10/19 : 5.9 secondes</title></rect>
+<rect x="207.0" y="143.9" width="36.0" height="62.1" rx="4.0" fill="#2f6fdb"><title>10/20 : 6.5 secondes</title></rect>
+<text x="225.0" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/20</text>
+<rect x="245.4" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>10/21 : 5.8 secondes</title></rect>
+<rect x="283.9" y="149.6" width="36.0" height="56.4" rx="4.0" fill="#2f6fdb"><title>10/22 : 5.9 secondes</title></rect>
+<text x="301.9" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/22</text>
+<rect x="322.3" y="148.7" width="36.0" height="57.3" rx="4.0" fill="#2f6fdb"><title>10/23 : 6 secondes</title></rect>
+<rect x="360.8" y="152.5" width="36.0" height="53.5" rx="4.0" fill="#2f6fdb"><title>10/24 : 5.6 secondes</title></rect>
+<text x="378.8" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/24</text>
+<rect x="399.2" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>10/25 : 5.8 secondes</title></rect>
+<rect x="437.7" y="147.7" width="36.0" height="58.3" rx="4.0" fill="#2f6fdb"><title>10/26 : 6.1 secondes</title></rect>
+<text x="455.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/26</text>
+<rect x="476.1" y="149.6" width="36.0" height="56.4" rx="4.0" fill="#2f6fdb"><title>10/27 : 5.9 secondes</title></rect>
+<rect x="514.6" y="147.7" width="36.0" height="58.3" rx="4.0" fill="#2f6fdb"><title>10/28 : 6.1 secondes</title></rect>
+<text x="532.6" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/28</text>
+<rect x="553.0" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>10/29 : 5.8 secondes</title></rect>
+<rect x="591.4" y="153.5" width="36.0" height="52.5" rx="4.0" fill="#2f6fdb"><title>10/30 : 5.5 secondes</title></rect>
+<text x="609.4" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/30</text>
+<rect x="629.9" y="151.6" width="36.0" height="54.4" rx="4.0" fill="#2f6fdb"><title>10/31 : 5.7 secondes</title></rect>
+<rect x="668.3" y="150.6" width="36.0" height="55.4" rx="4.0" fill="#2f6fdb"><title>11/01 : 5.8 secondes</title></rect>
+<text x="686.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/01</text>
+<rect x="706.8" y="153.5" width="36.0" height="52.5" rx="4.0" fill="#2f6fdb"><title>11/02 : 5.5 secondes</title></rect>
 </svg>
