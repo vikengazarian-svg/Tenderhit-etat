@@ -1,2 +1,9 @@
 # reprendre_decp 2026-10-31_decp
-En cours depuis 03/11 15:52
+Lancée le 03/11/2026 15:52, finie le 03/11/2026 16:10, code 0
+
+Reprise de la passe 2026-10-31_decp (erreur précédente : publier_aides : RuntimeError : tables d'aide siren_acheteurs : erreur 500 — Remise à zéro de siren_acheteurs impossible : canceling statement due to statement timeout)
+
+publier_aides…
+  publier_aides : 1117.0 s, mémoire max 415.404032 Mo
+2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées
+Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées
