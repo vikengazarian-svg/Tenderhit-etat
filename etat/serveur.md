@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 04/11/2026 à 17:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 04/11/2026 à 18:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-04 16:59:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-04 17:59:07  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-04 07:11:58  OK, 599 avis collectés, 220 couples recalculés, 66 republiés en 41.9 min |
 | Passe DECP hebdomadaire | 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-04 07:15:22  Contrôle du 04/11 : vert — 220 couples identiques au site, 349 attributions anciennes gardées par le site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.56 Go sur 7.6 · charge 0.01 · disque 32.7 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.00 · disque 32.7 % · échange 0.0 Go
 
 ## Performances
 
@@ -53,6 +53,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 - 13:34 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 18 s
 - 13:34 : (édition 2026-11, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 20 s
+- 17:47 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 18 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -76,19 +77,16 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                            PASSED UNIT                     ACTIVATES
-Thu 2026-11-05 06:30:00 CET    13h Wed 2026-11-04 06:30:04 CET    10h ago tenderhit-collecte.timer tenderhit-collecte.service
+Thu 2026-11-05 06:30:00 CET    12h Wed 2026-11-04 06:30:04 CET    11h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-07 03:00:00 CET 2 days Sat 2026-10-31 03:00:04 CET 4 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Wed 2026-11-04 17:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Wed 2026-11-04 17:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Wed 2026-11-04 18:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Wed 2026-11-04 18:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-04 07:02:05    M22_94 : 7 opportunités · inchangé · 7 s
-2026-11-04 07:02:28    M22_95 : 6 opportunités · rapport et opportunités · 23 s
-2026-11-04 07:02:34    M23_27 : 5 opportunités · inchangé · 6 s
 2026-11-04 07:02:42    M23_44 : 7 opportunités · inchangé · 8 s
 2026-11-04 07:02:52    M23_76 : 8 opportunités · rapport et opportunités · 10 s
 2026-11-04 07:03:01    M24_69 : 9 opportunités · inchangé · 9 s
@@ -126,4 +124,7 @@ Sat 2026-11-07 03:00:00 CET 2 days Sat 2026-10-31 03:00:04 CET 4 days ago tender
 2026-11-04 13:34:26    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 18 s
 2026-11-04 13:34:27  M22_80 : demande en attente
 2026-11-04 13:34:47    publié (édition 2026-11, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 20 s
+2026-11-04 17:47:08  M22_11 : demande en attente
+2026-11-04 17:47:08    carte du 11 téléchargée
+2026-11-04 17:47:26    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 18 s
 ```
