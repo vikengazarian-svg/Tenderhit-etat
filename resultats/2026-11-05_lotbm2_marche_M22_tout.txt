@@ -1,2 +1,14 @@
 # marche M22 --tout
-En cours depuis 05/11 14:10
+Lancée le 05/11/2026 14:10, finie le 05/11/2026 14:10, code 0
+
+2026-11-05 14:10:24  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 12442 lignes en 4 paquets
+{
+ "version": "2026-11-05",
+ "envoyees": [
+  "M22 (étage 2, 12442 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 12442,
+ "paquets": 4,
+ "erreurs": {}
+}
