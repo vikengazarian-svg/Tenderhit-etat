@@ -1,2 +1,13 @@
 # mettre_a_jour v2.36
-En cours depuis 05/11 14:24
+Lancée le 05/11/2026 14:24, finie le 05/11/2026 14:24, code 0
+
+Moteur à la version v2.36 (73edb19)
+
+Horaires des tâches (code 0) :
+NEXT                             LEFT LAST                            PASSED UNIT                     ACTIVATES
+Thu 2026-11-05 14:25:00 CET       54s Thu 2026-11-05 14:24:00 CET     5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-06 06:30:00 CET       16h Thu 2026-11-05 06:30:04 CET     7h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 1 day 12h Sat 2026-10-31 03:00:04 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-05 14:24:00 CET     5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+4 timers listed.
