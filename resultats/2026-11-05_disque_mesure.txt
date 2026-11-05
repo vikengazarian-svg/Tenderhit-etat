@@ -1,2 +1,108 @@
 # disque
-En cours depuis 05/11 21:50
+Lancée le 05/11/2026 21:50, finie le 05/11/2026 21:50, code 0
+
+Mesure du disque du 05/11/2026 21:50 (lecture seule, rien n'est modifié)
+
+## Occupation
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        48G   19G   29G  40% /
+
+## Fichiers (inodes)
+Filesystem      Inodes  IUsed   IFree IUse% Mounted on
+/dev/sda1      6422528 150049 6272479    3% /
+
+## Machine entière, par dossier de premier niveau
+    19.92 Go  /
+    12.04 Go  /srv
+     2.07 Go  /usr
+     1.12 Go  /var
+     0.17 Go  /opt
+     0.14 Go  /home
+       73 Mo  /root
+
+Fichier d'échange /swapfile : 4.29 Go
+
+## Moteur (/srv/tenderhit), 3 niveaux
+    12.20 Go  /srv/tenderhit
+    10.96 Go  /srv/tenderhit/entrepot
+     3.50 Go  /srv/tenderhit/entrepot/sources
+     3.09 Go  /srv/tenderhit/entrepot/production
+     2.95 Go  /srv/tenderhit/entrepot/sources/sirene
+     2.86 Go  /srv/tenderhit/entrepot/production/controles
+     1.38 Go  /srv/tenderhit/entrepot/boamp
+     1.33 Go  /srv/tenderhit/entrepot/boamp/historique
+     1.19 Go  /srv/tenderhit/entrepot/decp
+     0.79 Go  /srv/tenderhit/entrepot/decp/archives
+     0.67 Go  /srv/tenderhit/entrepot/execution
+     0.66 Go  /srv/tenderhit/parallele
+     0.59 Go  /srv/tenderhit/entrepot/passes
+     0.50 Go  /srv/tenderhit/entrepot/sources/decp
+     0.44 Go  /srv/tenderhit/parallele/execution
+     0.35 Go  /srv/tenderhit/entrepot/execution/data
+     0.31 Go  /srv/tenderhit/entrepot/execution/rapports
+     0.30 Go  /srv/tenderhit/entrepot/passes/2026-10-31_decp
+     0.28 Go  /srv/tenderhit/entrepot/passes/2026-10-24_decp
+     0.26 Go  /srv/tenderhit/entrepot/marche
+     0.24 Go  /srv/tenderhit/parallele/execution/data
+     0.23 Go  /srv/tenderhit/env.ancien
+     0.23 Go  /srv/tenderhit/env.ancien/lib
+     0.23 Go  /srv/tenderhit/env.ancien/lib/python3.12
+     0.23 Go  /srv/tenderhit/entrepot/photographie
+     0.23 Go  /srv/tenderhit/entrepot/photographie/2026-10-16_1641
+     0.22 Go  /srv/tenderhit/entrepot/production/publies
+     0.19 Go  /srv/tenderhit/parallele/execution/rapports
+     0.18 Go  /srv/tenderhit/env
+     0.18 Go  /srv/tenderhit/env/lib
+     0.18 Go  /srv/tenderhit/env/lib/python3.14
+     0.18 Go  /srv/tenderhit/parallele/2026-10-24
+     0.17 Go  /srv/tenderhit/parallele/2026-10-24/envois
+       48 Mo  /srv/tenderhit/entrepot/boamp/quotidien
+       46 Mo  /srv/tenderhit/parallele/2026-10-23
+       37 Mo  /srv/tenderhit/entrepot/etiquettes
+       37 Mo  /srv/tenderhit/entrepot/etiquettes/74b24ae6fdca
+       26 Mo  /srv/tenderhit/entrepot/sources/fusion
+       25 Mo  /srv/tenderhit/parallele/2026-10-23/envois
+       22 Mo  /srv/tenderhit/relais
+       20 Mo  /srv/tenderhit/relais/.git
+
+## Système
+     1.12 Go  /var
+     0.54 Go  /var/cache
+     0.32 Go  /var/cache/apt
+     0.32 Go  /var/log
+     0.26 Go  /var/lib
+     0.24 Go  /var/log/journal
+     0.21 Go  /var/lib/apt
+     0.17 Go  /var/cache/uv
+     2.07 Go  /usr
+     1.14 Go  /usr/lib
+     0.33 Go  /usr/src
+     0.32 Go  /usr/lib/x86_64-linux-gnu
+     0.30 Go  /usr/share
+     0.24 Go  /usr/lib/python3
+     0.12 Go  /boot
+       11 Mo  /boot/grub
+     0.14 Go  /home
+     0.14 Go  /home/ubuntu
+     0.14 Go  /home/ubuntu/depot
+       73 Mo  /root
+       73 Mo  /root/.cache
+  (/tmp : rien de plus de 10 Mo)
+     0.17 Go  /opt
+     0.12 Go  /opt/python
+       55 Mo  /opt/uv
+  (/snap : rien de plus de 50 Mo)
+
+Journal système : Archived and active journals take up 211.8M in the file system.
+Noyaux installés (/usr/lib/modules) et noyau en service : 2 · 6.8.0-147-generic
+
+## Fichiers de plus de 200 Mo (taille, date de modification)
+     2.23 Go  2026-11-05  /srv/tenderhit/entrepot/sources/sirene/stock-stocketablissement-parquet.parquet
+     0.72 Go  2026-11-05  /srv/tenderhit/entrepot/sources/sirene/stock-stockunitelegale-parquet.parquet
+     0.26 Go  2026-10-31  /srv/tenderhit/entrepot/sources/decp/decp_2026-10-31.parquet
+     0.26 Go  2026-10-31  /srv/tenderhit/entrepot/decp/decp.parquet
+     0.25 Go  2026-10-31  /srv/tenderhit/entrepot/decp/archives/decp_2026-10-31_avant.parquet
+     0.25 Go  2026-10-24  /srv/tenderhit/entrepot/sources/decp/decp_2026-10-24.parquet
+     0.25 Go  2026-10-24  /srv/tenderhit/entrepot/decp/archives/decp_2026-10-24_avant.parquet
+
+(mesure faite en 5 s)
