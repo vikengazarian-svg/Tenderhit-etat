@@ -1,2 +1,25 @@
 # marche
-En cours depuis 05/11 15:54
+Lancée le 05/11/2026 15:54, finie le 05/11/2026 16:49, code 1
+
+2026-11-05 16:48:55  tables du marché : 0 activité(s) envoyée(s), 315 inchangée(s), 0 lignes en 0 paquets ; erreurs : C805, M01, M03, M04, M07, M08, M23, M24, M30, M33, M40, P1005
+{
+ "version": "2026-11-05",
+ "envoyees": [],
+ "inchangees": 315,
+ "lignes": 0,
+ "paquets": 0,
+ "erreurs": {
+  "C805": "tables du marché C805 (contrat) : erreur 500 — Tables du marché (contrat, C805) : upstream request timeout",
+  "M01": "tables du marché M01 (contrat) : erreur 500 — Tables du marché (contrat, M01) : upstream request timeout",
+  "M03": "tables du marché M03 (contrat) : erreur 500 — Tables du marché (contrat, M03) : upstream request timeout",
+  "M04": "tables du marché M04 (contrat) : erreur 500 — Tables du marché (contrat, M04) : upstream request timeout",
+  "M07": "tables du marché M07 (contrat) : erreur 500 — Tables du marché (contrat, M07) : upstream request timeout",
+  "M08": "tables du marché M08 (contrat) : erreur 500 — Tables du marché (contrat, M08) : upstream request timeout",
+  "M23": "tables du marché M23 (contrat) : erreur 500 — Tables du marché (contrat, M23) : upstream request timeout",
+  "M24": "tables du marché M24 (contrat) : erreur 500 — Tables du marché (contrat, M24) : error code: 520\n",
+  "M30": "tables du marché M30 (contrat) : erreur 500 — Tables du marché (contrat, M30) : upstream request timeout",
+  "M33": "tables du marché M33 (contrat) : erreur 500 — Tables du marché (contrat, M33) : upstream request timeout",
+  "M40": "tables du marché M40 (contrat) : erreur 500 — Tables du marché (contrat, M40) : upstream request timeout",
+  "P1005": "tables du marché P1005 (contrat) : erreur 500 — Tables du marché (contrat, P1005) : upstream request timeout"
+ }
+}
