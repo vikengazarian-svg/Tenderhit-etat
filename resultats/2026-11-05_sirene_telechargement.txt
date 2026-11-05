@@ -1,2 +1,58 @@
 # sirene
-En cours depuis 05/11 14:26
+Lancée le 05/11/2026 14:26, finie le 05/11/2026 14:27, code 0
+
+2026-11-05 14:27:53  SIRENE : 153268 entreprises et 198793 établissements titulaires extraits (85.4 s)
+{
+ "bilan": {
+  "date": "2026-11-05T14:27:53",
+  "millesime": "Sirene : Fichier StockUniteLegale - 01 novembre 2026 (format parquet)",
+  "octets": {
+   "ul": 717824037,
+   "etab": 2231588933
+  },
+  "titulaires": 153268,
+  "etablissements": 198793,
+  "durees_s": {
+   "telechargement_ul": 24.0,
+   "telechargement_etab": 58.3,
+   "extraction": 2.8,
+   "total": 85.4
+  }
+ },
+ "etat": {
+  "dossier": "/srv/tenderhit/entrepot/sirene",
+  "a_jour": true,
+  "fichiers": {
+   "titulaires.parquet": {
+    "octets": 776371,
+    "lignes": 153268,
+    "modifie": "2026-11-05T14:27:51"
+   },
+   "etablissements.parquet": {
+    "octets": 1674782,
+    "lignes": 198793,
+    "modifie": "2026-11-05T14:27:53"
+   }
+  },
+  "fichiers_complets": {
+   "stock-stocketablissement-parquet.parquet": 2231588933,
+   "stock-stockunitelegale-parquet.parquet": 717824037
+  },
+  "bilan": {
+   "date": "2026-11-05T14:27:53",
+   "millesime": "Sirene : Fichier StockUniteLegale - 01 novembre 2026 (format parquet)",
+   "octets": {
+    "ul": 717824037,
+    "etab": 2231588933
+   },
+   "titulaires": 153268,
+   "etablissements": 198793,
+   "durees_s": {
+    "telechargement_ul": 24.0,
+    "telechargement_etab": 58.3,
+    "extraction": 2.8,
+    "total": 85.4
+   }
+  }
+ }
+}
