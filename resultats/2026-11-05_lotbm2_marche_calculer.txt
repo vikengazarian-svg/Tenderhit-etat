@@ -1,2 +1,5 @@
 # marche --calculer --tout
-En cours depuis 05/11 12:36
+Lancée le 05/11/2026 12:36, finie le 05/11/2026 13:36, code 124
+
+délai dépassé (3600 s)
+b'profil par mots-cl\xc3\xa9s : 1 march\xc3\xa9s en France sur 3 ans ; familles retenues  ; \xc3\xa9cart\xc3\xa9es 0 march\xc3\xa9s\nprofil par mots-cl\xc3\xa9s : 322 march\xc3\xa9s en France sur 3 ans ; familles retenues 72 (177), 80 (26), 79 (24), 48 (17) ; \xc3\xa9cart\xc3\xa9es 78 march\xc3\xa9s\nprofil par mots-cl\xc3\xa9s : 6796 march\xc3\xa9s en France sur 3 ans ; familles retenues 72 (3129), 48 (2122), 30 (466) ; \xc3\xa9cart\xc3\xa9es 1079 march\xc3\xa9s\nprofil par mots-cl\xc3\xa9s : 1489 march\xc3\xa9s en France sur 3 ans ; familles retenues 71 (512), 72 (432), 79 (284) ; \xc3\xa9cart\xc3\xa9es 261 march\xc3\xa9s\nprofil par mots-cl\xc3\xa9s : 28494 march\xc3\xa9s en France sur 3 ans ; familles retenues 71 (24761) ; \xc3\xa9cart\xc3\xa9es 3733 march\xc3\xa9s\n2026-11-05 12:38:55  tables du march\xc3\xa9 calcul\xc3\xa9es : 328 activit\xc3\xa9s, 1915144 attributions en 166.1 s, m\xc3\xa9moire max 3676 Mo\n'
