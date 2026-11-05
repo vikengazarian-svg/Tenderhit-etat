@@ -1,2 +1,4 @@
 # purge --essai
-En cours depuis 05/11 22:12
+Lancée le 05/11/2026 22:12, finie le 05/11/2026 22:12, code 0
+
+purge du disque à blanc (purge.json : actif = false) : 22 élément(s), 1.94 Go libérables — fusions 5 (0.01 Go), photographies_controle 15 (1.93 Go), tmp 2 (0.0 Go)
