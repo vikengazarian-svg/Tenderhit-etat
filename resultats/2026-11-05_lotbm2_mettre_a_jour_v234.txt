@@ -1,2 +1,13 @@
 # mettre_a_jour v2.34
-En cours depuis 05/11 12:30
+Lancée le 05/11/2026 12:30, finie le 05/11/2026 12:30, code 0
+
+Moteur à la version v2.34 (c440db1)
+
+Horaires des tâches (code 0) :
+NEXT                             LEFT LAST                            PASSED UNIT                     ACTIVATES
+Thu 2026-11-05 12:31:00 CET       49s Thu 2026-11-05 12:30:04 CET     5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-06 06:30:00 CET       17h Thu 2026-11-05 06:30:04 CET     6h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 1 day 14h Sat 2026-10-31 03:00:04 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-05 12:30:04 CET     5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+4 timers listed.
