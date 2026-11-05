@@ -1,2 +1,22 @@
 # marche M22 --calculer --tout
-En cours depuis 05/11 14:30
+Lancée le 05/11/2026 14:30, finie le 05/11/2026 14:34, code 0
+
+profil par mots-clés : 1 marchés en France sur 3 ans ; familles retenues  ; écartées 0 marchés
+profil par mots-clés : 322 marchés en France sur 3 ans ; familles retenues 72 (177), 80 (26), 79 (24), 48 (17) ; écartées 78 marchés
+profil par mots-clés : 6796 marchés en France sur 3 ans ; familles retenues 72 (3129), 48 (2122), 30 (466) ; écartées 1079 marchés
+profil par mots-clés : 1489 marchés en France sur 3 ans ; familles retenues 71 (512), 72 (432), 79 (284) ; écartées 261 marchés
+profil par mots-clés : 28494 marchés en France sur 3 ans ; familles retenues 71 (24761) ; écartées 3733 marchés
+2026-11-05 14:33:03  SIRENE : fichiers du mois déjà présents, pas de téléchargement
+2026-11-05 14:33:18  SIRENE : contrôle impossible (CatalogException)
+2026-11-05 14:33:19  tables du marché calculées : 328 activités, 1915144 attributions en 169.6 s, mémoire max 4119 Mo
+2026-11-05 14:33:57  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 12442 lignes en 4 paquets
+{
+ "version": "2026-11-05",
+ "envoyees": [
+  "M22 (étage 2, 12442 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 12442,
+ "paquets": 4,
+ "erreurs": {}
+}

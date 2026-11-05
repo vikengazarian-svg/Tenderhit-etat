@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 05/11/2026 à 14:27 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 05/11/2026 à 14:34 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-05 14:26:08  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-05 14:30:08  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-05 07:12:21  OK, 770 avis collectés, 223 couples recalculés, 65 republiés en 42.3 min |
 | Passe DECP hebdomadaire | 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète |
 
-**Machine maintenant** : mémoire 0.58 Go sur 7.6 · charge 0.27 · disque 39.1 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.58 Go sur 7.6 · charge 0.62 · disque 39.1 % · échange 0.0 Go
 
 ## Performances
 
@@ -75,20 +75,16 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                             LEFT LAST                              PASSED UNIT                     ACTIVATES
-Thu 2026-11-05 14:28:00 CET        6s Thu 2026-11-05 14:27:00 CET      53s ago tenderhit-demandes.timer tenderhit-demandes.service
-Fri 2026-11-06 06:30:00 CET       16h Thu 2026-11-05 06:30:04 CET       7h ago tenderhit-collecte.timer tenderhit-collecte.service
+Fri 2026-11-06 06:30:00 CET       15h Thu 2026-11-05 06:30:04 CET       8h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-07 03:00:00 CET 1 day 12h Sat 2026-10-31 03:00:04 CET   5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-05 14:26:04 CET 1min 49s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                   - Thu 2026-11-05 14:34:00 CET       3s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                   - Thu 2026-11-05 14:30:04 CET 3min 59s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-05 07:03:01    M22_95 : 6 opportunités · rapport et opportunités · 23 s
-2026-11-05 07:03:08    M23_27 : 5 opportunités · inchangé · 6 s
-2026-11-05 07:03:17    M23_44 : 6 opportunités · rapport et opportunités · 9 s
-2026-11-05 07:03:25    M23_76 : 8 opportunités · inchangé · 8 s
 2026-11-05 07:03:35    M24_69 : 8 opportunités · rapport et opportunités · 10 s
 2026-11-05 07:03:43    M24_76 : 10 opportunités · inchangé · 8 s
 2026-11-05 07:03:53    M30_69 : 13 opportunités · rapport et opportunités · 10 s
@@ -125,4 +121,8 @@ Sat 2026-11-07 03:00:00 CET 1 day 12h Sat 2026-10-31 03:00:04 CET   5 days ago t
 2026-11-05 13:53:31  tables du marché : 7 activité(s) envoyée(s), 320 inchangée(s), 354911 lignes en 82 paquets
 2026-11-05 14:10:24  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 12442 lignes en 4 paquets
 2026-11-05 14:27:53  SIRENE : 153268 entreprises et 198793 établissements titulaires extraits (85.4 s)
+2026-11-05 14:33:03  SIRENE : fichiers du mois déjà présents, pas de téléchargement
+2026-11-05 14:33:18  SIRENE : contrôle impossible (CatalogException)
+2026-11-05 14:33:19  tables du marché calculées : 328 activités, 1915144 attributions en 169.6 s, mémoire max 4119 Mo
+2026-11-05 14:33:57  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 12442 lignes en 4 paquets
 ```
