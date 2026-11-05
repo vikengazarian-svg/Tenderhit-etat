@@ -1,2 +1,14 @@
 # mettre_a_jour v2.38
-En cours depuis 05/11 22:10
+Lancée le 05/11/2026 22:10, finie le 05/11/2026 22:10, code 0
+
+Moteur à la version v2.38 (656f61f)
+
+Horaires des tâches (code 0) :
+NEXT                            LEFT LAST                            PASSED UNIT                     ACTIVATES
+Thu 2026-11-05 22:11:00 CET      50s Thu 2026-11-05 22:10:04 CET     5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-06 05:45:00 CET       7h Thu 2026-11-05 22:10:09 CET          - tenderhit-purge.timer    tenderhit-purge.service
+Fri 2026-11-06 06:30:00 CET       8h Thu 2026-11-05 06:30:04 CET    15h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 1 day 4h Sat 2026-10-31 03:00:04 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Thu 2026-11-05 22:10:04 CET     5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+5 timers listed.
