@@ -1,2 +1,9 @@
 # controle
-En cours depuis 05/11 11:00
+Lancée le 05/11/2026 11:00, finie le 05/11/2026 11:03, code 1
+
+rapports                   443 lignes  complète  (0.8 s)
+echeances                26179 lignes  complète  (14.2 s)
+opportunites              4681 lignes  complète  (3.7 s)
+ERREUR attributions : RuntimeError : Lecture de attributions impossible : canceling statement due to statement timeout
+2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
+Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète

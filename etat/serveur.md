@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 05/11/2026 à 10:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 05/11/2026 à 11:03 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-05 09:59:05  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-05 11:03:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-05 07:12:21  OK, 770 avis collectés, 223 couples recalculés, 65 republiés en 42.3 min |
 | Passe DECP hebdomadaire | 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-11-05 07:15:46  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète |
+| Contrôle quotidien | 2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète |
 
-**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.00 · disque 33.0 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.56 Go sur 7.6 · charge 0.01 · disque 33.3 % · échange 0.0 Go
 
 ## Performances
 
@@ -56,7 +56,6 @@ Aucune pour l'instant.
 ### Contrôles quotidiens (14 derniers)
 
 ```
-2026-10-24 07:06  Contrôle du 24/10 : rouge — 47 couples identiques au site, 175 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_26, C451_38, C451_69, C451_71, C451_74, C451_FR, C642_FR, C710_14, C710_22, C710_27, C710_29, C710_35, C710_56, C710_59, C710_60, C710_75, C710_76, C710_80, C710_93, C715_04, C715_05, C715_06, C715_13, C715_75, C715_83, C715_84, C728_69, C728_75, C741_14, C741_22, C741_27, C741_29, C741_35, C741_56, C741_59, C741_60, C741_75, C741_76, C741_80, C741_93, C772_01, C772_26, C772_38, C772_69, C772_71, C772_74, C772_FR, C794_FR, C805_34, M01_01, M01_14, M01_16, M01_24, M01_38, M01_59, M01_69, M01_73, M01_74, M01_75, M01_76, M01_83, M01_92, M01_93, M01_94, M01_FR, M03_76, M04_62, M04_76, M07_59, M07_76, M08_76, M08_81, M22_05, M22_07, M22_16, M22_17, M22_21, M22_24, M22_74, M22_75, M22_83, M22_87, M22_92, M22_93, M23_27, M23_44, M23_76, M24_69, M24_76, M30_69, M33_01, M33_38, M33_42, M33_69, M33_71, M33_85, M40_05, M40_76, P1005_14, P1005_22, P1005_27, P1005_29, P1005_35, P1005_56, P1005_59, P1005_60, P1005_75, P1005_76, P1005_80, P1005_93 ; tâches à l'heure, site à jour
 2026-10-25 07:08  Contrôle du 25/10 : vert — 160 couples identiques au site ; tâches à l'heure, site à jour
 2026-10-26 07:09  Contrôle du 26/10 : vert — 163 couples identiques au site ; tâches à l'heure, site à jour
 2026-10-27 07:13  Contrôle du 27/10 : vert — 166 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
@@ -70,22 +69,22 @@ Aucune pour l'instant.
 2026-11-03 07:12  Contrôle du 03/11 : vert — 219 couples identiques au site, 349 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
 2026-11-04 07:15  Contrôle du 04/11 : vert — 220 couples identiques au site, 349 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
 2026-11-05 07:15  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
+2026-11-05 11:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
 ```
 
 ## Tâches planifiées
 ```
 NEXT                             LEFT LAST                              PASSED UNIT                     ACTIVATES
-Fri 2026-11-06 06:30:00 CET       20h Thu 2026-11-05 06:30:04 CET 3h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-07 03:00:00 CET 1 day 16h Sat 2026-10-31 03:00:04 CET   5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-05 10:00:04 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                   - Thu 2026-11-05 10:00:04 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+Thu 2026-11-05 11:04:00 CET       56s Thu 2026-11-05 11:03:00 CET       3s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-06 06:30:00 CET       19h Thu 2026-11-05 06:30:04 CET 4h 32min ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 1 day 15h Sat 2026-10-31 03:00:04 CET   5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-05 11:00:04 CET 2min 59s ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-05 07:02:08    M22_87 : 1 opportunités · rapport et opportunités · 15 s
 2026-11-05 07:02:14    M22_91 : 3 opportunités · inchangé · 7 s
 2026-11-05 07:02:22    M22_92 : 7 opportunités · rapport et opportunités · 8 s
 2026-11-05 07:02:30    M22_93 : 3 opportunités · rapport et opportunités · 8 s
@@ -125,4 +124,5 @@ Sat 2026-11-07 03:00:00 CET 1 day 16h Sat 2026-10-31 03:00:04 CET   5 days ago t
 2026-11-05 07:12:21    P1005_93 : 13 opportunités · inchangé · 13 s
 2026-11-05 07:12:21  OK, 770 avis collectés, 223 couples recalculés, 65 republiés en 42.3 min
 2026-11-05 07:15:46  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
+2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
 ```
