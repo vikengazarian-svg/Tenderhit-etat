@@ -1,2 +1,20 @@
 # marche
-En cours depuis 05/11 13:38
+Lancée le 05/11/2026 13:38, finie le 05/11/2026 13:53, code 0
+
+2026-11-05 13:53:31  tables du marché : 7 activité(s) envoyée(s), 320 inchangée(s), 354911 lignes en 82 paquets
+{
+ "version": "2026-11-05",
+ "envoyees": [
+  "C451 (étage 2, 151827 lignes)",
+  "C794 (étage 2, 17317 lignes)",
+  "C799 (étage 1, 931 lignes)",
+  "C801 (étage 1, 77 lignes)",
+  "C803 (étage 1, 313 lignes)",
+  "C805 (étage 2, 35019 lignes)",
+  "P1005 (étage 2, 149427 lignes)"
+ ],
+ "inchangees": 320,
+ "lignes": 354911,
+ "paquets": 82,
+ "erreurs": {}
+}

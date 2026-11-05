@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 05/11/2026 à 13:36 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 05/11/2026 à 13:53 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : contrôle quotidien rouge ; demandes des clients non traitées depuis plus de 15 min
+## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-05 12:36:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-05 13:53:07  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-05 07:12:21  OK, 770 avis collectés, 223 couples recalculés, 65 republiés en 42.3 min |
 | Passe DECP hebdomadaire | 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète |
 
-**Machine maintenant** : mémoire 0.91 Go sur 7.6 · charge 0.17 · disque 33.3 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.00 · disque 33.3 % · échange 0.0 Go
 
 ## Performances
 
@@ -74,18 +74,17 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                             LEFT LAST                             PASSED UNIT                     ACTIVATES
-Thu 2026-11-05 13:37:00 CET       52s Thu 2026-11-05 13:36:00 CET      7s ago tenderhit-demandes.timer tenderhit-demandes.service
-Fri 2026-11-06 06:30:00 CET       16h Thu 2026-11-05 06:30:04 CET      7h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-07 03:00:00 CET 1 day 13h Sat 2026-10-31 03:00:04 CET  5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-05 12:36:04 CET 1h 0min ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                             LEFT LAST                            PASSED UNIT                     ACTIVATES
+Thu 2026-11-05 13:54:00 CET       27s Thu 2026-11-05 13:53:00 CET    32s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-06 06:30:00 CET       16h Thu 2026-11-05 06:30:04 CET     7h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 1 day 13h Sat 2026-10-31 03:00:04 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-05 13:38:04 CET  15min ago tenderhit-relais.timer   tenderhit-relais.service
 
 4 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-05 07:02:22    M22_92 : 7 opportunités · rapport et opportunités · 8 s
 2026-11-05 07:02:30    M22_93 : 3 opportunités · rapport et opportunités · 8 s
 2026-11-05 07:02:38    M22_94 : 9 opportunités · rapport et opportunités · 8 s
 2026-11-05 07:03:01    M22_95 : 6 opportunités · rapport et opportunités · 23 s
@@ -125,4 +124,5 @@ Sat 2026-11-07 03:00:00 CET 1 day 13h Sat 2026-10-31 03:00:04 CET  5 days ago te
 2026-11-05 07:15:46  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
 2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
 2026-11-05 12:38:55  tables du marché calculées : 328 activités, 1915144 attributions en 166.1 s, mémoire max 3676 Mo
+2026-11-05 13:53:31  tables du marché : 7 activité(s) envoyée(s), 320 inchangée(s), 354911 lignes en 82 paquets
 ```
