@@ -1,2 +1,547 @@
 # diagnostic
-En cours depuis 05/11 12:32
+Lancée le 05/11/2026 12:32, finie le 05/11/2026 12:32, code 0
+
+# Diagnostic du 05/11/2026 12:32
+Publication : EN SERVICE (publie sur le site)
+
+## Tâches planifiées
+```
+NEXT                             LEFT LAST                            PASSED UNIT                     ACTIVATES
+Thu 2026-11-05 12:33:00 CET       51s Thu 2026-11-05 12:32:04 CET     4s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-06 06:30:00 CET       17h Thu 2026-11-05 06:30:04 CET     6h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-07 03:00:00 CET 1 day 14h Sat 2026-10-31 03:00:04 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-05 12:32:04 CET     4s ago tenderhit-relais.timer   tenderhit-relais.service
+
+4 timers listed.
+
+```
+
+## État des services
+```
+× tenderhit-hebdo.service - Tenderhit moteur V2 - hebdo
+     Loaded: loaded (/etc/systemd/system/tenderhit-hebdo.service; static)
+     Active: failed (Result: exit-code) since Sat 2026-10-31 04:29:27 CET; 5 days ago
+TriggeredBy: ● tenderhit-hebdo.timer
+   Main PID: 325144 (code=exited, status=2)
+        CPU: 58min 37.432s
+
+● tenderhit-collecte.timer - Tenderhit - appels d'offres, collecte BOAMP chaque jour à 6 h 30
+     Loaded: loaded (/etc/systemd/system/tenderhit-collecte.timer; enabled; preset: enabled)
+     Active: active (waiting) since Thu 2026-11-05 12:30:10 CET; 1min 58s ago
+    Trigger: Fri 2026-11-06 06:30:00 CET; 17h left
+   Triggers: ● tenderhit-collecte.service
+
+● tenderhit-hebdo.timer - Tenderhit - DECP hebdomadaire, samedi 3 h
+     Loaded: loaded (/etc/systemd/system/tenderhit-hebdo.timer; enabled; preset: enabled)
+     Active: active (waiting) since Thu 2026-11-05 12:30:10 CET; 1min 58s ago
+    Trigger: Sat 2026-11-07 03:00:00 CET; 1 day 14h left
+   Triggers: ● tenderhit-hebdo.service
+
+● tenderhit-relais.timer - Tenderhit - relais GitHub toutes les 2 minutes
+     Loaded: loaded (/etc/systemd/system/tenderhit-relais.timer; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-10-19 04:30:12 CEST; 2 weeks 3 days ago
+    Trigger: n/a
+   Triggers: ● tenderhit-relais.service
+
+● tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)
+     Loaded: loaded (/etc/systemd/system/tenderhit-relais.service; static)
+     Active: activating (start) since Thu 2026-11-05 12:32:04 CET; 4s ago
+TriggeredBy: ● tenderhit-relais.timer
+   Main PID: 469860 (python)
+      Tasks: 2 (limit: 9256)
+     Memory: 9.2M (peak: 11.3M)
+        CPU: 390ms
+     CGroup: /system.slice/tenderhit-relais.service
+             ├─469860 /srv/tenderhit/env/bin/python /usr/local/lib/tenderhit/relais.py
+             └─469886 systemctl status "tenderhit-*" --no-pager -n 0
+
+● tenderhit-demandes.timer - Tenderhit - demandes des clients, chaque minute
+     Loaded: loaded (/etc/systemd/system/tenderhit-demandes.timer; enabled; preset: enabled)
+     Active: active (waiting) since Thu 2026-11-05 12:30:10 CET; 1min 58s ago
+    Trigger: Thu 2026-11-05 12:33:00 CET; 51s left
+   Triggers: ● tenderhit-demandes.service
+
+```
+
+## Journal système (200 lignes)
+```
+Nov 05 11:51:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:51:08 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:51:08 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:52:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 11:52:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:52:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 11:52:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 11:52:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:52:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:53:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:53:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:53:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:54:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 11:54:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:54:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 11:54:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 11:54:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:54:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:55:01 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:55:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:55:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:56:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 11:56:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:56:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 11:56:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 11:56:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:56:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:57:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:57:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:57:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:58:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 11:58:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:58:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 11:58:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 11:58:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:58:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 11:59:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 11:59:07 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 11:59:07 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:00:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:00:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:00:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:00:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:00:07 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:00:07 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:01:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:01:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:01:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:02:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:02:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:02:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:02:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:02:07 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:02:07 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:03:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:03:08 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:03:08 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:04:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:04:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:04:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:04:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:04:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:04:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:05:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:05:17 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:05:17 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:06:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:06:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:06:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:06:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:06:08 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:06:08 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:07:00 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:07:02 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:07:02 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:08:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:08:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:08:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:08:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:08:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:08:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:09:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:09:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:09:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:10:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:10:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:10:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:10:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:10:07 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:10:07 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:11:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:11:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:11:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:12:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:12:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:12:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:12:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:12:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:12:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:13:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:13:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:13:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:14:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:14:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:14:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:14:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:14:08 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:14:08 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:15:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:15:08 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:15:08 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:16:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:16:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:16:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:16:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:16:07 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:16:07 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:17:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:17:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:17:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:18:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:18:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:18:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:18:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:18:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:18:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:19:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:19:07 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:19:07 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:20:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:20:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:20:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:20:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:20:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:20:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:21:03 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:21:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:21:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:22:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:22:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:22:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:22:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:22:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:22:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:23:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:23:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:23:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:24:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:24:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:24:05 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:24:05 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:24:06 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:24:06 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:25:01 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:25:04 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:25:04 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:26:01 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:26:01 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:26:02 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-relais.service: Deactivated successfully.
+Nov 05 12:26:02 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes).
+Nov 05 12:26:03 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:26:03 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:27:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-demandes.service - Tenderhit moteur V2 - demandes...
+Nov 05 12:27:09 b3-8-2026-10-17-15-30 systemd[1]: tenderhit-demandes.service: Deactivated successfully.
+Nov 05 12:27:09 b3-8-2026-10-17-15-30 systemd[1]: Finished tenderhit-demandes.service - Tenderhit moteur V2 - demandes.
+Nov 05 12:28:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-relais.service - Tenderhit - relais GitHub (état du serveur, commandes)...
+Nov 05 12:28:04 b3-8-2026-10-17-15-30 systemd[1]: Starting tenderhit-d
+```
+
+## Mémoire
+```
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       564Mi       2.9Gi       824Ki       4.4Gi       7.0Gi
+Swap:          4.0Gi       524Ki       4.0Gi
+
+```
+
+## Disque
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        48G   16G   32G  34% /
+
+```
+
+## Processus
+```
+    PID     ELAPSED %CPU %MEM   RSS CMD
+  97476 13-07:28:08  0.0  0.7 56144 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+ 459045    06:22:08  0.0  0.4 35872 /usr/lib/systemd/systemd-journald
+ 459056    06:22:08  0.0  0.3 27332 /sbin/multipathd -d -s
+    823 17-09:01:55  0.0  0.2 23160 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ 469860       00:04  1.6  0.2 17716 /srv/tenderhit/env/bin/python /usr/local/lib/tenderhit/relais.py
+      1 17-09:02:03  0.0  0.1 14024 /usr/lib/systemd/systemd --system --deserialize=77
+ 459078    06:22:08  0.0  0.1 13804 /usr/libexec/udisks2/udisksd
+ 459068    06:22:08  0.0  0.1 13280 /usr/lib/systemd/systemd-resolved
+ 459100    06:22:08  0.0  0.1 13044 /usr/sbin/ModemManager
+ 459048    06:22:08  0.0  0.1 10060 /usr/lib/polkit-1/polkitd --no-debug
+ 459112    06:22:08  0.0  0.1  9868 /usr/lib/systemd/systemd-networkd
+    765 17-09:01:55  0.0  0.1  8844 /usr/lib/systemd/systemd-logind
+ 459057    06:22:08  0.0  0.1  8308 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+ 459077    06:22:08  0.0  0.1  7964 /usr/lib/systemd/systemd-timesyncd
+ 459086    06:22:08  0.0  0.0  6988 /usr/lib/systemd/systemd-udevd
+  97422 13-07:28:09  0.0  0.0  6376 /usr/sbin/rsyslogd -n -iNONE
+    748 17-09:01:56  0.0  0.0  5828 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 469890       00:00  0.0  0.0  4196 ps -eo pid,etime,%cpu,%mem,rss,cmd --sort=-rss
+ 459049    06:22:08  0.0  0.0  4136 /usr/sbin/qemu-ga
+ 459029    06:22:08  0.0  0.0  2748 /usr/sbin/cron -f -P
+    853 17-09:01:55  0.0  0.0  2152 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+    866 17-09:01:55  0.0  0.0  2032 /sbin/agetty -o -p -- \u --noclear - linux
+      2 17-09:02:03  0.0  0.0     0 [kthreadd]
+      3 17-09:02:03  0.0  0.0     0 [pool_workqueue_release]
+      4 17-09:02:03  0.0  0.0     0 [kworker/R-rcu_g]
+      5 17-09:02:03  0.0  0.0     0 [kworker/R-rcu_p]
+      6 17-09:02:03  0.0  0.0     0 [kworker/R-slub_]
+      7 17-09:02:03  0.0  0.0     0 [kworker/R-netns]
+     10 17-09:02:03  0.0  0.0     0 [kworker/0:0H-events_highpri]
+     12 17-09:02:03  0.0  0.0     0 [kworker/R-mm_pe]
+     13 17-09:02:03  0.0  0.0     0 [rcu_tasks_kthread]
+     14 17-09:02:03  0.0  0.0     0 [rcu_tasks_rude_kthread]
+     15 17-09:02:03  0.0  0.0     0 [rcu_tasks_trace_kthread]
+     16 17-09:02:03  0.0  0.0     0 [ksoftirqd/0]
+     17 17-09:02:03  0.0  0.0     0 [rcu_preempt]
+     18 17-09:02:03  0.0  0.0     0 [migration/0]
+     19 17-09:02:03  0.0  0.0     0 [idle_inject/0]
+     20 17-09:02:03  0.0  0.0     0 [cpuhp/0]
+     21 17-09:02:03  0.0  0.0     0 [cpuhp/1]
+     22 17-09:02:03  0.0  0.0     0 [idle_inject/1]
+     23 17-09:02:03  0.0  0.0     0 [migration/1]
+     24 17-09:02:03  0.0  0.0     0 [ksoftirqd/1]
+     26 17-09:02:03  0.0  0.0     0 [kworker/1:0H-events_highpri]
+     29 17-09:02:03  0.0  0.0     0 [kdevtmpfs]
+     30 17-09:02:03  0.0  0.0     0 [kworker/R-inet_]
+     31 17-09:02:03  0.0  0.0     0 [kauditd]
+     32 17-09:02:03  0.0  0.0     0 [khungtaskd]
+     33 17-09:02:03  0.0  0.0     0 [oom_reaper]
+     35 17-09:02:03  0.0  0.0     0 [kworker/R-write]
+     37 17-09:02:03  0.0  0.0     0 [kcompactd0]
+     38 17-09:02:03  0.0  0.0     0 [ksmd]
+     40 17-09:02:03  0.0  0.0     0 [khugepaged]
+     41 17-09:02:03  0.0  0.0     0 [kworker/R-kinte]
+     42 17-09:02:03  0.0  0.0     0 [kworker/R-kbloc]
+     43 17-09:02:03  0.0  0.0     0 [kworker/R-blkcg]
+     44 17-09:02:03  0.0  0.0     0 [irq/9-acpi]
+     45 17-09:02:03  0.0  0.0     0 [kworker/R-tpm_d]
+     46 17-09:02:03  0.0  0.0     0 [kworker/R-ata_s]
+     47 17-09:02:03  0.0  0.0     0 [kworker/R-md]
+     48 17-09:02:03  0.0  0.0     0 [kworker/R-md_bi]
+     49 17-09:02:03  0.0  0.0     0 [kworker/R-edac-]
+     50 17-09:02:03  0.0  0.0     0 [kworker/R-devfr]
+     51 17-09:02:03  0.0  0.0     0 [watchdogd]
+     53 17-09:02:03  0.0  0.0     0 [kworker/R-quota]
+     54 17-09:02:03  0.0  0.0     0 [kworker/1:1H-kblockd]
+     55 17-09:02:03  0.0  0.0     0 [kswapd0]
+     56 17-09:02:03  0.0  0.0     0 [ecryptfs-kthread]
+     57 17-09:02:03  0.0  0.0     0 [kworker/R-kthro]
+     58 17-09:02:03  0.0  0.0     0 [kworker/R-acpi_]
+     60 17-09:02:03  0.0  0.0     0 [scsi_eh_0]
+     61 17-09:02:03  0.0  0.0     0 [kworker/R-scsi_]
+     62 17-09:02:03  0.0  0.0     0 [scsi_eh_1]
+     63 17-09:02:03  0.0  0.0     0 [kworker/R-scsi_]
+     64 17-09:02:03  0.0  0.0     0 [scsi_eh_2]
+     65 17-09:02:03  0.0  0.0     0 [kworker/R-scsi_]
+     67 17-09:02:03  0.0  0.0     0 [kworker/u4:1-ext4-rsv-conversion]
+     70 17-09:02:02  0.0  0.0     0 [kworker/R-mld]
+     71 17-09:02:02  0.0  0.0     0 [kworker/R-ipv6_]
+     78 17-09:02:02  0.0  0.0     0 [kworker/R-kstrp]
+     81 17-09:02:02  0.0  0.0     0 [kworker/u7:0]
+     82 17-09:02:02  0.0  0.0     0 [kworker/u8:0]
+     83 17-09:02:02  0.0  0.0     0 [kworker/u9:0]
+     88 17-09:02:02  0.0  0.0     0 [kworker/R-crypt]
+     98 17-09:02:02  0.0  0.0     0 [kworker/R-charg]
+    122 17-09:02:02  0.0  0.0     0 [kworker/0:1H-kblockd]
+    197 17-09:02:01  0.0  0.0     0 [kworker/R-raid5]
+    237 17-09:02:01  0.0  0.0     0 [jbd2/sda1-8]
+    238 17-09:02:01  0.0  0.0     0 [kworker/R-ext4-]
+    335 17-09:02:00  0.0  0.0     0 [kworker/R-kmpat]
+    336 17-09:02:00  0.0  0.0     0 [kworker/R-kmpat]
+    479 17-09:01:59  0.0  0.0     0 [jbd2/sda16-8]
+    480 17-09:01:59  0.0  0.0     0 [kworker/R-ext4-]
+  10902 16-21:50:08  0.0  0.0     0 [kworker/R-tls-s]
+ 114951 12-14:44:02  0.0  0.0     0 [kworker/u4:2-ipv6_addrconf]
+ 459111    06:22:08  0.0  0.0     0 [psimon]
+ 468804    01:09:08  0.0  0.0     0 [kworker/u6:1-writeback]
+ 469064       50:08  0.0  0.0     0 [kworker/u6:0-events_unbound]
+ 469371       29:36  0.0  0.0     0 [kworker/u5:4-events_unbound]
+ 469451       24:01  0.0  0.0     0 [kworker/1:2-cgroup_free]
+ 469474       23:24  0.0  0.0     0 [kworker/u6:2-events_power_efficient]
+ 469475       23:19  0.0  0.0     0 [kworker/u5:1-flush-8:0]
+ 469527       19:01  0.0  0.0     0 [kworker/0:2-cgroup_free]
+ 469578       15:42  0.0  0.0     0 [kworker/u6:4-events_power_efficient]
+ 469615       13:00  0.0  0.0     0 [kworker/0:3-events]
+ 469660       10:01  0.0  0.0     0 [kworker/1:3-cgroup_free]
+ 469688       07:04  0.0  0.0     0 [kworker/u5:0]
+ 469738       04:02  0.0  0.0     0 [kworker/1:0-events]
+ 469832       01:58  0.0  0.0     0 [psimon]
+ 469847       01:56  0.0  0.0     0 [kworker/0:0-cgroup_free]
+
+```
+
+## Pare-feu
+```
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                  
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+
+
+```
+
+## Redémarrage requis
+```
+ls: cannot access '/var/run/reboot-required': No such file or directory
+
+```
+
+## État du moteur
+```
+Couples en ligne suivis par le V2 : 223
+Dernière passe demandes : 2026-11-05 12:32:06  connexion OK, 0 couple(s) en attente : aucun
+Dernière passe collecte : 2026-11-05 07:12:21  OK, 770 avis collectés, 223 couples recalculés, 65 republiés en 42.3 min
+Dernière passe hebdo    : 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées
+Dernière passe controle : 2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
+
+```
+
+## Journal du moteur (150 lignes)
+```
+2026-11-05 06:44:11    C728_69 : 6 opportunités · inchangé · 7 s
+2026-11-05 06:44:18    C728_75 : 6 opportunités · inchangé · 8 s
+2026-11-05 06:44:23    C740_04 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:44:28    C740_05 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:44:32    C740_06 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:44:38    C740_13 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:44:43    C740_83 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:44:49    C740_84 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:44:55    C741_14 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:01    C741_22 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:06    C741_27 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:13    C741_29 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:18    C741_35 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:24    C741_56 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:31    C741_59 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:36    C741_60 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:43    C741_75 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:49    C741_76 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:45:54    C741_80 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:46:00    C741_93 : 0 opportunités · inchangé · 6 s
+2026-11-05 06:46:06    C772_01 : 3 opportunités · rapport et opportunités · 6 s
+2026-11-05 06:46:12    C772_03 : 0 opportunités · rapport et opportunités · 5 s
+2026-11-05 06:46:17    C772_07 : 2 opportunités · rapport et opportunités · 6 s
+2026-11-05 06:46:22    C772_14 : 1 opportunités · inchangé · 5 s
+2026-11-05 06:46:28    C772_15 : 0 opportunités · rapport et opportunités · 6 s
+2026-11-05 06:46:33    C772_21 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:46:39    C772_25 : 2 opportunités · inchangé · 5 s
+2026-11-05 06:46:45    C772_26 : 3 opportunités · rapport et opportunités · 6 s
+2026-11-05 06:46:52    C772_38 : 4 opportunités · rapport et opportunités · 7 s
+2026-11-05 06:46:57    C772_39 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:47:04    C772_42 : 3 opportunités · rapport et opportunités · 7 s
+2026-11-05 06:47:10    C772_43 : 0 opportunités · rapport et opportunités · 6 s
+2026-11-05 06:47:15    C772_58 : 2 opportunités · inchangé · 5 s
+2026-11-05 06:47:22    C772_63 : 3 opportunités · rapport et opportunités · 6 s
+2026-11-05 06:47:25    C772_69 : 2 opportunités · inchangé · 3 s
+2026-11-05 06:47:30    C772_70 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:47:35    C772_71 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:47:38    C772_73 : 1 opportunités · inchangé · 3 s
+2026-11-05 06:47:41    C772_74 : 3 opportunités · inchangé · 3 s
+2026-11-05 06:47:46    C772_76 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:47:51    C772_89 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:47:55    C772_90 : 0 opportunités · inchangé · 5 s
+2026-11-05 06:49:54    C772_FR : 218 opportunités · rapport et opportunités · 119 s
+2026-11-05 06:50:09    C794_FR : 85 opportunités · rapport et opportunités · 1 identifiant DECP raccourci · 15 s
+2026-11-05 06:50:13    C805_34 : 0 opportunités · inchangé · 4 s
+2026-11-05 06:50:16    M01_01 : 5 opportunités · inchangé · 3 s
+2026-11-05 06:50:30    M01_03 : 6 opportunités · rapport et opportunités · 14 s
+2026-11-05 06:50:32    M01_04 : 4 opportunités · inchangé · 2 s
+2026-11-05 06:50:46    M01_07 : 3 opportunités · rapport et opportunités · 14 s
+2026-11-05 06:50:53    M01_14 : 25 opportunités · rapport et opportunités · 7 s
+2026-11-05 06:51:09    M01_15 : 0 opportunités · rapport et opportunités · 16 s
+2026-11-05 06:51:22    M01_16 : 6 opportunités · inchangé · 13 s
+2026-11-05 06:51:27    M01_17 : 5 opportunités · inchangé · 5 s
+2026-11-05 06:51:32    M01_21 : 24 opportunités · inchangé · 5 s
+2026-11-05 06:51:44    M01_24 : 2 opportunités · inchangé · 12 s
+2026-11-05 06:51:50    M01_25 : 3 opportunités · inchangé · 5 s
+2026-11-05 06:51:55    M01_26 : 8 opportunités · inchangé · 5 s
+2026-11-05 06:52:00    M01_27 : 3 opportunités · inchangé · 5 s
+2026-11-05 06:52:07    M01_38 : 15 opportunités · inchangé · 7 s
+2026-11-05 06:52:18    M01_39 : 8 opportunités · inchangé · 11 s
+2026-11-05 06:52:24    M01_42 : 18 opportunités · inchangé · 6 s
+2026-11-05 06:52:40    M01_43 : 3 opportunités · rapport et opportunités · 16 s
+2026-11-05 06:52:50    M01_58 : 1 opportunités · inchangé · 10 s
+2026-11-05 06:53:01    M01_59 : 66 opportunités · rapport et opportunités · 10 s
+2026-11-05 06:53:06    M01_63 : 8 opportunités · inchangé · 5 s
+2026-11-05 06:53:15    M01_69 : 40 opportunités · inchangé · 9 s
+2026-11-05 06:53:26    M01_70 : 2 opportunités · inchangé · 11 s
+2026-11-05 06:53:31    M01_71 : 7 opportunités · inchangé · 5 s
+2026-11-05 06:53:37    M01_73 : 11 opportunités · inchangé · 6 s
+2026-11-05 06:53:44    M01_74 : 21 opportunités · rapport et opportunités · 8 s
+2026-11-05 06:54:01    M01_75 : 65 opportunités · rapport et opportunités · 17 s
+2026-11-05 06:54:09    M01_76 : 19 opportunités · inchangé · 8 s
+2026-11-05 06:54:18    M01_83 : 21 opportunités · rapport et opportunités · 9 s
+2026-11-05 06:54:22    M01_89 : 7 opportunités · inchangé · 4 s
+2026-11-05 06:54:33    M01_90 : 2 opportunités · inchangé · 11 s
+2026-11-05 06:54:43    M01_92 : 19 opportunités · rapport et opportunités · 10 s
+2026-11-05 06:54:52    M01_93 : 26 opportunités · inchangé · 8 s
+2026-11-05 06:54:59    M01_94 : 15 opportunités · inchangé · 7 s
+2026-11-05 06:56:33    M01_FR : 1219 opportunités · rapport et opportunités · 94 s
+2026-11-05 06:56:41    M03_76 : 7 opportunités · inchangé · 8 s
+2026-11-05 06:56:51    M04_62 : 13 opportunités · rapport et opportunités · 10 s
+2026-11-05 06:56:55    M04_76 : 6 opportunités · inchangé · 4 s
+2026-11-05 06:57:03    M07_59 : 43 opportunités · rapport et opportunités · 9 s
+2026-11-05 06:57:09    M07_76 : 18 opportunités · inchangé · 5 s
+2026-11-05 06:57:14    M08_76 : 19 opportunités · rapport et opportunités · 5 s
+2026-11-05 06:57:23    M08_81 : 0 opportunités · rapport et opportunités · 9 s
+2026-11-05 06:57:25    M22_01 : 0 opportunités · inchangé · 2 s
+2026-11-05 06:57:36    M22_05 : 0 opportunités · inchangé · 10 s
+2026-11-05 06:57:52    M22_07 : 2 opportunités · rapport et opportunités · 16 s
+2026-11-05 06:58:08    M22_11 : 0 opportunités · rapport et opportunités · 16 s
+2026-11-05 06:58:20    M22_14 : 2 opportunités · inchangé · 13 s
+2026-11-05 06:58:35    M22_16 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-05 06:58:51    M22_17 : 0 opportunités · rapport et opportunités · 16 s
+2026-11-05 06:59:03    M22_21 : 2 opportunités · inchangé · 12 s
+2026-11-05 06:59:19    M22_24 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-05 06:59:38    M22_26 : 0 opportunités · rapport et opportunités · 20 s
+2026-11-05 06:59:51    M22_27 : 1 opportunités · inchangé · 13 s
+2026-11-05 07:00:03    M22_37 : 0 opportunités · inchangé · 12 s
+2026-11-05 07:00:09    M22_38 : 6 opportunités · inchangé · 7 s
+2026-11-05 07:00:15    M22_42 : 1 opportunités · inchangé · 6 s
+2026-11-05 07:00:31    M22_60 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-05 07:00:41    M22_69 : 9 opportunités · rapport et opportunités · 10 s
+2026-11-05 07:00:53    M22_71 : 2 opportunités · inchangé · 12 s
+2026-11-05 07:00:59    M22_74 : 6 opportunités · inchangé · 6 s
+2026-11-05 07:01:10    M22_75 : 11 opportunités · rapport et opportunités · 11 s
+2026-11-05 07:01:24    M22_76 : 5 opportunités · inchangé · 14 s
+2026-11-05 07:01:30    M22_78 : 6 opportunités · inchangé · 6 s
+2026-11-05 07:01:45    M22_80 : 2 opportunités · rapport et opportunités · 15 s
+2026-11-05 07:01:52    M22_83 : 6 opportunités · inchangé · 7 s
+2026-11-05 07:02:08    M22_87 : 1 opportunités · rapport et opportunités · 15 s
+2026-11-05 07:02:14    M22_91 : 3 opportunités · inchangé · 7 s
+2026-11-05 07:02:22    M22_92 : 7 opportunités · rapport et opportunités · 8 s
+2026-11-05 07:02:30    M22_93 : 3 opportunités · rapport et opportunités · 8 s
+2026-11-05 07:02:38    M22_94 : 9 opportunités · rapport et opportunités · 8 s
+2026-11-05 07:03:01    M22_95 : 6 opportunités · rapport et opportunités · 23 s
+2026-11-05 07:03:08    M23_27 : 5 opportunités · inchangé · 6 s
+2026-11-05 07:03:17    M23_44 : 6 opportunités · rapport et opportunités · 9 s
+2026-11-05 07:03:25    M23_76 : 8 opportunités · inchangé · 8 s
+2026-11-05 07:03:35    M24_69 : 8 opportunités · rapport et opportunités · 10 s
+2026-11-05 07:03:43    M24_76 : 10 opportunités · inchangé · 8 s
+2026-11-05 07:03:53    M30_69 : 13 opportunités · rapport et opportunités · 10 s
+2026-11-05 07:03:56    M33_01 : 3 opportunités · inchangé · 3 s
+2026-11-05 07:04:03    M33_14 : 6 opportunités · inchangé · 7 s
+2026-11-05 07:04:10    M33_27 : 3 opportunités · inchangé · 6 s
+2026-11-05 07:04:17    M33_38 : 9 opportunités · inchangé · 7 s
+2026-11-05 07:04:23    M33_42 : 1 opportunités · inchangé · 6 s
+2026-11-05 07:04:30    M33_50 : 4 opportunités · inchangé · 7 s
+2026-11-05 07:04:35    M33_61 : 2 opportunités · inchangé · 6 s
+2026-11-05 07:04:47    M33_69 : 16 opportunités · rapport et opportunités · 11 s
+2026-11-05 07:04:53    M33_71 : 9 opportunités · inchangé · 6 s
+2026-11-05 07:05:01    M33_76 : 16 opportunités · inchangé · 8 s
+2026-11-05 07:05:08    M33_85 : 4 opportunités · inchangé · 7 s
+2026-11-05 07:09:43    M33_FR : 571 opportunités · rapport et opportunités · 275 s
+2026-11-05 07:09:53    M40_05 : 0 opportunités · inchangé · 10 s
+2026-11-05 07:10:00    M40_76 : 2 opportunités · inchangé · 6 s
+2026-11-05 07:10:09    P1005_14 : 0 opportunités · inchangé · 9 s
+2026-11-05 07:10:17    P1005_22 : 9 opportunités · inchangé · 9 s
+2026-11-05 07:10:25    P1005_27 : 4 opportunités · inchangé · 8 s
+2026-11-05 07:10:34    P1005_29 : 15 opportunités · inchangé · 9 s
+2026-11-05 07:10:47    P1005_35 : 20 opportunités · rapport et opportunités · 13 s
+2026-11-05 07:10:57    P1005_56 : 13 opportunités · rapport et opportunités · 10 s
+2026-11-05 07:11:14    P1005_59 : 21 opportunités · rapport et opportunités · 17 s
+2026-11-05 07:11:23    P1005_60 : 3 opportunités · inchangé · 9 s
+2026-11-05 07:11:48    P1005_75 : 44 opportunités · rapport et opportunités · 25 s
+2026-11-05 07:11:59    P1005_76 : 7 opportunités · inchangé · 11 s
+2026-11-05 07:12:08    P1005_80 : 0 opportunités · inchangé · 9 s
+2026-11-05 07:12:21    P1005_93 : 13 opportunités · inchangé · 13 s
+2026-11-05 07:12:21  OK, 770 avis collectés, 223 couples recalculés, 65 republiés en 42.3 min
+2026-11-05 07:15:46  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
+2026-11-05 11:03:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
+```
