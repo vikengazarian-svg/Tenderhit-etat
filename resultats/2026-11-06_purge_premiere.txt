@@ -1,2 +1,5 @@
 # purge
-En cours depuis 06/11 17:48
+Lancée le 06/11/2026 17:48, finie le 06/11/2026 17:48, code 0
+
+purge du disque faite : 24 élément(s), 2.16 Go libérés — fusions 6 (0.01 Go), photographies_controle 16 (2.15 Go), tmp 2 (0.0 Go)
+2026-11-06 17:48:08  purge du disque faite : 24 élément(s), 2.16 Go libérés — fusions 6 (0.01 Go), photographies_controle 16 (2.15 Go), tmp 2 (0.0 Go)
