@@ -1,2 +1,4 @@
 # base_dce R1 --envoyer
-En cours depuis 06/11 18:54
+Lancée le 06/11/2026 18:54, finie le 06/11/2026 18:54, code 0
+
+{"fiches": 261, "paquets": 6, "reperes": 48, "version": "R1"}
