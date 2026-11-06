@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 06/11/2026 à 15:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 06/11/2026 à 16:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : contrôle quotidien rouge ; disque à 80 % dans 4.9 semaine(s) au rythme des 14 derniers jours
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-06 14:59:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-06 15:59:15  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-06 07:14:21  OK, 770 avis collectés, 224 couples recalculés, 63 republiés en 44.3 min |
 | Passe DECP hebdomadaire | 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-06 07:17:01  Contrôle du 06/11 : rouge — 222 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : C713_75, M08_81 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.56 Go sur 7.6 · charge 0.00 · disque 39.6 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.00 · disque 39.6 % · échange 0.0 Go
 
 ## Disque
 
@@ -80,7 +80,8 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-Aucune pour l'instant.
+- 15:50 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 25 s
+- 15:50 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 14 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -104,21 +105,17 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                        LEFT LAST                            PASSED UNIT                     ACTIVATES
-Sat 2026-11-07 03:00:00 CET  11h Sat 2026-10-31 03:00:04 CET 6 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-11-07 05:45:00 CET  14h Fri 2026-11-06 05:45:04 CET     9h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-07 06:30:00 CET  15h Fri 2026-11-06 06:30:04 CET     8h ago tenderhit-collecte.timer tenderhit-collecte.service
--                              - Fri 2026-11-06 15:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                              - Fri 2026-11-06 15:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sat 2026-11-07 03:00:00 CET  10h Sat 2026-10-31 03:00:04 CET 6 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-07 05:45:00 CET  13h Fri 2026-11-06 05:45:04 CET    10h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-07 06:30:00 CET  14h Fri 2026-11-06 06:30:04 CET     9h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-11-06 16:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                              - Fri 2026-11-06 16:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-06 07:01:14    M22_91 : 3 opportunités · inchangé · 6 s
-2026-11-06 07:01:21    M22_92 : 7 opportunités · inchangé · 7 s
-2026-11-06 07:01:27    M22_93 : 3 opportunités · inchangé · 7 s
-2026-11-06 07:01:35    M22_94 : 8 opportunités · rapport et opportunités · 7 s
 2026-11-06 07:01:56    M22_95 : 6 opportunités · rapport et opportunités · 22 s
 2026-11-06 07:05:16    M22_FR : 180 opportunités · rapport et opportunités · 200 s
 2026-11-06 07:05:22    M23_27 : 5 opportunités · inchangé · 6 s
@@ -155,4 +152,8 @@ Sat 2026-11-07 06:30:00 CET  15h Fri 2026-11-06 06:30:04 CET     8h ago tenderhi
 2026-11-06 07:14:21    P1005_93 : 13 opportunités · inchangé · 12 s
 2026-11-06 07:14:21  OK, 770 avis collectés, 224 couples recalculés, 63 republiés en 44.3 min
 2026-11-06 07:17:01  Contrôle du 06/11 : rouge — 222 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : C713_75, M08_81 ; tâches à l'heure, site à jour
+2026-11-06 15:50:07  M22_50 : demande en attente
+2026-11-06 15:50:32    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 25 s
+2026-11-06 15:50:32  M22_61 : demande en attente
+2026-11-06 15:50:46    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 14 s
 ```
