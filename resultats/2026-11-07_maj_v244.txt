@@ -1,2 +1,14 @@
 # mettre_a_jour v2.44
-En cours depuis 07/11 16:18
+Lancée le 07/11/2026 16:18, finie le 07/11/2026 16:18, code 0
+
+Moteur à la version v2.44 (57b9d8a)
+
+Horaires des tâches (code 0) :
+NEXT                          LEFT LAST                         PASSED UNIT                     ACTIVATES
+Sat 2026-11-07 16:19:00 CET    50s Sat 2026-11-07 16:18:04 CET  5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sun 2026-11-08 05:45:00 CET    13h Sat 2026-11-07 05:45:04 CET 10h ago tenderhit-purge.timer    tenderhit-purge.service
+Sun 2026-11-08 06:30:00 CET    14h Sat 2026-11-07 06:30:04 CET  9h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-14 03:00:00 CET 6 days Sat 2026-11-07 03:00:00 CET 13h ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Sat 2026-11-07 16:18:04 CET  5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+5 timers listed.
