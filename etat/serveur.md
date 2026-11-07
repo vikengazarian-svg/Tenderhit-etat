@@ -1,8 +1,8 @@
 # Serveur du moteur V2
 
-Mis à jour le 07/11/2026 à 03:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 07/11/2026 à 04:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🟢 **Tout va bien**
+## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
@@ -11,11 +11,11 @@ Mis à jour le 07/11/2026 à 03:00 · publication : **EN SERVICE (publie sur le 
 | Passe DECP hebdomadaire | 2026-11-03 16:10:45  Passe hebdomadaire DECP 2026-10-31_decp : terminée en 102.1 min, mémoire max 5747 Mo ; 219 couples recalculés, 0 bloqués par la garde ; 215 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-06 07:17:01  Contrôle du 06/11 : rouge — 222 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : C713_75, M08_81 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.6 Go sur 7.6 · charge 0.00 · disque 35.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 1.82 Go sur 7.6 · charge 1.05 · disque 37.3 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +5.0 point(s) par semaine · 80 % dans **8.9 semaine(s)**
+Rythme des 14 derniers jours : +5.8 point(s) par semaine · 80 % dans **7.4 semaine(s)**
 
 ```
 Mesure du 2026-11-06 17:48 :
@@ -103,19 +103,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
-Sat 2026-11-07 03:01:00 CET      58s Sat 2026-11-07 03:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-11-07 05:45:00 CET 2h 44min Fri 2026-11-06 05:45:04 CET 21h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-07 06:30:00 CET 3h 29min Fri 2026-11-06 06:30:04 CET 20h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                  - Sat 2026-11-07 03:00:00 CET  1s ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Sat 2026-11-07 03:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                             PASSED UNIT                     ACTIVATES
+Sat 2026-11-07 04:01:00 CET      57s Sat 2026-11-07 04:00:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-11-07 05:45:00 CET 1h 44min Fri 2026-11-06 05:45:04 CET     22h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-07 06:30:00 CET 2h 29min Fri 2026-11-06 06:30:04 CET     21h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                  - Sat 2026-11-07 03:00:00 CET 1h 0min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Sat 2026-11-07 04:00:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-06 07:14:00    P1005_76 : 7 opportunités · inchangé · 11 s
 2026-11-06 07:14:09    P1005_80 : 0 opportunités · inchangé · 9 s
 2026-11-06 07:14:21    P1005_93 : 13 opportunités · inchangé · 12 s
 2026-11-06 07:14:21  OK, 770 avis collectés, 224 couples recalculés, 63 republiés en 44.3 min
@@ -155,4 +154,5 @@ Sat 2026-11-07 06:30:00 CET 3h 29min Fri 2026-11-06 06:30:04 CET 20h ago tenderh
 2026-11-06 20:16:18  M22_88 : demande en attente
 2026-11-06 20:16:19    carte du 88 téléchargée
 2026-11-06 20:16:34    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 16 s
+2026-11-07 03:15:05  tables du marché : 244 activité(s) envoyée(s), 41 inchangée(s), 902516 lignes en 428 paquets ; erreurs : M08, M09, M10, M11, M12, M13, M14, M15, M16, M17, M18, M19, M20, M21, M22, M23, M24, M25, M26, M27, M28, M29, M30, M31, M32, M33, M34, M35, M36, M37, M38, M39, M40, M41, M42, M43, M44, M45, P1002, P1003, P1004, P1005
 ```
