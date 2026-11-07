@@ -1,2 +1,39 @@
 # essai_dce releve
-En cours depuis 07/11 15:38
+Lancée le 07/11/2026 15:38, finie le 07/11/2026 15:45, code 0
+
+1 26-107275 atexo 200 
+2 26-96800 achatpublic 200 
+3 26-93295 achatpublic 200 
+4 26-99647 atexo 200 
+5 26-105457 atexo 200 
+6 26-98550 atexo 200 
+7 26-98664 atexo 200 
+8 26-103389 atexo 200 
+9 26-97194 atexo 200 
+10 26-105018 atexo 200 
+11 26-95838 achatpublic 200 
+12 26-101160 atexo 200 
+Relevé écrit dans /tmp/essai-dce/releve
+# Relevé des plateformes (2026-11-07T15:38:07)
+
+| # | idweb | plateforme | HTTP | date limite | taille | pièces | mise à jour | anonyme / choix | captcha | robots |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 26-107275 | ampa | 200 | 2026-12-07T12:00 | None | 0 | None | anonyme | False | True |
+| 2 | 26-96800 | achatpublic | 200 | None | 2100000 | 1 | None | True | True | False |
+| 3 | 26-93295 | achatpublic | 200 | None | 3400000 | 1 | None | True | True | False |
+| 4 | 26-99647 | npdc | 200 | 2026-11-30T12:00 | None | 0 | None | anonyme | False | True |
+| 5 | 26-105457 | place | 200 | 2026-11-27T18:00 | None | 0 | None | anonyme | False | True |
+| 6 | 26-98550 | npdc | 200 | None | None | 0 | None | None | False | True |
+| 7 | 26-98664 | place | 200 | 2026-11-12T12:00 | None | 0 | None | anonyme | False | True |
+| 8 | 26-103389 | npdc | 200 | 2026-12-15T12:00 | None | 0 | None | anonyme | False | True |
+| 9 | 26-97194 | alsace | 200 | 2026-11-16T12:00 | None | 0 | None | anonyme | False | True |
+| 10 | 26-105018 | place | 200 | 2026-11-30T17:00 | None | 0 | None | anonyme | False | True |
+| 11 | 26-95838 | achatpublic | 200 | None | 38900000 | 5 | None | True | True | False |
+| 12 | 26-101160 | megalis | 200 | 2026-11-23T12:00 | None | 0 | None | anonyme | False | True |
+
+## Entrepôt BOAMP
+
+Colonnes : annonce_lie, annonces_anterieures, code_departement, code_departement_prestation, codes8o, codes8q, contractfolderid, criteres, datefindiffusion, datelimitereponse, dateparution, dc, descripteur_code, descripteur_libelle, donnees, etat, famille, famille_libelle, filename, gestion, id, idweb, marche_public_simplifie, marche_public_simplifie_label, nature, nature_categorise, nature_categorise_libelle, nature_libelle, nomacheteur, objet, perimetre, procedure_categorise, procedure_libelle, source_schema, sousnature, sousnature_libelle, soustype_procedure, titulaire, tokens, type_avis, type_marche, type_marche_facette, type_procedure, url_avis
+
+Natures : {"rectificatif/standard": 39291, "Annulation/": 492}
+
