@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 08/11/2026 à 07:18 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 08/11/2026 à 07:20 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min ; disque : dossier qui grossit vite — entrepot/decp : +1.2 Go par semaine
+## 🔴 **À regarder** : contrôle quotidien rouge ; disque : dossier qui grossit vite — entrepot/decp : +1.2 Go par semaine
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-08 06:29:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-08 07:19:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-08 07:16:03  OK, 673 avis collectés, 233 couples recalculés, 90 republiés en 46.0 min |
 | Passe DECP hebdomadaire | 2026-11-07 04:22:15  Passe hebdomadaire DECP 2026-11-07_decp : terminée avec échecs en 82.2 min, mémoire max 4269 Mo ; 236 couples recalculés, 0 bloqués par la garde, échecs : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; 222 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-11-07 07:18:17  Contrôle du 07/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour |
+| Contrôle quotidien | 2026-11-08 07:18:38  Contrôle du 08/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.05 Go sur 7.6 · charge 0.36 · disque 35.5 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.09 · disque 35.6 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +4.4 point(s) par semaine · 80 % dans **10.1 semaine(s)**
+Rythme des 14 derniers jours : +4.5 point(s) par semaine · 80 % dans **10.0 semaine(s)**
 
 ```
 Mesure du 2026-11-08 05:45 :
@@ -91,7 +91,6 @@ Aucune pour l'instant.
 ### Contrôles quotidiens (14 derniers)
 
 ```
-2026-10-27 07:13  Contrôle du 27/10 : vert — 166 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
 2026-10-28 07:14  Contrôle du 28/10 : vert — 166 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
 2026-10-29 07:13  Contrôle du 29/10 : rouge — 171 couples identiques au site, 10 attributions anciennes gardées par le site ; EN ÉCART : C713_FR ; collecte du matin : 2026-10-29 07:07:57  1 ÉCHEC(S), 704 avis collectés, 172 couples recalculés, 51 republiés en 37.9 min
 2026-10-30 07:12  Contrôle du 30/10 : vert — 172 couples identiques au site, 10 attributions anciennes gardées par le site ; tâches à l'heure, site à jour
@@ -105,23 +104,23 @@ Aucune pour l'instant.
 2026-11-05 11:03  Contrôle du 05/11 : rouge — photographie du site impossible ou incomplète
 2026-11-06 07:17  Contrôle du 06/11 : rouge — 222 couples identiques au site, 349 attributions anciennes gardées par le site ; EN ÉCART : C713_75, M08_81 ; tâches à l'heure, site à jour
 2026-11-07 07:18  Contrôle du 07/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
+2026-11-08 07:18  Contrôle du 08/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
 ```
 
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Sun 2026-11-08 07:19:00 CET    58s Sun 2026-11-08 07:18:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Mon 2026-11-09 05:45:00 CET    22h Sun 2026-11-08 05:45:04 CET 1h 32min ago tenderhit-purge.timer    tenderhit-purge.service
+Mon 2026-11-09 05:45:00 CET    22h Sun 2026-11-08 05:45:04 CET 1h 35min ago tenderhit-purge.timer    tenderhit-purge.service
+Mon 2026-11-09 06:30:00 CET    23h Sun 2026-11-08 06:30:04 CET    50min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-14 03:00:00 CET 5 days Sat 2026-11-07 03:00:00 CET 1 day 4h ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Sun 2026-11-08 06:30:04 CET    47min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                - Sun 2026-11-08 07:18:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Sun 2026-11-08 07:20:04 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Sun 2026-11-08 07:20:04 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-08 07:03:00    M22_88 : 0 opportunités · rapport et opportunités · 15 s
 2026-11-08 07:03:07    M22_91 : 3 opportunités · inchangé · 6 s
 2026-11-08 07:03:13    M22_92 : 6 opportunités · inchangé · 7 s
 2026-11-08 07:03:19    M22_93 : 3 opportunités · inchangé · 6 s
@@ -161,4 +160,5 @@ Sat 2026-11-14 03:00:00 CET 5 days Sat 2026-11-07 03:00:00 CET 1 day 4h ago tend
 2026-11-08 07:15:51    P1005_80 : 0 opportunités · inchangé · 8 s
 2026-11-08 07:16:03    P1005_93 : 13 opportunités · inchangé · 12 s
 2026-11-08 07:16:03  OK, 673 avis collectés, 233 couples recalculés, 90 republiés en 46.0 min
+2026-11-08 07:18:38  Contrôle du 08/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
 ```
