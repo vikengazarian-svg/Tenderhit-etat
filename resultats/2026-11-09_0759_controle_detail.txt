@@ -1,2 +1,2382 @@
 # controle_detail
-En cours depuis 09/11 08:00
+Lancée le 09/11/2026 08:00, finie le 09/11/2026 08:00, code 0
+
+2026-11-09.json
+Contrôle du 09/11 : rouge — 222 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
+
+{
+ "C093_69": {
+  "attributions": 356,
+  "ecarts": 720,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "13000222300027202322936700_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "13000222300027202322936700_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130002223000272023229367_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130002223000272023229367_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "1300022230002720249694002000_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "1300022230002720249694002000_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "1300022230002720249888003000_09300000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "1300022230002720249888003000_09300000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "TOTALENERGIES ELECTRICITE ET GAZ FRANCE",
+    "v2": "Totalenergies Électricité et Gaz France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "1300022230002720249913003000_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "1300022230002720249913003000_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "LBE BUSINESS",
+    "v2": "LBE Business"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130002223000272024U249702001_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130002223000272024U249702001_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130002223000272024U644002001_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130002223000272024U644002001_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130002223000272024U648003001_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130002223000272024U648003001_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "LBE BUSINESS",
+    "v2": "LBE Business"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130002223000272024U702002000_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130002223000272024U702002000_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130002223000272024U702002233_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "v2": "Groupement Cooperation Sanitaire - Union des Hôpitaux pour les Achats"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130002223000272024U702002233_09310000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": "ELECTRICITE DE FRANCE",
+    "v2": "Électricité de France"
+   }
+  ],
+  "opportunites": 4
+ },
+ "C093_75": {
+  "attributions": 243,
+  "ecarts": 495,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000252023R005001000_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000252023R005001000_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "TOTALENERGIES ELECTRICITE ET GAZ FRANCE",
+    "v2": "Totalenergies Électricité et Gaz France"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000252023R101001000_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000252023R101001000_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "INEO MIDI PYRENEES LANGUEDOC ROUSSILLON ET PAR ABREVIATION INEO MPLR (EQUANS)",
+    "v2": "Ineo Midi Pyrénées Languedoc Roussillon et par Abreviation Ineo Mplr (Equans)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000252023R101001000_09310000#1",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000252023R101001000_09310000#1",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "AXIMA CONCEPT (EQUANS)",
+    "v2": "Axima Concept (Equans)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000252023R101001005_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000252023R101001005_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "INEO MIDI PYRENEES LANGUEDOC ROUSSILLON ET PAR ABREVIATION INEO MPLR (EQUANS)",
+    "v2": "Axima Concept (Equans)"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "130005010000252023R101001005_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "414719534",
+    "v2": "854800745"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000252023R101001005_09310000#1",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000252023R101001005_09310000#1",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "AXIMA CONCEPT (EQUANS)",
+    "v2": "Ineo Midi Pyrénées Languedoc Roussillon et par Abreviation Ineo Mplr (Equans)"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "130005010000252023R101001005_09310000#1",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "854800745",
+    "v2": "414719534"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000332021F00001_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000332021F00001_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "ALTERNA ENERGIE",
+    "v2": "Alterna Énergie"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000332021F00002_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000332021F00002_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "ALTERNA ENERGIE",
+    "v2": "Alterna Énergie"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000332021F00003_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000332021F00003_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "ALTERNA ENERGIE",
+    "v2": "Alterna Énergie"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005010000332021F00004_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "v2": "Réseau des Acheteurs Hospitaliers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005010000332021F00004_09310000#0",
+    "couple": "C093_75",
+    "envoi": "attributions",
+    "reference": "ALTERNA ENERGIE",
+    "v2": "Alterna Énergie"
+   }
+  ],
+  "opportunites": 1
+ },
+ "C451_01": {
+  "attributions": 1140,
+  "attributions_par_contrats": 1,
+  "ecarts": 2369,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "200029999000142025BIRRES_45112100#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES RIVES DE L'AIN PAYS DU CERDON",
+    "v2": "Communauté de Communes Rives de l'Ain Pays du Cerdon"
+   },
+   {
+    "champ": "date_notification",
+    "cle": "200029999000142025BIRRES_45112100#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "2026-06-15",
+    "v2": "2026-11-02"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200029999000142025BIRRES_45112100#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "SOCIETE DE CANALISATIONS ET DE TRAVAUX PUBLICS DE L AIN SOCATRA",
+    "v2": "Société de Canalisations et de Travaux Publics de L Ain Socatra"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "2000299990007120242024VRD_45112500#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES RIVES DE L'AIN PAYS DU CERDON (ZAE JUJURIEUX)",
+    "v2": "Communauté de Communes Rives de l'Ain Pays du Cerdon (ZAE Jujurieux)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "2000299990007120242024VRD_45112500#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "SOCIETE DE CANALISATIONS ET DE TRAVAUX PUBLICS DE L AIN SOCATRA",
+    "v2": "Société de Canalisations et de Travaux Publics de L Ain Socatra"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040350000152019400_45112500#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "CC BUGEY SUD",
+    "v2": "CC Bugey Sud"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040350000152019400_45112500#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "JACQUEMET",
+    "v2": "Mouchet Bois et Forêts"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040350000152019400_45112500#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "448905026",
+    "v2": "499538981"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040350000152019400_45112500#1",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "CC BUGEY SUD",
+    "v2": "CC Bugey Sud"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040350000152019400_45112500#1",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "TCHASSAGNE",
+    "v2": "Jacquemet"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040350000152019400_45112500#1",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "514525583",
+    "v2": "448905026"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040350000152019400_45112500#2",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "CC BUGEY SUD",
+    "v2": "CC Bugey Sud"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040350000152019400_45112500#2",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "Y.M. ENTREPRISE (YM ENSEIGNE)",
+    "v2": "Tchassagne"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040350000152019400_45112500#2",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "790428833",
+    "v2": "514525583"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040350000152019400_45112500#3",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "CC BUGEY SUD",
+    "v2": "CC Bugey Sud"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040350000152019400_45112500#3",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "MOUCHET BOIS ET FORETS",
+    "v2": "Y.M. Entreprise (YM Enseigne)"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040350000152019400_45112500#3",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "499538981",
+    "v2": "790428833"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040350000152019400_45112500#4",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "CC BUGEY SUD",
+    "v2": "CC Bugey Sud"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040350000152019400_45112500#4",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "FRANCOIS PERRIN",
+    "v2": "Francois Perrin"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040350000152020T00009_45112500#0",
+    "couple": "C451_01",
+    "envoi": "attributions",
+    "reference": "CC BUGEY SUD",
+    "v2": "CC Bugey Sud"
+   }
+  ],
+  "opportunites": 2
+ },
+ "C451_03": {
+  "attributions": 404,
+  "attributions_par_contrats": 1,
+  "ecarts": 850,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "130008196000112021151102226900_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "DIRECTION DEPARTEMENTALE DES TERRITOIRES ALLIER",
+    "v2": "Direction Départementale des Territoires Allier"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130008196000112021151102226900_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "EUROVIA DROME ARDECHE LOIRE AUVERGNE",
+    "v2": "Eurovia Drôme Ardèche Loire Auvergne"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "1300226920025020212021T2028900_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION AUVERGNE-RHONE-ALPES (CCIT DE L'ALLIER - SIEGE ET DELEGATION DE MOULINS)",
+    "v2": "Chambre de Commerce et d'Industrie de Région Auvergne-Rhône-Alpes (Ccit de l'Allier - Siege et Delegation de Moulins)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "1300226920025020212021T2028900_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "EIFFAGE ROUTE CENTRE EST (LOIRE AUVERGNE)",
+    "v2": "Eiffage Route Centre Est (Loire Auvergne)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "1300226920025020222022T0615400_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION AUVERGNE-RHONE-ALPES (CCIT DE L'ALLIER - SIEGE ET DELEGATION DE MOULINS)",
+    "v2": "Chambre de Commerce et d'Industrie de Région Auvergne-Rhône-Alpes (Ccit de l'Allier - Siege et Delegation de Moulins)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "1300226920025020222022T0615400_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "SOCIETE MONTLUCONNAISE DE TRAVAUX PUBLICS ET BATIMENTS",
+    "v2": "Société Montluconnaise de Travaux Publics et Bâtiments"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "13002269200250202617348T_45111100#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION AUVERGNE-RHONE-ALPES (CCIT DE L'ALLIER - SIEGE ET DELEGATION DE MOULINS)",
+    "v2": "Chambre de Commerce et d'Industrie de Région Auvergne-Rhône-Alpes (Ccit de l'Allier - Siege et Delegation de Moulins)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "13002269200250202617348T_45111100#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "PLEUCHOT   T.P",
+    "v2": "Pleuchot   T.P"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130022692002502765933_45112700#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION AUVERGNE-RHONE-ALPES (CCIT DE L'ALLIER - SIEGE ET DELEGATION DE MOULINS)",
+    "v2": "Chambre de Commerce et d'Industrie de Région Auvergne-Rhône-Alpes (Ccit de l'Allier - Siege et Delegation de Moulins)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130022692002502765933_45112700#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "SARL THONAT",
+    "v2": "SARL Thonat"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200071082000162019A190050000_45112710#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CA MONTLUCON COMMUNAUTE",
+    "v2": "CA Montlucon Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200071082000162019A190050000_45112710#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "IDVERDE",
+    "v2": "Idverde"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200071082000162020A190250100_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CA MONTLUCON COMMUNAUTE",
+    "v2": "CA Montlucon Communauté"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200071082000162020A190250200_45112500#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CA MONTLUCON COMMUNAUTE",
+    "v2": "CA Montlucon Communauté"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200071082000162021A04400_45110000#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CA MONTLUCON COMMUNAUTE",
+    "v2": "CA Montlucon Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200071082000162021A04400_45110000#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "ALZIN S. A. S.",
+    "v2": "Alzin S. A. S."
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200071082000162023A0090300_45112710#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CA MONTLUCON COMMUNAUTE",
+    "v2": "CA Montlucon Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200071082000162023A0090300_45112710#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "JMB PAYSAGE",
+    "v2": "Terideal Tarvel (Tarvel)"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200071082000162023A0090300_45112710#0",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "509160784",
+    "v2": "410344923"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200071082000162023A0090300_45112710#1",
+    "couple": "C451_03",
+    "envoi": "attributions",
+    "reference": "CA MONTLUCON COMMUNAUTE",
+    "v2": "CA Montlucon Communauté"
+   }
+  ],
+  "opportunites": 0
+ },
+ "C451_07": {
+  "attributions": 462,
+  "attributions_par_contrats": 1,
+  "ecarts": 969,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "13001400400019202619299T_45112500#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "CHAMBRE DE COMMERCE ET D INDUSTRIE DE L ARDECHE",
+    "v2": "Chambre de Commerce et D Industrie de L Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "13001400400019202619299T_45112500#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "ETABLISSEMENTS CARDINAL",
+    "v2": "Établissements Cardinal"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "170700017000162020151038825000_45111000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "PREFECTURE DE DEPARTEMENT ARDECHE",
+    "v2": "Préfecture de Département Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "170700017000162020151038825000_45111000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "MSAVEL MACONNERIE",
+    "v2": "Msavel Maconnerie"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "170700017000162022151130626100_45110000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "PREFECTURE DE DEPARTEMENT ARDECHE",
+    "v2": "Préfecture de Département Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "170700017000162022151130626100_45110000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "EIFFAGE CONSTRUCTION ALPES DAUPHINE (EIFFAGE CONSTRUCTION DROME ARDECHE)",
+    "v2": "Eiffage Construction Alpes Dauphine (Eiffage Construction Drôme Ardèche)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200016905000162018HfAOit6YkU00_45112500#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES DU PAYS DE LAMASTRE",
+    "v2": "Communauté de Communes du Pays de Lamastre"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200016905000162018HfAOit6YkU00_45112500#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMTE TRAVAUX PUBLICS",
+    "v2": "Comte Travaux Publics"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200016905000162024202401CDC_45111220#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES DU PAYS DE LAMASTRE",
+    "v2": "Communauté de Communes du Pays de Lamastre"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200016905000162024202401CDC_45111220#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "JEROME ANTERION",
+    "v2": "Jerome Anterion"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200038933000122019076SSGuCjD00_45110000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D'AGGLOMERATION PRIVAS CENTRE ARDECHE",
+    "v2": "Communauté d'Agglomération Privas Centre Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200038933000122019076SSGuCjD00_45110000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "OBOUSSIER TP",
+    "v2": "Oboussier TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200038933000122019GdCn0NDm1R00_45113000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D'AGGLOMERATION PRIVAS CENTRE ARDECHE",
+    "v2": "Communauté d'Agglomération Privas Centre Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200038933000122019GdCn0NDm1R00_45113000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "AVENIR PROTECTIONS",
+    "v2": "Avenir Protections"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200038933000122019UqSvlvmx0V00_45111100#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D'AGGLOMERATION PRIVAS CENTRE ARDECHE",
+    "v2": "Communauté d'Agglomération Privas Centre Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200038933000122019UqSvlvmx0V00_45111100#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "GUINTOLI",
+    "v2": "Guintoli"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200038933000122019ev5eM-q6eu00_45110000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D'AGGLOMERATION PRIVAS CENTRE ARDECHE",
+    "v2": "Communauté d'Agglomération Privas Centre Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200038933000122019ev5eM-q6eu00_45110000#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "MONTAGUT BATIMENT TRAVAUX PUBLICS (M B T P)",
+    "v2": "Montagut Bâtiment Travaux Publics (M B T P)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200038933000122023OyRCbakd_000_45112700#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D'AGGLOMERATION PRIVAS CENTRE ARDECHE",
+    "v2": "Communauté d'Agglomération Privas Centre Ardèche"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200038933000122023OyRCbakd_000_45112700#0",
+    "couple": "C451_07",
+    "envoi": "attributions",
+    "reference": "MONTAGUT BATIMENT TRAVAUX PUBLICS (M B T P)",
+    "v2": "Montagut Bâtiment Travaux Publics (M B T P)"
+   }
+  ],
+  "opportunites": 0
+ },
+ "C451_15": {
+  "attributions": 176,
+  "ecarts": 369,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "130026982000121000193623_45111000#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL COMMUN DEPARTEMENTAL CANTAL",
+    "v2": "Secrétariat Général Commun Départemental Cantal"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130026982000121000193623_45111000#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "SOC EXPLOITATION SOULIER",
+    "v2": "SOC Exploitation Soulier"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200032209000132025CADRAN2501_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "SYNDICAT MIXTE DU MARCHE AU CADRAN DES REDINES",
+    "v2": "Syndicat Mixte du Marche au Cadran des Redines"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200032209000132025CADRAN2501_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE BERGHEAUD",
+    "v2": "Entreprise Bergheaud"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200032209000132025CADRAN2502_45110000#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "SYNDICAT MIXTE DU MARCHE AU CADRAN DES REDINES",
+    "v2": "Syndicat Mixte du Marche au Cadran des Redines"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200032209000132025CADRAN2502_45110000#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "MACONNERIE BLANC",
+    "v2": "Maconnerie Blanc"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637000142020HOTENT0100_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE",
+    "v2": "Hautes Terres Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637000142020HOTENT0100_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE DE ROSSO PIERRE",
+    "v2": "Entreprise de Rosso Pierre"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637000142020HOTENT1200_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE",
+    "v2": "Hautes Terres Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637000142020HOTENT1200_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "CYLINDRES ET MATERIAUX ROUTIERS",
+    "v2": "Cylindres et Matériaux Routiers"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637000142020MSAPMASL1600_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE",
+    "v2": "Hautes Terres Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637000142020MSAPMASL1600_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "CYLINDRES ET MATERIAUX ROUTIERS",
+    "v2": "Cylindres et Matériaux Routiers"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637000142020MSAPMASL1604_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE",
+    "v2": "Hautes Terres Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637000142020MSAPMASL1604_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "CYLINDRES ET MATERIAUX ROUTIERS",
+    "v2": "Cylindres et Matériaux Routiers"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637000142020MSAPMASL1605_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE",
+    "v2": "Hautes Terres Communauté"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637000142020MSAPMASL1605_45112700#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "CYLINDRES ET MATERIAUX ROUTIERS",
+    "v2": "Cylindres et Matériaux Routiers"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637001052023DECNEPL100_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE (ORDURES MENAGERES)",
+    "v2": "Hautes Terres Communauté (Ordures Menageres)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637001052023DECNEPL100_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "ROGER MARTIN AUVERGNE RHONE ALPES",
+    "v2": "Roger Martin Auvergne Rhône Alpes"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200066637001052023DECNEPL108_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "HAUTES TERRES COMMUNAUTE (ORDURES MENAGERES)",
+    "v2": "Hautes Terres Communauté (Ordures Menageres)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200066637001052023DECNEPL108_45112500#0",
+    "couple": "C451_15",
+    "envoi": "attributions",
+    "reference": "ROGER MARTIN AUVERGNE RHONE ALPES",
+    "v2": "Roger Martin Auvergne Rhône Alpes"
+   }
+  ],
+  "opportunites": 3
+ },
+ "C451_21": {
+  "attributions": 585,
+  "attributions_anciennes_sur_site": 1,
+  "ecarts": 1211,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "015450638000671763627631q246tlm3igjw_45110000#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SOCIETE ANONYME D'HABITATIONS A LOYER MODERE HABELLIS",
+    "v2": "Société Anonyme d'Habitations à Loyer Modéré Habellis"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "015450638000671763627631q246tlm3igjw_45110000#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "VALGO",
+    "v2": "Valgo"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "015450638000672024niflz0000000_45110000#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SOCIETE ANONYME D'HABITATIONS A LOYER MODERE HABELLIS",
+    "v2": "Société Anonyme d'Habitations à Loyer Modéré Habellis"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "015450638000672024niflz0000000_45110000#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "FRANCO NOVELLI",
+    "v2": "Franco Novelli"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "015450638000672025qrlqn0000000_45111250#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SOCIETE ANONYME D'HABITATIONS A LOYER MODERE HABELLIS",
+    "v2": "Société Anonyme d'Habitations à Loyer Modéré Habellis"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "015450638000672025qrlqn0000000_45111250#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "FONDASOL",
+    "v2": "ECR Environnement Centre Est"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "015450638000672025qrlqn0000000_45111250#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "582621561",
+    "v2": "523442788"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "015450638000672025qrlqn0000000_45111250#1",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SOCIETE ANONYME D'HABITATIONS A LOYER MODERE HABELLIS",
+    "v2": "Société Anonyme d'Habitations à Loyer Modéré Habellis"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "015450638000672025qrlqn0000000_45111250#1",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "ECR ENVIRONNEMENT CENTRE EST",
+    "v2": "Fondasol"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "015450638000672025qrlqn0000000_45111250#1",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "523442788",
+    "v2": "582621561"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "015450638000672025qrlqn0000000_45111250#2",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SOCIETE ANONYME D'HABITATIONS A LOYER MODERE HABELLIS",
+    "v2": "Société Anonyme d'Habitations à Loyer Modéré Habellis"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "015450638000672025qrlqn0000000_45111250#2",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "GEOTEC",
+    "v2": "Geotec"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "015450638000672025yp8pf0000000_45112500#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SOCIETE ANONYME D'HABITATIONS A LOYER MODERE HABELLIS",
+    "v2": "Société Anonyme d'Habitations à Loyer Modéré Habellis"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "015450638000672025yp8pf0000000_45112500#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "EUROVIA BOURGOGNE FRANCHE - COMTE",
+    "v2": "Eurovia Bourgogne Franche - Comte"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005093001121513930117_45110000#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL DU MINISTERE DE LA JUSTICE (DELEGATION INTERREGIONALE GRAND-CENTRE)",
+    "v2": "Secrétariat Général du Ministère de la Justice (Delegation Interregionale Grand-Centre)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005093001121513930117_45110000#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "REMUET TP",
+    "v2": "Remuet TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005093001122020150989812200_45111250#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL DU MINISTERE DE LA JUSTICE (DELEGATION INTERREGIONALE GRAND-CENTRE)",
+    "v2": "Secrétariat Général du Ministère de la Justice (Delegation Interregionale Grand-Centre)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005093001122020150989812200_45111250#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "ESIRIS IDF INFRA",
+    "v2": "Esiris IDF Infra"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130005093001122020151018014600_45112700#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL DU MINISTERE DE LA JUSTICE (DELEGATION INTERREGIONALE GRAND-CENTRE)",
+    "v2": "Secrétariat Général du Ministère de la Justice (Delegation Interregionale Grand-Centre)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130005093001122020151018014600_45112700#0",
+    "couple": "C451_21",
+    "envoi": "attributions",
+    "reference": "BOURGOGNE CREATION PAYSAGE (B.C.P. PAYSAGISTE)",
+    "v2": "Bourgogne Création Paysage (B.C.P. Paysagiste)"
+   }
+  ],
+  "opportunites": 4
+ },
+ "C451_25": {
+  "attributions": 1418,
+  "attributions_par_contrats": 1,
+  "ecarts": 2904,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192019100013805500_45112500#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192019100013805500_45112500#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DUC & PRENEUF",
+    "v2": "DUC & Preneuf"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192019150950651600_45110000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192019150950651600_45110000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "PBTP & DEMOLITIONS (P.B.T.P. ET DEMOLITIONS)",
+    "v2": "Pbtp & Démolitions (P.B.T.P. et Démolitions)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020100014821200_45112700#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020100014821200_45112700#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "IDVERDE",
+    "v2": "Idverde"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020100014844500_45112700#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020100014844500_45112700#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "CHAPEY PAYSAGISTE",
+    "v2": "Chapey Paysagiste"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020150984402400_45112730#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020150984402400_45112730#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "CHAPEY PAYSAGISTE",
+    "v2": "Chapey Paysagiste"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020150998447200_45112000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020150998447200_45112000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "BOURGOGNE TRAVAUX PUBLICS - B.T.P.",
+    "v2": "Bourgogne Travaux Publics - B.T.P."
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020151036088400_45113000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020151036088400_45113000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "SOCIETE NOUVELLE DE TRAVAUX PUBLICS ARROUX MESVRIN S.N.T.P.A.M.",
+    "v2": "Société Nouvelle de Travaux Publics Arroux Mesvrin S.N.T.P.A.M."
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020160005901100_45112730#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020160005901100_45112730#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "CHAPEY PAYSAGISTE",
+    "v2": "Chapey Paysagiste"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192020170009783100_45111250#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192020170009783100_45111250#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "GEOTEC",
+    "v2": "Geotec"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130009012000192021130017068500_45120000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BOURGOGNE-FRANCHE-COMTE",
+    "v2": "Direction Régionale de l'Environnement de l'Aménagement et du Logement Bourgogne-Franche-Comte"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130009012000192021130017068500_45120000#0",
+    "couple": "C451_25",
+    "envoi": "attributions",
+    "reference": "TECHNOSOL (TECHNOSOL NORMANDIE)",
+    "v2": "Technosol (Technosol Normandie)"
+   }
+  ],
+  "opportunites": 10
+ },
+ "C451_26": {
+  "attributions": 717,
+  "attributions_par_contrats": 2,
+  "ecarts": 1513,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "200024818000112020VRD0020000_45112500#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "VALENCE-ROMANS MOBILITES",
+    "v2": "Valence-Romans Mobilités"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200024818000112020VRD0020000_45112500#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "OBOUSSIER TP",
+    "v2": "Oboussier TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200024818000112021AOO0030000_45112500#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "VALENCE-ROMANS MOBILITES",
+    "v2": "Valence-Romans Mobilités"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200024818000112021AOO0030000_45112500#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE 26",
+    "v2": "Entreprise 26"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200024818000112021MAP0020000_45100000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "VALENCE-ROMANS MOBILITES",
+    "v2": "Valence-Romans Mobilités"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200024818000112021MAP0020000_45100000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "BERNAUD BATIMENT 26",
+    "v2": "Bernaud Bâtiment 26"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200024818000112021MAP0040000_45100000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "VALENCE-ROMANS MOBILITES",
+    "v2": "Valence-Romans Mobilités"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200024818000112021MAP0040000_45100000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "OBOUSSIER TP",
+    "v2": "Oboussier TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040459000142024S24004001_45110000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "CA MONTELIMAR-AGGLOMERATION",
+    "v2": "CA Montelimar-Agglomération"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040459000142024S24004001_45110000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "BERTHOULY TRAVAUX PUBLICS",
+    "v2": "Berthouly Travaux Publics"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040459000142025S24006301_45110000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "CA MONTELIMAR-AGGLOMERATION",
+    "v2": "CA Montelimar-Agglomération"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040459000142025S24006301_45110000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "SOCIETE ROUTIERE DIEULEFITOISE (SORODI-JOLY)",
+    "v2": "Société Routiere Dieulefitoise (Sorodi-Joly)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040459000142025S25004811_45110000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "CA MONTELIMAR-AGGLOMERATION",
+    "v2": "CA Montelimar-Agglomération"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040459000142025S25004811_45110000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "AUDIGIER TP",
+    "v2": "Audigier TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040483000142019183054L0100_45112210#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "CA VALENCE-ROMANS SUD RHONE-ALPES",
+    "v2": "CA Valence-Romans Sud Rhône-Alpes"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040483000142019183054L0100_45112210#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "BERTHOULY TRAVAUX PUBLICS",
+    "v2": "Berthouly Travaux Publics"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040483000142019183120L0000_45112000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "CA VALENCE-ROMANS SUD RHONE-ALPES",
+    "v2": "CA Valence-Romans Sud Rhône-Alpes"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040483000142019183120L0000_45112000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "OBOUSSIER TP",
+    "v2": "Oboussier TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040483000142019183120L0101_45112000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "CA VALENCE-ROMANS SUD RHONE-ALPES",
+    "v2": "CA Valence-Romans Sud Rhône-Alpes"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040483000142019183120L0101_45112000#0",
+    "couple": "C451_26",
+    "envoi": "attributions",
+    "reference": "VERT & SPORT (VERT ET SPORT)",
+    "v2": "Vert & Sport (Vert et Sport)"
+   }
+  ],
+  "opportunites": 0
+ },
+ "C451_38": {
+  "attributions": 2606,
+  "attributions_par_contrats": 3,
+  "ecarts": 5344,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96163600_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96163600_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "VALRHONE PEINTURE",
+    "v2": "Valrhone Peinture"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96172900_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96172900_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "IDVERDE",
+    "v2": "Idverde"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96173000_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96173000_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "STRUCTURE BOIS",
+    "v2": "Structure Bois"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96173100_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96173100_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "BATITEC SB2",
+    "v2": "Batitec SB2"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96173200_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96173200_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "CARRELAGE DECOR (CARRELAGE DECO)",
+    "v2": "Carrelage Decor (Carrelage Deco)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96173400_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96173400_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "LA MAITRISE DE VOS FACADES MDF",
+    "v2": "La Maitrise de VOS Facades MDF"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96180400_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96180500_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96180500_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "CARBONERO",
+    "v2": "Carbonero"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96180600_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96180600_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOFEN",
+    "v2": "Sofen"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96180800_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "057506206000362019M96180800_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "RAVALTEX",
+    "v2": "Ravaltex"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "057506206000362019M96180900_45113000#0",
+    "couple": "C451_38",
+    "envoi": "attributions",
+    "reference": "SOCIETE D'HABITATIONS DES ALPES SA HLM (PLURALIS)",
+    "v2": "Société d'Habitations des Alpes SA HLM (Pluralis)"
+   }
+  ],
+  "opportunites": 6
+ },
+ "C451_39": {
+  "attributions": 414,
+  "attributions_par_contrats": 5,
+  "ecarts": 856,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552019M011821L0100_45112000#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552019M011913L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552019M011913L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE ROGER MARTIN",
+    "v2": "Entreprise Roger Martin"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552019M011914L0100_45112000#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552019M011914L0100_45112000#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "INSTITUT NATIONAL DE RECHERCHES ARCHEOLOGIQUES PREVENTIVES (DIRECTION REGIONALE BOURGOGNE-FRANCHE-COMTE)",
+    "v2": "Institut National de Recherches Archeologiques Preventives (Direction Régionale Bourgogne-Franche-Comte)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552019M011917L0100_45111220#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552019M011917L0100_45111220#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "SYLVICULTURE KOEHREN",
+    "v2": "Sylviculture Koehren"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552019M011917L0101_45111220#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552019M011917L0101_45111220#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "SYLVICULTURE KOEHREN",
+    "v2": "Sylviculture Koehren"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552019M011919L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552019M011919L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "SOCIETE LOCALE DE TRAVAUX PUBLICS",
+    "v2": "Société Locale de Travaux Publics"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552021M012105L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552021M012105L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "J.C. BONNEFOY",
+    "v2": "J.C. Bonnefoy"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552021M012108L0100_45111100#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552021M012108L0100_45111100#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "SARL FRENOT RAMBOZ",
+    "v2": "SARL Frenot Ramboz"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552021M012111L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552021M012111L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "SOCIETE JURASSIENNE D ENTREPRISE",
+    "v2": "Société Jurassienne D Entreprise"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552021M012111L0200_45112710#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200010650000552021M012111L0200_45112710#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "FRANCE CLOTURE ENVIRONNEMENT",
+    "v2": "France Cloture Environnement"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200010650000552021M012112L0100_45112500#0",
+    "couple": "C451_39",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D AGGLOMERATION DU GRAND DOLE",
+    "v2": "Communauté D Agglomération du Grand Dole"
+   }
+  ],
+  "opportunites": 2
+ },
+ "C451_42": {
+  "attributions": 1131,
+  "attributions_par_contrats": 2,
+  "ecarts": 2313,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "1300106220002020192019T1876000_45120000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "DIRECTION DEPARTEMENTALE TERRITOIRES LOIRE",
+    "v2": "Direction Départementale Territoires Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "1300106220002020192019T1876000_45120000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "HYDRO GEOTECHNIQUE",
+    "v2": "Hydro Geotechnique"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130027543000111513770804_45111000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL COMMUN DEPARTEMENTAL LOIRE",
+    "v2": "Secrétariat Général Commun Départemental Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130027543000111513770804_45111000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "BOURACHOT RECYCLAGE",
+    "v2": "Bourachot Recyclage"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130027543000111513770919_45111100#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL COMMUN DEPARTEMENTAL LOIRE",
+    "v2": "Secrétariat Général Commun Départemental Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130027543000111513770919_45111100#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE MATTANA",
+    "v2": "Entreprise Mattana"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "130027543000111513778978_45112500#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL COMMUN DEPARTEMENTAL LOIRE",
+    "v2": "Secrétariat Général Commun Départemental Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130027543000111513778978_45112500#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "EUROVIA DROME ARDECHE LOIRE AUVERGNE",
+    "v2": "Eurovia Drôme Ardèche Loire Auvergne"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL100_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "184210011000212021TxRenoL100_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE DUTEL",
+    "v2": "Entreprise Dutel"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL200_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "184210011000212021TxRenoL200_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "SUPER",
+    "v2": "Super"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL30000_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "184210011000212021TxRenoL30000_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "EDIFFER",
+    "v2": "Ediffer"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL400_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL500_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "184210011000212021TxRenoL500_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "ARCHIMBAUD CONSTRUCTION",
+    "v2": "Archimbaud Construction"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL600_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "184210011000212021TxRenoL600_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "SARL MAISON BROZE",
+    "v2": "SARL Maison Broze"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "184210011000212021TxRenoL700_45113000#0",
+    "couple": "C451_42",
+    "envoi": "attributions",
+    "reference": "CHAMBRE D AGRICULTURE DE LA LOIRE",
+    "v2": "Chambre D Agriculture de la Loire"
+   }
+  ],
+  "opportunites": 3
+ },
+ "C451_43": {
+  "attributions": 642,
+  "ecarts": 1338,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040129000132023000002DA100_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "SICTOM DES MONTS DU FOREZ",
+    "v2": "Sictom des Monts du Forez"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040129000132023000002DA100_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "MOULIN ENVIRONNEMENT",
+    "v2": "Moulin Environnement"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040129000132023000002DA103_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "SICTOM DES MONTS DU FOREZ",
+    "v2": "Sictom des Monts du Forez"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040129000132023000002DA103_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "ENTREPRISE MARIUS AMPILHAC ET FILS",
+    "v2": "Établissements F  Lioger"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040129000132023000002DA103_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "329131049",
+    "v2": "587150095"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040129000132023000002DA103_45111291#1",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "SICTOM DES MONTS DU FOREZ",
+    "v2": "Sictom des Monts du Forez"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040129000132023000002DA103_45111291#1",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "ETABLISSEMENTS F  LIOGER",
+    "v2": "Moulin Environnement"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040129000132023000002DA103_45111291#1",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "587150095",
+    "v2": "379625791"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040129000132023000002DA103_45111291#2",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "SICTOM DES MONTS DU FOREZ",
+    "v2": "Sictom des Monts du Forez"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040129000132023000002DA103_45111291#2",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "MOULIN ENVIRONNEMENT",
+    "v2": "Entreprise Marius Ampilhac et Fils"
+   },
+   {
+    "champ": "titulaire_siren",
+    "cle": "200040129000132023000002DA103_45111291#2",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "379625791",
+    "v2": "329131049"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200040129000132023000002DA105_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "SICTOM DES MONTS DU FOREZ",
+    "v2": "Sictom des Monts du Forez"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200040129000132023000002DA105_45111291#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "MOULIN ENVIRONNEMENT",
+    "v2": "Moulin Environnement"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "20007340100016202100000300_45112700#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES MEZENC-LOIRE-MEYGAL",
+    "v2": "Communauté de Communes Mezenc-Loire-Meygal"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "20007340100016202100000300_45112700#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "BROC TRAVAUX ROUTIERS",
+    "v2": "Broc Travaux Routiers"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "20007340100016202100000300_45112700#1",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES MEZENC-LOIRE-MEYGAL",
+    "v2": "Communauté de Communes Mezenc-Loire-Meygal"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "20007340100016202100000300_45112700#1",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "SARL SAGNARD RAYMOND ET FILS",
+    "v2": "SARL Sagnard Raymond et Fils"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200073401000322024000008-1_45112500#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE DE COMMUNES MEZENC-LOIRE-MEYGAL (STATION DE SKI ET DOMAINE NORDIQUE)",
+    "v2": "Communauté de Communes Mezenc-Loire-Meygal (Station de SKI et Domaine Nordique)"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200073401000322024000008-1_45112500#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "ETS EYRAUD ET FILS",
+    "v2": "Ets Eyraud et Fils"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200073419000182019CA1906900_45111100#0",
+    "couple": "C451_43",
+    "envoi": "attributions",
+    "reference": "COMMUNAUTE D'AGGLOMERATION DU PUY-EN-VELAY",
+    "v2": "Communauté d'Agglomération du Puy-en-Velay"
+   }
+  ],
+  "opportunites": 0
+ },
+ "C451_58": {
+  "attributions": 317,
+  "ecarts": 655,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "acheteur_nom",
+    "cle": "130027113000132021151106355000_45111100#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "SECRETARIAT GENERAL COMMUN DEPARTEMENTAL NIEVRE",
+    "v2": "Secrétariat Général Commun Départemental Nievre"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "130027113000132021151106355000_45111100#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "D.B. CENTRE",
+    "v2": "D.B. Centre"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112022T00029_45112000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112022T00029_45112000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "PASCAL GUINOT TRAVAUX PUBLICS (PASCAL GUINOT VRD-PSACAL GUINOT RESEAUX - PRODUCTION GUINOT SAS - SAS GUILLEMINOT)",
+    "v2": "Pascal Guinot Travaux Publics (Pascal Guinot VRD-Psacal Guinot Réseaux - Production Guinot SAS - SAS Guilleminot)"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112022T00164_45111000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112022T00164_45111000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "PLEUCHOT   T.P",
+    "v2": "Pleuchot   T.P"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00340_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112023T00340_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "BATI CONCEPT",
+    "v2": "Bati Concept"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00341_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00342_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112023T00342_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "TECHNIC'ELEC 58",
+    "v2": "Technic'Élec 58"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00343_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112023T00343_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "GENEOL GENIE CLIMATIQUE",
+    "v2": "Geneol Genie Climatique"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00344_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112023T00344_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "SOCIETE BERRUYERE DE PEINTURE ET REVETEMENT",
+    "v2": "Société Berruyere de Peinture et Revêtement"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00345_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112023T00345_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "SOCIETE BERRUYERE DE PEINTURE ET REVETEMENT",
+    "v2": "Société Berruyere de Peinture et Revêtement"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00346_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   },
+   {
+    "champ": "titulaire_nom",
+    "cle": "200011203000112023T00346_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "MERLOT TP",
+    "v2": "Merlot TP"
+   },
+   {
+    "champ": "acheteur_nom",
+    "cle": "200011203000112023T00347_45113000#0",
+    "couple": "C451_58",
+    "envoi": "attributions",
+    "reference": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+    "v2": "Ctre Hospitalier Intercommunal Agglomération de Nevers"
+   }
+  ],
+  "opportunites": 4
+ },
+ "C451_FR": {
+  "attributions": 78158,
+  "attributions_anciennes_sur_site": 14,
+  "attributions_par_contrats": 1,
+  "etat": "identique (hors lignes anciennes gardées par le site)",
+  "opportunites": 581
+ },
+ "C713_FR": {
+  "attributions": 82492,
+  "attributions_anciennes_sur_site": 354,
+  "etat": "identique (hors lignes anciennes gardées par le site)",
+  "opportunites": 647
+ }
+}
