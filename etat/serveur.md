@@ -1,51 +1,51 @@
 # Serveur du moteur V2
 
-Mis à jour le 09/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 09/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : disque : dossier qui grossit vite — entrepot/decp : +1.2 Go par semaine
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-09 04:59:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-09 05:59:06  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-08 07:16:03  OK, 673 avis collectés, 233 couples recalculés, 90 republiés en 46.0 min |
 | Passe DECP hebdomadaire | 2026-11-07 04:22:15  Passe hebdomadaire DECP 2026-11-07_decp : terminée avec échecs en 82.2 min, mémoire max 4269 Mo ; 236 couples recalculés, 0 bloqués par la garde, échecs : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; 222 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-08 07:18:38  Contrôle du 08/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.00 · disque 35.6 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.57 Go sur 7.6 · charge 0.38 · disque 35.0 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +4.5 point(s) par semaine · 80 % dans **10.0 semaine(s)**
+Rythme des 14 derniers jours : +4.2 point(s) par semaine · 80 % dans **10.8 semaine(s)**
 
 ```
-Mesure du 2026-11-08 05:45 :
+Mesure du 2026-11-09 05:45 :
   entrepot/sources                            3.50 Go
   entrepot/decp                               1.59 Go
   entrepot/boamp                              1.38 Go
   entrepot/passes                             0.89 Go
-  production/controles                        0.73 Go
   entrepot/execution                          0.68 Go
+  production/controles                        0.67 Go
   entrepot/marche                             0.26 Go
   production/publies                          0.23 Go
   entrepot/photographie                       0.23 Go
   entrepot/etiquettes                           37 Mo
   entrepot/referentiel                          16 Mo
   entrepot/avis                                  4 Mo
+  entrepot/tmp                                   2 Mo
   entrepot/sirene                                2 Mo
   production/(fichiers)                          2 Mo
   logs                                           2 Mo
-  entrepot/tmp                                   2 Mo
   entrepot/mesures.jsonl                         1 Mo
   production/rejeu                               0 Mo
   entrepot/sources_temoin.jsonl                  0 Mo
   entrepot/manifeste.json                        0 Mo
-Croissance par dossier (depuis 2026-11-05, 2.3 j), en Go par semaine :
-  entrepot/decp                                 +1.22
-  entrepot/passes                               +0.94
-  entrepot/execution                            +0.05
+Croissance par dossier (depuis 2026-11-05, 3.3 j), en Go par semaine :
+  entrepot/decp                                 +0.86
+  entrepot/passes                               +0.65
+  entrepot/execution                            +0.03
   entrepot/boamp                                +0.01
   production/publies                            +0.01
-Dernière purge (2026-11-08 05:45) : faite, 10 élément(s), 0.88 Go libérés · fusions 1 (0.0 Go) · parallele_arretee 8 (0.66 Go) · photographies_controle 1 (0.22 Go)
+Dernière purge (2026-11-09 05:45) : faite, 4 élément(s), 0.29 Go libérés · fusions 1 (0.0 Go) · photographies_controle 2 (0.28 Go) · tmp 1 (0.0 Go)
 ```
 
 ## Performances
@@ -109,19 +109,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                            PASSED UNIT                     ACTIVATES
-Mon 2026-11-09 05:45:00 CET    44min Sun 2026-11-08 05:45:04 CET    23h ago tenderhit-purge.timer    tenderhit-purge.service
-Mon 2026-11-09 06:30:00 CET 1h 29min Sun 2026-11-08 06:30:04 CET    22h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-14 03:00:00 CET   4 days Sat 2026-11-07 03:00:00 CET 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Mon 2026-11-09 05:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                  - Mon 2026-11-09 05:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                            PASSED UNIT                     ACTIVATES
+Mon 2026-11-09 06:30:00 CET  29min Sun 2026-11-08 06:30:04 CET    23h ago tenderhit-collecte.timer tenderhit-collecte.service
+Tue 2026-11-10 05:45:00 CET    23h Mon 2026-11-09 05:45:04 CET  15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-14 03:00:00 CET 4 days Sat 2026-11-07 03:00:00 CET 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Mon 2026-11-09 06:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Mon 2026-11-09 06:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-08 07:03:07    M22_91 : 3 opportunités · inchangé · 6 s
 2026-11-08 07:03:13    M22_92 : 6 opportunités · inchangé · 7 s
 2026-11-08 07:03:19    M22_93 : 3 opportunités · inchangé · 6 s
 2026-11-08 07:03:26    M22_94 : 8 opportunités · inchangé · 6 s
@@ -161,4 +160,5 @@ Sat 2026-11-14 03:00:00 CET   4 days Sat 2026-11-07 03:00:00 CET 2 days ago tend
 2026-11-08 07:16:03    P1005_93 : 13 opportunités · inchangé · 12 s
 2026-11-08 07:16:03  OK, 673 avis collectés, 233 couples recalculés, 90 republiés en 46.0 min
 2026-11-08 07:18:38  Contrôle du 08/11 : rouge — 223 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
+2026-11-09 05:45:04  purge du disque faite : 4 élément(s), 0.29 Go libérés — fusions 1 (0.0 Go), photographies_controle 2 (0.28 Go), tmp 1 (0.0 Go)
 ```
