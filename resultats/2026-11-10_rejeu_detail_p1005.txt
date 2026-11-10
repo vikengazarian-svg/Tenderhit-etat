@@ -1,2 +1,483 @@
 # rejeu_detail P1005_75 P1005_22 P1005_35
-En cours depuis 10/11 11:18
+Lancée le 10/11/2026 11:18, finie le 10/11/2026 11:18, code 0
+
+2026-11-10.json
+Rejeu sur le serveur : rouge — 1 couples identiques au PC sur 16 comparés ; en écart ou en échec : P1005_22, P1005_27, P1005_35, P1005_75, M01_75, M04_62, M07_59, M22_69, M29_69, M33_69, C093_69, C451_69, C451_FR, M22_FR, M01_FR ; 8.9 s par couple (médiane), 8 min au total
+
+{
+ "P1005_22": {
+  "duree_s": 8.5,
+  "ecarts": 14,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "P1005_22",
+    "envoi": "rapport",
+    "reference": 319,
+    "v2": 317
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "P1005_22",
+    "envoi": "rapport",
+    "reference": 553,
+    "v2": 552
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-22-AO-ax-megalis-242602",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 132000,
+    "v2": 131600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-22-AO-ax-megalis-242602",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 66200,
+    "v2": 65900
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-22-AO-ax-megalis-242602",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 456,
+    "v2": 455
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-22-AO-ax-megalis-242977",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 132000,
+    "v2": 131600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-22-AO-ax-megalis-242977",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 66200,
+    "v2": 65900
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-22-AO-ax-megalis-242977",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 456,
+    "v2": 455
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-22-AO-ax-megalis-243133",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 132000,
+    "v2": 131600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-22-AO-ax-megalis-243133",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 66200,
+    "v2": 65900
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-22-AO-ax-megalis-243133",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 456,
+    "v2": 455
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-22-AO-ax-megalis-243373",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 132000,
+    "v2": 131600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-22-AO-ax-megalis-243373",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 66200,
+    "v2": 65900
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-22-AO-ax-megalis-243373",
+    "couple": "P1005_22",
+    "envoi": "opportunites",
+    "reference": 456,
+    "v2": 455
+   }
+  ]
+ },
+ "P1005_35": {
+  "duree_s": 10.8,
+  "ecarts": 19,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "P1005_35",
+    "envoi": "rapport",
+    "reference": 9,
+    "v2": 7
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "P1005_35",
+    "envoi": "rapport",
+    "reference": 673,
+    "v2": 671
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "P1005_35",
+    "envoi": "rapport",
+    "reference": 1303,
+    "v2": 1301
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Mission de bureau d'études géotechniques-réhabilitation lourde salle Louison Bob",
+    "couple": "P1005_35",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE PACE",
+     "date_limite": "2026-11-10",
+     "idweb": "ax-megalis-242498",
+     "intitule": "Mission de bureau d'études géotechniques-réhabilitation lourde salle Louison Bobet",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Mission d'assistance technique au chiffrement des communications Opc Ua du Scada",
+    "couple": "P1005_35",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Rennes Métropole",
+     "date_limite": "2026-11-20",
+     "idweb": "26-103647",
+     "intitule": "Mission d'assistance technique au chiffrement des communications Opc Ua du Scada lignes A et B",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "P1005-35-AO-26-103647",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "P1005-35-AO-ax-megalis-242498",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-35-AO-26-108984",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 185200,
+    "v2": 185700
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-35-AO-26-108984",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 1032,
+    "v2": 1030
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-35-AO-26-108984-2",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 185200,
+    "v2": 185700
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-35-AO-26-108984-2",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 1032,
+    "v2": 1030
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-35-AO-ax-megalis-240528",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 185200,
+    "v2": 185700
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-35-AO-ax-megalis-240528",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 1032,
+    "v2": 1030
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-35-AO-ax-megalis-242572",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 185200,
+    "v2": 185700
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-35-AO-ax-megalis-242572",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 1032,
+    "v2": 1030
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-35-AO-ax-megalis-242971",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 185200,
+    "v2": 185700
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-35-AO-ax-megalis-242971",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 1032,
+    "v2": 1030
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-35-AO-ax-megalis-243265",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 185200,
+    "v2": 185700
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-35-AO-ax-megalis-243265",
+    "couple": "P1005_35",
+    "envoi": "opportunites",
+    "reference": 1032,
+    "v2": 1030
+   }
+  ]
+ },
+ "P1005_75": {
+  "duree_s": 23.0,
+  "ecarts": 55,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 17,
+    "v2": 14
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 1483,
+    "v2": 1475
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 2468,
+    "v2": 2455
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "AMO — Assistance technique et administrative dans le cadre du renouvellement du ",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère de l'Intérieur",
+     "date_limite": "2026-12-02",
+     "idweb": "26-105446",
+     "intitule": "AMO — Assistance technique et administrative dans le cadre du renouvellement du marché \"voyagiste\"",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Mission d'Assistance à la Maîtrise d'Ouvrage (AMO) à caractère administratif, fi",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Musée de l'Air et de l'Espace",
+     "date_limite": "2026-11-30",
+     "idweb": "26-105403",
+     "intitule": "Mission d'Assistance à la Maîtrise d'Ouvrage (AMO) à caractère administratif, financier et technique relative à la transformation bâtimentaire du Hall 39/45 du Musée de l'Air et de l'Espace.",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "2026_QEE_002 - AMO Pilotage - Communication du plan d'actions Terre et Eau 2031 ",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SEDIF",
+     "date_limite": "2026-11-25",
+     "idweb": "26-96917",
+     "intitule": "2026_QEE_002 - AMO Pilotage - Communication du plan d'actions Terre et Eau 2031 — Lot 0",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "P1005-75-AO-26-105403",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "P1005-75-AO-26-105446",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "P1005-75-AO-26-96917",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-75-AO-26-103048",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 334000,
+    "v2": 327800
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-75-AO-26-103048",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 107200,
+    "v2": 105400
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-75-AO-26-103048",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 1528,
+    "v2": 1518
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "P1005-75-AO-26-104241",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 28800,
+    "v2": 28600
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-75-AO-26-104241",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 210900,
+    "v2": 203700
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-75-AO-26-104241",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 59000,
+    "v2": 58900
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-75-AO-26-104241",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 412,
+    "v2": 410
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-75-AO-26-106854",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 334000,
+    "v2": 327800
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "P1005-75-AO-26-106854",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 107200,
+    "v2": 105400
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "P1005-75-AO-26-106854",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 1528,
+    "v2": 1518
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "P1005-75-AO-26-107214",
+    "couple": "P1005_75",
+    "envoi": "opportunites",
+    "reference": 334000,
+    "v2": 327800
+   }
+  ]
+ }
+}
