@@ -1,2 +1,14 @@
 # mettre_a_jour v2.49
-En cours depuis 10/11 13:56
+Lancée le 10/11/2026 13:56, finie le 10/11/2026 13:56, code 0
+
+Moteur à la version v2.49 (ec3eda9)
+
+Horaires des tâches (code 0) :
+NEXT                          LEFT LAST                            PASSED UNIT                     ACTIVATES
+Tue 2026-11-10 13:57:00 CET    50s Tue 2026-11-10 13:56:04 CET     5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Wed 2026-11-11 05:45:00 CET    15h Tue 2026-11-10 05:45:04 CET     8h ago tenderhit-purge.timer    tenderhit-purge.service
+Wed 2026-11-11 06:30:00 CET    16h Tue 2026-11-10 06:30:04 CET     7h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-14 03:00:00 CET 3 days Sat 2026-11-07 03:00:00 CET 3 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Tue 2026-11-10 13:56:04 CET     5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+5 timers listed.
