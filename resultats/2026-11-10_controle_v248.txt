@@ -1,2 +1,12 @@
 # controle
-En cours depuis 10/11 13:48
+Lancée le 10/11/2026 13:48, finie le 10/11/2026 13:51, code 0
+
+rapports                   469 lignes  complète  (2.8 s)
+echeances                34706 lignes  complète  (11.7 s)
+opportunites              4829 lignes  complète  (2.7 s)
+attributions            392085 lignes  complète  (139.6 s)
+avis_ouverts              6994 lignes  complète  (4.1 s)
+collectes                    2 lignes  complète  (0.4 s)
+Photographie complète : /srv/tenderhit/entrepot/production/controles/photographie/2026-11-10_1348
+2026-11-10 13:50:59  Contrôle du 10/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour
+Contrôle du 10/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour
