@@ -1,2 +1,12 @@
 # controle
-En cours depuis 10/11 11:56
+Lancée le 10/11/2026 11:56, finie le 10/11/2026 11:59, code 1
+
+rapports                   469 lignes  complète  (0.6 s)
+echeances                34706 lignes  complète  (15.4 s)
+opportunites              4829 lignes  complète  (2.6 s)
+attributions            392085 lignes  complète  (144.2 s)
+avis_ouverts              6994 lignes  complète  (5.1 s)
+collectes                    2 lignes  complète  (0.4 s)
+Photographie complète : /srv/tenderhit/entrepot/production/controles/photographie/2026-11-10_1156
+2026-11-10 11:59:07  Contrôle du 10/11 : rouge — 235 couples identiques au site, 4238 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour ; CHUTES : C451_21 : attributions 585 → 270, C451_42 : attributions 1131 → 535
+Contrôle du 10/11 : rouge — 235 couples identiques au site, 4238 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour ; CHUTES : C451_21 : attributions 585 → 270, C451_42 : attributions 1131 → 535
