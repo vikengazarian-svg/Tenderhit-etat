@@ -1,2 +1,1713 @@
 # rejeu_detail M07_59 M01_75 M04_62 M22_69 M29_69 M33_69 C093_69 C451_69 P1005_75
-En cours depuis 10/11 10:46
+Lancée le 10/11/2026 10:46, finie le 10/11/2026 10:46, code 0
+
+2026-11-10.json
+Rejeu sur le serveur : rouge — 19 couples identiques au PC sur 89 comparés ; en écart ou en échec : C093_69, C451_25, C451_39, C451_69, C451_71, C451_73, C451_FR, C712_74, C713_75, C772_14, C772_76, C772_FR, M01_14, M01_16, M01_24, M01_39, M01_58, M01_59, M01_70, M01_75, M01_83, M01_89, M01_90, M01_FR, M04_62, M07_59, M22_05, M22_07, M22_08, M22_10, M22_21, M22_26, M22_51, M22_52, M22_54, M22_55, M22_57, M22_69, M22_71, M22_83, M22_88, M22_94, M22_95, M22_FR, M23_44, M23_76, M24_69, M24_76, M29_01, M29_03, M29_07, M29_26, M29_38, M29_42, M29_63, M29_69, M29_73, M29_74, M29_83, M30_69, M33_14, M33_38, M33_69, M33_71, M33_FR, P1005_22, P1005_27, P1005_29, P1005_35, P1005_75 ; 9.3 s par couple (médiane), 32 min au total
+
+{
+ "C093_69": {
+  "duree_s": 4.1,
+  "ecarts": 59,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "C093_69",
+    "envoi": "rapport",
+    "reference": 137,
+    "v2": 120
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "C093_69",
+    "envoi": "rapport",
+    "reference": 355,
+    "v2": 306
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C093-69-AO-26-101830",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 70200,
+    "v2": 71800
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C093-69-AO-26-101830",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 590100,
+    "v2": 606600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C093-69-AO-26-101830",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 170900,
+    "v2": 177500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C093-69-AO-26-101830",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 292,
+    "v2": 248
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C093-69-AO-26-101830-2",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 70200,
+    "v2": 71800
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C093-69-AO-26-101830-2",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 590100,
+    "v2": 606600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C093-69-AO-26-101830-2",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 170900,
+    "v2": 177500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C093-69-AO-26-101830-2",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 292,
+    "v2": 248
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "C093-69-AO-ax-place-2818358",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 70200,
+    "v2": 71800
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "C093-69-AO-ax-place-2818358",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 590100,
+    "v2": 606600
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "C093-69-AO-ax-place-2818358",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 170900,
+    "v2": 177500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "C093-69-AO-ax-place-2818358",
+    "couple": "C093_69",
+    "envoi": "opportunites",
+    "reference": 292,
+    "v2": 248
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200058493000462023TV_2023_04_09331200#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "2000897200001117637393944ddw9vhqljt3_09332000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200089720000111763739395zjw99pbye2fw_09332000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200089720000112025A10-3_09332000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200089720000112025A23_3_09332000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "2000897200002920252024A008-2_09332000#0",
+    "couple": "C093_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   }
+  ]
+ },
+ "C451_69": {
+  "duree_s": 5.7,
+  "ecarts": 1328,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "C451_69",
+    "envoi": "rapport",
+    "reference": 18,
+    "v2": 8
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "C451_69",
+    "envoi": "rapport",
+    "reference": 721,
+    "v2": 436
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "C451_69",
+    "envoi": "rapport",
+    "reference": 2191,
+    "v2": 963
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "ViaDolaizon - Aménagement des Carmes au Puy-en-Velay - Lot 5 & 6 Travaux : Terra",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Conseil Régional Auvergne-Rhône-Alpes",
+     "date_limite": "2026-12-04",
+     "idweb": "26-107445",
+     "intitule": "ViaDolaizon - Aménagement des Carmes au Puy-en-Velay - Lot 5 & 6 Travaux : Terrassement - Réseaux - Voiries - Maçonneries et Espaces Verts — Lot 2 - 6 - Espaces Verts - Secteur Carmes au Puy-en-Velay",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "ViaDolaizon - Aménagement des Carmes au Puy-en-Velay - Lot 5 & 6 Travaux : Terra",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Conseil Régional Auvergne-Rhône-Alpes",
+     "date_limite": "2026-12-04",
+     "idweb": "26-107445",
+     "intitule": "ViaDolaizon - Aménagement des Carmes au Puy-en-Velay - Lot 5 & 6 Travaux : Terrassement - Réseaux - Voiries - Maçonneries et Espaces Verts — Lot 5 : Terrassement - Réseaux - Voiries - Maçonneries - Secteur des Carmes au Puy-en-Velay",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux de réfection du pôle chimie au Lycée Champollion (38-Grenoble) — Démolit",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "DEL - Direction de l éducation et des lycées",
+     "date_limite": "2026-11-19",
+     "idweb": "26-101953",
+     "intitule": "Travaux de réfection du pôle chimie au Lycée Champollion (38-Grenoble) — Démolition maçonnerie",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux de restructuration du gymnase du lycée Monge (73-Chambéry) — 3 Démolitio",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "DEL - Direction de l éducation et des lycées",
+     "date_limite": "2026-11-19",
+     "idweb": "26-98169",
+     "intitule": "Travaux de restructuration du gymnase du lycée Monge (73-Chambéry) — 3 Démolition",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "REALISATION DES TRAVAUX D'AMENAGEMENT PAYSAGERS DES PROJETS INSCRITS A LA PPI",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "GRANDLYON Métropole",
+     "date_limite": "2026-12-11",
+     "idweb": "26-107834",
+     "intitule": "REALISATION DES TRAVAUX D'AMENAGEMENT PAYSAGERS DES PROJETS INSCRITS A LA PPI",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux De Desamiantage Et De Deconstruction\n6, rue Lortet - Lyon 7ème",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Métropole de Lyon",
+     "date_limite": "2026-12-10",
+     "idweb": "26-103552",
+     "intitule": "Travaux De Desamiantage Et De Deconstruction\n6, rue Lortet - Lyon 7ème",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux de restructuration de l'ancienne caserne Suchet en annexe du lycée Julie",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SEM SERL, mandataire de la Région Auvergne Rhône-Alpes",
+     "date_limite": "2026-11-13",
+     "idweb": "26-97979",
+     "intitule": "Travaux de restructuration de l'ancienne caserne Suchet en annexe du lycée Juliette Récamier / Lots désamiantage - déplombage et curage -dépollution — Curage - dépollution",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux de construction d'un nouveau lycée à DOUVAINE (74) - Lots principaux — L",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SERL Groupe",
+     "date_limite": "2026-12-11",
+     "idweb": "26-94425",
+     "intitule": "Travaux de construction d'un nouveau lycée à DOUVAINE (74) - Lots principaux — Lot 24 - 24 - Aménagements extérieurs - Paysage",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Marché de travaux dans le cadre de la réhabilitation des blocs sanitaires du bât",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SGAMI SUD-EST",
+     "date_limite": "2026-11-20",
+     "idweb": "26-105563",
+     "intitule": "Marché de travaux dans le cadre de la réhabilitation des blocs sanitaires du bâtiment B10 de la CRS45 à Chassieu (69) — Lot 1 Désamiantage - Démolition - Second-oeuvre",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Les stipulations du présent Règlement de consultation (Rc) concernent des travau",
+    "couple": "C451_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ville de Vénissieux",
+     "date_limite": "2026-11-19",
+     "idweb": "26-101983",
+     "intitule": "Les stipulations du présent Règlement de consultation (Rc) concernent des travaux de démolition de l'ancienne piscine Auguste Delaune",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-101953",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-101983",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-103552",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-105563",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-107445",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-107445-2",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "C451-69-AO-26-107834",
+    "couple": "C451_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   }
+  ]
+ },
+ "M01_75": {
+  "duree_s": 14.6,
+  "ecarts": 84,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M01_75",
+    "envoi": "rapport",
+    "reference": 21,
+    "v2": 20
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M01_75",
+    "envoi": "rapport",
+    "reference": 353,
+    "v2": 348
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M01_75",
+    "envoi": "rapport",
+    "reference": 1342,
+    "v2": 1356
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Prestations de maintenance des installations électriques Courant Fort/ Court Fai",
+    "couple": "M01_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Autres organismes",
+     "date_limite": "2026-12-03",
+     "idweb": "ax-place-3098357",
+     "intitule": "Prestations de maintenance des installations électriques Courant Fort/ Court Faible (CFO/CFA)",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : Prestations de nettoyage, de contrôle et de petite mai",
+    "couple": "M01_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ville de Paris (Mairie)",
+     "date_limite": "2027-09-22",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Prestations de nettoyage, de contrôle et de petite maintenance des portiques et potences du corridor périphérique et des voies sur berges.",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "Renouvellement probable : Le présent accord-cadre a pour objet des prestations d",
+    "couple": "M01_75",
+    "envoi": "echeances",
+    "reference": null,
+    "v2": {
+     "acheteur": "Musée National Picasso Paris",
+     "date_limite": "2026-09-13",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Le présent accord-cadre a pour objet des prestations de nettoyage et repassage de vêtements professionnels de certains agents du musée national Picasso-Paris du Musée national Picasso–Paris (ci-après dénommé « le musée Picasso », « le Musée », « la person",
+     "type": "projet"
+    }
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-75-AO-ax-place-3098357",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M01-75-REC-217500016000192022S04400_50324200",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "en plus dans le V2",
+    "cle": "M01-75-REC-1300121720001620222022S2683100_98310000",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": null,
+    "v2": true
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M01-75-AO-26-108011",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 23000,
+    "v2": 22500
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M01-75-AO-26-108011",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 348000,
+    "v2": 343700
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M01-75-AO-26-108011",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 81500,
+    "v2": 78300
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M01-75-AO-26-108011",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 910,
+    "v2": 922
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M01-75-AO-26-108011-2",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 23000,
+    "v2": 22500
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M01-75-AO-26-108011-2",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 348000,
+    "v2": 343700
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M01-75-AO-26-108011-2",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 81500,
+    "v2": 78300
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M01-75-AO-26-108011-2",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 910,
+    "v2": 922
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M01-75-AO-ax-place-3080509",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 28900,
+    "v2": 34000
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M01-75-AO-ax-place-3080509",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 598700,
+    "v2": 591900
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M01-75-AO-ax-place-3080509",
+    "couple": "M01_75",
+    "envoi": "opportunites",
+    "reference": 129300,
+    "v2": 165200
+   }
+  ]
+ },
+ "M04_62": {
+  "duree_s": 8.6,
+  "ecarts": 71,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M04_62",
+    "envoi": "rapport",
+    "reference": 14,
+    "v2": 6
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M04_62",
+    "envoi": "rapport",
+    "reference": 145,
+    "v2": 115
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M04_62",
+    "envoi": "rapport",
+    "reference": 395,
+    "v2": 351
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M04_62",
+    "envoi": "rapport",
+    "reference": 36,
+    "v2": 31
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "EXPLOITATION, ENTRETIEN ET SURVEILLANCE DE L’ENSEMBLE DES OUVRAGES ET INFRASTRUC",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNAUTÉ DE COMMUNES DU TERNOIS",
+     "date_limite": "2026-11-10",
+     "idweb": "26-96103",
+     "intitule": "EXPLOITATION, ENTRETIEN ET SURVEILLANCE DE L’ENSEMBLE DES OUVRAGES ET INFRASTRUCTURES DE PRODUCTION, DE TRAITEMENT, DE STOCKAGE, DE DISTRIBUTION ET DE SURPRESSION D’EAU POTABLE",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "EXPLOITATION, ENTRETIEN ET SURVEILLANCE DE L’ENSEMBLE DES OUVRAGES ET INFRASTRUC",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNAUTÉ DE COMMUNES DU TERNOIS",
+     "date_limite": "2026-11-24",
+     "idweb": "ax-npdc-588093",
+     "intitule": "EXPLOITATION, ENTRETIEN ET SURVEILLANCE DE L’ENSEMBLE DES OUVRAGES ET INFRASTRUCTURES DE PRODUCTION, DE TRAITEMENT, DE STOCKAGE, DE DISTRIBUTION ET DE SURPRESSION D’EAU POTABLE",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Marché public de prestations de services pour la surveillance du stationnement p",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNE DE CHANTILLY",
+     "date_limite": "2026-11-25",
+     "idweb": "26-103009",
+     "intitule": "Marché public de prestations de services pour la surveillance du stationnement payant sur voirie et la gestion des recours",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : L’objet du présent marché consiste à assurer l’entreti",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Communauté d'Agglomération de Cambrai",
+     "date_limite": "2027-10-13",
+     "idweb": null,
+     "intitule": "Renouvellement probable : L’objet du présent marché consiste à assurer l’entretien et la gestion des équipements suivants, qui appartiennent à la collectivité : - • L’entretien, l’exploitation et la surveillance des installations de pompage d’eaux pluviales pour la défense incendi",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Maintenance préventive et curative des systèmes intrusion, de vidéo-surveillance",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Communauté d'agglomération du Boulonnais",
+     "date_limite": "2026-11-19",
+     "idweb": "26-104030",
+     "intitule": "Maintenance préventive et curative des systèmes intrusion, de vidéo-surveillance/protection et de contrôle d'accès des bâtiments de la Cab",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : PRESTATION DE SERVICE POUR LA SURVEILLANCE DU STATIONN",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Commune de Chantilly (Mairie)",
+     "date_limite": "2026-12-22",
+     "idweb": null,
+     "intitule": "Renouvellement probable : PRESTATION DE SERVICE POUR LA SURVEILLANCE DU STATIONNEMENT PAYANT SUR VOIRIE ET LA GESTION DES RECOURS",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Mise en place d'une brigade à cheval pour la surveillance et le nettoyage des du",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Conseil Départemental du Nord",
+     "date_limite": "2026-11-19",
+     "idweb": "26-101594",
+     "intitule": "Mise en place d'une brigade à cheval pour la surveillance et le nettoyage des dunes flamandes et décalcifiées, sites Enn du Département du Nord",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : Interventions curatives et contrôles techniques de niv",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Métropole Européenne de Lille",
+     "date_limite": "2026-08-16",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Interventions curatives et contrôles techniques de niveau 1 et 2 sur les dispositifs métrologiques des  - systèmes d’assainissement.  - Contrôle technique de niveau 1 et 2 et interventions curatives sur les dispositifs d’auto surveillance et les capteurs a",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : La présente consultation afférente au lot 1 concerne l",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Métropole Européenne de Lille",
+     "date_limite": "2026-11-02",
+     "idweb": null,
+     "intitule": "Renouvellement probable : La présente consultation afférente au lot 1 concerne la surveillance, le contrôle et l’expertise rigoureuse et régulière des dispositifs d’autosurveillance pour assurer la production de données fiables et représentatives des systèmes de collecte. La prése",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : Maintenance d’un outil de traitement et de validation ",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Métropole Européenne de Lille",
+     "date_limite": "2027-09-15",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Maintenance d’un outil de traitement et de validation des données d’auto surveillance issue des systèmes d’assainissement (application EVE’M) et prestations associées",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "ACCORD-CADRE MONO ET MULTI-ATTRIBUTAIRES  À BONS DE COMMANDE ET MARCHÉS SUBSÉQUE",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SPL GAAM HDF",
+     "date_limite": "2026-11-15",
+     "idweb": "26-96700",
+     "intitule": "ACCORD-CADRE MONO ET MULTI-ATTRIBUTAIRES  À BONS DE COMMANDE ET MARCHÉS SUBSÉQUENTS –  PRESTATIONS INTELLECTUELLES — Lot 2 - Accompagnement et surveillance des bâtiments tertiaires et techniques ou industriels dédiés à la maintenance des Matériels Roulants",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "ACCORD-CADRE MONO ET MULTI-ATTRIBUTAIRES  À BONS DE COMMANDE ET MARCHÉS SUBSÉQUE",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SPL GAAM HDF",
+     "date_limite": "2026-11-15",
+     "idweb": "26-96700",
+     "intitule": "ACCORD-CADRE MONO ET MULTI-ATTRIBUTAIRES  À BONS DE COMMANDE ET MARCHÉS SUBSÉQUENTS –  PRESTATIONS INTELLECTUELLES — Lot 3 - Accompagnement et surveillance des sites de maintenance, installations et outillages ferroviaires",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "ACCORD-CADRE MONO ET MULTI-ATTRIBUTAIRES  À BONS DE COMMANDE ET MARCHÉS SUBSÉQUE",
+    "couple": "M04_62",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "SPL GAAM HDF",
+     "date_limite": "2026-11-15",
+     "idweb": "26-96700",
+     "intitule": "ACCORD-CADRE MONO ET MULTI-ATTRIBUTAIRES  À BONS DE COMMANDE ET MARCHÉS SUBSÉQUENTS –  PRESTATIONS INTELLECTUELLES — Lot 4 - Accompagnement et surveillance environnementale des Actifs ferroviaires",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M04-62-AO-26-104030",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M04-62-AO-26-96103",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M04-62-AO-ax-npdc-588093",
+    "couple": "M04_62",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   }
+  ]
+ },
+ "M07_59": {
+  "duree_s": 6.3,
+  "ecarts": 200,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 20,
+    "v2": 10
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 140,
+    "v2": 61
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 468,
+    "v2": 276
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "M07_59",
+    "envoi": "rapport",
+    "reference": 22,
+    "v2": 20
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux de réhabilitation du Centre National des Arts de la Rue et de l'Espace P",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "COMMUNAUTE D&#039;AGGLOMERATION VALENCIENNES METROPOLE",
+     "date_limite": "2026-11-23",
+     "idweb": "26-107338",
+     "intitule": "Travaux de réhabilitation du Centre National des Arts de la Rue et de l'Espace Public (CNAREP) — Lot 6 - Plomberie - Sanitaires - Chauffage - Ventilation",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Création d'une mezzanine pour Centrale Lille. Lot 1 : Démolition et désamiantage",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Centrale Lille Institut",
+     "date_limite": "2026-11-13",
+     "idweb": "26-100819",
+     "intitule": "Création d'une mezzanine pour Centrale Lille. Lot 1 : Démolition et désamiantage / Lot 2 : Charpente et Serrurerie / Lot 3 : Second oeuvre / Lot 4 : CVC - Plomberie / Lot 5 : Electricité — Lot 4 - CVC - Plomberie",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : Assistance au suivi du contrat d’exploitation des inst",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Commune de Croix (Mairie)",
+     "date_limite": "2026-08-24",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Assistance au suivi du contrat d’exploitation des installations thermiques",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : Travaux d’entretien des bâtiments - Plomberie - Sanita",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Commune de Lambersart (Mairie)",
+     "date_limite": "2026-10-10",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Travaux d’entretien des bâtiments - Plomberie - Sanitaires - Ventilation<br />",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux d'installation et de mise en service de climatisations dans les écoles d",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE CAMBRAI",
+     "date_limite": "2026-11-10",
+     "idweb": "ax-npdc-588078",
+     "intitule": "Travaux d'installation et de mise en service de climatisations dans les écoles de la Ville de Cambrai",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "FLETRE59REHABILITATIONEXTENSION — plomberie CVC",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE FLETRE",
+     "date_limite": "2026-11-10",
+     "idweb": "26-95278",
+     "intitule": "FLETRE59REHABILITATIONEXTENSION — plomberie CVC",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Rénovation énergétique de l'école maternelle de Fontaine Au Pire",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE FONTAINE-AU-PIRE",
+     "date_limite": "2026-11-23",
+     "idweb": "ax-npdc-588476",
+     "intitule": "Rénovation énergétique de l'école maternelle de Fontaine Au Pire",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "RENOVATION ENERGETIQUE ET EMBELLISSEMENT DU FOYER RURAL D'INCHY EN CAMBRESIS",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE INCHY-EN-CAMBRESIS",
+     "date_limite": "2026-11-26",
+     "idweb": "ax-npdc-588666",
+     "intitule": "RENOVATION ENERGETIQUE ET EMBELLISSEMENT DU FOYER RURAL D'INCHY EN CAMBRESIS",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Construction d'une salle de sport",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "MAIRIE DE SAINS-DU-NORD",
+     "date_limite": "2026-11-19",
+     "idweb": "ax-npdc-588311",
+     "intitule": "Construction d'une salle de sport",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Travaux pour la construction du nouveau Lycée Maritime à Boulogne-sur-Mer — Lot ",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Région Hauts-de-France",
+     "date_limite": "2026-11-23",
+     "idweb": "26-107355",
+     "intitule": "Travaux pour la construction du nouveau Lycée Maritime à Boulogne-sur-Mer — Lot 06 - CVC/plomberie",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Réalisation d'audits et études bâtimentaires dans le cadre du programme ACTEE (A",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Territoire d'Énergie Flandre (59)",
+     "date_limite": "2026-11-20",
+     "idweb": "26-102581",
+     "intitule": "Réalisation d'audits et études bâtimentaires dans le cadre du programme ACTEE (Action des Collectivités Territoriales pour l'Efficacité Énergétique) — Lot 2 - Mission d’études et dimensionnement pour chauffage, rafraichissement, climatisation, abandon des énergies carbonées sur le patrimoine bâti des collectivités du territoire",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Construction D'Un Centre Social Et D'Un Pôle Famille Aux 3 Ponts - Relance Lot 1",
+    "couple": "M07_59",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ville de Roubaix",
+     "date_limite": "2026-12-01",
+     "idweb": "26-105668",
+     "intitule": "Construction D'Un Centre Social Et D'Un Pôle Famille Aux 3 Ponts - Relance Lot 13 - Chauffage Ventilation Plomberie Sanitaire",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M07-59-AO-26-100819",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M07-59-AO-26-102581",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M07-59-AO-26-105668",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M07-59-AO-26-107338",
+    "couple": "M07_59",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   }
+  ]
+ },
+ "M22_69": {
+  "duree_s": 8.1,
+  "ecarts": 26,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M22_69",
+    "envoi": "rapport",
+    "reference": 151,
+    "v2": 146
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M22_69",
+    "envoi": "rapport",
+    "reference": 313,
+    "v2": 301
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M22-69-REC-200053767000142023IfjI9rwiNb00_50700000",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M22-69-REC-21690034000011202320230060000_50800000",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M22-69-AO-26-102014",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 45600,
+    "v2": 58400
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M22-69-AO-26-102014",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 172300,
+    "v2": 191500
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M22-69-AO-26-102014",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 107200,
+    "v2": 134300
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M22-69-AO-26-102014",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 34,
+    "v2": 27
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M22-69-AO-26-102822",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 112000,
+    "v2": 113600
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M22-69-AO-26-102822",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 604300,
+    "v2": 617200
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M22-69-AO-26-102822",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 222100,
+    "v2": 222500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M22-69-AO-26-102822",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 220,
+    "v2": 218
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M22-69-AO-26-94425",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 112000,
+    "v2": 113600
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M22-69-AO-26-94425",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 604300,
+    "v2": 617200
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M22-69-AO-26-94425",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 222100,
+    "v2": 222500
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M22-69-AO-26-94425",
+    "couple": "M22_69",
+    "envoi": "opportunites",
+    "reference": 220,
+    "v2": 218
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200053767000142023IfjI9rwiNb00_50700000#0",
+    "couple": "M22_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200053767000142023LAlU291tdD00_50700000#0",
+    "couple": "M22_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "200053767000142023lEaEtOi5Ag00_50700000#0",
+    "couple": "M22_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "21690029000018202016100_50700000#0",
+    "couple": "M22_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   }
+  ]
+ },
+ "M29_69": {
+  "duree_s": 6.4,
+  "ecarts": 3,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M29_69",
+    "envoi": "rapport",
+    "reference": 80,
+    "v2": 74
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M29_69",
+    "envoi": "rapport",
+    "reference": 100,
+    "v2": 94
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "286912001000422019000019M03700_50112120#0",
+    "couple": "M29_69",
+    "envoi": "attributions",
+    "reference": true,
+    "v2": null
+   }
+  ]
+ },
+ "M33_69": {
+  "duree_s": 9.3,
+  "ecarts": 205,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "M33_69",
+    "envoi": "rapport",
+    "reference": 14,
+    "v2": 12
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "M33_69",
+    "envoi": "rapport",
+    "reference": 395,
+    "v2": 343
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "M33_69",
+    "envoi": "rapport",
+    "reference": 1228,
+    "v2": 1038
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Système d’acquisition dynamique pour la passation de marchés de maitrise d’œuvre",
+    "couple": "M33_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Etablissements de Santé et Médico-sociaux",
+     "date_limite": "2030-07-10",
+     "idweb": "ax-place-3013384",
+     "intitule": "Système d’acquisition dynamique pour la passation de marchés de maitrise d’œuvre pour le GHT Alliance Gironde 33",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "MARCHE DE PRESTATIONS DE MAINTENANCE DES INSTALLATIONS DE CLIMATISATION-CHAUFFAG",
+    "couple": "M33_69",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Etablissements et organismes de l'enseignement supérieur, de la recherche et de l'innovation",
+     "date_limite": "2026-11-23",
+     "idweb": "ax-place-3087831",
+     "intitule": "MARCHE DE PRESTATIONS DE MAINTENANCE DES INSTALLATIONS DE CLIMATISATION-CHAUFFAGE-TRAITEMENT D’AIR, D’ELECTRICITE ET DE PLOMBERIE POUR LE BATIMENT CERMEP",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M33-69-AO-ax-place-3013384",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "M33-69-AO-ax-place-3087831",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": true,
+    "v2": null
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M33-69-AO-26-100300",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 48500
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M33-69-AO-26-100300",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 322800,
+    "v2": 294300
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M33-69-AO-26-100300",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 108000,
+    "v2": 107000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M33-69-AO-26-100300",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 831,
+    "v2": 784
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M33-69-AO-26-101953",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 48500
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M33-69-AO-26-101953",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 322800,
+    "v2": 294300
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M33-69-AO-26-101953",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 108000,
+    "v2": 107000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M33-69-AO-26-101953",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 831,
+    "v2": 784
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M33-69-AO-26-101969",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 48500
+   },
+   {
+    "champ": "repere_dep_haut",
+    "cle": "M33-69-AO-26-101969",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 322800,
+    "v2": 294300
+   },
+   {
+    "champ": "repere_dep_med",
+    "cle": "M33-69-AO-26-101969",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 108000,
+    "v2": 107000
+   },
+   {
+    "champ": "repere_dep_n",
+    "cle": "M33-69-AO-26-101969",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 831,
+    "v2": 784
+   },
+   {
+    "champ": "repere_dep_bas",
+    "cle": "M33-69-AO-26-102822",
+    "couple": "M33_69",
+    "envoi": "opportunites",
+    "reference": 49000,
+    "v2": 48500
+   }
+  ]
+ },
+ "P1005_75": {
+  "duree_s": 80.7,
+  "ecarts": 2908,
+  "etat": "écarts",
+  "exemples": [
+   {
+    "champ": "ao",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 17,
+    "v2": 32
+   },
+   {
+    "champ": "entreprises",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 1483,
+    "v2": 96
+   },
+   {
+    "champ": "historique",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 2468,
+    "v2": 101
+   },
+   {
+    "champ": "projets",
+    "cle": "chiffres",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": 25,
+    "v2": 0
+   },
+   {
+    "champ": "zone",
+    "cle": "rapport",
+    "couple": "P1005_75",
+    "envoi": "rapport",
+    "reference": {
+     "code": "75",
+     "libelle": null,
+     "type": "departement"
+    },
+    "v2": {
+     "code": "FR",
+     "libelle": "France entière",
+     "type": "france"
+    }
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "SAD de prestations intellectuelles de maîtrise d’œuvre, d’études techniques et d",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "CMA IDF",
+     "date_limite": "2029-12-31",
+     "idweb": "ax-localtrust-534167",
+     "intitule": "SAD de prestations intellectuelles de maîtrise d’œuvre, d’études techniques et de conseil pour les opérations de construction et de réhabilitation",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : 21/22-Prestations d’OPC",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Caisse Nationale des Allocations Familiales",
+     "date_limite": "2026-11-30",
+     "idweb": null,
+     "intitule": "Renouvellement probable : 21/22-Prestations d’OPC",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : La présente consultation concerne : Mission d’ordonnan",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Comedie Francaise",
+     "date_limite": "2027-09-27",
+     "idweb": null,
+     "intitule": "Renouvellement probable : La présente consultation concerne : Mission d’ordonnancement, de pilotage et de coordination (OPC) au cours des différentes phases de conception et d’exécution de la prochaine campagne de travaux de la Comédie-Française : Direction technique, Richelieu",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : Assistance à Maitrise d’Ouvrage (AMO) pour la gestion ",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ctre Coop Internat Recherche Agro DEV",
+     "date_limite": "2026-12-14",
+     "idweb": null,
+     "intitule": "Renouvellement probable : Assistance à Maitrise d’Ouvrage (AMO) pour la gestion de sites d’enfouissement de déchets - Rivière Lézarde à Saint Joseph  et Moutte à Fort de France",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Mission d’Assistance à Maîtrise d’Ouvrage (AMO) pour la création du parcours d’i",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "ENSP Versailles",
+     "date_limite": "2026-11-30",
+     "idweb": "26-103048",
+     "intitule": "Mission d’Assistance à Maîtrise d’Ouvrage (AMO) pour la création du parcours d’interprétation du Potager du Roi de l’ENSP (Versailles)",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "MAITRISE D’OEUVRE POUR L’OPTIMISATION THERMIQUE DU BÂTIMENT ATRIUM DE L’UNIVERSI",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Etablissements et organismes de l'enseignement supérieur, de la recherche et de l'innovation",
+     "date_limite": "2026-11-13",
+     "idweb": "ax-place-3083334",
+     "intitule": "MAITRISE D’OEUVRE POUR L’OPTIMISATION THERMIQUE DU BÂTIMENT ATRIUM DE L’UNIVERSITÉ DE STRASBOURG",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "ACCORD CADRE A BONS DE COMMANDE - Mission d'assistance à maîtrise d'ouvrage (AMO",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Foncière Logement",
+     "date_limite": "2026-11-10",
+     "idweb": "26-98803",
+     "intitule": "ACCORD CADRE A BONS DE COMMANDE - Mission d'assistance à maîtrise d'ouvrage (AMO) études de sol environnementales - sites et sols pollués — ACCORD CADRE - MISSION D'ASSISTANCE A MAITRISE D'OUVRAGE (AMO) ETUDES DE SOLS ENVIRONNEMENTALES, SITES ET SOLS POLLUES",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : La présente consultation porte sur une mission d’ordon",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Groupement d'Intérêt Public Cite du Theatre",
+     "date_limite": "2026-09-23",
+     "idweb": null,
+     "intitule": "Renouvellement probable : La présente consultation porte sur une mission d’ordonnancement, pilotage et coordination (OPC) dans le cadre de l’opération Cité du théâtre en reconversion des Ateliers Berthier à Paris (17e).",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Renouvellement probable : DIGITAO-2733-AMO pour les implantations et les évoluti",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Immobilière 3F",
+     "date_limite": "2026-12-27",
+     "idweb": null,
+     "intitule": "Renouvellement probable : DIGITAO-2733-AMO pour les implantations et les évolutions des antennes téléphonie mobile et autres dispositifs en IDF",
+     "type": "projet"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Marché de maitrise d'oeuvre pour l'aménagement d'un centre d'examen du permis de",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère de l'Intérieur",
+     "date_limite": "2026-11-30",
+     "idweb": "ax-place-3096627",
+     "intitule": "Marché de maitrise d'oeuvre pour l'aménagement d'un centre d'examen du permis de conduire à Alençon, 61 000 (Orne)",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "AMO — Assistance technique et administrative dans le cadre du renouvellement du ",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère de l'Intérieur",
+     "date_limite": "2026-12-02",
+     "idweb": "26-105446",
+     "intitule": "AMO — Assistance technique et administrative dans le cadre du renouvellement du marché \"voyagiste\"",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Mission de Ordonnancement Pilotage Coordination (OPC) pour la création d’un serv",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère de l'éducation nationale et de la jeunesse et Ministère de l'enseignement supérieur, de la recherche et de l'innovation",
+     "date_limite": "2026-11-13",
+     "idweb": "ax-place-3092282",
+     "intitule": "Mission de Ordonnancement Pilotage Coordination (OPC) pour la création d’un service sante étudiante et réaménagement de bureaux de l’Université de Mayotte",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "SAVERNE - relocalisation de l'ALIP_Moe",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère de la Justice",
+     "date_limite": "2026-11-23",
+     "idweb": "ax-place-3040329",
+     "intitule": "SAVERNE - relocalisation de l'ALIP_Moe",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "TF053837 Maitrise d'œuvre pour l'extension vidéo et l'ergonomie du poste central",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère de la Justice",
+     "date_limite": "2026-12-03",
+     "idweb": "ax-place-3096462",
+     "intitule": "TF053837 Maitrise d'œuvre pour l'extension vidéo et l'ergonomie du poste central d'information du CP de SQF",
+     "type": "ao"
+    },
+    "v2": null
+   },
+   {
+    "champ": "absente du V2",
+    "cle": "Polynésie française - Île de Tahiti - Commune de Papeete - Base Navale - Amarrag",
+    "couple": "P1005_75",
+    "envoi": "echeances",
+    "reference": {
+     "acheteur": "Ministère des armées",
+     "date_limite": "2026-11-19",
+     "idweb": "ax-place-3088846",
+     "intitule": "Polynésie française - Île de Tahiti - Commune de Papeete - Base Navale - Amarrage - Mise en place des bollards et anneaux de quai - Marché de maîtrise d'oeuvre privée",
+     "type": "ao"
+    },
+    "v2": null
+   }
+  ]
+ }
+}
