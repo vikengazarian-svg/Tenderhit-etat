@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 10/11/2026 à 13:56 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 10/11/2026 à 13:59 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-10 13:56:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-10 13:59:01  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-10 07:18:25  OK, 343 avis collectés, 241 couples recalculés, 89 republiés en 48.4 min |
 | Passe DECP hebdomadaire | 2026-11-07 04:22:15  Passe hebdomadaire DECP 2026-11-07_decp : terminée avec échecs en 82.2 min, mémoire max 4269 Mo ; 236 couples recalculés, 0 bloqués par la garde, échecs : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; 222 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-10 13:50:59  Contrôle du 10/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.00 · disque 36.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.93 Go sur 7.6 · charge 1.12 · disque 36.4 % · échange 0.0 Go
 
 ## Disque
 
@@ -109,19 +109,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                          LEFT LAST                            PASSED UNIT                     ACTIVATES
-Tue 2026-11-10 13:57:00 CET    50s Tue 2026-11-10 13:56:04 CET     5s ago tenderhit-demandes.timer tenderhit-demandes.service
-Wed 2026-11-11 05:45:00 CET    15h Tue 2026-11-10 05:45:04 CET     8h ago tenderhit-purge.timer    tenderhit-purge.service
-Wed 2026-11-11 06:30:00 CET    16h Tue 2026-11-10 06:30:04 CET     7h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-14 03:00:00 CET 3 days Sat 2026-11-07 03:00:00 CET 3 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Tue 2026-11-10 13:56:04 CET     5s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                             PASSED UNIT                     ACTIVATES
+Tue 2026-11-10 14:00:00 CET    47s Tue 2026-11-10 13:59:00 CET     11s ago tenderhit-demandes.timer tenderhit-demandes.service
+Wed 2026-11-11 05:45:00 CET    15h Tue 2026-11-10 05:45:04 CET      8h ago tenderhit-purge.timer    tenderhit-purge.service
+Wed 2026-11-11 06:30:00 CET    16h Tue 2026-11-10 06:30:04 CET      7h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-14 03:00:00 CET 3 days Sat 2026-11-07 03:00:00 CET  3 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Tue 2026-11-10 13:58:04 CET 1min 7s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-10 07:10:50    M33_69 : 14 opportunités · rapport et opportunités · 11 s
 2026-11-10 07:10:57    M33_71 : 9 opportunités · rapport et opportunités · 8 s
 2026-11-10 07:11:05    M33_76 : 15 opportunités · inchangé · 8 s
 2026-11-10 07:11:12    M33_85 : 3 opportunités · inchangé · 7 s
@@ -161,4 +160,5 @@ Sat 2026-11-14 03:00:00 CET 3 days Sat 2026-11-07 03:00:00 CET 3 days ago tender
 2026-11-10 11:49:20  C451_58 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
 2026-11-10 11:59:07  Contrôle du 10/11 : rouge — 235 couples identiques au site, 4238 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour ; CHUTES : C451_21 : attributions 585 → 270, C451_42 : attributions 1131 → 535
 2026-11-10 13:50:59  Contrôle du 10/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-10 13:59:11  Rejeu sur le serveur : écarts — 2 couples identiques aux envois du matin sur 6 comparés ; en écart ou en échec : P1005_75, M01_75, M07_59, C451_69 ; 8.9 s par couple (médiane), 1 min au total
 ```

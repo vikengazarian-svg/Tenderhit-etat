@@ -1,2 +1,10 @@
 # rejouer P1005_75 P1005_29 M01_75 M07_59 C093_69 C451_69
-En cours depuis 10/11 13:58
+Lancée le 10/11/2026 13:58, finie le 10/11/2026 13:59, code 1
+
+  P1005_75   écarts (55) · 23.2 s
+  P1005_29   identique · 8.9 s
+  M01_75     écarts (84) · 14.3 s
+  M07_59     écarts (200) · 6.2 s
+  C093_69    identique · 4.1 s
+  C451_69    écarts (1328) · 5.8 s
+2026-11-10 13:59:11  Rejeu sur le serveur : écarts — 2 couples identiques aux envois du matin sur 6 comparés ; en écart ou en échec : P1005_75, M01_75, M07_59, C451_69 ; 8.9 s par couple (médiane), 1 min au total
