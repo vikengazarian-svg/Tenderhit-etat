@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 10/11/2026 à 11:22 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 10/11/2026 à 11:49 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-10 11:22:06  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-10 11:48:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-10 07:18:25  OK, 343 avis collectés, 241 couples recalculés, 89 republiés en 48.4 min |
 | Passe DECP hebdomadaire | 2026-11-07 04:22:15  Passe hebdomadaire DECP 2026-11-07_decp : terminée avec échecs en 82.2 min, mémoire max 4269 Mo ; 236 couples recalculés, 0 bloqués par la garde, échecs : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; 222 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-10 07:21:09  Contrôle du 10/11 : rouge — 235 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.59 Go sur 7.6 · charge 0.31 · disque 35.5 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.95 Go sur 7.6 · charge 0.89 · disque 35.5 % · échange 0.0 Go
 
 ## Disque
 
@@ -110,31 +110,17 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Tue 2026-11-10 11:23:00 CET    30s Tue 2026-11-10 11:22:04 CET      25s ago tenderhit-demandes.timer tenderhit-demandes.service
-Wed 2026-11-11 05:45:00 CET    18h Tue 2026-11-10 05:45:04 CET 5h 37min ago tenderhit-purge.timer    tenderhit-purge.service
-Wed 2026-11-11 06:30:00 CET    19h Tue 2026-11-10 06:30:04 CET 4h 52min ago tenderhit-collecte.timer tenderhit-collecte.service
+Tue 2026-11-10 11:50:00 CET    38s Tue 2026-11-10 11:49:00 CET      20s ago tenderhit-demandes.timer tenderhit-demandes.service
+Wed 2026-11-11 05:45:00 CET    17h Tue 2026-11-10 05:45:04 CET       6h ago tenderhit-purge.timer    tenderhit-purge.service
+Wed 2026-11-11 06:30:00 CET    18h Tue 2026-11-10 06:30:04 CET 5h 19min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-14 03:00:00 CET 3 days Sat 2026-11-07 03:00:00 CET   3 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Tue 2026-11-10 11:22:04 CET      25s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Tue 2026-11-10 11:48:04 CET 1min 16s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-10 07:08:02    M29_26 : 0 opportunités · rapport et opportunités · 16 s
-2026-11-10 07:08:19    M29_38 : 0 opportunités · rapport et opportunités · 17 s
-2026-11-10 07:08:35    M29_42 : 0 opportunités · rapport et opportunités · 16 s
-2026-11-10 07:08:51    M29_63 : 1 opportunités · rapport et opportunités · 16 s
-2026-11-10 07:08:59    M29_69 : 0 opportunités · rapport et opportunités · 7 s
-2026-11-10 07:09:15    M29_73 : 0 opportunités · rapport et opportunités · 17 s
-2026-11-10 07:09:32    M29_74 : 1 opportunités · rapport et opportunités · 17 s
-2026-11-10 07:09:46    M29_83 : 1 opportunités · rapport et opportunités · 14 s
-2026-11-10 07:09:56    M30_69 : 13 opportunités · rapport et opportunités · 10 s
-2026-11-10 07:09:59    M33_01 : 5 opportunités · inchangé · 3 s
-2026-11-10 07:10:07    M33_14 : 8 opportunités · rapport et opportunités · 8 s
-2026-11-10 07:10:13    M33_27 : 5 opportunités · inchangé · 6 s
-2026-11-10 07:10:21    M33_38 : 9 opportunités · rapport et opportunités · 8 s
-2026-11-10 07:10:27    M33_42 : 1 opportunités · inchangé · 6 s
 2026-11-10 07:10:34    M33_50 : 4 opportunités · inchangé · 6 s
 2026-11-10 07:10:39    M33_61 : 2 opportunités · inchangé · 5 s
 2026-11-10 07:10:50    M33_69 : 14 opportunités · rapport et opportunités · 11 s
@@ -161,4 +147,18 @@ Sat 2026-11-14 03:00:00 CET 3 days Sat 2026-11-07 03:00:00 CET   3 days ago tend
 2026-11-10 10:44:04  Rejeu sur le serveur : rouge — 19 couples identiques au PC sur 89 comparés ; en écart ou en échec : C093_69, C451_25, C451_39, C451_69, C451_71, C451_73, C451_FR, C712_74, C713_75, C772_14, C772_76, C772_FR, M01_14, M01_16, M01_24, M01_39, M01_58, M01_59, M01_70, M01_75, M01_83, M01_89, M01_90, M01_FR, M04_62, M07_59, M22_05, M22_07, M22_08, M22_10, M22_21, M22_26, M22_51, M22_52, M22_54, M22_55, M22_57, M22_69, M22_71, M22_83, M22_88, M22_94, M22_95, M22_FR, M23_44, M23_76, M24_69, M24_76, M29_01, M29_03, M29_07, M29_26, M29_38, M29_42, M29_63, M29_69, M29_73, M29_74, M29_83, M30_69, M33_14, M33_38, M33_69, M33_71, M33_FR, P1005_22, P1005_27, P1005_29, P1005_35, P1005_75 ; 9.3 s par couple (médiane), 32 min au total
 2026-11-10 11:15:52  Rejeu sur le serveur : rouge — 1 couples identiques au PC sur 16 comparés ; en écart ou en échec : P1005_22, P1005_27, P1005_35, P1005_75, M01_75, M04_62, M07_59, M22_69, M29_69, M33_69, C093_69, C451_69, C451_FR, M22_FR, M01_FR ; 8.9 s par couple (médiane), 8 min au total
 2026-11-10 11:22:29  observatoire (commande) : {"avis_ouverts": 7254, "sans_activite": 1363, "a_envoyer": 1500, "a_retirer": 37, "disparues": 37, "envoi": "envoyé", "paquets": 2, "donnees_personnelles_retirees": 0, "duree_s": 21.1}
+2026-11-10 11:48:14  C093_69 republié : 3 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:19  C093_75 republié : 1 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:24  C451_01 republié : 1 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:27  C451_03 republié : 0 opportunités, attributions anciennes retirées : None (3 s)
+2026-11-10 11:48:30  C451_07 republié : 0 opportunités, attributions anciennes retirées : None (3 s)
+2026-11-10 11:48:35  C451_15 republié : 1 opportunités, attributions anciennes retirées : None (4 s)
+2026-11-10 11:48:40  C451_21 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:46  C451_25 republié : 3 opportunités, attributions anciennes retirées : None (6 s)
+2026-11-10 11:48:51  C451_26 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:59  C451_38 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
+2026-11-10 11:49:04  C451_39 republié : 1 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:49:10  C451_42 republié : 2 opportunités, attributions anciennes retirées : None (6 s)
+2026-11-10 11:49:15  C451_43 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:49:20  C451_58 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
 ```

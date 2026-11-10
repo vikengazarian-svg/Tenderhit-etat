@@ -1,2 +1,17 @@
 # publier C093_69 C093_75 C451_01 C451_03 C451_07 C451_15 C451_21 C451_25 C451_26 C451_38 C451_39 C451_42 C451_43 C451_58
-En cours depuis 10/11 11:48
+Lancée le 10/11/2026 11:48, finie le 10/11/2026 11:49, code 0
+
+2026-11-10 11:48:14  C093_69 republié : 3 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:19  C093_75 republié : 1 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:24  C451_01 republié : 1 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:27  C451_03 republié : 0 opportunités, attributions anciennes retirées : None (3 s)
+2026-11-10 11:48:30  C451_07 republié : 0 opportunités, attributions anciennes retirées : None (3 s)
+2026-11-10 11:48:35  C451_15 republié : 1 opportunités, attributions anciennes retirées : None (4 s)
+2026-11-10 11:48:40  C451_21 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:46  C451_25 republié : 3 opportunités, attributions anciennes retirées : None (6 s)
+2026-11-10 11:48:51  C451_26 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:48:59  C451_38 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
+2026-11-10 11:49:04  C451_39 republié : 1 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:49:10  C451_42 republié : 2 opportunités, attributions anciennes retirées : None (6 s)
+2026-11-10 11:49:15  C451_43 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
+2026-11-10 11:49:20  C451_58 republié : 0 opportunités, attributions anciennes retirées : None (5 s)
