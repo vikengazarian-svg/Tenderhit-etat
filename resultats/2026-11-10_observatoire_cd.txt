@@ -1,2 +1,5 @@
 # observatoire
-En cours depuis 10/11 11:22
+Lancée le 10/11/2026 11:22, finie le 10/11/2026 11:22, code 0
+
+2026-11-10 11:22:29  observatoire (commande) : {"avis_ouverts": 7254, "sans_activite": 1363, "a_envoyer": 1500, "a_retirer": 37, "disparues": 37, "envoi": "envoyé", "paquets": 2, "donnees_personnelles_retirees": 0, "duree_s": 21.1}
+{"avis_ouverts": 7254, "sans_activite": 1363, "a_envoyer": 1500, "a_retirer": 37, "disparues": 37, "envoi": "envoyé", "paquets": 2, "donnees_personnelles_retirees": 0, "duree_s": 21.1}
