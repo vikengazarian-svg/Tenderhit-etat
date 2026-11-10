@@ -1,2 +1,5 @@
 # referentiel
-En cours depuis 10/11 10:10
+Lancée le 10/11/2026 10:10, finie le 10/11/2026 10:10, code 0
+
+sauvegarde : referentiel_metiers_verdict_avant_20261110.xlsx
+referentiel_metiers_verdict.xlsx : 38 cellule(s) mise(s) à jour
