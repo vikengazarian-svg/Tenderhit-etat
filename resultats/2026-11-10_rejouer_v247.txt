@@ -1,2 +1,20 @@
 # rejouer P1005_22 P1005_27 P1005_29 P1005_35 P1005_75 M01_75 M04_62 M07_59 M22_69 M29_69 M33_69 C093_69 C451_69 C451_FR M22_FR M01_FR
-En cours depuis 10/11 11:08
+Lancée le 10/11/2026 11:08, finie le 10/11/2026 11:15, code 1
+
+  P1005_22   écarts (14) · 8.5 s
+  P1005_27   écarts (8) · 8.1 s
+  P1005_29   identique · 8.9 s
+  P1005_35   écarts (19) · 10.8 s
+  P1005_75   écarts (55) · 23.0 s
+  M01_75     écarts (84) · 14.6 s
+  M04_62     écarts (71) · 8.7 s
+  M07_59     écarts (200) · 6.2 s
+  M22_69     écarts (26) · 8.0 s
+  M29_69     écarts (3) · 6.5 s
+  M33_69     écarts (205) · 9.3 s
+  C093_69    écarts (59) · 4.0 s
+  C451_69    écarts (1328) · 5.6 s
+  C451_FR    écarts (35861) · 72.2 s
+  M22_FR     écarts (541) · 191.6 s
+  M01_FR     écarts (1088) · 77.7 s
+2026-11-10 11:15:52  Rejeu sur le serveur : rouge — 1 couples identiques au PC sur 16 comparés ; en écart ou en échec : P1005_22, P1005_27, P1005_35, P1005_75, M01_75, M04_62, M07_59, M22_69, M29_69, M33_69, C093_69, C451_69, C451_FR, M22_FR, M01_FR ; 8.9 s par couple (médiane), 8 min au total
