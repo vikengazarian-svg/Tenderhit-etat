@@ -1,2 +1,63 @@
 # journal 60
-En cours depuis 12/11 11:12
+Lancée le 12/11/2026 11:12, finie le 12/11/2026 11:12, code 0
+
+2026-11-12 07:09:23    M33_42 : 1 opportunités · inchangé · 6 s
+2026-11-12 07:09:29    M33_50 : 3 opportunités · inchangé · 6 s
+2026-11-12 07:09:36    M33_61 : 2 opportunités · rapport et opportunités · 6 s
+2026-11-12 07:09:46    M33_69 : 13 opportunités · rapport et opportunités · 10 s
+2026-11-12 07:09:52    M33_71 : 9 opportunités · inchangé · 6 s
+2026-11-12 07:09:59    M33_76 : 14 opportunités · inchangé · 7 s
+2026-11-12 07:10:06    M33_85 : 3 opportunités · inchangé · 7 s
+2026-11-12 07:14:20    M33_FR : 548 opportunités · rapport et opportunités · 254 s
+2026-11-12 07:14:30    M40_05 : 0 opportunités · inchangé · 10 s
+2026-11-12 07:14:36    M40_76 : 1 opportunités · inchangé · 6 s
+2026-11-12 07:14:45    P1005_14 : 1 opportunités · inchangé · 9 s
+2026-11-12 07:14:53    P1005_22 : 6 opportunités · inchangé · 8 s
+2026-11-12 07:15:01    P1005_27 : 1 opportunités · inchangé · 8 s
+2026-11-12 07:15:11    P1005_29 : 13 opportunités · rapport et opportunités · 10 s
+2026-11-12 07:15:22    P1005_35 : 20 opportunités · rapport et opportunités · 11 s
+2026-11-12 07:15:31    P1005_56 : 12 opportunités · inchangé · 9 s
+2026-11-12 07:15:47    P1005_59 : 19 opportunités · inchangé · 15 s
+2026-11-12 07:15:56    P1005_60 : 3 opportunités · inchangé · 9 s
+2026-11-12 07:16:20    P1005_75 : 38 opportunités · rapport et opportunités · 24 s
+2026-11-12 07:16:31    P1005_76 : 7 opportunités · inchangé · 11 s
+2026-11-12 07:16:39    P1005_80 : 0 opportunités · inchangé · 8 s
+2026-11-12 07:16:52    P1005_93 : 11 opportunités · inchangé · 12 s
+2026-11-12 07:16:52  OK, 433 avis collectés, 249 couples recalculés, 38 republiés en 46.8 min
+2026-11-12 07:20:08  Contrôle du 12/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-12 10:18:08  C772_83 : demande en attente
+2026-11-12 10:18:14    publié (édition 2026-11, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-12 10:18:14  C772_93 : demande en attente
+2026-11-12 10:18:19    publié (édition 2026-11, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-12 10:18:19  M29_93 : demande en attente
+2026-11-12 10:18:44    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 24 s
+2026-11-12 10:26:08  M12_01 : demande en attente
+2026-11-12 10:26:14    publié (édition 2026-11, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
+2026-11-12 10:26:14  M12_03 : demande en attente
+2026-11-12 10:26:18    publié (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 4 s
+2026-11-12 10:26:19  M12_07 : demande en attente
+2026-11-12 10:26:36    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 18 s
+2026-11-12 10:26:36  M12_15 : demande en attente
+2026-11-12 10:26:53    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 17 s
+2026-11-12 10:26:54  M12_26 : demande en attente
+2026-11-12 10:27:00    publié (édition 2026-11, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
+2026-11-12 10:27:00  M12_38 : demande en attente
+2026-11-12 10:27:07    publié (édition 2026-11, 10 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
+2026-11-12 10:27:08  M12_42 : demande en attente
+2026-11-12 10:27:14    publié (édition 2026-11, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
+2026-11-12 10:27:14  M12_43 : demande en attente
+2026-11-12 10:27:31    publié (édition 2026-11, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 17 s
+2026-11-12 10:27:32  M12_63 : demande en attente
+2026-11-12 10:27:38    publié (édition 2026-11, 2 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
+2026-11-12 10:27:38  M12_69 : demande en attente
+2026-11-12 10:27:47    publié (édition 2026-11, 21 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
+2026-11-12 10:27:47  M12_73 : demande en attente
+2026-11-12 10:27:53    publié (édition 2026-11, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
+2026-11-12 10:27:54  M12_74 : demande en attente
+2026-11-12 10:28:01    publié (édition 2026-11, 9 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
+2026-11-12 10:28:01  M12_83 : demande en attente
+2026-11-12 10:28:08    publié (édition 2026-11, 17 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
+2026-11-12 10:28:09  M12_93 : demande en attente
+2026-11-12 10:28:16    publié (édition 2026-11, 23 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
+2026-11-12 10:28:31  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 31572 lignes en 8 paquets
+2026-11-12 11:10:50  Rejeu sur le serveur : vert — 6 couples identiques aux envois du matin sur 6 comparés ; 6.1 s par couple (médiane), 1 min au total
