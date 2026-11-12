@@ -1,2 +1,14 @@
 # rejeu_detail M12_93
-En cours depuis 12/11 11:12
+Lancée le 12/11/2026 11:12, finie le 12/11/2026 11:12, code 0
+
+2026-11-12.json
+Rejeu sur le serveur : vert — 6 couples identiques aux envois du matin sur 6 comparés ; 6.1 s par couple (médiane), 1 min au total
+
+{
+ "M12_93": {
+  "duree_s": 5.1,
+  "ecarts": 0,
+  "etat": "identique",
+  "exemples": []
+ }
+}
