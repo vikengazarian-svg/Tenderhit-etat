@@ -1,50 +1,49 @@
 # Serveur du moteur V2
 
-Mis à jour le 12/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 12/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-12 04:59:07  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-12 05:59:06  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-11 07:18:52  OK, 647 avis collectés, 249 couples recalculés, 176 republiés en 48.8 min |
 | Passe DECP hebdomadaire | 2026-11-07 04:22:15  Passe hebdomadaire DECP 2026-11-07_decp : terminée avec échecs en 82.2 min, mémoire max 4269 Mo ; 236 couples recalculés, 0 bloqués par la garde, échecs : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; 222 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-11 07:22:02  Contrôle du 11/11 : rouge — 249 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C451_69 : opportunites 18 → 8, C451_FR : opportunites 564 → 181, M07_76 : opportunites 19 → 8 |
 
-**Machine maintenant** : mémoire 0.54 Go sur 7.6 · charge 0.00 · disque 36.3 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.00 · disque 35.9 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +4.5 point(s) par semaine · 80 % dans **9.8 semaine(s)**
+Rythme des 14 derniers jours : +4.2 point(s) par semaine · 80 % dans **10.4 semaine(s)**
 
 ```
-Mesure du 2026-11-11 05:45 :
+Mesure du 2026-11-12 05:45 :
   entrepot/sources                            3.50 Go
   entrepot/decp                               1.59 Go
-  entrepot/boamp                              1.38 Go
+  entrepot/boamp                              1.39 Go
   production/controles                        1.13 Go
   entrepot/passes                             0.89 Go
   entrepot/execution                          0.63 Go
   entrepot/marche                             0.26 Go
-  production/publies                          0.23 Go
   entrepot/photographie                       0.23 Go
+  production/publies                          0.20 Go
   entrepot/etiquettes                           37 Mo
   entrepot/referentiel                          16 Mo
   entrepot/avis                                  4 Mo
   entrepot/sirene                                2 Mo
-  production/(fichiers)                          2 Mo
+  entrepot/tmp                                   2 Mo
   logs                                           2 Mo
+  production/(fichiers)                          2 Mo
   entrepot/mesures.jsonl                         1 Mo
-  entrepot/tmp                                   1 Mo
   production/rejeu                               0 Mo
   entrepot/sources_temoin.jsonl                  0 Mo
   entrepot/manifeste.json                        0 Mo
-Croissance par dossier (depuis 2026-11-05, 5.3 j), en Go par semaine :
-  entrepot/decp                                 +0.53
-  entrepot/passes                               +0.41
+Croissance par dossier (depuis 2026-11-05, 6.3 j), en Go par semaine :
+  entrepot/decp                                 +0.45
+  entrepot/passes                               +0.34
   entrepot/boamp                                +0.01
-  production/publies                            +0.01
-Dernière purge (2026-11-11 05:45) : faite, 2 élément(s), 0.23 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.22 Go)
+Dernière purge (2026-11-12 05:45) : faite, 2 élément(s), 0.23 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.22 Go)
 ```
 
 ## Performances
@@ -109,18 +108,17 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                             LEFT LAST                            PASSED UNIT                     ACTIVATES
-Thu 2026-11-12 05:45:00 CET     44min Wed 2026-11-11 05:45:04 CET    23h ago tenderhit-purge.timer    tenderhit-purge.service
-Thu 2026-11-12 06:30:00 CET  1h 29min Wed 2026-11-11 06:30:04 CET    22h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-14 03:00:00 CET 1 day 21h Sat 2026-11-07 03:00:00 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-12 05:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                   - Thu 2026-11-12 05:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
+Thu 2026-11-12 06:30:00 CET     29min Wed 2026-11-11 06:30:04 CET    23h ago tenderhit-collecte.timer tenderhit-collecte.service
+Fri 2026-11-13 05:45:00 CET       23h Thu 2026-11-12 05:45:04 CET  15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-14 03:00:00 CET 1 day 20h Sat 2026-11-07 03:00:00 CET 5 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-12 06:00:04 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                   - Thu 2026-11-12 06:00:04 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-11 07:08:05    M29_07 : 0 opportunités · rapport et opportunités · 13 s
 2026-11-11 07:08:19    M29_15 : 0 opportunités · rapport et opportunités · 15 s
 2026-11-11 07:08:35    M29_26 : 0 opportunités · rapport et opportunités · 15 s
 2026-11-11 07:08:51    M29_38 : 0 opportunités · rapport et opportunités · 16 s
@@ -160,4 +158,5 @@ Sat 2026-11-14 03:00:00 CET 1 day 21h Sat 2026-11-07 03:00:00 CET 5 days ago ten
 2026-11-11 07:18:52    P1005_93 : 11 opportunités · rapport et opportunités · 13 s
 2026-11-11 07:18:52  OK, 647 avis collectés, 249 couples recalculés, 176 republiés en 48.8 min
 2026-11-11 07:22:02  Contrôle du 11/11 : rouge — 249 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C451_69 : opportunites 18 → 8, C451_FR : opportunites 564 → 181, M07_76 : opportunites 19 → 8
+2026-11-12 05:45:04  purge du disque faite : 2 élément(s), 0.23 Go libérés — fusions 1 (0.0 Go), photographies_controle 1 (0.22 Go)
 ```
