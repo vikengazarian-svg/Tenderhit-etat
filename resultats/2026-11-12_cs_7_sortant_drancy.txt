@@ -1,2 +1,13 @@
 # sortant M12_93 26-97875
-En cours depuis 12/11 11:22
+Lancée le 12/11/2026 11:22, finie le 12/11/2026 11:22, code 0
+
+M12_93 (édition 2026-11-01) : 6 appels d'offres · choix du titulaire : aucun contrat 5, unique 1 · changés par la règle : 0
+
+26-97875 · Prestations d'élagage, d'abattage, de dessouchage et plantation et suivi des plantations d'arbres — Lot 1 Elagage; abattage et dessouchage des arbres
+  acheteur : Mairie de Drancy
+  titulaire retenu : Esat Henry Marsoulan (Esat Commercial) (unique, 3 contrat(s) de suite) · avant : le même · montant annuel : 48000 (contrat précédent)
+    2024-06-04 · Esat Henry Marsoulan (Esat Commercial) · 180000.0 € sur 45 mois · [retenu] Entretien des espaces verts
+    2023-03-22 · Esat Henry Marsoulan (Esat Commercial) · 45000.0 € sur 10 mois · [retenu] Entretien des espaces verts
+    2023-03-22 · Esat Henry Marsoulan (Esat Commercial) · 180000.0 € sur 45 mois · [retenu] Entretien des espaces verts
+    2019-04-04 · Esat Henry Marsoulan · 33339.0 € sur 10 mois · [retenu] Entretien des espaces verts de la ville
+    2019-03-29 · Soins Modernes des Arbres · 78750.0 € sur 9 mois · [autre type] S2019/OP/DESHERBAGE-Prestations de d�sherbage de la voirie, des espaces publics et des pieds d’arbres
