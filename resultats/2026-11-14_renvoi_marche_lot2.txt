@@ -1,2 +1,24 @@
 # marche C723 C724 C725 C726 C727 C728 C731 C732 C740 C741 C742
-En cours depuis 14/11 07:54
+Lancée le 14/11/2026 07:54, finie le 14/11/2026 07:54, code 0
+
+2026-11-14 07:54:13  tables du marché : 11 activité(s) envoyée(s), 0 inchangée(s), 7463 lignes en 20 paquets
+{
+ "version": "2026-11-14",
+ "envoyees": [
+  "C723 (étage 1, 626 lignes)",
+  "C724 (étage 1, 799 lignes)",
+  "C725 (étage 1, 781 lignes)",
+  "C726 (étage 1, 563 lignes)",
+  "C727 (étage 1, 257 lignes)",
+  "C728 (étage 2, 875 lignes)",
+  "C731 (étage 1, 234 lignes)",
+  "C732 (étage 1, 222 lignes)",
+  "C740 (étage 2, 439 lignes)",
+  "C741 (étage 2, 2079 lignes)",
+  "C742 (étage 1, 588 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 7463,
+ "paquets": 20,
+ "erreurs": {}
+}
