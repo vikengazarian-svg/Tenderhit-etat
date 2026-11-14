@@ -1,2 +1,23 @@
 # marche C712 C713 C714 C715 C717 C718 C719 C720 C721 C722
-En cours depuis 14/11 07:50
+Lancée le 14/11/2026 07:50, finie le 14/11/2026 07:51, code 0
+
+2026-11-14 07:51:52  tables du marché : 10 activité(s) envoyée(s), 0 inchangée(s), 382731 lignes en 92 paquets
+{
+ "version": "2026-11-14",
+ "envoyees": [
+  "C712 (étage 2, 165476 lignes)",
+  "C713 (étage 2, 163390 lignes)",
+  "C714 (étage 1, 756 lignes)",
+  "C715 (étage 2, 6013 lignes)",
+  "C717 (étage 1, 479 lignes)",
+  "C718 (étage 1, 208 lignes)",
+  "C719 (étage 1, 332 lignes)",
+  "C720 (étage 1, 690 lignes)",
+  "C721 (étage 1, 298 lignes)",
+  "C722 (étage 2, 45089 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 382731,
+ "paquets": 92,
+ "erreurs": {}
+}
