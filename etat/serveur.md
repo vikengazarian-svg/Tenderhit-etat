@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 15/11/2026 à 09:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 15/11/2026 à 10:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-15 08:59:02  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-15 09:59:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-15 07:19:05  OK, 430 avis collectés, 266 couples recalculés, 59 republiés en 49.1 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-15 07:23:10  Contrôle du 15/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.00 · disque 37.0 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.05 · disque 37.0 % · échange 0.0 Go
 
 ## Disque
 
@@ -85,7 +85,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-Aucune pour l'instant.
+- 09:52 : (édition 2026-11, 9 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None, 3 identifiants DECP raccourcis) en 9 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -109,20 +109,17 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Mon 2026-11-16 05:45:00 CET    20h Sun 2026-11-15 05:45:00 CET 3h 15min ago tenderhit-purge.timer    tenderhit-purge.service
-Mon 2026-11-16 06:30:00 CET    21h Sun 2026-11-15 06:30:00 CET 2h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
+Mon 2026-11-16 05:45:00 CET    19h Sun 2026-11-15 05:45:00 CET 4h 15min ago tenderhit-purge.timer    tenderhit-purge.service
+Mon 2026-11-16 06:30:00 CET    20h Sun 2026-11-15 06:30:00 CET 3h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-21 03:00:00 CET 5 days Sat 2026-11-14 03:00:04 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Sun 2026-11-15 09:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Sun 2026-11-15 09:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Sun 2026-11-15 10:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Sun 2026-11-15 10:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-15 07:08:39    M29_15 : 0 opportunités · inchangé · 14 s
-2026-11-15 07:08:53    M29_26 : 0 opportunités · inchangé · 15 s
-2026-11-15 07:09:09    M29_38 : 0 opportunités · inchangé · 15 s
 2026-11-15 07:09:23    M29_42 : 0 opportunités · inchangé · 15 s
 2026-11-15 07:09:37    M29_43 : 0 opportunités · inchangé · 14 s
 2026-11-15 07:09:51    M29_63 : 0 opportunités · inchangé · 14 s
@@ -160,4 +157,7 @@ Sat 2026-11-21 03:00:00 CET 5 days Sat 2026-11-14 03:00:04 CET            - tend
 2026-11-15 07:19:05    P1005_93 : 10 opportunités · rapport et opportunités · 13 s
 2026-11-15 07:19:05  OK, 430 avis collectés, 266 couples recalculés, 59 republiés en 49.1 min
 2026-11-15 07:23:10  Contrôle du 15/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-15 09:52:04  C713_30 : demande en attente
+2026-11-15 09:52:05    carte du 30 téléchargée
+2026-11-15 09:52:13    publié (édition 2026-11, 9 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None, 3 identifiants DECP raccourcis) en 9 s
 ```
