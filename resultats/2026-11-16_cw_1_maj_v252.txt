@@ -1,2 +1,14 @@
 # mettre_a_jour v2.52
-En cours depuis 16/11 09:16
+Lancée le 16/11/2026 09:16, finie le 16/11/2026 09:16, code 0
+
+Moteur à la version v2.52 (14472f5)
+
+Horaires des tâches (code 0) :
+NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
+Mon 2026-11-16 09:17:00 CET    53s Mon 2026-11-16 09:16:00 CET       6s ago tenderhit-demandes.timer tenderhit-demandes.service
+Tue 2026-11-17 05:45:00 CET    20h Mon 2026-11-16 05:45:00 CET 3h 31min ago tenderhit-purge.timer    tenderhit-purge.service
+Tue 2026-11-17 06:30:00 CET    21h Mon 2026-11-16 06:30:00 CET 2h 46min ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-21 03:00:00 CET 4 days Sat 2026-11-14 03:00:04 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Mon 2026-11-16 09:16:00 CET       6s ago tenderhit-relais.timer   tenderhit-relais.service
+
+5 timers listed.
