@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 16/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 16/11/2026 à 07:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🟢 **Tout va bien**
+## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-16 05:59:02  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-16 06:29:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-15 07:19:05  OK, 430 avis collectés, 266 couples recalculés, 59 republiés en 49.1 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-15 07:23:10  Contrôle du 15/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.01 · disque 36.6 % · échange 0.0 Go
+**Machine maintenant** : mémoire 1.86 Go sur 7.6 · charge 1.51 · disque 36.6 % · échange 0.0 Go
 
 ## Disque
 
@@ -108,56 +108,56 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                          LEFT LAST                           PASSED UNIT                     ACTIVATES
-Mon 2026-11-16 06:30:00 CET  29min Sun 2026-11-15 06:30:00 CET   23h ago tenderhit-collecte.timer tenderhit-collecte.service
-Tue 2026-11-17 05:45:00 CET    23h Mon 2026-11-16 05:45:00 CET 15min ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-21 03:00:00 CET 4 days Sat 2026-11-14 03:00:04 CET         - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Mon 2026-11-16 06:00:00 CET    1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Mon 2026-11-16 06:00:00 CET    1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
+Mon 2026-11-16 07:01:00 CET    58s Mon 2026-11-16 07:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Tue 2026-11-17 05:45:00 CET    22h Mon 2026-11-16 05:45:00 CET 1h 15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-21 03:00:00 CET 4 days Sat 2026-11-14 03:00:04 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Mon 2026-11-16 06:30:00 CET    30min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                - Mon 2026-11-16 07:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-15 07:16:59    P1005_14 : 1 opportunités · inchangé · 9 s
-2026-11-15 07:17:07    P1005_22 : 8 opportunités · inchangé · 8 s
-2026-11-15 07:17:15    P1005_27 : 1 opportunités · inchangé · 8 s
-2026-11-15 07:17:24    P1005_29 : 9 opportunités · inchangé · 9 s
-2026-11-15 07:17:35    P1005_35 : 20 opportunités · inchangé · 11 s
-2026-11-15 07:17:44    P1005_56 : 12 opportunités · inchangé · 9 s
-2026-11-15 07:17:59    P1005_59 : 19 opportunités · inchangé · 15 s
-2026-11-15 07:18:09    P1005_60 : 2 opportunités · rapport et opportunités · 10 s
-2026-11-15 07:18:32    P1005_75 : 37 opportunités · inchangé · 23 s
-2026-11-15 07:18:43    P1005_76 : 6 opportunités · rapport et opportunités · 3 identifiants DECP raccourcis · 12 s
-2026-11-15 07:18:52    P1005_80 : 0 opportunités · inchangé · 9 s
-2026-11-15 07:19:05    P1005_93 : 10 opportunités · rapport et opportunités · 13 s
-2026-11-15 07:19:05  OK, 430 avis collectés, 266 couples recalculés, 59 republiés en 49.1 min
-2026-11-15 07:23:10  Contrôle du 15/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour
-2026-11-15 09:52:04  C713_30 : demande en attente
-2026-11-15 09:52:05    carte du 30 téléchargée
-2026-11-15 09:52:13    publié (édition 2026-11, 9 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None, 3 identifiants DECP raccourcis) en 9 s
-2026-11-15 11:42:04  M01_35 : demande en attente
-2026-11-15 11:42:14    publié (édition 2026-11, 26 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
-2026-11-15 11:42:14  M01_77 : demande en attente
-2026-11-15 11:42:15    carte du 77 téléchargée
-2026-11-15 11:42:27    publié (édition 2026-11, 26 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 12 s
-2026-11-15 11:46:05  M02_59 : demande en attente
-2026-11-15 11:46:19    publié (édition 2026-11, 7 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 14 s
-2026-11-15 11:46:19  M02_62 : demande en attente
-2026-11-15 11:46:31    publié (édition 2026-11, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 12 s
-2026-11-15 11:46:35  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 4758 lignes en 4 paquets
-2026-11-15 12:04:03  C747_59 : demande en attente
-2026-11-15 12:04:14    publié (édition 2026-11, 21 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 11 s
-2026-11-15 12:04:14  C747_62 : demande en attente
-2026-11-15 12:04:23    publié (édition 2026-11, 21 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
-2026-11-15 12:04:25  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 905 lignes en 4 paquets
-2026-11-15 15:33:05  C747_02 : demande en attente
-2026-11-15 15:33:05    carte du 02 téléchargée
-2026-11-15 15:33:15    publié (édition 2026-11, 21 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
-2026-11-15 15:33:15  C747_60 : demande en attente
-2026-11-15 15:33:24    publié (édition 2026-11, 21 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
-2026-11-15 15:33:24  C747_80 : demande en attente
-2026-11-15 15:33:34    publié (édition 2026-11, 21 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
-2026-11-16 05:45:00  purge du disque faite : 4 élément(s), 0.23 Go libérés — fusions 1 (0.0 Go), photographies_controle 1 (0.22 Go), tmp 2 (0.0 Go)
+2026-11-16 06:52:52    M01_94 : 17 opportunités · inchangé · 7 s
+2026-11-16 06:54:23    M01_FR : 1254 opportunités · rapport et opportunités · 91 s
+2026-11-16 06:54:34    M02_59 : 7 opportunités · opportunités · 11 s
+2026-11-16 06:54:44    M02_62 : 3 opportunités · opportunités · 10 s
+2026-11-16 06:54:52    M03_76 : 7 opportunités · inchangé · 8 s
+2026-11-16 06:55:01    M04_62 : 11 opportunités · opportunités · 9 s
+2026-11-16 06:55:05    M04_76 : 5 opportunités · inchangé · 4 s
+2026-11-16 06:55:12    M07_59 : 29 opportunités · inchangé · 6 s
+2026-11-16 06:55:17    M07_76 : 8 opportunités · inchangé · 5 s
+2026-11-16 06:55:21    M08_76 : 10 opportunités · inchangé · 4 s
+2026-11-16 06:55:29    M08_81 : 0 opportunités · opportunités · 8 s
+2026-11-16 06:55:31    M12_01 : 7 opportunités · inchangé · 2 s
+2026-11-16 06:55:33    M12_03 : 4 opportunités · inchangé · 2 s
+2026-11-16 06:55:43    M12_07 : 1 opportunités · inchangé · 10 s
+2026-11-16 06:55:53    M12_15 : 0 opportunités · inchangé · 11 s
+2026-11-16 06:55:57    M12_26 : 7 opportunités · inchangé · 4 s
+2026-11-16 06:56:02    M12_38 : 11 opportunités · inchangé · 5 s
+2026-11-16 06:56:06    M12_42 : 6 opportunités · inchangé · 4 s
+2026-11-16 06:56:18    M12_43 : 2 opportunités · inchangé · 11 s
+2026-11-16 06:56:22    M12_63 : 2 opportunités · inchangé · 4 s
+2026-11-16 06:56:28    M12_69 : 23 opportunités · inchangé · 6 s
+2026-11-16 06:56:32    M12_73 : 7 opportunités · inchangé · 4 s
+2026-11-16 06:56:36    M12_74 : 9 opportunités · inchangé · 5 s
+2026-11-16 06:56:41    M12_83 : 16 opportunités · inchangé · 5 s
+2026-11-16 06:56:46    M12_93 : 24 opportunités · inchangé · 5 s
+2026-11-16 06:56:49    M22_01 : 3 opportunités · inchangé · 2 s
+2026-11-16 06:57:04    M22_07 : 1 opportunités · rapport et opportunités · 15 s
+2026-11-16 06:57:16    M22_08 : 1 opportunités · rapport et opportunités · 12 s
+2026-11-16 06:57:31    M22_10 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-16 06:57:45    M22_11 : 0 opportunités · opportunités · 15 s
+2026-11-16 06:57:59    M22_14 : 2 opportunités · rapport et opportunités · 14 s
+2026-11-16 06:58:14    M22_16 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-16 06:58:29    M22_17 : 1 opportunités · rapport et opportunités · 15 s
+2026-11-16 06:58:41    M22_21 : 2 opportunités · inchangé · 12 s
+2026-11-16 06:58:56    M22_24 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-16 06:59:14    M22_26 : 1 opportunités · rapport et opportunités · 18 s
+2026-11-16 06:59:28    M22_27 : 1 opportunités · rapport et opportunités · 13 s
+2026-11-16 06:59:39    M22_37 : 0 opportunités · inchangé · 12 s
+2026-11-16 06:59:46    M22_38 : 7 opportunités · inchangé · 6 s
+2026-11-16 06:59:52    M22_42 : 1 opportunités · inchangé · 6 s
 ```
