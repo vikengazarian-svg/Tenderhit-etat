@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 16/11/2026 à 11:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 16/11/2026 à 12:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-16 10:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-16 11:59:04  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-16 07:19:37  OK, 306 avis collectés, 270 couples recalculés, 61 republiés en 49.6 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-16 07:23:43  Contrôle du 16/11 : vert — 276 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.5 Go sur 7.6 · charge 0.13 · disque 37.1 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.49 Go sur 7.6 · charge 0.00 · disque 37.2 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +2.7 point(s) par semaine · 80 % dans **15.9 semaine(s)**
+Rythme des 14 derniers jours : +2.8 point(s) par semaine · 80 % dans **15.6 semaine(s)**
 
 ```
 Mesure du 2026-11-16 05:45 :
@@ -85,26 +85,26 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-- 10:25 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
-- 10:25 : (édition 2026-11, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
-- 10:25 : (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 11 s
-- 10:25 : (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 10:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 10:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 10:28 : (édition 2026-11, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
-- 10:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-- 10:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 16 s
-- 10:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-- 10:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-- 10:28 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
 - 10:29 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
 - 10:29 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
+- 11:08 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+- 11:08 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
+- 11:08 : (édition 2026-11, 9 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+- 11:08 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
+- 11:08 : (édition 2026-11, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+- 11:08 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 11:08 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+- 11:09 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+- 11:10 : (édition 2026-11, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 11 s
+- 11:10 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+- 11:10 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+- 11:10 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -128,55 +128,55 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Tue 2026-11-17 05:45:00 CET    18h Mon 2026-11-16 05:45:00 CET 5h 15min ago tenderhit-purge.timer    tenderhit-purge.service
-Tue 2026-11-17 06:30:00 CET    19h Mon 2026-11-16 06:30:00 CET 4h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
+Tue 2026-11-17 05:45:00 CET    17h Mon 2026-11-16 05:45:00 CET       6h ago tenderhit-purge.timer    tenderhit-purge.service
+Tue 2026-11-17 06:30:00 CET    18h Mon 2026-11-16 06:30:00 CET 5h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-21 03:00:00 CET 4 days Sat 2026-11-14 03:00:04 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Mon 2026-11-16 11:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Mon 2026-11-16 11:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Mon 2026-11-16 12:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Mon 2026-11-16 12:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-16 10:25:30    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
-2026-11-16 10:25:30  C323_92 : demande en attente
-2026-11-16 10:25:36    publié (édition 2026-11, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
-2026-11-16 10:25:36  C323_94 : demande en attente
-2026-11-16 10:25:47    publié (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 11 s
-2026-11-16 10:25:47  C323_95 : demande en attente
-2026-11-16 10:25:52    publié (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
-2026-11-16 10:27:03  C373_75 : demande en attente
-2026-11-16 10:27:09    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-2026-11-16 10:27:09  C373_77 : demande en attente
-2026-11-16 10:27:18    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
-2026-11-16 10:27:18  C373_78 : demande en attente
-2026-11-16 10:27:26    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-2026-11-16 10:27:26  C373_91 : demande en attente
-2026-11-16 10:27:33    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-2026-11-16 10:27:33  C373_92 : demande en attente
-2026-11-16 10:27:43    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
-2026-11-16 10:27:43  C373_93 : demande en attente
-2026-11-16 10:27:51    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-2026-11-16 10:27:51  C373_94 : demande en attente
-2026-11-16 10:27:59    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-2026-11-16 10:27:59  C373_95 : demande en attente
-2026-11-16 10:28:07    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-2026-11-16 10:28:07  C923_75 : demande en attente
-2026-11-16 10:28:17    publié (édition 2026-11, 3 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
-2026-11-16 10:28:17  C923_77 : demande en attente
-2026-11-16 10:28:24    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-2026-11-16 10:28:24  C923_78 : demande en attente
-2026-11-16 10:28:40    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 16 s
-2026-11-16 10:28:40  C923_91 : demande en attente
-2026-11-16 10:28:46    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-2026-11-16 10:28:46  C923_92 : demande en attente
-2026-11-16 10:28:52    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-2026-11-16 10:28:52  C923_93 : demande en attente
-2026-11-16 10:28:58    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
-2026-11-16 10:28:59  C923_94 : demande en attente
 2026-11-16 10:29:05    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
 2026-11-16 10:29:05  C923_95 : demande en attente
 2026-11-16 10:29:10    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 6 s
 2026-11-16 10:30:48  tables du marché : 2 activité(s) envoyée(s), 0 inchangée(s), 20435 lignes en 10 paquets
+2026-11-16 11:08:03  C323_07 : demande en attente
+2026-11-16 11:08:10    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-11-16 11:08:11  C323_11 : demande en attente
+2026-11-16 11:08:15    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
+2026-11-16 11:08:16  C323_13 : demande en attente
+2026-11-16 11:08:21    publié (édition 2026-11, 9 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-16 11:08:22  C323_30 : demande en attente
+2026-11-16 11:08:27    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 5 s
+2026-11-16 11:08:27  C323_34 : demande en attente
+2026-11-16 11:08:33    publié (édition 2026-11, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-16 11:08:33  C323_84 : demande en attente
+2026-11-16 11:08:41    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-11-16 11:08:42  C373_07 : demande en attente
+2026-11-16 11:08:51    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 9 s
+2026-11-16 11:08:51  C373_11 : demande en attente
+2026-11-16 11:09:01    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+2026-11-16 11:09:01  C373_13 : demande en attente
+2026-11-16 11:09:09    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-11-16 11:09:09  C373_30 : demande en attente
+2026-11-16 11:09:18    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+2026-11-16 11:09:19  C373_34 : demande en attente
+2026-11-16 11:09:29    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
+2026-11-16 11:09:29  C373_84 : demande en attente
+2026-11-16 11:09:37    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-11-16 11:09:37  C923_07 : demande en attente
+2026-11-16 11:09:44    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
+2026-11-16 11:09:44  C923_11 : demande en attente
+2026-11-16 11:09:52    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
+2026-11-16 11:09:52  C923_13 : demande en attente
+2026-11-16 11:10:03    publié (édition 2026-11, 6 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 11 s
+2026-11-16 11:10:04  C923_30 : demande en attente
+2026-11-16 11:10:10    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-16 11:10:11  C923_34 : demande en attente
+2026-11-16 11:10:17    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-16 11:10:17  C923_84 : demande en attente
+2026-11-16 11:10:28    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 10 s
 ```
