@@ -1,2 +1,4 @@
 # observatoire --essai --toutes-sources
-En cours depuis 17/11 18:10
+Lancée le 17/11/2026 18:10, finie le 17/11/2026 18:10, code 2
+
+attendu : observatoire [--essai]
