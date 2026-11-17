@@ -1,2 +1,11 @@
 # rejouer M01_76 M01_69 M01_75 M01_35 M33_76 C093_69 P1005_14
-En cours depuis 17/11 18:10
+Lancée le 17/11/2026 18:10, finie le 17/11/2026 18:10, code 0
+
+  M01_76     identique · 7.0 s
+  M01_69     publié un autre jour, non comparé
+  M01_75     identique · 14.7 s
+  M01_35     publié un autre jour, non comparé
+  M33_76     identique · 7.5 s
+  C093_69    publié un autre jour, non comparé
+  P1005_14   publié un autre jour, non comparé
+2026-11-17 18:10:38  Rejeu sur le serveur : vert — 3 couples identiques aux envois du matin sur 3 comparés ; 7.5 s par couple (médiane), 1 min au total
