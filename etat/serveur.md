@@ -1,12 +1,12 @@
 # Serveur du moteur V2
 
-Mis à jour le 17/11/2026 à 19:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 17/11/2026 à 20:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-17 18:59:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-17 19:59:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-17 07:22:50  OK, 346 avis collectés, 306 couples recalculés, 114 republiés en 52.8 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-17 07:26:53  Contrôle du 17/11 : vert — 318 couples identiques au site ; tâches à l'heure, site à jour |
@@ -86,7 +86,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-Aucune pour l'instant.
+- 19:05 : (édition 2026-11, 16 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 18 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -110,20 +110,17 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                         PASSED UNIT                     ACTIVATES
-Wed 2026-11-18 05:45:00 CET    10h Tue 2026-11-17 05:45:00 CET 13h ago tenderhit-purge.timer    tenderhit-purge.service
-Wed 2026-11-18 06:30:00 CET    11h Tue 2026-11-17 06:30:00 CET 12h ago tenderhit-collecte.timer tenderhit-collecte.service
+Wed 2026-11-18 05:45:00 CET     9h Tue 2026-11-17 05:45:00 CET 14h ago tenderhit-purge.timer    tenderhit-purge.service
+Wed 2026-11-18 06:30:00 CET    10h Tue 2026-11-17 06:30:00 CET 13h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-21 03:00:00 CET 3 days Sat 2026-11-14 03:00:04 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Tue 2026-11-17 19:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Tue 2026-11-17 19:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Tue 2026-11-17 20:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Tue 2026-11-17 20:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-17 07:12:55    M29_42 : 0 opportunités · rapport et opportunités · 16 s
-2026-11-17 07:13:10    M29_43 : 0 opportunités · rapport et opportunités · 15 s
-2026-11-17 07:13:25    M29_63 : 0 opportunités · rapport et opportunités · 15 s
 2026-11-17 07:13:33    M29_69 : 0 opportunités · rapport et opportunités · 7 s
 2026-11-17 07:13:48    M29_73 : 0 opportunités · rapport et opportunités · 16 s
 2026-11-17 07:14:05    M29_74 : 0 opportunités · rapport et opportunités · 16 s
@@ -161,4 +158,7 @@ Sat 2026-11-21 03:00:00 CET 3 days Sat 2026-11-14 03:00:04 CET       - tenderhit
 2026-11-17 18:10:38  Rejeu sur le serveur : vert — 3 couples identiques aux envois du matin sur 3 comparés ; 7.5 s par couple (médiane), 1 min au total
 2026-11-17 18:14:29  observatoire (commande) : {"avis_ouverts": 8079, "sans_activite": 1490, "a_envoyer": 8079, "a_retirer": 293, "disparues": 293, "compteurs": {"ao_ouverts": 8079, "avis_ouverts": 10285, "lots_ouverts": 22815}, "autres_sources": 1694, "fusion": "2026-11-17", "duree_tri_autres_s": 8.2, "autres_sans_activite": 255, "redirections": 0, "envoi": "essai, rien n'est envoyé", "duree_s": 24.9}
 2026-11-17 18:46:38  observatoire (commande) : {"avis_ouverts": 8078, "sans_activite": 1490, "a_envoyer": 8078, "a_retirer": 294, "disparues": 294, "compteurs": {"ao_ouverts": 8078, "avis_ouverts": 10284, "lots_ouverts": 22814}, "autres_sources": 1694, "fusion": "2026-11-17", "duree_tri_autres_s": 8.0, "autres_sans_activite": 255, "redirections": 0, "envoi": "envoyé", "paquets": 9, "donnees_personnelles_retirees": 0, "duree_s": 33.9}
+2026-11-17 19:05:05  M37_13 : demande en attente
+2026-11-17 19:05:23    publié (édition 2026-11, 16 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 18 s
+2026-11-17 19:06:00  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 113466 lignes en 25 paquets
 ```
