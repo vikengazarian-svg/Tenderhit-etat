@@ -1,2 +1,5 @@
 # observatoire
-En cours depuis 17/11 18:46
+Lancée le 17/11/2026 18:46, finie le 17/11/2026 18:46, code 0
+
+2026-11-17 18:46:38  observatoire (commande) : {"avis_ouverts": 8078, "sans_activite": 1490, "a_envoyer": 8078, "a_retirer": 294, "disparues": 294, "compteurs": {"ao_ouverts": 8078, "avis_ouverts": 10284, "lots_ouverts": 22814}, "autres_sources": 1694, "fusion": "2026-11-17", "duree_tri_autres_s": 8.0, "autres_sans_activite": 255, "redirections": 0, "envoi": "envoyé", "paquets": 9, "donnees_personnelles_retirees": 0, "duree_s": 33.9}
+{"avis_ouverts": 8078, "sans_activite": 1490, "a_envoyer": 8078, "a_retirer": 294, "disparues": 294, "compteurs": {"ao_ouverts": 8078, "avis_ouverts": 10284, "lots_ouverts": 22814}, "autres_sources": 1694, "fusion": "2026-11-17", "duree_tri_autres_s": 8.0, "autres_sans_activite": 255, "redirections": 0, "envoi": "envoyé", "paquets": 9, "donnees_personnelles_retirees": 0, "duree_s": 33.9}
