@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 18/11/2026 à 12:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 18/11/2026 à 13:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-18 11:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-18 12:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-18 07:23:36  OK, 362 avis collectés, 310 couples recalculés, 87 republiés en 53.6 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-18 07:27:36  Contrôle du 18/11 : vert — 319 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.52 Go sur 7.6 · charge 0.00 · disque 36.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.51 Go sur 7.6 · charge 0.00 · disque 36.9 % · échange 0.0 Go
 
 ## Disque
 
@@ -87,6 +87,9 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ### Demandes des clients aujourd'hui
 
 - 11:56 : (édition 2026-11, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+- 12:06 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+- 12:06 : (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+- 12:06 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 27 s
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -109,27 +112,18 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ## Tâches planifiées
 ```
-NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Thu 2026-11-19 05:45:00 CET    17h Wed 2026-11-18 05:45:00 CET       6h ago tenderhit-purge.timer    tenderhit-purge.service
-Thu 2026-11-19 06:30:00 CET    18h Wed 2026-11-18 06:30:00 CET 5h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-21 03:00:00 CET 2 days Sat 2026-11-14 03:00:04 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Wed 2026-11-18 12:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Wed 2026-11-18 12:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                        PASSED UNIT                     ACTIVATES
+Thu 2026-11-19 05:45:00 CET    16h Wed 2026-11-18 05:45:00 CET 7h ago tenderhit-purge.timer    tenderhit-purge.service
+Thu 2026-11-19 06:30:00 CET    17h Wed 2026-11-18 06:30:00 CET 6h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-21 03:00:00 CET 2 days Sat 2026-11-14 03:00:04 CET      - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Wed 2026-11-18 13:00:00 CET 1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Wed 2026-11-18 13:00:00 CET 1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-18 07:13:36    M29_42 : 0 opportunités · inchangé · 15 s
-2026-11-18 07:13:50    M29_43 : 0 opportunités · inchangé · 14 s
-2026-11-18 07:14:05    M29_63 : 0 opportunités · inchangé · 15 s
-2026-11-18 07:14:13    M29_69 : 0 opportunités · rapport et opportunités · 7 s
-2026-11-18 07:14:28    M29_73 : 0 opportunités · inchangé · 15 s
-2026-11-18 07:14:43    M29_74 : 0 opportunités · inchangé · 15 s
-2026-11-18 07:14:56    M29_83 : 1 opportunités · inchangé · 13 s
-2026-11-18 07:15:16    M29_93 : 1 opportunités · rapport et opportunités · 20 s
-2026-11-18 07:15:25    M30_69 : 14 opportunités · rapport et opportunités · 10 s
 2026-11-18 07:15:28    M33_01 : 6 opportunités · inchangé · 3 s
 2026-11-18 07:15:36    M33_14 : 6 opportunités · rapport et opportunités · 8 s
 2026-11-18 07:15:43    M33_27 : 5 opportunités · rapport et opportunités · 7 s
@@ -161,4 +155,13 @@ Sat 2026-11-21 03:00:00 CET 2 days Sat 2026-11-14 03:00:04 CET            - tend
 2026-11-18 07:27:36  Contrôle du 18/11 : vert — 319 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-18 11:56:05  C722_95 : demande en attente
 2026-11-18 11:56:11    publié (édition 2026-11, 8 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 6 s
+2026-11-18 12:06:03  C481_95 : demande en attente
+2026-11-18 12:06:12    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-11-18 12:06:12  C484_95 : demande en attente
+2026-11-18 12:06:22    publié (édition 2026-11, 1 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
+2026-11-18 12:06:22  C720_95 : demande en attente
+2026-11-18 12:06:49    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 27 s
+2026-11-18 12:07:02  tables du marché : 3 activité(s) envoyée(s), 0 inchangée(s), 20016 lignes en 13 paquets
+2026-11-18 12:08:05    retrait DCE 7f38304a-ffa6-4017-a630-cc4d26addb8a : fait (atexo/npdc, 1274275 octets, 7 pièce(s))
+2026-11-18 12:08:05  retrait DCE (retraits) : {"etat": "ok", "demandes": 1, "faits": 1, "echecs": 0, "closes": 0, "reportees": 0, "erreurs": 0}
 ```
