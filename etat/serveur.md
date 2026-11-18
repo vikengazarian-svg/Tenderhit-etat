@@ -1,12 +1,12 @@
 # Serveur du moteur V2
 
-Mis à jour le 18/11/2026 à 23:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 19/11/2026 à 00:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-18 22:59:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-18 23:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-18 07:23:36  OK, 362 avis collectés, 310 couples recalculés, 87 republiés en 53.6 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-18 07:27:36  Contrôle du 18/11 : vert — 319 couples identiques au site ; tâches à l'heure, site à jour |
@@ -86,26 +86,7 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-- 18:25 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
-- 18:25 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
-- 18:25 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 8 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 7 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 18:26 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 18:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 18:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 18:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
-- 18:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 7 s
-- 18:27 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 25 s
-- 18:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 22 s
-- 18:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 15 s
-- 18:28 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 9 s
-- 18:29 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 31 s
-- 18:29 : (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 8 s
+Aucune pour l'instant.
 
 ### Contrôles quotidiens (14 derniers)
 
@@ -128,12 +109,12 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ## Tâches planifiées
 ```
-NEXT                          LEFT LAST                         PASSED UNIT                     ACTIVATES
-Thu 2026-11-19 05:45:00 CET     6h Wed 2026-11-18 05:45:00 CET 17h ago tenderhit-purge.timer    tenderhit-purge.service
-Thu 2026-11-19 06:30:00 CET     7h Wed 2026-11-18 06:30:00 CET 16h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-21 03:00:00 CET 2 days Sat 2026-11-14 03:00:04 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Wed 2026-11-18 23:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Wed 2026-11-18 23:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
+Thu 2026-11-19 05:45:00 CET 5h 44min Wed 2026-11-18 05:45:00 CET 18h ago tenderhit-purge.timer    tenderhit-purge.service
+Thu 2026-11-19 06:30:00 CET       6h Wed 2026-11-18 06:30:00 CET 17h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-21 03:00:00 CET   2 days Sat 2026-11-14 03:00:04 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Thu 2026-11-19 00:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                  - Thu 2026-11-19 00:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
