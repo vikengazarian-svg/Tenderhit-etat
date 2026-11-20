@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 20/11/2026 à 19:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 20/11/2026 à 20:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : contrôle quotidien rouge
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-20 18:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-20 19:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-20 07:27:12  OK, 337 avis collectés, 343 couples recalculés, 91 republiés en 57.2 min |
 | Passe DECP hebdomadaire | 2026-11-14 04:22:58  Passe hebdomadaire DECP 2026-11-14_decp : terminée en 82.9 min, mémoire max 4234 Mo ; 266 couples recalculés, 0 bloqués par la garde ; 260 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-20 07:31:39  Contrôle du 20/11 : rouge — 347 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C713_75 : opportunites 34 → 16 |
 
-**Machine maintenant** : mémoire 0.51 Go sur 7.6 · charge 0.24 · disque 37.1 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.53 Go sur 7.6 · charge 0.01 · disque 37.1 % · échange 0.0 Go
 
 ## Disque
 
@@ -123,22 +123,17 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                        LEFT LAST                         PASSED UNIT                     ACTIVATES
-Sat 2026-11-21 03:00:00 CET   7h Sat 2026-11-14 03:00:04 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-11-21 05:45:00 CET  10h Fri 2026-11-20 05:45:00 CET 13h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-21 06:30:00 CET  11h Fri 2026-11-20 06:30:00 CET 12h ago tenderhit-collecte.timer tenderhit-collecte.service
--                              - Fri 2026-11-20 19:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                              - Fri 2026-11-20 19:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sat 2026-11-21 03:00:00 CET   6h Sat 2026-11-14 03:00:04 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-21 05:45:00 CET   9h Fri 2026-11-20 05:45:00 CET 14h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-21 06:30:00 CET  10h Fri 2026-11-20 06:30:00 CET 13h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-11-20 20:00:00 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                              - Fri 2026-11-20 20:00:00 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-20 07:25:10    P1005_22 : 8 opportunités · inchangé · 8 s
-2026-11-20 07:25:19    P1005_27 : 2 opportunités · rapport et opportunités · 9 s
-2026-11-20 07:25:29    P1005_29 : 8 opportunités · rapport et opportunités · 10 s
-2026-11-20 07:25:40    P1005_35 : 18 opportunités · rapport et opportunités · 12 s
-2026-11-20 07:25:50    P1005_56 : 9 opportunités · rapport et opportunités · 10 s
 2026-11-20 07:26:05    P1005_59 : 19 opportunités · inchangé · 15 s
 2026-11-20 07:26:14    P1005_60 : 2 opportunités · inchangé · 9 s
 2026-11-20 07:26:38    P1005_75 : 32 opportunités · rapport et opportunités · 24 s
@@ -174,4 +169,9 @@ Sat 2026-11-21 06:30:00 CET  11h Fri 2026-11-20 06:30:00 CET 12h ago tenderhit-c
 2026-11-20 17:49:00  M12_80 : demande en attente
 2026-11-20 17:49:14    publié (édition 2026-11, 0 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : None) en 14 s
 2026-11-20 17:49:22  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 12798 lignes en 5 paquets
+2026-11-20 19:03:52  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-20 19:06:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-20 19:08:37  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-20 19:10:59  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-20 19:13:22  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 ```
