@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 21/11/2026 à 07:32 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 21/11/2026 à 07:36 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-21 06:29:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-21 07:35:03  connexion OK, 1 couple(s) en attente : M28_34 |
 | Collecte des appels d'offres | 2026-11-21 07:30:04  OK, 878 avis collectés, 360 couples recalculés, 151 republiés en 60.1 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-11-20 07:31:39  Contrôle du 20/11 : rouge — 347 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C713_75 : opportunites 34 → 16 |
+| Contrôle quotidien | 2026-11-21 07:34:34  Contrôle du 21/11 : vert — 360 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.04 Go sur 7.6 · charge 0.37 · disque 37.1 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.54 Go sur 7.6 · charge 0.34 · disque 37.3 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.1 point(s) par semaine · 80 % dans **429.0 semaine(s)**
+Rythme des 14 derniers jours : +0.2 point(s) par semaine · 80 % dans **213.5 semaine(s)**
 
 ```
 Mesure du 2026-11-21 05:45 :
@@ -87,12 +87,11 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 ### Demandes des clients aujourd'hui
 
-Aucune pour l'instant.
+- 07:35 : (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
 
 ### Contrôles quotidiens (14 derniers)
 
 ```
-2026-11-09 07:18  Contrôle du 09/11 : rouge — 222 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
 2026-11-10 07:21  Contrôle du 10/11 : rouge — 235 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
 2026-11-10 11:59  Contrôle du 10/11 : rouge — 235 couples identiques au site, 4238 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour ; CHUTES : C451_21 : attributions 585 → 270, C451_42 : attributions 1131 → 535
 2026-11-10 13:50  Contrôle du 10/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour
@@ -106,26 +105,23 @@ Aucune pour l'instant.
 2026-11-18 07:27  Contrôle du 18/11 : vert — 319 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-19 07:33  Contrôle du 19/11 : vert — 347 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-20 07:31  Contrôle du 20/11 : rouge — 347 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C713_75 : opportunites 34 → 16
+2026-11-21 07:34  Contrôle du 21/11 : vert — 360 couples identiques au site ; tâches à l'heure, site à jour
 ```
 
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Sat 2026-11-21 07:33:00 CET    57s Sat 2026-11-21 07:32:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sun 2026-11-22 05:45:00 CET    22h Sat 2026-11-21 05:45:00 CET 1h 47min ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-28 03:00:00 CET 6 days Sat 2026-11-21 03:00:00 CET 4h 32min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Sat 2026-11-21 06:30:00 CET  1h 2min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                - Sat 2026-11-21 07:32:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sun 2026-11-22 05:45:00 CET    22h Sat 2026-11-21 05:45:00 CET 1h 51min ago tenderhit-purge.timer    tenderhit-purge.service
+Sun 2026-11-22 06:30:00 CET    22h Sat 2026-11-21 06:30:00 CET  1h 6min ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET 6 days Sat 2026-11-21 03:00:00 CET 4h 36min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Sat 2026-11-21 07:36:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Sat 2026-11-21 07:36:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-21 07:19:08    M29_15 : 0 opportunités · rapport et opportunités · 15 s
-2026-11-21 07:19:24    M29_26 : 0 opportunités · rapport et opportunités · 16 s
-2026-11-21 07:19:40    M29_38 : 1 opportunités · rapport et opportunités · 17 s
-2026-11-21 07:19:56    M29_42 : 0 opportunités · rapport et opportunités · 16 s
 2026-11-21 07:20:11    M29_43 : 0 opportunités · rapport et opportunités · 15 s
 2026-11-21 07:20:26    M29_63 : 0 opportunités · rapport et opportunités · 15 s
 2026-11-21 07:20:33    M29_69 : 0 opportunités · inchangé · 7 s
@@ -162,4 +158,8 @@ Sat 2026-11-28 03:00:00 CET 6 days Sat 2026-11-21 03:00:00 CET 4h 32min ago tend
 2026-11-21 07:29:52    P1005_80 : 1 opportunités · inchangé · 8 s
 2026-11-21 07:30:04    P1005_93 : 12 opportunités · inchangé · 13 s
 2026-11-21 07:30:04  OK, 878 avis collectés, 360 couples recalculés, 151 republiés en 60.1 min
+2026-11-21 07:34:34  Contrôle du 21/11 : vert — 360 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-21 07:35:03  M28_34 : demande en attente
+2026-11-21 07:35:13    publié (édition 2026-11, 4 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 10 s
+2026-11-21 07:35:33  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 73167 lignes en 17 paquets
 ```
