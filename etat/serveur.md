@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 22/11/2026 à 07:30 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 22/11/2026 à 07:34 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
@@ -9,13 +9,13 @@ Mis à jour le 22/11/2026 à 07:30 · publication : **EN SERVICE (publie sur le 
 | Demandes des clients | 2026-11-22 06:29:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-22 07:29:19  OK, 692 avis collectés, 361 couples recalculés, 100 republiés en 59.3 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-11-21 07:34:34  Contrôle du 21/11 : vert — 360 couples identiques au site ; tâches à l'heure, site à jour |
+| Contrôle quotidien | 2026-11-22 07:33:43  Contrôle du 22/11 : vert — 361 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.06 Go sur 7.6 · charge 0.93 · disque 36.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.56 Go sur 7.6 · charge 0.58 · disque 37.3 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **66.3 semaine(s)**
+Rythme des 14 derniers jours : +0.8 point(s) par semaine · 80 % dans **50.2 semaine(s)**
 
 ```
 Mesure du 2026-11-22 05:45 :
@@ -92,7 +92,6 @@ Aucune pour l'instant.
 ### Contrôles quotidiens (14 derniers)
 
 ```
-2026-11-10 07:21  Contrôle du 10/11 : rouge — 235 couples identiques au site, 369 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour
 2026-11-10 11:59  Contrôle du 10/11 : rouge — 235 couples identiques au site, 4238 attributions anciennes gardées par le site ; EN ÉCART : C093_69, C093_75, C451_01, C451_03, C451_07, C451_15, C451_21, C451_25, C451_26, C451_38, C451_39, C451_42, C451_43, C451_58 ; tâches à l'heure, site à jour ; CHUTES : C451_21 : attributions 585 → 270, C451_42 : attributions 1131 → 535
 2026-11-10 13:50  Contrôle du 10/11 : vert — 249 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-11 07:22  Contrôle du 11/11 : rouge — 249 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C451_69 : opportunites 18 → 8, C451_FR : opportunites 564 → 181, M07_76 : opportunites 19 → 8
@@ -106,23 +105,23 @@ Aucune pour l'instant.
 2026-11-19 07:33  Contrôle du 19/11 : vert — 347 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-20 07:31  Contrôle du 20/11 : rouge — 347 couples identiques au site ; tâches à l'heure, site à jour ; CHUTES : C713_75 : opportunites 34 → 16
 2026-11-21 07:34  Contrôle du 21/11 : vert — 360 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-22 07:33  Contrôle du 22/11 : vert — 361 couples identiques au site ; tâches à l'heure, site à jour
 ```
 
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
-Mon 2026-11-23 05:45:00 CET    22h Sun 2026-11-22 05:45:00 CET 1h 45min ago tenderhit-purge.timer    tenderhit-purge.service
+Mon 2026-11-23 05:45:00 CET    22h Sun 2026-11-22 05:45:00 CET 1h 49min ago tenderhit-purge.timer    tenderhit-purge.service
+Mon 2026-11-23 06:30:00 CET    22h Sun 2026-11-22 06:30:00 CET  1h 4min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-28 03:00:00 CET 5 days Sat 2026-11-21 03:00:00 CET 1 day 4h ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Sun 2026-11-22 06:30:00 CET  1h 0min ago tenderhit-collecte.timer tenderhit-collecte.service
--                                - Sun 2026-11-22 07:30:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Sun 2026-11-22 07:30:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Sun 2026-11-22 07:34:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Sun 2026-11-22 07:34:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-22 07:18:42    M29_15 : 0 opportunités · inchangé · 14 s
 2026-11-22 07:18:56    M29_26 : 0 opportunités · inchangé · 15 s
 2026-11-22 07:19:12    M29_38 : 1 opportunités · inchangé · 16 s
 2026-11-22 07:19:27    M29_42 : 0 opportunités · inchangé · 15 s
@@ -162,4 +161,5 @@ Sat 2026-11-28 03:00:00 CET 5 days Sat 2026-11-21 03:00:00 CET 1 day 4h ago tend
 2026-11-22 07:29:07    P1005_80 : 1 opportunités · inchangé · 8 s
 2026-11-22 07:29:19    P1005_93 : 12 opportunités · inchangé · 12 s
 2026-11-22 07:29:19  OK, 692 avis collectés, 361 couples recalculés, 100 republiés en 59.3 min
+2026-11-22 07:33:43  Contrôle du 22/11 : vert — 361 couples identiques au site ; tâches à l'heure, site à jour
 ```
