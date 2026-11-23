@@ -1,24 +1,24 @@
 # Serveur du moteur V2
 
-Mis à jour le 23/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 23/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-23 04:59:02  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-23 05:59:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-22 07:29:19  OK, 692 avis collectés, 361 couples recalculés, 100 republiés en 59.3 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-22 07:33:43  Contrôle du 22/11 : vert — 361 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.00 · disque 37.3 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.00 · disque 36.8 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.8 point(s) par semaine · 80 % dans **50.2 semaine(s)**
+Rythme des 14 derniers jours : +0.9 point(s) par semaine · 80 % dans **48.0 semaine(s)**
 
 ```
-Mesure du 2026-11-22 05:45 :
+Mesure du 2026-11-23 05:45 :
   entrepot/sources                            3.56 Go
   entrepot/decp                               2.06 Go
   entrepot/boamp                              1.40 Go
@@ -31,22 +31,22 @@ Mesure du 2026-11-22 05:45 :
   entrepot/etiquettes                           38 Mo
   entrepot/referentiel                          16 Mo
   entrepot/avis                                  3 Mo
+  entrepot/tmp                                   3 Mo
   logs                                           3 Mo
-  production/(fichiers)                          2 Mo
+  production/(fichiers)                          3 Mo
   entrepot/sirene                                2 Mo
   entrepot/mesures.jsonl                         2 Mo
   production/rejeu                               0 Mo
   entrepot/sources_temoin.jsonl                  0 Mo
   entrepot/manifeste.json                        0 Mo
-  production/dce                                 0 Mo
-Croissance par dossier (depuis 2026-11-14, 8.0 j), en Go par semaine :
-  entrepot/execution                            +0.05
+Croissance par dossier (depuis 2026-11-16, 7.0 j), en Go par semaine :
+  entrepot/execution                            +0.06
+  entrepot/passes                               +0.04
   entrepot/decp                                 +0.03
-  entrepot/passes                               +0.03
   entrepot/sources                              +0.03
   production/controles                          +0.03
   production/publies                            +0.02
-Dernière purge (2026-11-22 05:45) : faite, 3 élément(s), 0.24 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.23 Go) · tmp 1 (0.0 Go)
+Dernière purge (2026-11-23 05:45) : faite, 3 élément(s), 0.24 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.24 Go) · tmp 1 (0.0 Go)
 ```
 
 ## Performances
@@ -110,19 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                            PASSED UNIT                     ACTIVATES
-Mon 2026-11-23 05:45:00 CET    44min Sun 2026-11-22 05:45:00 CET    23h ago tenderhit-purge.timer    tenderhit-purge.service
-Mon 2026-11-23 06:30:00 CET 1h 29min Sun 2026-11-22 06:30:00 CET    22h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET   4 days Sat 2026-11-21 03:00:00 CET 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Mon 2026-11-23 05:00:00 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                  - Mon 2026-11-23 05:00:00 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                            PASSED UNIT                     ACTIVATES
+Mon 2026-11-23 06:30:00 CET  29min Sun 2026-11-22 06:30:00 CET    23h ago tenderhit-collecte.timer tenderhit-collecte.service
+Tue 2026-11-24 05:45:00 CET    23h Mon 2026-11-23 05:45:00 CET  15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 03:00:00 CET 4 days Sat 2026-11-21 03:00:00 CET 2 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Mon 2026-11-23 06:00:00 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Mon 2026-11-23 06:00:00 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-22 07:19:12    M29_38 : 1 opportunités · inchangé · 16 s
 2026-11-22 07:19:27    M29_42 : 0 opportunités · inchangé · 15 s
 2026-11-22 07:19:41    M29_43 : 0 opportunités · inchangé · 14 s
 2026-11-22 07:19:55    M29_63 : 0 opportunités · inchangé · 15 s
@@ -162,4 +161,5 @@ Sat 2026-11-28 03:00:00 CET   4 days Sat 2026-11-21 03:00:00 CET 2 days ago tend
 2026-11-22 07:29:19  OK, 692 avis collectés, 361 couples recalculés, 100 republiés en 59.3 min
 2026-11-22 07:33:43  Contrôle du 22/11 : vert — 361 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-22 21:46:11  M01_58 republié : 6 opportunités, attributions anciennes retirées : None (6 s)
+2026-11-23 05:45:00  purge du disque faite : 3 élément(s), 0.24 Go libérés — fusions 1 (0.0 Go), photographies_controle 1 (0.24 Go), tmp 1 (0.0 Go)
 ```
