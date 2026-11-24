@@ -4,50 +4,50 @@
 <text x="744" y="24" font-size="12" fill="#59636e" text-anchor="end">minutes</text>
 <line x1="52" x2="744" y1="206.0" y2="206.0" stroke="#d1d9e0" stroke-width="1"/>
 <text x="46" y="210.0" font-size="11" fill="#59636e" text-anchor="end">0</text>
-<line x1="52" x2="744" y1="155.8" y2="155.8" stroke="#d1d9e0" stroke-width="1"/>
-<text x="46" y="159.8" font-size="11" fill="#59636e" text-anchor="end">20</text>
-<line x1="52" x2="744" y1="105.6" y2="105.6" stroke="#d1d9e0" stroke-width="1"/>
-<text x="46" y="109.6" font-size="11" fill="#59636e" text-anchor="end">40</text>
-<line x1="52" x2="744" y1="55.3" y2="55.3" stroke="#d1d9e0" stroke-width="1"/>
-<text x="46" y="59.3" font-size="11" fill="#59636e" text-anchor="end">60</text>
-<rect x="53.0" y="121.4" width="21.1" height="84.6" rx="4.0" fill="#2f6fdb"><title>10/25 07h : 33.7 minutes</title></rect>
-<text x="63.5" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/25 07h</text>
-<rect x="76.1" y="117.9" width="21.1" height="88.1" rx="4.0" fill="#2f6fdb"><title>10/26 07h : 35.1 minutes</title></rect>
-<rect x="99.1" y="109.8" width="21.1" height="96.2" rx="4.0" fill="#2f6fdb"><title>10/27 07h : 38.3 minutes</title></rect>
-<rect x="122.2" y="108.1" width="21.1" height="97.9" rx="4.0" fill="#2f6fdb"><title>10/28 07h : 39 minutes</title></rect>
-<text x="132.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/28 07h</text>
-<rect x="145.3" y="110.8" width="21.1" height="95.2" rx="4.0" fill="#2f6fdb"><title>10/29 07h : 37.9 minutes</title></rect>
-<rect x="168.3" y="112.8" width="21.1" height="93.2" rx="4.0" fill="#2f6fdb"><title>10/30 07h : 37.1 minutes</title></rect>
-<rect x="191.4" y="88.0" width="21.1" height="118.0" rx="4.0" fill="#2f6fdb"><title>10/31 07h : 47 minutes</title></rect>
-<text x="201.9" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/31 07h</text>
-<rect x="214.5" y="96.5" width="21.1" height="109.5" rx="4.0" fill="#2f6fdb"><title>11/01 07h : 43.6 minutes</title></rect>
-<rect x="237.5" y="103.3" width="21.1" height="102.7" rx="4.0" fill="#2f6fdb"><title>11/02 07h : 40.9 minutes</title></rect>
-<rect x="260.6" y="106.6" width="21.1" height="99.4" rx="4.0" fill="#2f6fdb"><title>11/03 07h : 39.6 minutes</title></rect>
-<text x="271.1" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/03 07h</text>
-<rect x="283.7" y="100.8" width="21.1" height="105.2" rx="4.0" fill="#2f6fdb"><title>11/04 07h : 41.9 minutes</title></rect>
-<rect x="306.7" y="99.8" width="21.1" height="106.2" rx="4.0" fill="#2f6fdb"><title>11/05 07h : 42.3 minutes</title></rect>
-<rect x="329.8" y="94.8" width="21.1" height="111.2" rx="4.0" fill="#2f6fdb"><title>11/06 07h : 44.3 minutes</title></rect>
-<text x="340.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/06 07h</text>
-<rect x="352.9" y="91.2" width="21.1" height="114.8" rx="4.0" fill="#2f6fdb"><title>11/07 07h : 45.7 minutes</title></rect>
-<rect x="375.9" y="90.5" width="21.1" height="115.5" rx="4.0" fill="#2f6fdb"><title>11/08 07h : 46 minutes</title></rect>
-<rect x="399.0" y="90.5" width="21.1" height="115.5" rx="4.0" fill="#2f6fdb"><title>11/09 07h : 46 minutes</title></rect>
-<text x="409.5" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/09 07h</text>
-<rect x="422.1" y="84.5" width="21.1" height="121.5" rx="4.0" fill="#2f6fdb"><title>11/10 07h : 48.4 minutes</title></rect>
-<rect x="445.1" y="83.5" width="21.1" height="122.5" rx="4.0" fill="#2f6fdb"><title>11/11 07h : 48.8 minutes</title></rect>
-<rect x="468.2" y="88.5" width="21.1" height="117.5" rx="4.0" fill="#2f6fdb"><title>11/12 07h : 46.8 minutes</title></rect>
-<text x="478.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/12 07h</text>
-<rect x="491.3" y="85.7" width="21.1" height="120.3" rx="4.0" fill="#2f6fdb"><title>11/13 07h : 47.9 minutes</title></rect>
-<rect x="514.3" y="83.7" width="21.1" height="122.3" rx="4.0" fill="#2f6fdb"><title>11/14 07h : 48.7 minutes</title></rect>
-<rect x="537.4" y="82.7" width="21.1" height="123.3" rx="4.0" fill="#2f6fdb"><title>11/15 07h : 49.1 minutes</title></rect>
-<text x="547.9" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/15 07h</text>
-<rect x="560.5" y="81.5" width="21.1" height="124.5" rx="4.0" fill="#2f6fdb"><title>11/16 07h : 49.6 minutes</title></rect>
-<rect x="583.5" y="73.4" width="21.1" height="132.6" rx="4.0" fill="#2f6fdb"><title>11/17 07h : 52.8 minutes</title></rect>
-<rect x="606.6" y="71.4" width="21.1" height="134.6" rx="4.0" fill="#2f6fdb"><title>11/18 07h : 53.6 minutes</title></rect>
-<text x="617.1" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/18 07h</text>
-<rect x="629.7" y="57.9" width="21.1" height="148.1" rx="4.0" fill="#2f6fdb"><title>11/19 07h : 59 minutes</title></rect>
-<rect x="652.7" y="62.4" width="21.1" height="143.6" rx="4.0" fill="#2f6fdb"><title>11/20 07h : 57.2 minutes</title></rect>
-<rect x="675.8" y="55.1" width="21.1" height="150.9" rx="4.0" fill="#2f6fdb"><title>11/21 07h : 60.1 minutes</title></rect>
-<text x="686.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/21 07h</text>
-<rect x="698.9" y="57.1" width="21.1" height="148.9" rx="4.0" fill="#2f6fdb"><title>11/22 07h : 59.3 minutes</title></rect>
-<rect x="721.9" y="60.4" width="21.1" height="145.6" rx="4.0" fill="#2f6fdb"><title>11/23 07h : 58 minutes</title></rect>
+<line x1="52" x2="744" y1="155.9" y2="155.9" stroke="#d1d9e0" stroke-width="1"/>
+<text x="46" y="159.9" font-size="11" fill="#59636e" text-anchor="end">20</text>
+<line x1="52" x2="744" y1="105.7" y2="105.7" stroke="#d1d9e0" stroke-width="1"/>
+<text x="46" y="109.7" font-size="11" fill="#59636e" text-anchor="end">40</text>
+<line x1="52" x2="744" y1="55.6" y2="55.6" stroke="#d1d9e0" stroke-width="1"/>
+<text x="46" y="59.6" font-size="11" fill="#59636e" text-anchor="end">60</text>
+<rect x="53.0" y="118.0" width="21.1" height="88.0" rx="4.0" fill="#2f6fdb"><title>10/26 07h : 35.1 minutes</title></rect>
+<text x="63.5" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/26 07h</text>
+<rect x="76.1" y="110.0" width="21.1" height="96.0" rx="4.0" fill="#2f6fdb"><title>10/27 07h : 38.3 minutes</title></rect>
+<rect x="99.1" y="108.2" width="21.1" height="97.8" rx="4.0" fill="#2f6fdb"><title>10/28 07h : 39 minutes</title></rect>
+<rect x="122.2" y="111.0" width="21.1" height="95.0" rx="4.0" fill="#2f6fdb"><title>10/29 07h : 37.9 minutes</title></rect>
+<text x="132.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">10/29 07h</text>
+<rect x="145.3" y="113.0" width="21.1" height="93.0" rx="4.0" fill="#2f6fdb"><title>10/30 07h : 37.1 minutes</title></rect>
+<rect x="168.3" y="88.2" width="21.1" height="117.8" rx="4.0" fill="#2f6fdb"><title>10/31 07h : 47 minutes</title></rect>
+<rect x="191.4" y="96.7" width="21.1" height="109.3" rx="4.0" fill="#2f6fdb"><title>11/01 07h : 43.6 minutes</title></rect>
+<text x="201.9" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/01 07h</text>
+<rect x="214.5" y="103.5" width="21.1" height="102.5" rx="4.0" fill="#2f6fdb"><title>11/02 07h : 40.9 minutes</title></rect>
+<rect x="237.5" y="106.7" width="21.1" height="99.3" rx="4.0" fill="#2f6fdb"><title>11/03 07h : 39.6 minutes</title></rect>
+<rect x="260.6" y="101.0" width="21.1" height="105.0" rx="4.0" fill="#2f6fdb"><title>11/04 07h : 41.9 minutes</title></rect>
+<text x="271.1" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/04 07h</text>
+<rect x="283.7" y="100.0" width="21.1" height="106.0" rx="4.0" fill="#2f6fdb"><title>11/05 07h : 42.3 minutes</title></rect>
+<rect x="306.7" y="94.9" width="21.1" height="111.1" rx="4.0" fill="#2f6fdb"><title>11/06 07h : 44.3 minutes</title></rect>
+<rect x="329.8" y="91.4" width="21.1" height="114.6" rx="4.0" fill="#2f6fdb"><title>11/07 07h : 45.7 minutes</title></rect>
+<text x="340.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/07 07h</text>
+<rect x="352.9" y="90.7" width="21.1" height="115.3" rx="4.0" fill="#2f6fdb"><title>11/08 07h : 46 minutes</title></rect>
+<rect x="375.9" y="90.7" width="21.1" height="115.3" rx="4.0" fill="#2f6fdb"><title>11/09 07h : 46 minutes</title></rect>
+<rect x="399.0" y="84.7" width="21.1" height="121.3" rx="4.0" fill="#2f6fdb"><title>11/10 07h : 48.4 minutes</title></rect>
+<text x="409.5" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/10 07h</text>
+<rect x="422.1" y="83.7" width="21.1" height="122.3" rx="4.0" fill="#2f6fdb"><title>11/11 07h : 48.8 minutes</title></rect>
+<rect x="445.1" y="88.7" width="21.1" height="117.3" rx="4.0" fill="#2f6fdb"><title>11/12 07h : 46.8 minutes</title></rect>
+<rect x="468.2" y="85.9" width="21.1" height="120.1" rx="4.0" fill="#2f6fdb"><title>11/13 07h : 47.9 minutes</title></rect>
+<text x="478.7" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/13 07h</text>
+<rect x="491.3" y="83.9" width="21.1" height="122.1" rx="4.0" fill="#2f6fdb"><title>11/14 07h : 48.7 minutes</title></rect>
+<rect x="514.3" y="82.9" width="21.1" height="123.1" rx="4.0" fill="#2f6fdb"><title>11/15 07h : 49.1 minutes</title></rect>
+<rect x="537.4" y="81.7" width="21.1" height="124.3" rx="4.0" fill="#2f6fdb"><title>11/16 07h : 49.6 minutes</title></rect>
+<text x="547.9" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/16 07h</text>
+<rect x="560.5" y="73.6" width="21.1" height="132.4" rx="4.0" fill="#2f6fdb"><title>11/17 07h : 52.8 minutes</title></rect>
+<rect x="583.5" y="71.6" width="21.1" height="134.4" rx="4.0" fill="#2f6fdb"><title>11/18 07h : 53.6 minutes</title></rect>
+<rect x="606.6" y="58.1" width="21.1" height="147.9" rx="4.0" fill="#2f6fdb"><title>11/19 07h : 59 minutes</title></rect>
+<text x="617.1" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/19 07h</text>
+<rect x="629.7" y="62.6" width="21.1" height="143.4" rx="4.0" fill="#2f6fdb"><title>11/20 07h : 57.2 minutes</title></rect>
+<rect x="652.7" y="55.3" width="21.1" height="150.7" rx="4.0" fill="#2f6fdb"><title>11/21 07h : 60.1 minutes</title></rect>
+<rect x="675.8" y="57.3" width="21.1" height="148.7" rx="4.0" fill="#2f6fdb"><title>11/22 07h : 59.3 minutes</title></rect>
+<text x="686.3" y="228" font-size="11" fill="#59636e" text-anchor="middle">11/22 07h</text>
+<rect x="698.9" y="60.6" width="21.1" height="145.4" rx="4.0" fill="#2f6fdb"><title>11/23 07h : 58 minutes</title></rect>
+<rect x="721.9" y="55.1" width="21.1" height="150.9" rx="4.0" fill="#2f6fdb"><title>11/24 07h : 60.2 minutes</title></rect>
 </svg>
