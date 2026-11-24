@@ -1,12 +1,12 @@
 # Serveur du moteur V2
 
-Mis à jour le 24/11/2026 à 04:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 24/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-24 03:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-24 04:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-23 07:27:59  OK, 254 avis collectés, 355 couples recalculés, 30 republiés en 58.0 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-23 07:32:27  Contrôle du 23/11 : vert — 361 couples identiques au site ; tâches à l'heure, site à jour |
@@ -111,11 +111,11 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                            LEFT LAST                            PASSED UNIT                     ACTIVATES
-Tue 2026-11-24 05:45:00 CET 1h 44min Mon 2026-11-23 05:45:00 CET    22h ago tenderhit-purge.timer    tenderhit-purge.service
-Tue 2026-11-24 06:30:00 CET 2h 29min Mon 2026-11-23 06:30:00 CET    21h ago tenderhit-collecte.timer tenderhit-collecte.service
+Tue 2026-11-24 05:45:00 CET    44min Mon 2026-11-23 05:45:00 CET    23h ago tenderhit-purge.timer    tenderhit-purge.service
+Tue 2026-11-24 06:30:00 CET 1h 29min Mon 2026-11-23 06:30:00 CET    22h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-28 03:00:00 CET   3 days Sat 2026-11-21 03:00:00 CET 3 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Tue 2026-11-24 04:00:00 CET     1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                  - Tue 2026-11-24 04:00:00 CET     1s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                  - Tue 2026-11-24 05:00:00 CET     2s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                  - Tue 2026-11-24 05:00:00 CET     2s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
