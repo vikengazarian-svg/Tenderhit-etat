@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 25/11/2026 à 15:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 25/11/2026 à 16:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-25 14:59:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-25 15:59:05  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-25 07:30:25  OK, 584 avis collectés, 363 couples recalculés, 113 republiés en 60.4 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-25 07:34:56  Contrôle du 25/11 : vert — 363 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.54 Go sur 7.6 · charge 0.00 · disque 37.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.55 Go sur 7.6 · charge 0.00 · disque 37.4 % · échange 0.0 Go
 
 ## Disque
 
@@ -112,19 +112,17 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 ## Tâches planifiées
 ```
 NEXT                          LEFT LAST                            PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 05:45:00 CET    14h Wed 2026-11-25 05:45:00 CET     9h ago tenderhit-purge.timer    tenderhit-purge.service
-Thu 2026-11-26 06:30:00 CET    15h Wed 2026-11-25 06:30:00 CET     8h ago tenderhit-collecte.timer tenderhit-collecte.service
+Thu 2026-11-26 05:45:00 CET    13h Wed 2026-11-25 05:45:00 CET    10h ago tenderhit-purge.timer    tenderhit-purge.service
+Thu 2026-11-26 06:30:00 CET    14h Wed 2026-11-25 06:30:00 CET     9h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-28 03:00:00 CET 2 days Sat 2026-11-21 03:00:00 CET 4 days ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Wed 2026-11-25 15:00:00 CET     2s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Wed 2026-11-25 15:00:00 CET     2s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                - Wed 2026-11-25 16:00:00 CET     2s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Wed 2026-11-25 16:00:00 CET     2s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-25 07:20:53    M29_69 : 0 opportunités · inchangé · 7 s
-2026-11-25 07:21:10    M29_73 : 0 opportunités · rapport et opportunités · 16 s
 2026-11-25 07:21:26    M29_74 : 0 opportunités · rapport et opportunités · 17 s
 2026-11-25 07:21:39    M29_83 : 1 opportunités · inchangé · 13 s
 2026-11-25 07:22:00    M29_93 : 2 opportunités · rapport et opportunités · 21 s
@@ -163,4 +161,6 @@ Sat 2026-11-28 03:00:00 CET 2 days Sat 2026-11-21 03:00:00 CET 4 days ago tender
 2026-11-25 11:30:05  M39_13 : demande en attente
 2026-11-25 11:30:30    publié (édition 2026-11, 15 opportunités, 1 demande(s) livrée(s), attributions anciennes retirées : 0) en 25 s
 2026-11-25 11:31:51  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 204230 lignes en 43 paquets
+2026-11-25 15:05:53  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-25 15:08:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 ```
