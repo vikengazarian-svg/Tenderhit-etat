@@ -1,2 +1,81 @@
 # precedent M12_93
-En cours depuis 26/11 10:39
+Lancée le 26/11/2026 10:39, finie le 26/11/2026 10:39, code 0
+
+M12_93 (édition 2026-11-01) : 11 appels d'offres · précédent sûr 2, probable 2, aucun 7 · rangé dans une autre activité : 1 · même titulaire que le sortant actuel (lot CS) : 1 sur 1
+
+26-105232 · Travaux et gestion écologique des espaces verts d'Est Ensemble — Lot 1 - Parc des Beaumonts: Entretien et travaux écologiques d'espaces verts et du pa
+  acheteur : Etablissement Public Territorial Est Ensemble
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-105232 · Travaux et gestion écologique des espaces verts d'Est Ensemble — Lot 2 - Parc du Bois de Bondy: Entretien et travaux écologiques d'espaces verts et du
+  acheteur : Etablissement Public Territorial Est Ensemble
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-105232 · Travaux et gestion écologique des espaces verts d'Est Ensemble — Lot 3 - Parc des Guillaumes : Entretien et travaux écologiques d'espaces verts et du 
+  acheteur : Etablissement Public Territorial Est Ensemble
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-113678 · PRESTATIONS D’INSERTION SOCIALE ET PROFESSIONNELLE POUR LA REALISATION D’ACTIVITES LIEES A LA PRESERVATION DES ESPACES PUBLICS DE PLAINE COMMUNE — Lot
+  acheteur : Etablissement Public Territorial Plaine Commune
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : epinay, pierrefitte, villetaneuse ; se termine 35 mois après le début du nouveau marché
+  contrat : 20005786700018202626-00037_77310000 · titulaire(s) : Terideal Mabillon · 2500000 € par an · offres reçues : 2
+  chaîne : 3 maillon(s), changements de titulaire 1, montant par an [None, 1750000, 2500000]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-113678 · PRESTATIONS D’INSERTION SOCIALE ET PROFESSIONNELLE POUR LA REALISATION D’ACTIVITES LIEES A LA PRESERVATION DES ESPACES PUBLICS DE PLAINE COMMUNE — Lot
+  acheteur : Etablissement Public Territorial Plaine Commune
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : denis, ouen, saint ; se termine 35 mois après le début du nouveau marché
+  contrat : 20005786700018202626-00035_77310000 · titulaire(s) : Idverde · 3800000 € par an · offres reçues : 3
+  chaîne : 3 maillon(s), changements de titulaire 0, montant par an [1000000, 3500000, 3800000]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-111411 · L’entretien des espaces verts pour l’ensemble des établissements du GHT Grand Paris Nord-Est — Lot n° 1 –Marché réservé - Entretien des espaces verts 
+  acheteur : GHT GPNE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-111411 · L’entretien des espaces verts pour l’ensemble des établissements du GHT Grand Paris Nord-Est — Lot n° 2 – Marché réservé - Entretien des espaces verts
+  acheteur : GHT GPNE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-111411 · L’entretien des espaces verts pour l’ensemble des établissements du GHT Grand Paris Nord-Est — Lot n° 3 – Marché réservé - Entretien des espaces verts
+  acheteur : GHT GPNE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-110285 · Marché n°26.AO.BA.056: Gestion d espaces verts et manutention/déménagements dans les équipements d’Est Ensemble — Gestion d’espaces verts des équipeme
+  acheteur : Etablissement Public Territorial Est Ensemble
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-109839 · Elagage et abattage 2027-2030 sur la commune de Neuilly-sur-Marne
+  acheteur : Mairie de Neuilly sur Marne
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : abattage, elagage ; se termine 2 mois avant le début du nouveau marché
+  contrat : 21930050600017202291200_77211500 · titulaire(s) : Lachaux Paysage · 150000 € par an · offres reçues : non publié · rangé dans une autre activité : C772
+  chaîne : 2 maillon(s), changements de titulaire 0, montant par an [150000, 150000], trous [{'de': '2019-12-20', 'a': '2023-01-17'}]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-113695 · Prestations d'élagage/taille des arbres et désherbage des surfaces minérales — Lot 01 - PRESTATION D'ELAGAGE / TAILLE DES ARBRES
+  acheteur : MAIRIE DE VILLEPINTE
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : desherbage, minerales, surfaces ; se termine 2 mois avant le début du nouveau marché
+  contrat : 219300787000132022A4700_77312100 · titulaire(s) : Marin, Paysages de l'Avenir · 300000 € par an · offres reçues : non publié
+  chaîne : 1 maillon(s), changements de titulaire 0, montant par an [300000]
+  sortant aujourd'hui (lot CS) : Paysages de l'Avenir, Marin
