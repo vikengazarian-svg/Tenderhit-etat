@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/11/2026 à 22:42 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/11/2026 à 22:48 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-26 22:42:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-26 22:44:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-26 07:31:13  OK, 719 avis collectés, 365 couples recalculés, 101 republiés en 61.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.44 Go sur 7.6 · charge 0.08 · disque 37.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.81 Go sur 7.6 · charge 1.14 · disque 37.9 % · échange 0.0 Go
 
 ## Disque
 
@@ -110,23 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 22:43:00 CET      52s Thu 2026-11-26 22:42:01 CET  5s ago tenderhit-demandes.timer tenderhit-demandes.service
-Fri 2026-11-27 05:45:00 CET       7h Thu 2026-11-26 05:45:01 CET 16h ago tenderhit-purge.timer    tenderhit-purge.service
-Fri 2026-11-27 06:30:00 CET       7h Thu 2026-11-26 06:30:01 CET 16h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET 1 day 4h Sat 2026-11-21 03:00:00 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Thu 2026-11-26 22:42:01 CET  5s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                              PASSED UNIT                     ACTIVATES
+Thu 2026-11-26 22:49:00 CET      27s Thu 2026-11-26 22:48:00 CET      31s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-27 05:45:00 CET       6h Thu 2026-11-26 05:45:01 CET      17h ago tenderhit-purge.timer    tenderhit-purge.service
+Fri 2026-11-27 06:30:00 CET       7h Thu 2026-11-26 06:30:01 CET      16h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET 1 day 4h Sat 2026-11-21 03:00:00 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Thu 2026-11-26 22:44:01 CET 4min 30s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-26 15:03:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 15:25:48  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 15:27:05  contrats : 1606315 contrats préparés en 42 s
-2026-11-26 15:28:14  contrats : chaînage, 500000 contrats lus (68 s)
-2026-11-26 15:28:43  contrats : chaînage, 1000000 contrats lus (97 s)
 2026-11-26 15:30:37  contrats : chaînage, 1500000 contrats lus (211 s)
 2026-11-26 15:31:12  contrats : 1606315 contrats (294454 doublons fusionnés), chaînage {'aucun': 1232919, 'probable': 186255, 'sur': 187141} en 287.8 s
 2026-11-26 15:34:05  publier M12_93 : sortant par le chaînage (cette commande seulement)
@@ -162,4 +157,9 @@ Sat 2026-11-28 03:00:00 CET 1 day 4h Sat 2026-11-21 03:00:00 CET       - tenderh
 2026-11-26 21:14:13  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (8 s)
 2026-11-26 21:14:18    contrats des chaînes : 12 envoyé(s), 0 retiré(s), 25 cité(s) au total
 2026-11-26 21:14:18  contrats_envoi (commande) : {"cites": 25, "trouves": 25, "envoyes": 12, "retires": 0, "paquets": 1}
+2026-11-26 22:44:45  contrats : 1606315 contrats préparés en 40 s
+2026-11-26 22:45:43  contrats : chaînage, 500000 contrats lus (58 s)
+2026-11-26 22:46:12  contrats : chaînage, 1000000 contrats lus (87 s)
+2026-11-26 22:47:50  contrats : chaînage, 1500000 contrats lus (184 s)
+2026-11-26 22:48:21  contrats : 1606315 contrats (294454 doublons fusionnés), chaînage {'aucun': 1306489, 'sur': 186755, 'probable': 113071} en 256.2 s
 ```
