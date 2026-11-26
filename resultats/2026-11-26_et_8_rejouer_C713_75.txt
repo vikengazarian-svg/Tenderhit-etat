@@ -1,2 +1,5 @@
 # rejouer C713_75
-En cours depuis 26/11 10:42
+Lancée le 26/11/2026 10:42, finie le 26/11/2026 10:42, code 0
+
+  C713_75    identique · 24.9 s
+2026-11-26 10:42:30  Rejeu sur le serveur : vert — 1 couples identiques aux envois du matin sur 1 comparés ; 24.9 s par couple (médiane), 0 min au total
