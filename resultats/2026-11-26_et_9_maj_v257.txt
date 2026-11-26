@@ -1,2 +1,14 @@
 # mettre_a_jour v2.57
-En cours depuis 26/11 11:24
+Lancée le 26/11/2026 11:24, finie le 26/11/2026 11:24, code 0
+
+Moteur à la version v2.57 (810515c)
+
+Horaires des tâches (code 0) :
+NEXT                             LEFT LAST                              PASSED UNIT                     ACTIVATES
+Thu 2026-11-26 11:25:00 CET       39s Thu 2026-11-26 11:24:00 CET      20s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-27 05:45:00 CET       18h Thu 2026-11-26 05:45:01 CET 5h 39min ago tenderhit-purge.timer    tenderhit-purge.service
+Fri 2026-11-27 06:30:00 CET       19h Thu 2026-11-26 06:30:01 CET 4h 54min ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET 1 day 15h Sat 2026-11-21 03:00:00 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-26 11:20:01 CET 4min 19s ago tenderhit-relais.timer   tenderhit-relais.service
+
+5 timers listed.
