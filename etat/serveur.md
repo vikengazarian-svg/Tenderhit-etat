@@ -11,7 +11,7 @@ Mis à jour le 26/11/2026 à 10:39 · publication : **EN SERVICE (publie sur le 
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.77 Go sur 7.6 · charge 1.35 · disque 37.8 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.58 Go sur 7.6 · charge 1.12 · disque 37.8 % · échange 0.0 Go
 
 ## Disque
 
@@ -111,11 +111,11 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                             LEFT LAST                              PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 10:40:00 CET       15s Thu 2026-11-26 10:39:00 CET      43s ago tenderhit-demandes.timer tenderhit-demandes.service
+Thu 2026-11-26 10:40:00 CET        5s Thu 2026-11-26 10:39:00 CET      54s ago tenderhit-demandes.timer tenderhit-demandes.service
 Fri 2026-11-27 05:45:00 CET       19h Thu 2026-11-26 05:45:01 CET 4h 54min ago tenderhit-purge.timer    tenderhit-purge.service
 Fri 2026-11-27 06:30:00 CET       19h Thu 2026-11-26 06:30:01 CET  4h 9min ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-28 03:00:00 CET 1 day 16h Sat 2026-11-21 03:00:00 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-26 10:02:01 CET    37min ago tenderhit-relais.timer   tenderhit-relais.service
+-                                   - Thu 2026-11-26 10:39:50 CET       4s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
