@@ -1,2 +1,33 @@
 # contrats
-En cours depuis 26/11 11:26
+Lancée le 26/11/2026 11:26, finie le 26/11/2026 11:30, code 0
+
+2026-11-26 11:26:45  contrats : 1606315 contrats préparés en 40 s
+2026-11-26 11:27:48  contrats : chaînage, 500000 contrats lus (62 s)
+2026-11-26 11:28:23  contrats : chaînage, 1000000 contrats lus (97 s)
+2026-11-26 11:29:47  contrats : chaînage, 1500000 contrats lus (181 s)
+2026-11-26 11:30:21  contrats : 1606315 contrats (294454 doublons fusionnés), chaînage {'aucun': 921486, 'probable': 340876, 'sur': 343953} en 255.0 s
+{
+ "contrats": 1606315,
+ "uids": 1900769,
+ "doublons_fusionnes": 294454,
+ "avec_modification": 181396,
+ "confiance": {
+  "aucun": 921486,
+  "probable": 340876,
+  "sur": 343953
+ },
+ "hors_activite": {
+  "autre_activite": 123164,
+  "compares": 517540
+ },
+ "date": "2026-11-26T11:30:20",
+ "decp": "/srv/tenderhit/entrepot/decp/decp.parquet",
+ "chainage": {
+  "sur": 343953,
+  "probable": 340876,
+  "aucun": 913051,
+  "duree_s": 203.5
+ },
+ "duree_s": 255.0,
+ "octets": 195587407
+}
