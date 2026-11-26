@@ -1,2 +1,88 @@
 # precedent M01_69
-En cours depuis 26/11 10:38
+Lancée le 26/11/2026 10:38, finie le 26/11/2026 10:38, code 0
+
+M01_69 (édition 2026-11-01) : 12 appels d'offres · précédent sûr 4, probable 8, aucun 0 · rangé dans une autre activité : 4 · même titulaire que le sortant actuel (lot CS) : 1 sur 1
+
+26-105819 · Entretien et nettoyage des bâtiments sportifs de la Ville de Rillieux-la-Pape
+  acheteur : Ville de Rillieux-la-Pape
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : batiments ; se termine 2 mois avant le début du nouveau marché ; plusieurs lots aussi proches, de titulaires différents
+  contrat : 21690286600013202424023M02_90911200 · titulaire(s) : La Professionnelle du Nettoyage · 100000 € par an · offres reçues : non publié
+  chaîne : 2 maillon(s), changements de titulaire 0, montant par an [48174, 100000], trous [{'de': '2021-12-29', 'a': '2024-12-23'}]
+  sortant aujourd'hui (lot CS) : La Professionnelle du Nettoyage
+
+26-110630 · Prestations de nettoyage de locaux pour l'université Jean Moulin Lyon3 — Lot 3 - PRESTATIONS DE NETTOYAGE DE LOCAUX POUR L’UNIVERSITÉ JEAN MOULIN LYON
+  acheteur : UNIVERSITE JEAN MOULIN LYON3
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : jean, luniversite, lyon, moulin ; se termine 3 mois après le début du nouveau marché
+  contrat : 1969243770001920232023S1298000_90500000 · titulaire(s) : Recygo · 61250 € par an · offres reçues : non publié · rangé dans une autre activité : M14
+  chaîne : 2 maillon(s), changements de titulaire 1, montant par an [612766, 61250]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-110630 · Prestations de nettoyage de locaux pour l'université Jean Moulin Lyon3 — Lot 2 - PRESTATIONS DE NETTOYAGE DE LOCAUX POUR L’UNIVERSITÉ JEAN MOULIN LYON
+  acheteur : UNIVERSITE JEAN MOULIN LYON3
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : jean, luniversite, lyon, moulin ; se termine 3 mois après le début du nouveau marché
+  contrat : 1969243770001920232023S1298000_90500000 · titulaire(s) : Recygo · 61250 € par an · offres reçues : non publié · rangé dans une autre activité : M14
+  chaîne : 2 maillon(s), changements de titulaire 1, montant par an [612766, 61250]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-110630 · Prestations de nettoyage de locaux pour l'université Jean Moulin Lyon3 — Lot 03 - PRESTATIONS DE NETTOYAGE DE LOCAUX POUR L’UNIVERSITÉ JEAN MOULIN LYO
+  acheteur : UNIVERSITE JEAN MOULIN LYON3
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : jean, luniversite, lyon, moulin ; se termine 3 mois après le début du nouveau marché
+  contrat : 1969243770001920232023S1298000_90500000 · titulaire(s) : Recygo · 61250 € par an · offres reçues : non publié · rangé dans une autre activité : M14
+  chaîne : 2 maillon(s), changements de titulaire 1, montant par an [612766, 61250]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 1 - AIN 01
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent : même acheteur (SIREN) ; se termine 3 mois après le début du nouveau marché
+  contrat : 130005481077422749963_90510000 · titulaire(s) : Equita · — € par an · offres reçues : 1 · rangé dans une autre activité : M14
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [759798, 7799, None]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 2 - ARDECHE-DROME 07/26
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même acheteur (SIREN) ; se termine 9 mois après le début du nouveau marché
+  contrat : 130005481265102023S28444_90910000 · titulaire(s) : Onet Services · 88354 € par an · offres reçues : 1
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [759798, 474354, 88354]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 3 - ISERE 38
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même acheteur (SIREN) ; se termine 9 mois après le début du nouveau marché
+  contrat : 130005481265102023S28444_90910000 · titulaire(s) : Onet Services · 88354 € par an · offres reçues : 1
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [759798, 474354, 88354]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 4 - LOIRE-HAUTE-LOIRE 42/43
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même acheteur (SIREN) ; mots communs : loire ; se termine 1 mois après le début du nouveau marché ; plusieurs lots aussi proches, de titulaires différents
+  contrat : 1300054811315320232023S0898300_90900000 · titulaire(s) : Sud Service · 695711 € par an · offres reçues : non publié
+  chaîne : 2 maillon(s), changements de titulaire 1, montant par an [759798, 695711]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 5 - ALLIER-CANTAL-PUY DE DOME 03-15-63
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même acheteur (SIREN) ; se termine 9 mois après le début du nouveau marché
+  contrat : 130005481265102023S28444_90910000 · titulaire(s) : Onet Services · 88354 € par an · offres reçues : 1
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [759798, 474354, 88354]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 6 - RHONE 69
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : rhone ; se termine 1 mois avant le début du nouveau marché ; plusieurs lots aussi proches, de titulaires différents
+  contrat : 1300054811982020232023S1243200_90900000 · titulaire(s) : Stem Propreté · 243244 € par an · offres reçues : non publié
+  chaîne : 2 maillon(s), changements de titulaire 1, montant par an [759798, 243244]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 7 - SAVOIE 73
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même acheteur (SIREN) ; se termine 9 mois après le début du nouveau marché
+  contrat : 130005481265102023S28444_90910000 · titulaire(s) : Onet Services · 88354 € par an · offres reçues : 1
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [759798, 474354, 88354]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-99978 · NETTOYAGE — Lot 8 - HAUTE-SAVOIE 74
+  acheteur : FRANCE TRAVAIL - ARA
+  Contrat précédent probable : même acheteur (SIREN) ; mots communs : haute ; se termine 39 mois après le début du nouveau marché
+  contrat : 130005481077422973009_90911200 · titulaire(s) : Corse Propre Services (CPS) · 54600 € par an · offres reçues : 3
+  chaîne : 7 maillon(s), changements de titulaire 6, montant par an [759798, 474354, 260134, 245471, 12992, 21228, 54600]
+  sortant aujourd'hui (lot CS) : aucun
