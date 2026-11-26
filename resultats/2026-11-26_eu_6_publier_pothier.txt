@@ -1,2 +1,14 @@
 # publier C772_38 C772_42 M12_43 M12_63 M12_69 M12_74 M12_83 M29_38 M29_83 M29_93 --sortant-chainage
-En cours depuis 26/11 15:50
+Lancée le 26/11/2026 15:50, finie le 26/11/2026 15:52, code 0
+
+2026-11-26 15:50:05  publier C772_38 C772_42 M12_43 M12_63 M12_69 M12_74 M12_83 M29_38 M29_83 M29_93 : sortant par le chaînage (cette commande seulement)
+2026-11-26 15:50:14  C772_38 republié : 5 opportunités, attributions anciennes retirées : None (8 s)
+2026-11-26 15:50:21  C772_42 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
+2026-11-26 15:50:38  M12_43 republié : 2 opportunités, attributions anciennes retirées : None (17 s)
+2026-11-26 15:50:45  M12_63 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
+2026-11-26 15:50:53  M12_69 republié : 27 opportunités, attributions anciennes retirées : None (8 s)
+2026-11-26 15:50:59  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (6 s)
+2026-11-26 15:51:06  M12_83 republié : 14 opportunités, attributions anciennes retirées : None (7 s)
+2026-11-26 15:51:26  M29_38 republié : 1 opportunités, attributions anciennes retirées : None (20 s)
+2026-11-26 15:51:44  M29_83 republié : 1 opportunités, attributions anciennes retirées : None (18 s)
+2026-11-26 15:52:08  M29_93 republié : 2 opportunités, attributions anciennes retirées : None (24 s)
