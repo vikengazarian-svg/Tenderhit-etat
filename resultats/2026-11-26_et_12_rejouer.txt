@@ -1,2 +1,10 @@
 # rejouer M01_76 M01_75 M33_76 M01_13 M12_93 M01_69
-En cours depuis 26/11 11:32
+Lancée le 26/11/2026 11:32, finie le 26/11/2026 11:32, code 0
+
+  M01_76     identique · 7.8 s
+  M01_75     identique · 23.6 s
+  M33_76     identique · 9.7 s
+  M01_13     jamais publié par le PC
+  M12_93     publié un autre jour, non comparé
+  M01_69     publié un autre jour, non comparé
+2026-11-26 11:32:47  Rejeu sur le serveur : vert — 3 couples identiques aux envois du matin sur 3 comparés ; 9.7 s par couple (médiane), 1 min au total
