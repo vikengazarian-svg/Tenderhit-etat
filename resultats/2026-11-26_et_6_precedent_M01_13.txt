@@ -1,2 +1,102 @@
 # precedent M01_13
-En cours depuis 26/11 10:38
+Lancée le 26/11/2026 10:38, finie le 26/11/2026 10:38, code 0
+
+M01_13 (édition 2026-11-01) : 14 appels d'offres · précédent sûr 3, probable 2, aucun 9 · rangé dans une autre activité : 0 · même titulaire que le sortant actuel (lot CS) : 3 sur 3
+
+ax-place-3091201 · [AFD] Prestations de nettoyage des locaux du Campus AFD Marseille
+  acheteur : Ministère de l'Europe et des Affaires étrangères
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-98241 · Prestation de nettoyage
+  acheteur : Societe Des Saintes Maries de la Mer
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-100883 · PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE AFFECTES AUX ACTIVITES DE L’EMSE — LOT N° 1 - Prestations de nettoyage des locaux et de la vitre
+  acheteur : ECOLE NAL SUP DES MINES DE ST ETIENNE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-100883 · PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE AFFECTES AUX ACTIVITES DE L’EMSE — LOT N° 2 - Prestations de nettoyage des locaux de l’EMSE camp
+  acheteur : ECOLE NAL SUP DES MINES DE ST ETIENNE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-100883 · PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE AFFECTES AUX ACTIVITES DE L’EMSE — LOT N° 3 - Prestations de nettoyage de la vitrerie de l’EMSE 
+  acheteur : ECOLE NAL SUP DES MINES DE ST ETIENNE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-106892 · Nettoyage des bâtiments et de la vitrerie de la Commune VENTABREN et fourniture des consommables sanitaires. — Nettoyage des bâtiments et de la vitrer
+  acheteur : COMMUNE DE VENTABREN
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : batiments, ventabren ; se termine 1 mois avant le début du nouveau marché
+  contrat : 2113011480001420236_2022_100_90911200 · titulaire(s) : Onet Services · 111609 € par an · offres reçues : non publié
+  chaîne : 1 maillon(s), changements de titulaire 0, montant par an [111609]
+  sortant aujourd'hui (lot CS) : Onet Services
+
+26-108620 · RESTATIONS DE NETTOYAGE DES EQUIPEMENTS TRANSFERES DES 9EME ET 10EME ARRONDISSEMENTS - 2 Lots — Lot 2 - Prestation de nettoyage exceptionnelle sur tou
+  acheteur : Ville de Marseille
+  Contrat précédent : même acheteur (SIREN) ; mots communs : arrondissements, equipement, equipements, exceptionnelle, gere, mairie, secteur, tout ; se termine 2 mois avant le début du nouveau marché
+  contrat : 211300553062862025S16309_90910000 · titulaire(s) : Office Méridional d'Entretien SARL · 2500 € par an · offres reçues : 3
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [1080, 1980, 2500]
+  sortant aujourd'hui (lot CS) : Office Méridional d'Entretien SARL
+
+26-108346 · Nettoyage des bâtiments et de la vitrerie de la Commune de Venelles et fourniture des consommables sanitaires
+  acheteur : Mairie de Venelles
+  Contrat précédent : même établissement acheteur (SIRET) ; mots communs : batiments, consommables ; se termine 4 mois avant le début du nouveau marché
+  contrat : 21130113000103202525-10S_90911200 · titulaire(s) : Aixia · 206805 € par an · offres reçues : 1
+  chaîne : 2 maillon(s), changements de titulaire 0, montant par an [32740, 206805]
+  sortant aujourd'hui (lot CS) : Aixia
+
+26-110372 · L'Office de tourisme, des Loisirs et des Congrès de Marseille (ci-après nommé OTLCM) accueille quotidiennement du public, des partenaires institutionn
+  acheteur : OFFICE DE TOURISME ET DES CONGRES DE MARSEILLE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-106884 · Prestations de nettoyage et d'entretien des locaux du Conservatoire Pierre Barbizet Marseille, de son annexe dite Melchion et des salles de cours de l
+  acheteur : INSEAMM
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : DERICHEBOURG Propreté et Services Associés
+
+26-112830 · ACCORD-CADRE POUR LE NETTOYAGE DES LOCAUX , DES SURFACES VITREES INTERIEURES, DES PRESTATIONS SPECIFIQUES ET PONCTUELLES ET NETTOYAGE DES FACADES VITR
+  acheteur : Conseil Départemental des Bouches du Rhône
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : exterieures, facades, interieures, ponctuelles, specifiques, surfaces, vitrees ; se termine 29 mois avant le début du nouveau marché
+  contrat : 221300015002472020S00038_90910000 · titulaire(s) : Office Provencal de Nettoyage · 50000 € par an · offres reçues : 1
+  chaîne : 1 maillon(s), changements de titulaire 0, montant par an [50000]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-111608 · Nettoyage et entretien des locaux et des vitres du Centre IRD de Guyane à Cayenne
+  acheteur : I.R.D
+  Contrat précédent probable : même acheteur (SIREN) ; mots communs : cayenne, centre, guyane, vitres ; se termine 53 mois avant le début du nouveau marché
+  contrat : 1800060250003520182018F5687500_90911000 · titulaire(s) : Netibis · 32204 € par an · offres reçues : non publié
+  chaîne : 1 maillon(s), changements de titulaire 0, montant par an [32204]
+  sortant aujourd'hui (lot CS) : aucun
+
+ax-place-3108287 · PRESTATION DE NETTOYAGE DES BASES-VIE ET SANITAIRES DU CHANTIER RJH POUR LE REACTEUR JULES HOROWITZ
+  acheteur : Autres organismes
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-114061 · Prestations de nettoyage du siège du SYMADREM
+  acheteur : SYMADREM : Syndicat Mixte Interrégional d'Aménagement des Digues du Delta du Rhône et de la Mer (13)
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
