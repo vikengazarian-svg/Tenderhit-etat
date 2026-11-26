@@ -1,2 +1,104 @@
 # precedent M33_76
-En cours depuis 26/11 10:39
+Lancée le 26/11/2026 10:39, finie le 26/11/2026 10:39, code 0
+
+M33_76 (édition 2026-11-01) : 14 appels d'offres · précédent sûr 0, probable 7, aucun 7 · rangé dans une autre activité : 3 · même titulaire que le sortant actuel (lot CS) : 0 sur 0
+
+ax-adm76-505703 · Rénovation du rez-de-chaussée de la mairie de LUNERAY
+  acheteur : LUNERAY
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-105931 · Travaux de restructuration des ailes A & B au RDC et 1er étage du pavillon Claudel - gériatrie – sur le site de l’hôpital Saint-Julien de Petit-Quevil
+  acheteur : CHU ROUEN NORMANDIE
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : travaux ; se termine 14 mois après le début du nouveau marché
+  contrat : 2676016800001520260022001000_45311200 · titulaire(s) : Duval Électricité · 327365 € par an · offres reçues : non publié
+  chaîne : 6 maillon(s), changements de titulaire 5, montant par an [162000, 147273, 818182, 129725, 115351, 327365]
+  sortant aujourd'hui (lot CS) : aucun
+
+ax-adm76-505705 · Réhabilitation de la Brigade de Gendarmerie de LA FEUILLIE
+  acheteur : LA FEUILLIE
+  Contrat précédent probable : même nom d'acheteur ; mots communs : gendarmerie ; se termine 18 mois après le début du nouveau marché
+  contrat : 21760263000014202515GEND_71200000 · titulaire(s) : SARL Agiracoustique France, ECO Fluides, Bureau d'Études E.S.G.C.B., Atelier RM, Reber SAS, M.V.T. · 26057 € par an · offres reçues : 13 · rangé dans une autre activité : C712
+  chaîne : 1 maillon(s), changements de titulaire 0, montant par an [26057]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-111311 · Agrandissement et réaménagement de la salle de restauration du site de Rouen — Electricité
+  acheteur : 76 - CAF DE SEINE MARITIME
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+ax-adm76-505704 · SIVOS Bazinval - Monchaux-Soreng - Rieux (76)
+  acheteur : Association des Maires de Seine-Maritime
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-97767 · Travaux de mise en accessibilité de 16 bâtiments communaux de la Ville d'Elbeuf sur Seine — Lot 5 - Electricité
+  acheteur : Mairie Elbeuf Sur Seine
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : batiments, seine, travaux ; se termine 45 mois avant le début du nouveau marché
+  contrat : 21760231700018202320230010000_45421000 · titulaire(s) : Logi Habitat · 40944 € par an · offres reçues : non publié · rangé dans une autre activité : M23
+  chaîne : 3 maillon(s), changements de titulaire 2, montant par an [94724, 58211, 40944]
+  sortant aujourd'hui (lot CS) : aucun
+
+ax-adm76-505708 · SAINT-CLAIR-SUR-LES-MONTS (76190)
+  acheteur : SAINT-CLAIR-SUR-LES-MONTS
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-110965 · Aménagement de plateaux bruts de bureaux pour la délégation Normandie du CNFPT — ELECTRICITE
+  acheteur : SHEMA au nom et pour le compte du CNFPT
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-112481 · Travaux d’électricité, de contrôle d’accès, de système appel malade, de faux plafonds et de rafraichissements d’air. — Lot 1 - COURANT FORTS ET COURAN
+  acheteur : 76 CH
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-112909 · Gros Travaux 2025-2027 - Remplacement partiel de menuiseries - Collège René Coty à Val De Scie
+Relance de la précédente consultation déclarée sans sui
+  acheteur : Département de la Seine-Maritime - Dce1
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : college, consultation, gros, menuiseries, precedente, relance, remplacement, sans ; se termine 10 mois avant le début du nouveau marché
+  contrat : 22760540900019202509151315_45210000 · titulaire(s) : Badie Maconnerie · 13062 € par an · offres reçues : 1
+  chaîne : 6 maillon(s), changements de titulaire 5, montant par an [25207, 89374, 193000, 170800, 9130, 13062]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-113156 · Réfection de la couverture du collège Paul Bert à Fécamp
+Relance de la précédente consultation déclarée sans suite pour motif d'intérêt général et pou
+  acheteur : Département de la Seine-Maritime - Dce1
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : college, consultation, precedente, refection, relance, sans, suite ; se termine 10 mois avant le début du nouveau marché
+  contrat : 22760540900019202509091003_45210000 · titulaire(s) : Airklima 76 (Airklima) · 26281 € par an · offres reçues : 3 · rangé dans une autre activité : M31, M38
+  chaîne : 5 maillon(s), changements de titulaire 4, montant par an [39223, 44628, 337080, 25606, 26281], trous [{'de': '2021-01-22', 'a': '2026-01-26'}]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-114614 · Construction d'une Plateforme Pédagogique Multi-Métiers — Électricité
+  acheteur : BATIMENT CFA NORMANDIE
+  Aucun contrat précédent retrouvé dans les données publiques
+  contrat : — · titulaire(s) : — · — € par an · offres reçues : non publié
+  chaîne : 0 maillon(s), changements de titulaire 0, montant par an —
+  sortant aujourd'hui (lot CS) : aucun
+
+26-106477 · Réhabilitation du Groupe Scolaire Renan-Michelet, Gymnase et Maternelle Michelet dans le cadre de la requalification de l'Espace Marcel Lods — Lot 14 
+  acheteur : Ville de Sotteville-lès-Rouen
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : groupe, lods, rehabilitation, requalification, scolaire ; se termine 8 mois avant le début du nouveau marché ; plusieurs lots aussi proches, de titulaires différents
+  contrat : 21760681300012202503_45214200 · titulaire(s) : Abbei (Activites Bois Bâtiment Entreprises d'Insertion) · 195478 € par an · offres reçues : 6
+  chaîne : 1 maillon(s), changements de titulaire 0, montant par an [195478]
+  sortant aujourd'hui (lot CS) : aucun
+
+26-113803 · TRAVAUX DE REHABILITATION ET D'EXTENSION DU GROUPE SCOLAIRE CLEMENT MAROT A ROUEN — Lot 13 - ELECTRICITE
+  acheteur : Ville de Rouen
+  Contrat précédent probable : même établissement acheteur (SIRET) ; mots communs : groupe, rouen, scolaire, travaux ; se termine 10 mois après le début du nouveau marché
+  contrat : 21760540100017252_45214200 · titulaire(s) : Gamm · 85386 € par an · offres reçues : 9
+  chaîne : 4 maillon(s), changements de titulaire 3, montant par an [620000, 65848, 15992, 85386]
+  sortant aujourd'hui (lot CS) : aucun
