@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/11/2026 à 15:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/11/2026 à 15:24 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-26 14:58:40  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-26 15:23:04  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-26 07:31:13  OK, 719 avis collectés, 365 couples recalculés, 101 republiés en 61.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.49 Go sur 7.6 · charge 0.00 · disque 37.8 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.09 · disque 37.9 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **64.9 semaine(s)**
+Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **60.1 semaine(s)**
 
 ```
 Mesure du 2026-11-26 05:45 :
@@ -110,20 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                             LEFT LAST                             PASSED UNIT                     ACTIVATES
-Fri 2026-11-27 05:45:00 CET       14h Thu 2026-11-26 05:45:01 CET      9h ago tenderhit-purge.timer    tenderhit-purge.service
-Fri 2026-11-27 06:30:00 CET       15h Thu 2026-11-26 06:30:01 CET      8h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET           - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-26 14:59:01 CET 1min 0s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                   - Thu 2026-11-26 15:00:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                             LEFT LAST                        PASSED UNIT                     ACTIVATES
+Thu 2026-11-26 15:25:00 CET       51s Thu 2026-11-26 15:24:01 CET 6s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-27 05:45:00 CET       14h Thu 2026-11-26 05:45:01 CET 9h ago tenderhit-purge.timer    tenderhit-purge.service
+Fri 2026-11-27 06:30:00 CET       15h Thu 2026-11-26 06:30:01 CET 8h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET      - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-26 15:24:01 CET 6s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-26 07:28:55    M40_76 : 0 opportunités · inchangé · 6 s
-2026-11-26 07:29:04    P1005_14 : 2 opportunités · inchangé · 9 s
 2026-11-26 07:29:14    P1005_22 : 7 opportunités · rapport et opportunités · 10 s
 2026-11-26 07:29:22    P1005_27 : 2 opportunités · inchangé · 8 s
 2026-11-26 07:29:31    P1005_29 : 8 opportunités · inchangé · 9 s
@@ -162,4 +160,6 @@ Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET           - te
 2026-11-26 13:40:07  contrats_envoi (commande) : {"cites": 9, "trouves": 9, "envoyes": 9, "retires": 0, "paquets": 1}
 2026-11-26 13:42:08    contrats des chaînes : 9 envoyé(s), 0 retiré(s), 9 cité(s) au total
 2026-11-26 13:42:08  contrats_envoi (commande) : {"cites": 9, "trouves": 9, "envoyes": 9, "retires": 0, "paquets": 1}
+2026-11-26 15:00:53  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-26 15:03:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 ```
