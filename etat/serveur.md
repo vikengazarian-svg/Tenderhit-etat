@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/11/2026 à 15:24 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/11/2026 à 15:31 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
@@ -11,11 +11,11 @@ Mis à jour le 26/11/2026 à 15:24 · publication : **EN SERVICE (publie sur le 
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.09 · disque 37.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.61 Go sur 7.6 · charge 1.23 · disque 37.8 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **60.1 semaine(s)**
+Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **64.9 semaine(s)**
 
 ```
 Mesure du 2026-11-26 05:45 :
@@ -110,24 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                             LEFT LAST                        PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 15:25:00 CET       51s Thu 2026-11-26 15:24:01 CET 6s ago tenderhit-demandes.timer tenderhit-demandes.service
-Fri 2026-11-27 05:45:00 CET       14h Thu 2026-11-26 05:45:01 CET 9h ago tenderhit-purge.timer    tenderhit-purge.service
-Fri 2026-11-27 06:30:00 CET       15h Thu 2026-11-26 06:30:01 CET 8h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET      - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-26 15:24:01 CET 6s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                             LEFT LAST                          PASSED UNIT                     ACTIVATES
+Thu 2026-11-26 15:32:00 CET       47s Thu 2026-11-26 15:31:00 CET  12s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-27 05:45:00 CET       14h Thu 2026-11-26 05:45:01 CET   9h ago tenderhit-purge.timer    tenderhit-purge.service
+Fri 2026-11-27 06:30:00 CET       14h Thu 2026-11-26 06:30:01 CET   9h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET        - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-26 15:26:00 CET 5min ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-26 07:29:14    P1005_22 : 7 opportunités · rapport et opportunités · 10 s
-2026-11-26 07:29:22    P1005_27 : 2 opportunités · inchangé · 8 s
-2026-11-26 07:29:31    P1005_29 : 8 opportunités · inchangé · 9 s
-2026-11-26 07:29:42    P1005_35 : 18 opportunités · rapport et opportunités · 12 s
-2026-11-26 07:29:51    P1005_56 : 11 opportunités · inchangé · 9 s
-2026-11-26 07:30:07    P1005_59 : 18 opportunités · inchangé · 15 s
 2026-11-26 07:30:16    P1005_60 : 2 opportunités · inchangé · 9 s
 2026-11-26 07:30:41    P1005_75 : 39 opportunités · rapport et opportunités · 25 s
 2026-11-26 07:30:52    P1005_76 : 6 opportunités · inchangé · 11 s
@@ -162,4 +156,10 @@ Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET      - tenderh
 2026-11-26 13:42:08  contrats_envoi (commande) : {"cites": 9, "trouves": 9, "envoyes": 9, "retires": 0, "paquets": 1}
 2026-11-26 15:00:53  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-26 15:03:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-26 15:25:48  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-26 15:27:05  contrats : 1606315 contrats préparés en 42 s
+2026-11-26 15:28:14  contrats : chaînage, 500000 contrats lus (68 s)
+2026-11-26 15:28:43  contrats : chaînage, 1000000 contrats lus (97 s)
+2026-11-26 15:30:37  contrats : chaînage, 1500000 contrats lus (211 s)
+2026-11-26 15:31:12  contrats : 1606315 contrats (294454 doublons fusionnés), chaînage {'aucun': 1232919, 'probable': 186255, 'sur': 187141} en 287.8 s
 ```
