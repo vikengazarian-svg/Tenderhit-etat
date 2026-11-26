@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/11/2026 à 21:12 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/11/2026 à 21:14 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-26 21:12:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-26 21:14:04  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-26 07:31:13  OK, 719 avis collectés, 365 couples recalculés, 101 republiés en 61.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.45 Go sur 7.6 · charge 0.08 · disque 37.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.74 Go sur 7.6 · charge 0.29 · disque 37.9 % · échange 0.0 Go
 
 ## Disque
 
@@ -111,21 +111,17 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 21:13:00 CET      52s Thu 2026-11-26 21:12:01 CET  5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Thu 2026-11-26 21:15:00 CET      41s Thu 2026-11-26 21:14:01 CET 17s ago tenderhit-demandes.timer tenderhit-demandes.service
 Fri 2026-11-27 05:45:00 CET       8h Thu 2026-11-26 05:45:01 CET 15h ago tenderhit-purge.timer    tenderhit-purge.service
 Fri 2026-11-27 06:30:00 CET       9h Thu 2026-11-26 06:30:01 CET 14h ago tenderhit-collecte.timer tenderhit-collecte.service
 Sat 2026-11-28 03:00:00 CET 1 day 5h Sat 2026-11-21 03:00:00 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Thu 2026-11-26 21:12:01 CET  5s ago tenderhit-relais.timer   tenderhit-relais.service
+-                                  - Thu 2026-11-26 21:14:01 CET 17s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-26 13:40:07  contrats_envoi (commande) : {"cites": 9, "trouves": 9, "envoyes": 9, "retires": 0, "paquets": 1}
-2026-11-26 13:42:08    contrats des chaînes : 9 envoyé(s), 0 retiré(s), 9 cité(s) au total
-2026-11-26 13:42:08  contrats_envoi (commande) : {"cites": 9, "trouves": 9, "envoyes": 9, "retires": 0, "paquets": 1}
-2026-11-26 15:00:53  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-26 15:03:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-26 15:25:48  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-26 15:27:05  contrats : 1606315 contrats préparés en 42 s
@@ -162,4 +158,8 @@ Sat 2026-11-28 03:00:00 CET 1 day 5h Sat 2026-11-21 03:00:00 CET       - tenderh
 2026-11-26 16:34:03  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-26 16:36:26  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-26 16:38:48  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-26 21:14:05  publier M12_74 : sortant par le chaînage (cette commande seulement)
+2026-11-26 21:14:13  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (8 s)
+2026-11-26 21:14:18    contrats des chaînes : 12 envoyé(s), 0 retiré(s), 25 cité(s) au total
+2026-11-26 21:14:18  contrats_envoi (commande) : {"cites": 25, "trouves": 25, "envoyes": 12, "retires": 0, "paquets": 1}
 ```
