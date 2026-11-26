@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/11/2026 à 15:31 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/11/2026 à 15:32 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-26 15:23:04  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-26 15:32:04  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-26 07:31:13  OK, 719 avis collectés, 365 couples recalculés, 101 republiés en 61.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.61 Go sur 7.6 · charge 1.23 · disque 37.8 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.77 Go sur 7.6 · charge 0.64 · disque 37.8 % · échange 0.0 Go
 
 ## Disque
 
@@ -110,12 +110,12 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                             LEFT LAST                          PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 15:32:00 CET       47s Thu 2026-11-26 15:31:00 CET  12s ago tenderhit-demandes.timer tenderhit-demandes.service
-Fri 2026-11-27 05:45:00 CET       14h Thu 2026-11-26 05:45:01 CET   9h ago tenderhit-purge.timer    tenderhit-purge.service
-Fri 2026-11-27 06:30:00 CET       14h Thu 2026-11-26 06:30:01 CET   9h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET        - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-26 15:26:00 CET 5min ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                             LEFT LAST                         PASSED UNIT                     ACTIVATES
+Thu 2026-11-26 15:33:00 CET       46s Thu 2026-11-26 15:32:01 CET 11s ago tenderhit-demandes.timer tenderhit-demandes.service
+Fri 2026-11-27 05:45:00 CET       14h Thu 2026-11-26 05:45:01 CET  9h ago tenderhit-purge.timer    tenderhit-purge.service
+Fri 2026-11-27 06:30:00 CET       14h Thu 2026-11-26 06:30:01 CET  9h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET 1 day 11h Sat 2026-11-21 03:00:00 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-26 15:32:01 CET 11s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
