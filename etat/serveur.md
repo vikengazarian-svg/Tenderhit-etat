@@ -1,30 +1,30 @@
 # Serveur du moteur V2
 
-Mis à jour le 26/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 26/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-26 04:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-26 05:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-25 07:30:25  OK, 584 avis collectés, 363 couples recalculés, 113 republiés en 60.4 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-25 07:34:56  Contrôle du 25/11 : vert — 363 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.44 Go sur 7.6 · charge 0.00 · disque 37.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.44 Go sur 7.6 · charge 0.00 · disque 37.0 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.6 point(s) par semaine · 80 % dans **77.4 semaine(s)**
+Rythme des 14 derniers jours : +0.6 point(s) par semaine · 80 % dans **78.2 semaine(s)**
 
 ```
-Mesure du 2026-11-25 05:45 :
-  entrepot/sources                            3.56 Go
+Mesure du 2026-11-26 05:45 :
+  entrepot/sources                            3.57 Go
   entrepot/decp                               2.06 Go
   entrepot/boamp                              1.40 Go
   entrepot/passes                             1.23 Go
   production/controles                        0.72 Go
-  entrepot/execution                          0.71 Go
+  entrepot/execution                          0.72 Go
   entrepot/marche                             0.26 Go
   production/publies                          0.24 Go
   entrepot/photographie                       0.23 Go
@@ -32,21 +32,21 @@ Mesure du 2026-11-25 05:45 :
   entrepot/referentiel                          16 Mo
   entrepot/avis                                  3 Mo
   logs                                           3 Mo
-  production/(fichiers)                          2 Mo
+  production/(fichiers)                          3 Mo
   entrepot/sirene                                2 Mo
+  entrepot/tmp                                   2 Mo
   entrepot/mesures.jsonl                         2 Mo
   production/rejeu                               0 Mo
   entrepot/sources_temoin.jsonl                  0 Mo
   entrepot/manifeste.json                        0 Mo
-  production/dce                                 0 Mo
-Croissance par dossier (depuis 2026-11-18, 7.0 j), en Go par semaine :
+Croissance par dossier (depuis 2026-11-19, 7.0 j), en Go par semaine :
   entrepot/passes                               +0.04
   entrepot/decp                                 +0.03
-  entrepot/execution                            +0.03
   entrepot/sources                              +0.03
   production/controles                          +0.03
   entrepot/boamp                                +0.01
-Dernière purge (2026-11-25 05:45) : faite, 3 élément(s), 0.24 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.24 Go) · tmp 1 (0.0 Go)
+  entrepot/execution                            +0.01
+Dernière purge (2026-11-26 05:45) : faite, 2 élément(s), 0.24 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.24 Go)
 ```
 
 ## Performances
@@ -110,19 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                             LEFT LAST                        PASSED UNIT                     ACTIVATES
-Thu 2026-11-26 05:45:00 CET     44min Wed 2026-11-25 05:45:00 CET      - tenderhit-purge.timer    tenderhit-purge.service
-Thu 2026-11-26 06:30:00 CET  1h 29min Wed 2026-11-25 06:30:00 CET      - tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET 1 day 21h Sat 2026-11-21 03:00:00 CET      - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                   - Thu 2026-11-26 05:00:01 CET 1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                   - Thu 2026-11-26 05:00:01 CET 1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                             LEFT LAST                           PASSED UNIT                     ACTIVATES
+Thu 2026-11-26 06:30:00 CET     29min Wed 2026-11-25 06:30:00 CET         - tenderhit-collecte.timer tenderhit-collecte.service
+Fri 2026-11-27 05:45:00 CET       23h Thu 2026-11-26 05:45:01 CET 15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 03:00:00 CET 1 day 20h Sat 2026-11-21 03:00:00 CET         - tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                   - Thu 2026-11-26 06:00:01 CET    1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                   - Thu 2026-11-26 06:00:01 CET    1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-25 07:21:26    M29_74 : 0 opportunités · rapport et opportunités · 17 s
 2026-11-25 07:21:39    M29_83 : 1 opportunités · inchangé · 13 s
 2026-11-25 07:22:00    M29_93 : 2 opportunités · rapport et opportunités · 21 s
 2026-11-25 07:22:09    M30_69 : 7 opportunités · inchangé · 9 s
@@ -162,4 +161,5 @@ Sat 2026-11-28 03:00:00 CET 1 day 21h Sat 2026-11-21 03:00:00 CET      - tenderh
 2026-11-25 11:31:51  tables du marché : 1 activité(s) envoyée(s), 0 inchangée(s), 204230 lignes en 43 paquets
 2026-11-25 15:05:53  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
 2026-11-25 15:08:15  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
+2026-11-26 05:45:01  purge du disque faite : 2 élément(s), 0.24 Go libérés — fusions 1 (0.0 Go), photographies_controle 1 (0.24 Go)
 ```
