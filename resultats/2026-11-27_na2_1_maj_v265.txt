@@ -1,2 +1,14 @@
 # mettre_a_jour v2.65
-En cours depuis 27/11 22:18
+Lancée le 27/11/2026 22:18, finie le 27/11/2026 22:18, code 0
+
+Moteur à la version v2.65 (eab5c60)
+
+Horaires des tâches (code 0) :
+NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
+Fri 2026-11-27 22:19:00 CET      53s Fri 2026-11-27 22:18:01 CET  5s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-11-28 03:00:00 CET 4h 41min Sat 2026-11-21 03:00:00 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-28 05:45:00 CET       7h Fri 2026-11-27 05:45:01 CET 16h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 06:30:00 CET       8h Fri 2026-11-27 06:30:01 CET 15h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                  - Fri 2026-11-27 22:18:01 CET  5s ago tenderhit-relais.timer   tenderhit-relais.service
+
+5 timers listed.
