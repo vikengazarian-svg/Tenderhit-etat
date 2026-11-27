@@ -1,52 +1,52 @@
 # Serveur du moteur V2
 
-Mis à jour le 27/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 27/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-27 04:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-27 05:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-26 07:31:13  OK, 719 avis collectés, 365 couples recalculés, 101 republiés en 61.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.47 Go sur 7.6 · charge 0.01 · disque 37.9 % · échange 0.0 Go
+**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.00 · disque 37.4 % · échange 0.0 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **64.8 semaine(s)**
+Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **65.5 semaine(s)**
 
 ```
-Mesure du 2026-11-26 05:45 :
+Mesure du 2026-11-27 05:45 :
   entrepot/sources                            3.57 Go
   entrepot/decp                               2.06 Go
-  entrepot/boamp                              1.40 Go
+  entrepot/boamp                              1.41 Go
   entrepot/passes                             1.23 Go
   production/controles                        0.72 Go
   entrepot/execution                          0.72 Go
   entrepot/marche                             0.26 Go
   production/publies                          0.24 Go
   entrepot/photographie                       0.23 Go
+  entrepot/contrats                           0.19 Go
   entrepot/etiquettes                           38 Mo
   entrepot/referentiel                          16 Mo
   entrepot/avis                                  3 Mo
-  logs                                           3 Mo
+  entrepot/tmp                                   3 Mo
   production/(fichiers)                          3 Mo
+  logs                                           3 Mo
   entrepot/sirene                                2 Mo
-  entrepot/tmp                                   2 Mo
   entrepot/mesures.jsonl                         2 Mo
   production/rejeu                               0 Mo
   entrepot/sources_temoin.jsonl                  0 Mo
-  entrepot/manifeste.json                        0 Mo
-Croissance par dossier (depuis 2026-11-19, 7.0 j), en Go par semaine :
+Croissance par dossier (depuis 2026-11-20, 7.0 j), en Go par semaine :
+  entrepot/contrats                             +0.19
   entrepot/passes                               +0.04
   entrepot/decp                                 +0.03
   entrepot/sources                              +0.03
-  production/controles                          +0.03
-  entrepot/boamp                                +0.01
-  entrepot/execution                            +0.01
-Dernière purge (2026-11-26 05:45) : faite, 2 élément(s), 0.24 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.24 Go)
+  entrepot/execution                            +0.02
+  production/controles                          +0.02
+Dernière purge (2026-11-27 05:45) : faite, 2 élément(s), 0.24 Go libérés · fusions 1 (0.0 Go) · photographies_controle 1 (0.24 Go)
 ```
 
 ## Performances
@@ -110,19 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
-Fri 2026-11-27 05:45:00 CET    44min Thu 2026-11-26 05:45:01 CET 23h ago tenderhit-purge.timer    tenderhit-purge.service
-Fri 2026-11-27 06:30:00 CET 1h 29min Thu 2026-11-26 06:30:01 CET 22h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET      21h Sat 2026-11-21 03:00:00 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Fri 2026-11-27 05:00:01 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                  - Fri 2026-11-27 05:00:01 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                         LEFT LAST                           PASSED UNIT                     ACTIVATES
+Fri 2026-11-27 06:30:00 CET 29min Thu 2026-11-26 06:30:01 CET   23h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-11-28 03:00:00 CET   20h Sat 2026-11-21 03:00:00 CET         - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-28 05:45:00 CET   23h Fri 2026-11-27 05:45:01 CET 15min ago tenderhit-purge.timer    tenderhit-purge.service
+-                               - Fri 2026-11-27 06:00:00 CET    1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                               - Fri 2026-11-27 06:00:00 CET    1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-26 15:36:08  contrats_envoi (commande) : {"cites": 10, "trouves": 10, "envoyes": 2, "retires": 0, "paquets": 1}
 2026-11-26 15:50:05  publier C772_38 C772_42 M12_43 M12_63 M12_69 M12_74 M12_83 M29_38 M29_83 M29_93 : sortant par le chaînage (cette commande seulement)
 2026-11-26 15:50:14  C772_38 republié : 5 opportunités, attributions anciennes retirées : None (8 s)
 2026-11-26 15:50:21  C772_42 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
@@ -162,4 +161,5 @@ Sat 2026-11-28 03:00:00 CET      21h Sat 2026-11-21 03:00:00 CET       - tenderh
 2026-11-26 23:00:22  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (7 s)
 2026-11-26 23:00:28    contrats des chaînes : 28 envoyé(s), 6 retiré(s), 42 cité(s) au total
 2026-11-26 23:00:28  contrats_envoi (commande) : {"cites": 42, "trouves": 42, "envoyes": 28, "retires": 6, "paquets": 1}
+2026-11-27 05:45:01  purge du disque faite : 2 élément(s), 0.24 Go libérés — fusions 1 (0.0 Go), photographies_controle 1 (0.24 Go)
 ```
