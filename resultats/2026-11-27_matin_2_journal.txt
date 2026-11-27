@@ -1,2 +1,123 @@
 # journal 120
-En cours depuis 27/11 08:28
+Lancée le 27/11/2026 08:28, finie le 27/11/2026 08:28, code 0
+
+2026-11-27 07:17:57    M09_02 : 1 opportunités · opportunités · 13 s
+2026-11-27 07:18:09    M09_59 : 23 opportunités · opportunités · 11 s
+2026-11-27 07:18:24    M09_60 : 3 opportunités · opportunités · 16 s
+2026-11-27 07:18:30    M09_62 : 3 opportunités · opportunités · 6 s
+2026-11-27 07:18:46    M09_80 : 3 opportunités · opportunités · 16 s
+2026-11-27 07:18:50    M12_01 : 6 opportunités · opportunités · 3 s
+2026-11-27 07:18:53    M12_02 : 1 opportunités · opportunités · 3 s
+2026-11-27 07:18:56    M12_03 : 4 opportunités · opportunités · 3 s
+2026-11-27 07:19:12    M12_07 : 1 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:19:29    M12_15 : 0 opportunités · rapport et opportunités · 17 s
+2026-11-27 07:19:34    M12_26 : 6 opportunités · opportunités · 5 s
+2026-11-27 07:19:41    M12_38 : 11 opportunités · opportunités · 6 s
+2026-11-27 07:19:46    M12_42 : 4 opportunités · rapport et opportunités · 6 s
+2026-11-27 07:20:04    M12_43 : 2 opportunités · rapport et opportunités · 18 s
+2026-11-27 07:20:14    M12_59 : 80 opportunités · rapport et opportunités · 10 s
+2026-11-27 07:20:20    M12_60 : 12 opportunités · opportunités · 6 s
+2026-11-27 07:20:26    M12_62 : 15 opportunités · opportunités · 6 s
+2026-11-27 07:20:33    M12_63 : 4 opportunités · opportunités · 6 s
+2026-11-27 07:20:42    M12_69 : 28 opportunités · rapport et opportunités · 9 s
+2026-11-27 07:20:47    M12_73 : 7 opportunités · opportunités · 5 s
+2026-11-27 07:20:54    M12_74 : 10 opportunités · rapport et opportunités · 6 s
+2026-11-27 07:21:09    M12_80 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-27 07:21:15    M12_83 : 14 opportunités · opportunités · 6 s
+2026-11-27 07:21:24    M12_93 : 28 opportunités · rapport et opportunités · 9 s
+2026-11-27 07:21:35    M17_94 : 2 opportunités · opportunités · 11 s
+2026-11-27 07:21:40    M22_01 : 3 opportunités · opportunités · 4 s
+2026-11-27 07:21:53    M22_05 : 0 opportunités · inchangé · 14 s
+2026-11-27 07:22:14    M22_07 : 1 opportunités · rapport et opportunités · 20 s
+2026-11-27 07:22:31    M22_08 : 1 opportunités · opportunités · 17 s
+2026-11-27 07:22:50    M22_10 : 0 opportunités · inchangé · 20 s
+2026-11-27 07:23:08    M22_11 : 0 opportunités · rapport et opportunités · 17 s
+2026-11-27 07:23:23    M22_14 : 2 opportunités · rapport et opportunités · 15 s
+2026-11-27 07:23:39    M22_16 : 0 opportunités · inchangé · 16 s
+2026-11-27 07:23:56    M22_17 : 1 opportunités · opportunités · 17 s
+2026-11-27 07:24:12    M22_21 : 1 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:24:28    M22_24 : 0 opportunités · inchangé · 16 s
+2026-11-27 07:24:51    M22_26 : 2 opportunités · rapport et opportunités · 24 s
+2026-11-27 07:25:07    M22_27 : 1 opportunités · rapport et opportunités · 15 s
+2026-11-27 07:25:20    M22_37 : 0 opportunités · rapport et opportunités · 13 s
+2026-11-27 07:25:30    M22_38 : 8 opportunités · rapport et opportunités · 10 s
+2026-11-27 07:25:37    M22_42 : 1 opportunités · opportunités · 7 s
+2026-11-27 07:25:52    M22_50 : 0 opportunités · rapport et opportunités · 15 s
+2026-11-27 07:26:13    M22_51 : 1 opportunités · opportunités · 20 s
+2026-11-27 07:26:32    M22_52 : 0 opportunités · inchangé · 20 s
+2026-11-27 07:26:52    M22_54 : 0 opportunités · inchangé · 20 s
+2026-11-27 07:27:12    M22_55 : 0 opportunités · inchangé · 20 s
+2026-11-27 07:27:32    M22_57 : 2 opportunités · opportunités · 21 s
+2026-11-27 07:27:47    M22_60 : 0 opportunités · inchangé · 15 s
+2026-11-27 07:28:03    M22_61 : 1 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:28:13    M22_67 : 6 opportunités · opportunités · 10 s
+2026-11-27 07:28:22    M22_68 : 5 opportunités · opportunités · 8 s
+2026-11-27 07:28:31    M22_69 : 4 opportunités · opportunités · 9 s
+2026-11-27 07:28:47    M22_71 : 3 opportunités · rapport et opportunités · 15 s
+2026-11-27 07:28:54    M22_74 : 6 opportunités · opportunités · 7 s
+2026-11-27 07:29:14    M22_75 : 14 opportunités · rapport et opportunités · 20 s
+2026-11-27 07:29:30    M22_76 : 4 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:29:39    M22_78 : 4 opportunités · rapport et opportunités · 9 s
+2026-11-27 07:29:54    M22_80 : 2 opportunités · opportunités · 15 s
+2026-11-27 07:30:03    M22_83 : 4 opportunités · opportunités · 9 s
+2026-11-27 07:30:19    M22_87 : 1 opportunités · opportunités · 17 s
+2026-11-27 07:30:39    M22_88 : 0 opportunités · inchangé · 20 s
+2026-11-27 07:30:48    M22_91 : 3 opportunités · opportunités · 9 s
+2026-11-27 07:30:55    M22_92 : 3 opportunités · opportunités · 8 s
+2026-11-27 07:31:06    M22_93 : 5 opportunités · rapport et opportunités · 11 s
+2026-11-27 07:31:13    M22_94 : 6 opportunités · opportunités · 7 s
+2026-11-27 07:31:52    M22_95 : 6 opportunités · rapport et opportunités · 38 s
+2026-11-27 07:35:48    M22_FR : 179 opportunités · rapport et opportunités · 236 s
+2026-11-27 07:35:55    M23_27 : 4 opportunités · opportunités · 7 s
+2026-11-27 07:36:05    M23_44 : 6 opportunités · opportunités · 9 s
+2026-11-27 07:36:17    M23_76 : 12 opportunités · rapport et opportunités · 12 s
+2026-11-27 07:36:29    M24_69 : 5 opportunités · rapport et opportunités · 12 s
+2026-11-27 07:36:40    M24_76 : 13 opportunités · rapport et opportunités · 11 s
+2026-11-27 07:36:50    M28_34 : 3 opportunités · opportunités · 10 s
+2026-11-27 07:37:06    M29_01 : 0 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:37:22    M29_03 : 0 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:37:38    M29_07 : 0 opportunités · rapport et opportunités · 16 s
+2026-11-27 07:37:56    M29_15 : 0 opportunités · rapport et opportunités · 18 s
+2026-11-27 07:38:14    M29_26 : 0 opportunités · rapport et opportunités · 18 s
+2026-11-27 07:38:34    M29_38 : 1 opportunités · rapport et opportunités · 19 s
+2026-11-27 07:38:52    M29_42 : 0 opportunités · rapport et opportunités · 19 s
+2026-11-27 07:39:10    M29_43 : 0 opportunités · rapport et opportunités · 18 s
+2026-11-27 07:39:28    M29_63 : 0 opportunités · rapport et opportunités · 18 s
+2026-11-27 07:39:35    M29_69 : 0 opportunités · inchangé · 7 s
+2026-11-27 07:39:54    M29_73 : 0 opportunités · rapport et opportunités · 19 s
+2026-11-27 07:40:13    M29_74 : 0 opportunités · rapport et opportunités · 20 s
+2026-11-27 07:40:30    M29_83 : 1 opportunités · inchangé · 17 s
+2026-11-27 07:40:54    M29_93 : 2 opportunités · rapport et opportunités · 24 s
+2026-11-27 07:41:03    M30_13 : 7 opportunités · opportunités · 9 s
+2026-11-27 07:41:15    M30_69 : 7 opportunités · rapport et opportunités · 12 s
+2026-11-27 07:41:21    M33_01 : 8 opportunités · rapport et opportunités · 6 s
+2026-11-27 07:41:29    M33_14 : 7 opportunités · rapport et opportunités · 8 s
+2026-11-27 07:41:37    M33_27 : 5 opportunités · opportunités · 8 s
+2026-11-27 07:41:48    M33_38 : 8 opportunités · rapport et opportunités · 11 s
+2026-11-27 07:41:54    M33_42 : 0 opportunités · inchangé · 6 s
+2026-11-27 07:42:03    M33_50 : 5 opportunités · rapport et opportunités · 9 s
+2026-11-27 07:42:11    M33_61 : 3 opportunités · opportunités · 7 s
+2026-11-27 07:42:25    M33_69 : 9 opportunités · opportunités · 14 s
+2026-11-27 07:42:33    M33_71 : 5 opportunités · opportunités · 8 s
+2026-11-27 07:42:45    M33_76 : 15 opportunités · rapport et opportunités · 11 s
+2026-11-27 07:42:53    M33_85 : 4 opportunités · rapport et opportunités · 8 s
+2026-11-27 07:50:25    M33_FR : 517 opportunités · rapport et opportunités · 452 s
+2026-11-27 07:50:37    M37_13 : 12 opportunités · rapport et opportunités · 12 s
+2026-11-27 07:50:55    M39_13 : 14 opportunités · rapport et opportunités · 17 s
+2026-11-27 07:51:06    M40_05 : 0 opportunités · inchangé · 11 s
+2026-11-27 07:51:13    M40_76 : 1 opportunités · rapport et opportunités · 8 s
+2026-11-27 07:51:25    P1005_14 : 2 opportunités · opportunités · 12 s
+2026-11-27 07:51:36    P1005_22 : 7 opportunités · opportunités · 11 s
+2026-11-27 07:51:46    P1005_27 : 2 opportunités · opportunités · 10 s
+2026-11-27 07:51:58    P1005_29 : 8 opportunités · opportunités · 12 s
+2026-11-27 07:52:12    P1005_35 : 18 opportunités · opportunités · 15 s
+2026-11-27 07:52:24    P1005_56 : 10 opportunités · rapport et opportunités · 12 s
+2026-11-27 07:52:45    P1005_59 : 18 opportunités · opportunités · 20 s
+2026-11-27 07:52:55    P1005_60 : 2 opportunités · opportunités · 10 s
+2026-11-27 07:53:32    P1005_75 : 39 opportunités · rapport et opportunités · 37 s
+2026-11-27 07:53:46    P1005_76 : 6 opportunités · opportunités · 3 identifiants DECP raccourcis · 14 s
+2026-11-27 07:53:55    P1005_80 : 1 opportunités · opportunités · 9 s
+2026-11-27 07:54:10    P1005_93 : 12 opportunités · opportunités · 15 s
+2026-11-27 07:54:15    contrats des chaînes : 3071 envoyé(s), 0 retiré(s), 3113 cité(s) au total
+2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min
+2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
