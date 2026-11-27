@@ -1,2 +1,23 @@
 # national classement
-En cours depuis 27/11 23:16
+Lancée le 27/11/2026 23:16, finie le 27/11/2026 23:17, code 1
+
+  avis illisible 22-12998 'list' object has no attribute 'get'
+  avis illisible 22-9429 'list' object has no attribute 'get'
+  avis illisible 22-1681 'list' object has no attribute 'get'
+  avis illisible 22-7825 'list' object has no attribute 'get'
+  avis illisible 22-502 'list' object has no attribute 'get'
+  avis illisible 22-42736 'list' object has no attribute 'get'
+  avis illisible 22-49491 'list' object has no attribute 'get'
+  avis illisible 22-51171 'list' object has no attribute 'get'
+  avis illisible 22-57940 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/srv/tenderhit/moteur/lancer_production.py", line 40, in <module>
+    sys.exit(main(sys.argv[2:]))
+             ~~~~^^^^^^^^^^^^^^
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/commandes.py", line 204, in main
+    return classement(ch)
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/commandes.py", line 109, in classement
+    b = C.classer(execution.environnement(ch), X, D / "tables", journal=lambda m: print(m, flush=True))
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/classement.py", line 192, in classer
+    acts = ligne.pop("activites")
+KeyError: 'activites'
