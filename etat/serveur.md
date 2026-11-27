@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 27/11/2026 à 07:56 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 27/11/2026 à 08:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-27 06:29:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-27 07:59:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
-| Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
+| Contrôle quotidien | 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.72 Go sur 7.6 · charge 0.39 · disque 37.7 % · échange 0.11 Go
+**Machine maintenant** : mémoire 0.44 Go sur 7.6 · charge 0.28 · disque 37.9 % · échange 0.03 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **65.1 semaine(s)**
+Rythme des 14 derniers jours : +0.8 point(s) par semaine · 80 % dans **56.1 semaine(s)**
 
 ```
 Mesure du 2026-11-27 05:45 :
@@ -92,7 +92,6 @@ Aucune pour l'instant.
 ### Contrôles quotidiens (14 derniers)
 
 ```
-2026-11-13 07:21  Contrôle du 13/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-14 07:31  Contrôle du 14/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-15 07:23  Contrôle du 15/11 : vert — 266 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-16 07:23  Contrôle du 16/11 : vert — 276 couples identiques au site ; tâches à l'heure, site à jour
@@ -106,23 +105,23 @@ Aucune pour l'instant.
 2026-11-24 07:34  Contrôle du 24/11 : vert — 363 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-25 07:34  Contrôle du 25/11 : vert — 363 couples identiques au site ; tâches à l'heure, site à jour
 2026-11-26 07:35  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-27 07:58  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
 ```
 
 ## Tâches planifiées
 ```
 NEXT                        LEFT LAST                              PASSED UNIT                     ACTIVATES
-Sat 2026-11-28 03:00:00 CET  19h Sat 2026-11-21 03:00:00 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-11-28 05:45:00 CET  21h Fri 2026-11-27 05:45:01 CET 2h 11min ago tenderhit-purge.timer    tenderhit-purge.service
--                              - Fri 2026-11-27 06:30:01 CET 1h 26min ago tenderhit-collecte.timer tenderhit-collecte.service
--                              - Fri 2026-11-27 07:56:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                              - Fri 2026-11-27 07:56:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sat 2026-11-28 03:00:00 CET  18h Sat 2026-11-21 03:00:00 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-28 05:45:00 CET  21h Fri 2026-11-27 05:45:01 CET 2h 15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 06:30:00 CET  22h Fri 2026-11-27 06:30:01 CET 1h 30min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-11-27 08:00:01 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                              - Fri 2026-11-27 08:00:01 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-27 07:38:52    M29_42 : 0 opportunités · rapport et opportunités · 19 s
 2026-11-27 07:39:10    M29_43 : 0 opportunités · rapport et opportunités · 18 s
 2026-11-27 07:39:28    M29_63 : 0 opportunités · rapport et opportunités · 18 s
 2026-11-27 07:39:35    M29_69 : 0 opportunités · inchangé · 7 s
@@ -162,4 +161,5 @@ Sat 2026-11-28 05:45:00 CET  21h Fri 2026-11-27 05:45:01 CET 2h 11min ago tender
 2026-11-27 07:54:10    P1005_93 : 12 opportunités · opportunités · 15 s
 2026-11-27 07:54:15    contrats des chaînes : 3071 envoyé(s), 0 retiré(s), 3113 cité(s) au total
 2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min
+2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
 ```
