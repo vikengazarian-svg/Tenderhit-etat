@@ -1,2 +1,8 @@
 # etat
-En cours depuis 27/11 08:28
+Lancée le 27/11/2026 08:28, finie le 27/11/2026 08:28, code 0
+
+Couples en ligne suivis par le V2 : 365
+Dernière passe demandes : 2026-11-27 08:28:04  connexion OK, 0 couple(s) en attente : aucun
+Dernière passe collecte : 2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min
+Dernière passe hebdo    : 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées
+Dernière passe controle : 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
