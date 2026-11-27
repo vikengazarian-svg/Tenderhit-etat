@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 27/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 27/11/2026 à 07:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🟢 **Tout va bien**
+## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-27 05:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-27 06:29:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-26 07:31:13  OK, 719 avis collectés, 365 couples recalculés, 101 republiés en 61.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-26 07:35:50  Contrôle du 26/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.00 · disque 37.4 % · échange 0.0 Go
+**Machine maintenant** : mémoire 1.33 Go sur 7.6 · charge 1.64 · disque 37.4 % · échange 0.08 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **65.5 semaine(s)**
+Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **60.9 semaine(s)**
 
 ```
 Mesure du 2026-11-27 05:45 :
@@ -110,56 +110,56 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                         LEFT LAST                           PASSED UNIT                     ACTIVATES
-Fri 2026-11-27 06:30:00 CET 29min Thu 2026-11-26 06:30:01 CET   23h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-11-28 03:00:00 CET   20h Sat 2026-11-21 03:00:00 CET         - tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-11-28 05:45:00 CET   23h Fri 2026-11-27 05:45:01 CET 15min ago tenderhit-purge.timer    tenderhit-purge.service
--                               - Fri 2026-11-27 06:00:00 CET    1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                               - Fri 2026-11-27 06:00:00 CET    1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                        LEFT LAST                              PASSED UNIT                     ACTIVATES
+Sat 2026-11-28 03:00:00 CET  19h Sat 2026-11-21 03:00:00 CET            - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-28 05:45:00 CET  22h Fri 2026-11-27 05:45:01 CET 1h 15min ago tenderhit-purge.timer    tenderhit-purge.service
+-                              - Fri 2026-11-27 06:30:01 CET    30min ago tenderhit-collecte.timer tenderhit-collecte.service
+-                              - Fri 2026-11-27 07:00:00 CET       1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                              - Fri 2026-11-27 07:00:00 CET       1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-26 15:50:05  publier C772_38 C772_42 M12_43 M12_63 M12_69 M12_74 M12_83 M29_38 M29_83 M29_93 : sortant par le chaînage (cette commande seulement)
-2026-11-26 15:50:14  C772_38 republié : 5 opportunités, attributions anciennes retirées : None (8 s)
-2026-11-26 15:50:21  C772_42 republié : 4 opportunités, attributions anciennes retirées : None (8 s)
-2026-11-26 15:50:38  M12_43 republié : 2 opportunités, attributions anciennes retirées : None (17 s)
-2026-11-26 15:50:45  M12_63 republié : 4 opportunités, attributions anciennes retirées : None (7 s)
-2026-11-26 15:50:53  M12_69 republié : 27 opportunités, attributions anciennes retirées : None (8 s)
-2026-11-26 15:50:59  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (6 s)
-2026-11-26 15:51:06  M12_83 republié : 14 opportunités, attributions anciennes retirées : None (7 s)
-2026-11-26 15:51:26  M29_38 republié : 1 opportunités, attributions anciennes retirées : None (20 s)
-2026-11-26 15:51:44  M29_83 republié : 1 opportunités, attributions anciennes retirées : None (18 s)
-2026-11-26 15:52:08  M29_93 republié : 2 opportunités, attributions anciennes retirées : None (24 s)
-2026-11-26 15:52:13    contrats des chaînes : 3 envoyé(s), 0 retiré(s), 13 cité(s) au total
-2026-11-26 15:52:13  contrats_envoi (commande) : {"cites": 13, "trouves": 13, "envoyes": 3, "retires": 0, "paquets": 1}
-2026-11-26 15:56:53  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:15:39  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:17:27  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:19:49  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:22:12  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:24:34  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:26:56  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:29:19  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:31:41  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:34:03  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:36:26  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 16:38:48  retrait DCE (retraits) impossible : dce_en_attente : ReadTimeout : HTTPSConnectionPool(host='tenhit.fr', port=443): Read timed out. (read timeout=30)
-2026-11-26 21:14:05  publier M12_74 : sortant par le chaînage (cette commande seulement)
-2026-11-26 21:14:13  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (8 s)
-2026-11-26 21:14:18    contrats des chaînes : 12 envoyé(s), 0 retiré(s), 25 cité(s) au total
-2026-11-26 21:14:18  contrats_envoi (commande) : {"cites": 25, "trouves": 25, "envoyes": 12, "retires": 0, "paquets": 1}
-2026-11-26 22:44:45  contrats : 1606315 contrats préparés en 40 s
-2026-11-26 22:45:43  contrats : chaînage, 500000 contrats lus (58 s)
-2026-11-26 22:46:12  contrats : chaînage, 1000000 contrats lus (87 s)
-2026-11-26 22:47:50  contrats : chaînage, 1500000 contrats lus (184 s)
-2026-11-26 22:48:21  contrats : 1606315 contrats (294454 doublons fusionnés), chaînage {'aucun': 1306489, 'sur': 186755, 'probable': 113071} en 256.2 s
-2026-11-26 23:00:05  publier M12_93 M12_74 : sortant par le chaînage (cette commande seulement)
-2026-11-26 23:00:16  M12_93 republié : 28 opportunités, attributions anciennes retirées : None (10 s)
-2026-11-26 23:00:22  M12_74 republié : 9 opportunités, attributions anciennes retirées : None (7 s)
-2026-11-26 23:00:28    contrats des chaînes : 28 envoyé(s), 6 retiré(s), 42 cité(s) au total
-2026-11-26 23:00:28  contrats_envoi (commande) : {"cites": 42, "trouves": 42, "envoyes": 28, "retires": 6, "paquets": 1}
-2026-11-27 05:45:01  purge du disque faite : 2 élément(s), 0.24 Go libérés — fusions 1 (0.0 Go), photographies_controle 1 (0.24 Go)
+2026-11-27 06:55:44    C740_80 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:55:50    C740_83 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:55:55    C740_84 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:56:01    C740_93 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:07    C741_14 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:13    C741_22 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:19    C741_27 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:26    C741_29 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:32    C741_35 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:38    C741_56 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:45    C741_59 : 0 opportunités · inchangé · 7 s
+2026-11-27 06:56:51    C741_60 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:56:58    C741_75 : 0 opportunités · inchangé · 7 s
+2026-11-27 06:57:04    C741_76 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:57:10    C741_80 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:57:16    C741_93 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:57:21    C742_14 : 0 opportunités · inchangé · 4 s
+2026-11-27 06:57:25    C742_22 : 0 opportunités · inchangé · 4 s
+2026-11-27 06:57:29    C742_27 : 0 opportunités · inchangé · 4 s
+2026-11-27 06:57:34    C742_29 : 0 opportunités · inchangé · 4 s
+2026-11-27 06:57:38    C742_35 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:57:43    C742_56 : 0 opportunités · inchangé · 4 s
+2026-11-27 06:57:52    C742_59 : 0 opportunités · inchangé · 9 s
+2026-11-27 06:58:00    C742_60 : 0 opportunités · inchangé · 8 s
+2026-11-27 06:58:06    C742_75 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:58:10    C742_76 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:58:19    C742_80 : 0 opportunités · inchangé · 8 s
+2026-11-27 06:58:24    C742_93 : 0 opportunités · inchangé · 5 s
+2026-11-27 06:58:31    C747_02 : 22 opportunités · opportunités · 7 s
+2026-11-27 06:58:40    C747_59 : 22 opportunités · opportunités · 9 s
+2026-11-27 06:58:48    C747_60 : 22 opportunités · opportunités · 8 s
+2026-11-27 06:58:56    C747_62 : 22 opportunités · opportunités · 8 s
+2026-11-27 06:59:04    C747_80 : 22 opportunités · opportunités · 8 s
+2026-11-27 06:59:10    C772_01 : 2 opportunités · opportunités · 6 s
+2026-11-27 06:59:16    C772_03 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:59:22    C772_07 : 2 opportunités · opportunités · 6 s
+2026-11-27 06:59:29    C772_14 : 1 opportunités · opportunités · 6 s
+2026-11-27 06:59:35    C772_15 : 0 opportunités · inchangé · 6 s
+2026-11-27 06:59:44    C772_21 : 1 opportunités · opportunités · 9 s
+2026-11-27 06:59:53    C772_25 : 2 opportunités · opportunités · 9 s
 ```
