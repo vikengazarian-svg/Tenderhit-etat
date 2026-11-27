@@ -1,2 +1,21 @@
 # national classement
-En cours depuis 27/11 22:20
+Lancée le 27/11/2026 22:20, finie le 27/11/2026 22:20, code 1
+
+Traceback (most recent call last):
+  File "/srv/tenderhit/moteur/lancer_production.py", line 40, in <module>
+    sys.exit(main(sys.argv[2:]))
+             ~~~~^^^^^^^^^^^^^^
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/commandes.py", line 204, in main
+    return classement(ch)
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/commandes.py", line 109, in classement
+    b = C.classer(execution.environnement(ch), X, D / "tables", journal=lambda m: print(m, flush=True))
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/classement.py", line 154, in classer
+    cur = con.execute(requete)
+_duckdb.OutOfMemoryException: Out of Memory Error: failed to allocate data of size 128.0 MiB (2.2 GiB/2.3 GiB used)
+
+Possible solutions:
+* Reducing the number of threads (SET threads=X)
+* Disabling insertion-order preservation (SET preserve_insertion_order=false)
+* Increasing the memory limit (SET memory_limit='...GB')
+
+See also https://duckdb.org/docs/stable/guides/performance/how_to_tune_workloads
