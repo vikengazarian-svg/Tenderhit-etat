@@ -1,2 +1,15 @@
 # national classement
-En cours depuis 27/11 23:10
+Lancée le 27/11/2026 23:10, finie le 27/11/2026 23:10, code 1
+
+Traceback (most recent call last):
+  File "/srv/tenderhit/moteur/lancer_production.py", line 40, in <module>
+    sys.exit(main(sys.argv[2:]))
+             ~~~~^^^^^^^^^^^^^^
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/commandes.py", line 204, in main
+    return classement(ch)
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/commandes.py", line 109, in classement
+    b = C.classer(execution.environnement(ch), X, D / "tables", journal=lambda m: print(m, flush=True))
+  File "/srv/tenderhit/moteur/tenderhit_v2/national/classement.py", line 181, in classer
+    lot = cur.fetchmany(LOT)
+_duckdb.InvalidInputException: Invalid Input Error: Required module 'pytz' failed to import, due to the following Python exception:
+ModuleNotFoundError: No module named 'pytz'
