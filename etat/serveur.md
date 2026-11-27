@@ -1,21 +1,21 @@
 # Serveur du moteur V2
 
-Mis à jour le 27/11/2026 à 23:20 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 27/11/2026 à 23:38 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-27 23:20:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-27 23:38:02  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min |
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.43 Go sur 7.6 · charge 0.05 · disque 39.4 % · échange 0.03 Go
+**Machine maintenant** : mémoire 0.5 Go sur 7.6 · charge 1.03 · disque 38.6 % · échange 0.03 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +1.4 point(s) par semaine · 80 % dans **28.0 semaine(s)**
+Rythme des 14 derniers jours : +1.1 point(s) par semaine · 80 % dans **39.4 semaine(s)**
 
 ```
 Mesure du 2026-11-27 05:45 :
@@ -110,12 +110,12 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
-Fri 2026-11-27 23:21:00 CET      52s Fri 2026-11-27 23:20:01 CET  5s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-11-28 03:00:00 CET 3h 39min Sat 2026-11-21 03:00:00 CET       - tenderhit-hebdo.timer    tenderhit-hebdo.service
-Sat 2026-11-28 05:45:00 CET       6h Fri 2026-11-27 05:45:01 CET 17h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-28 06:30:00 CET       7h Fri 2026-11-27 06:30:01 CET 16h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                  - Fri 2026-11-27 23:20:01 CET  5s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                           PASSED UNIT                     ACTIVATES
+Fri 2026-11-27 23:39:00 CET      30s Fri 2026-11-27 23:38:00 CET   29s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-11-28 03:00:00 CET 3h 21min Sat 2026-11-21 03:00:00 CET         - tenderhit-hebdo.timer    tenderhit-hebdo.service
+Sat 2026-11-28 05:45:00 CET       6h Fri 2026-11-27 05:45:01 CET   17h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 06:30:00 CET       6h Fri 2026-11-27 06:30:01 CET   17h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                  - Fri 2026-11-27 23:22:01 CET 16min ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```

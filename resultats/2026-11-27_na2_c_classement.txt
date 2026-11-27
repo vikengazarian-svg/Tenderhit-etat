@@ -1,2 +1,99 @@
 # national classement
-En cours depuis 27/11 23:22
+Lancée le 27/11/2026 23:22, finie le 27/11/2026 23:38, code 0
+
+  avis illisible 22-66766 'list' object has no attribute 'get'
+  avis illisible 22-12998 'list' object has no attribute 'get'
+  avis illisible 22-9429 'list' object has no attribute 'get'
+  avis illisible 22-1681 'list' object has no attribute 'get'
+  avis illisible 22-7825 'list' object has no attribute 'get'
+  avis illisible 22-502 'list' object has no attribute 'get'
+  avis illisible 22-42736 'list' object has no attribute 'get'
+  avis illisible 22-100459 'list' object has no attribute 'get'
+  avis illisible 22-130137 'list' object has no attribute 'get'
+  avis illisible 22-167972 'list' object has no attribute 'get'
+  avis illisible 22-12626 'list' object has no attribute 'get'
+  avis illisible 22-17024 'list' object has no attribute 'get'
+  avis illisible 22-25264 'list' object has no attribute 'get'
+  avis illisible 22-23432 'list' object has no attribute 'get'
+  avis illisible 22-49491 'list' object has no attribute 'get'
+  avis illisible 22-51171 'list' object has no attribute 'get'
+  avis illisible 22-57940 'list' object has no attribute 'get'
+  avis illisible 22-79832 'list' object has no attribute 'get'
+  avis illisible 22-79227 'list' object has no attribute 'get'
+  avis illisible 22-241 'list' object has no attribute 'get'
+  avis lus : 101999 · gardés : 80455
+  avis illisible 22-5691 'list' object has no attribute 'get'
+  avis illisible 22-718 'list' object has no attribute 'get'
+  avis illisible 22-68934 'list' object has no attribute 'get'
+  avis illisible 22-56966 'list' object has no attribute 'get'
+  avis illisible 22-21675 'list' object has no attribute 'get'
+  avis illisible 22-13011 'list' object has no attribute 'get'
+  avis illisible 22-3303 'list' object has no attribute 'get'
+  avis illisible 22-69773 'list' object has no attribute 'get'
+  avis illisible 22-49845 'list' object has no attribute 'get'
+  avis illisible 22-27713 'list' object has no attribute 'get'
+  avis illisible 22-18050 'list' object has no attribute 'get'
+  avis lus : 200237 · gardés : 157851
+  avis lus : 201577 · gardés : 158916
+  avis illisible 22-16707 'list' object has no attribute 'get'
+  avis illisible 22-58039 'list' object has no attribute 'get'
+  avis illisible 22-45463 'list' object has no attribute 'get'
+  avis illisible 22-6670 'list' object has no attribute 'get'
+  avis illisible 22-38122 'list' object has no attribute 'get'
+  avis illisible 22-55793 'list' object has no attribute 'get'
+  avis illisible 22-20216 'list' object has no attribute 'get'
+  avis illisible 22-66292 'list' object has no attribute 'get'
+  avis illisible 22-31032 'list' object has no attribute 'get'
+  avis illisible 22-80586 'list' object has no attribute 'get'
+  avis lus : 300137 · gardés : 236940
+  avis illisible 22-47234 'list' object has no attribute 'get'
+  avis illisible 22-17548 'list' object has no attribute 'get'
+  avis illisible 22-26384 'list' object has no attribute 'get'
+  avis illisible 22-1389 'list' object has no attribute 'get'
+  avis illisible 22-50625 'list' object has no attribute 'get'
+  avis illisible 22-93496 'list' object has no attribute 'get'
+  avis illisible 22-43310 'list' object has no attribute 'get'
+  avis illisible 22-52807 'list' object has no attribute 'get'
+  avis illisible 22-27505 'list' object has no attribute 'get'
+  avis illisible 22-21686 'list' object has no attribute 'get'
+  avis illisible 22-113372 'list' object has no attribute 'get'
+  avis illisible 22-15578 'list' object has no attribute 'get'
+  avis illisible 22-5762 'list' object has no attribute 'get'
+  avis illisible 22-33503 'list' object has no attribute 'get'
+  avis illisible 22-49668 'list' object has no attribute 'get'
+  avis illisible 22-52849 'list' object has no attribute 'get'
+  avis illisible 22-3169 'list' object has no attribute 'get'
+  avis illisible 22-9290 'list' object has no attribute 'get'
+  avis illisible 22-91437 'list' object has no attribute 'get'
+  avis lus : 501832 · gardés : 395385
+  avis illisible 22-26649 'list' object has no attribute 'get'
+  avis illisible 22-24991 'list' object has no attribute 'get'
+  avis illisible 22-18402 'list' object has no attribute 'get'
+  avis illisible 22-12885 'list' object has no attribute 'get'
+  avis illisible 22-47864 'list' object has no attribute 'get'
+  avis illisible 22-133543 'list' object has no attribute 'get'
+  avis illisible 22-19814 'list' object has no attribute 'get'
+  avis illisible 22-22409 'list' object has no attribute 'get'
+  avis illisible 22-4185 'list' object has no attribute 'get'
+  avis illisible 22-43115 'list' object has no attribute 'get'
+  avis illisible 22-85481 'list' object has no attribute 'get'
+  avis illisible 22-44424 'list' object has no attribute 'get'
+  avis illisible 22-36665 'list' object has no attribute 'get'
+  avis lus : 600414 · gardés : 472541
+  avis illisible 22-24640 'list' object has no attribute 'get'
+  avis illisible 22-28621 'list' object has no attribute 'get'
+  avis illisible 21-161538 'list' object has no attribute 'get'
+  avis illisible 22-1135 'list' object has no attribute 'get'
+  avis illisible 22-5608 'list' object has no attribute 'get'
+  avis illisible 22-61411 'list' object has no attribute 'get'
+  avis illisible 22-1463 'list' object has no attribute 'get'
+  avis illisible 22-6232 'list' object has no attribute 'get'
+# Moteur national — classement du 2026-11-27 (à blanc, rien n'a été publié)
+
+- **Durée : 16.4 min** (règles 5.4 s, avis 949.7 s, marchés 27.8 s), mémoire 1922 Mo
+- Activités : 323
+- Avis BOAMP lus : 672219 ; retenus par au moins une activité : 528982 ; avis × activité : 878690
+- Activités par avis retenu : 1.66 en moyenne ; les plus classés : 24 activités (1 avis), 21 activités (1 avis), 20 activités (3 avis)
+- Marchés DECP lus : 1694567 ; marché × activité : 1752386
+- Formats d'avis lus : {'ancien': 264219, 'divers': 139, 'dsp': 1563, 'eforms': 206725, 'fnsimple': 123748, 'mapa': 11035}
+
