@@ -1,2 +1,50 @@
 # national verifier M12_59 M12_93 M12_69 M09_59 M33_76 M12_62 M39_13 M22_75 M12_83 M24_76 M37_13 M23_76 M33_69 M22_38 M30_69 M23_44 M22_95 M09_80 C713_75 M01_58
-En cours depuis 27/11 23:40
+Lancée le 27/11/2026 23:40, finie le 27/11/2026 23:42, code 0
+
+  M12_59: AO 34/34, marchés 776/776
+  M12_93: AO 11/11, marchés 220/220
+  M12_69: AO 2/2, marchés 409/409
+  M09_59: AO 3/3, marchés 257/257
+  M33_76: AO 11/11, marchés 576/576
+  M12_62: AO 0/0, marchés 270/270
+  M39_13: AO 14/14, marchés 1923/1923
+  M22_75: AO 5/5, marchés 220/220
+  M12_83: AO 1/1, marchés 187/187
+  M24_76: AO 9/9, marchés 410/410
+  M37_13: AO 12/12, marchés 1188/1188
+  M23_76: AO 8/8, marchés 537/537
+  M33_69: AO 7/7, marchés 940/940
+  M22_38: AO 4/4, marchés 213/213
+  M30_69: AO 6/6, marchés 911/911
+  M23_44: AO 6/6, marchés 683/683
+  M22_95: AO 0/0, marchés 43/43
+  M09_80: AO 0/0, marchés 38/38
+  C713_75: AO 13/13, marchés 4889/4889
+  M01_58: AO 0/0, marchés 53/53
+# Moteur national — vérification du classement (2026-11-27, tables du 2026-11-27)
+
+Comparaison, couple par couple, avec l'extraction de l'ancien moteur (extract.py, sans autre source).
+
+| Couple | AO ouverts ancien / national / absents / en plus | Résultats absents | Marchés absents | Verdict |
+|---|---|---|---|---|
+| C713_75 | 13 / 13 / 0 / 0 | 0 sur 462 | 0 sur 4889 (en plus : 408) | identique |
+| M01_58 | 0 / 0 / 0 / 0 | 0 sur 1 | 0 sur 53 (en plus : 2) | identique |
+| M09_59 | 3 / 3 / 0 / 0 | 0 sur 37 | 0 sur 257 (en plus : 23) | identique |
+| M09_80 | 0 / 0 / 0 / 0 | 0 sur 7 | 0 sur 38 (en plus : 1) | identique |
+| M12_59 | 34 / 34 / 0 / 0 | 0 sur 124 | 0 sur 776 (en plus : 42) | identique |
+| M12_62 | 0 / 0 / 0 / 0 | 0 sur 43 | 0 sur 270 (en plus : 19) | identique |
+| M12_69 | 2 / 2 / 0 / 0 | 0 sur 64 | 0 sur 409 (en plus : 18) | identique |
+| M12_83 | 1 / 1 / 0 / 0 | 0 sur 39 | 0 sur 187 (en plus : 9) | identique |
+| M12_93 | 11 / 11 / 0 / 0 | 0 sur 56 | 0 sur 220 (en plus : 31) | identique |
+| M22_38 | 4 / 4 / 0 / 0 | 0 sur 20 | 0 sur 213 (en plus : 24) | identique |
+| M22_75 | 5 / 5 / 0 / 0 | 0 sur 33 | 0 sur 220 (en plus : 1) | identique |
+| M22_95 | 0 / 0 / 0 / 0 | 0 sur 20 | 0 sur 43 (en plus : 2) | identique |
+| M23_44 | 6 / 6 / 0 / 0 | 0 sur 49 | 0 sur 683 (en plus : 29) | identique |
+| M23_76 | 8 / 8 / 0 / 0 | 0 sur 59 | 0 sur 537 (en plus : 36) | identique |
+| M24_76 | 9 / 9 / 0 / 0 | 0 sur 55 | 0 sur 410 (en plus : 25) | identique |
+| M30_69 | 6 / 6 / 0 / 0 | 0 sur 89 | 0 sur 911 (en plus : 51) | identique |
+| M33_69 | 7 / 7 / 0 / 0 | 0 sur 109 | 0 sur 940 (en plus : 50) | identique |
+| M33_76 | 11 / 11 / 0 / 0 | 0 sur 67 | 0 sur 576 (en plus : 30) | identique |
+| M37_13 | 12 / 12 / 0 / 0 | 0 sur 114 | 0 sur 1188 (en plus : 136) | identique |
+| M39_13 | 14 / 14 / 0 / 0 | 0 sur 198 | 0 sur 1923 (en plus : 275) | identique |
+
