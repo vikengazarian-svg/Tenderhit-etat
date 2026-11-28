@@ -1,2 +1,24 @@
 # marche M28 M29 M30 M31 M32 M33 M34 M35 M36 M37 M38
-En cours depuis 28/11 14:44
+Lancée le 28/11/2026 14:44, finie le 28/11/2026 14:47, code 0
+
+2026-11-28 14:47:45  tables du marché : 11 activité(s) envoyée(s), 0 inchangée(s), 361891 lignes en 98 paquets
+{
+ "version": "2026-11-28",
+ "envoyees": [
+  "M28 (étage 2, 79659 lignes)",
+  "M29 (étage 2, 5586 lignes)",
+  "M30 (étage 2, 70225 lignes)",
+  "M31 (étage 1, 1030 lignes)",
+  "M32 (étage 1, 1028 lignes)",
+  "M33 (étage 2, 77542 lignes)",
+  "M34 (étage 1, 1040 lignes)",
+  "M35 (étage 1, 971 lignes)",
+  "M36 (étage 1, 787 lignes)",
+  "M37 (étage 2, 122995 lignes)",
+  "M38 (étage 1, 1028 lignes)"
+ ],
+ "inchangees": 0,
+ "lignes": 361891,
+ "paquets": 98,
+ "erreurs": {}
+}

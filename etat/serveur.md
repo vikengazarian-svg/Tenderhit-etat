@@ -1,17 +1,17 @@
 # Serveur du moteur V2
 
-Mis à jour le 28/11/2026 à 14:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 28/11/2026 à 14:47 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-28 13:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-28 14:47:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-28 07:52:05  OK, 449 avis collectés, 365 couples recalculés, 50 republiés en 82.1 min |
 | Passe DECP hebdomadaire | 2026-11-28 05:03:36  Passe hebdomadaire DECP 2026-11-28_decp : terminée en 123.6 min, mémoire max 7513 Mo ; 365 couples recalculés, 1 bloqués par la garde (C712_59) ; 344 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-28 07:56:31  Contrôle du 28/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.48 Go sur 7.6 · charge 0.00 · disque 38.8 % · échange 0.03 Go
+**Machine maintenant** : mémoire 0.46 Go sur 7.6 · charge 0.05 · disque 38.8 % · échange 0.03 Go
 
 ## Disque
 
@@ -110,19 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                          LEFT LAST                         PASSED UNIT                     ACTIVATES
-Sun 2026-11-29 05:45:00 CET    15h Sat 2026-11-28 05:45:01 CET  8h ago tenderhit-purge.timer    tenderhit-purge.service
-Sun 2026-11-29 06:30:00 CET    16h Sat 2026-11-28 06:30:01 CET  7h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-12-05 03:00:00 CET 6 days Sat 2026-11-28 03:00:01 CET 11h ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                - Sat 2026-11-28 14:00:01 CET  1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                - Sat 2026-11-28 14:00:01 CET  1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                              PASSED UNIT                     ACTIVATES
+Sat 2026-11-28 14:48:00 CET    13s Sat 2026-11-28 14:47:00 CET      46s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sun 2026-11-29 05:45:00 CET    14h Sat 2026-11-28 05:45:01 CET       9h ago tenderhit-purge.timer    tenderhit-purge.service
+Sun 2026-11-29 06:30:00 CET    15h Sat 2026-11-28 06:30:01 CET       8h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sat 2026-12-05 03:00:00 CET 6 days Sat 2026-11-28 03:00:01 CET      11h ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Sat 2026-11-28 14:44:01 CET 3min 45s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-28 07:36:58    M29_43 : 0 opportunités · inchangé · 17 s
 2026-11-28 07:37:15    M29_63 : 0 opportunités · inchangé · 17 s
 2026-11-28 07:37:22    M29_69 : 0 opportunités · inchangé · 7 s
 2026-11-28 07:37:40    M29_73 : 0 opportunités · inchangé · 18 s
@@ -162,4 +161,5 @@ Sat 2026-12-05 03:00:00 CET 6 days Sat 2026-11-28 03:00:01 CET 11h ago tenderhit
 2026-11-28 07:52:05    contrats des chaînes : 172 envoyé(s), 10 retiré(s), 3121 cité(s) au total
 2026-11-28 07:52:05  OK, 449 avis collectés, 365 couples recalculés, 50 republiés en 82.1 min
 2026-11-28 07:56:31  Contrôle du 28/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-28 14:47:45  tables du marché : 11 activité(s) envoyée(s), 0 inchangée(s), 361891 lignes en 98 paquets
 ```
