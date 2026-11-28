@@ -1,24 +1,24 @@
 # Serveur du moteur V2
 
-Mis à jour le 28/11/2026 à 05:04 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 28/11/2026 à 06:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
+## 🟢 **Tout va bien**
 
 | Passe | Dernier résultat |
 |---|---|
-| Demandes des clients | 2026-11-28 02:59:03  connexion OK, 0 couple(s) en attente : aucun |
+| Demandes des clients | 2026-11-28 05:59:03  connexion OK, 0 couple(s) en attente : aucun |
 | Collecte des appels d'offres | 2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min |
 | Passe DECP hebdomadaire | 2026-11-28 05:03:36  Passe hebdomadaire DECP 2026-11-28_decp : terminée en 123.6 min, mémoire max 7513 Mo ; 365 couples recalculés, 1 bloqués par la garde (C712_59) ; 344 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.51 Go sur 7.6 · charge 0.07 · disque 38.3 % · échange 0.03 Go
+**Machine maintenant** : mémoire 0.5 Go sur 7.6 · charge 0.00 · disque 38.3 % · échange 0.03 Go
 
 ## Disque
 
 Rythme des 14 derniers jours : +0.8 point(s) par semaine · 80 % dans **49.1 semaine(s)**
 
 ```
-Mesure du 2026-11-28 05:03 :
+Mesure du 2026-11-28 05:45 :
   entrepot/sources                            3.57 Go
   entrepot/decp                               2.09 Go
   entrepot/boamp                              1.41 Go
@@ -46,7 +46,7 @@ Croissance par dossier (depuis 2026-11-21, 7.0 j), en Go par semaine :
   entrepot/passes                               +0.03
   entrepot/execution                            +0.02
   production/controles                          +0.02
-Dernière purge (2026-11-28 05:03) : faite, 5 élément(s), 0.82 Go libérés · decp_telechargees 1 (0.28 Go) · fusions 1 (0.0 Go) · passes_decp 1 (0.3 Go) · photographies_controle 1 (0.24 Go) · tmp 1 (0.0 Go)
+Dernière purge (2026-11-28 05:45) : faite, 0 élément(s), 0.0 Go libérés
 ```
 
 ## Performances
@@ -110,19 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                             PASSED UNIT                     ACTIVATES
-Sat 2026-11-28 05:45:00 CET    40min Fri 2026-11-27 05:45:01 CET     23h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-28 06:30:00 CET 1h 25min Fri 2026-11-27 06:30:01 CET     22h ago tenderhit-collecte.timer tenderhit-collecte.service
-Sat 2026-12-05 03:00:00 CET   6 days Sat 2026-11-28 03:00:01 CET 2h 4min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Sat 2026-11-28 05:04:01 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
--                                  - Sat 2026-11-28 05:04:01 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                          LEFT LAST                             PASSED UNIT                     ACTIVATES
+Sat 2026-11-28 06:30:00 CET  29min Fri 2026-11-27 06:30:01 CET     23h ago tenderhit-collecte.timer tenderhit-collecte.service
+Sun 2026-11-29 05:45:00 CET    23h Sat 2026-11-28 05:45:01 CET   15min ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-12-05 03:00:00 CET 6 days Sat 2026-11-28 03:00:01 CET 3h 0min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                - Sat 2026-11-28 06:00:01 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+-                                - Sat 2026-11-28 06:00:01 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-27 07:41:15    M30_69 : 7 opportunités · rapport et opportunités · 12 s
 2026-11-27 07:41:21    M33_01 : 8 opportunités · rapport et opportunités · 6 s
 2026-11-27 07:41:29    M33_14 : 7 opportunités · rapport et opportunités · 8 s
 2026-11-27 07:41:37    M33_27 : 5 opportunités · opportunités · 8 s
@@ -162,4 +161,5 @@ Sat 2026-12-05 03:00:00 CET   6 days Sat 2026-11-28 03:00:01 CET 2h 4min ago ten
 2026-11-28 03:29:27  contrats : 1610184 contrats (294994 doublons fusionnés), chaînage {'aucun': 1308975, 'probable': 113533, 'sur': 187676} en 263.8 s
 2026-11-28 05:03:36  Passe hebdomadaire DECP 2026-11-28_decp : terminée en 123.6 min, mémoire max 7513 Mo ; 365 couples recalculés, 1 bloqués par la garde (C712_59) ; 344 couples publiés, tables d'aide publiées
 2026-11-28 05:03:36  purge du disque faite : 5 élément(s), 0.82 Go libérés — decp_telechargees 1 (0.28 Go), fusions 1 (0.0 Go), passes_decp 1 (0.3 Go), photographies_controle 1 (0.24 Go), tmp 1 (0.0 Go)
+2026-11-28 05:45:01  purge du disque faite : 0 élément(s), 0.0 Go libérés
 ```
