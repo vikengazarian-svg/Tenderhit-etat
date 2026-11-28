@@ -1,6 +1,6 @@
 # Serveur du moteur V2
 
-Mis à jour le 28/11/2026 à 04:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 28/11/2026 à 05:00 · publication : **EN SERVICE (publie sur le site)**
 
 ## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
@@ -11,11 +11,11 @@ Mis à jour le 28/11/2026 à 04:00 · publication : **EN SERVICE (publie sur le 
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 1.63 Go sur 7.6 · charge 1.56 · disque 39.7 % · échange 0.07 Go
+**Machine maintenant** : mémoire 1.1 Go sur 7.6 · charge 0.01 · disque 39.9 % · échange 0.08 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **62.0 semaine(s)**
+Rythme des 14 derniers jours : +1.6 point(s) par semaine · 80 % dans **24.3 semaine(s)**
 
 ```
 Mesure du 2026-11-27 05:45 :
@@ -78,12 +78,12 @@ Les mesures d'avant la bascule viennent du PC ; celles d'après, du serveur.
 
 | Passe | Durée des couples | Mémoire max |
 |---|---:|---:|
+| 2026-11-28_decp | 83.1 min | 7513 Mo |
 | 2026-11-21_decp | 59.9 min | 2890 Mo |
 | 2026-11-14_decp | 50.5 min | 2828 Mo |
 | 2026-11-07_decp | 55.7 min | 2686 Mo |
 | 2026-10-31_decp | 53.2 min | 2538 Mo |
 | 2026-10-24_decp | 33.0 min | 2373 Mo |
-| 2026-10-17_decp | 41.8 min | — Mo |
 
 ### Demandes des clients aujourd'hui
 
@@ -111,11 +111,11 @@ Aucune pour l'instant.
 ## Tâches planifiées
 ```
 NEXT                            LEFT LAST                             PASSED UNIT                     ACTIVATES
-Sat 2026-11-28 04:01:00 CET      58s Sat 2026-11-28 04:00:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-11-28 05:45:00 CET 1h 44min Fri 2026-11-27 05:45:01 CET     22h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-28 06:30:00 CET 2h 29min Fri 2026-11-27 06:30:01 CET     21h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                  - Sat 2026-11-28 03:00:01 CET 1h 0min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Sat 2026-11-28 04:00:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
+Sat 2026-11-28 05:01:00 CET      57s Sat 2026-11-28 05:00:00 CET      2s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-11-28 05:45:00 CET    44min Fri 2026-11-27 05:45:01 CET     23h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 06:30:00 CET 1h 29min Fri 2026-11-27 06:30:01 CET     22h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                  - Sat 2026-11-28 03:00:01 CET 2h 0min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Sat 2026-11-28 05:00:00 CET      2s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
