@@ -1,8 +1,8 @@
 # Serveur du moteur V2
 
-Mis à jour le 28/11/2026 à 03:00 · publication : **EN SERVICE (publie sur le site)**
+Mis à jour le 28/11/2026 à 04:00 · publication : **EN SERVICE (publie sur le site)**
 
-## 🟢 **Tout va bien**
+## 🔴 **À regarder** : demandes des clients non traitées depuis plus de 15 min
 
 | Passe | Dernier résultat |
 |---|---|
@@ -11,11 +11,11 @@ Mis à jour le 28/11/2026 à 03:00 · publication : **EN SERVICE (publie sur le 
 | Passe DECP hebdomadaire | 2026-11-21 04:33:49  Passe hebdomadaire DECP 2026-11-21_decp : terminée en 93.8 min, mémoire max 4287 Mo ; 360 couples recalculés, 1 bloqués par la garde (M01_58) ; 352 couples publiés, tables d'aide publiées |
 | Contrôle quotidien | 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour |
 
-**Machine maintenant** : mémoire 0.54 Go sur 7.6 · charge 0.00 · disque 38.6 % · échange 0.03 Go
+**Machine maintenant** : mémoire 1.63 Go sur 7.6 · charge 1.56 · disque 39.7 % · échange 0.07 Go
 
 ## Disque
 
-Rythme des 14 derniers jours : +0.2 point(s) par semaine · 80 % dans **165.6 semaine(s)**
+Rythme des 14 derniers jours : +0.7 point(s) par semaine · 80 % dans **62.0 semaine(s)**
 
 ```
 Mesure du 2026-11-27 05:45 :
@@ -110,24 +110,18 @@ Aucune pour l'instant.
 
 ## Tâches planifiées
 ```
-NEXT                            LEFT LAST                         PASSED UNIT                     ACTIVATES
-Sat 2026-11-28 03:01:00 CET      56s Sat 2026-11-28 03:00:01 CET  2s ago tenderhit-demandes.timer tenderhit-demandes.service
-Sat 2026-11-28 05:45:00 CET 2h 44min Fri 2026-11-27 05:45:01 CET 21h ago tenderhit-purge.timer    tenderhit-purge.service
-Sat 2026-11-28 06:30:00 CET 3h 29min Fri 2026-11-27 06:30:01 CET 20h ago tenderhit-collecte.timer tenderhit-collecte.service
--                                  - Sat 2026-11-28 03:00:01 CET  2s ago tenderhit-hebdo.timer    tenderhit-hebdo.service
--                                  - Sat 2026-11-28 03:00:01 CET  2s ago tenderhit-relais.timer   tenderhit-relais.service
+NEXT                            LEFT LAST                             PASSED UNIT                     ACTIVATES
+Sat 2026-11-28 04:01:00 CET      58s Sat 2026-11-28 04:00:00 CET      1s ago tenderhit-demandes.timer tenderhit-demandes.service
+Sat 2026-11-28 05:45:00 CET 1h 44min Fri 2026-11-27 05:45:01 CET     22h ago tenderhit-purge.timer    tenderhit-purge.service
+Sat 2026-11-28 06:30:00 CET 2h 29min Fri 2026-11-27 06:30:01 CET     21h ago tenderhit-collecte.timer tenderhit-collecte.service
+-                                  - Sat 2026-11-28 03:00:01 CET 1h 0min ago tenderhit-hebdo.timer    tenderhit-hebdo.service
+-                                  - Sat 2026-11-28 04:00:00 CET      1s ago tenderhit-relais.timer   tenderhit-relais.service
 
 5 timers listed.
 ```
 
 ## Fin du journal du moteur
 ```
-2026-11-27 07:39:10    M29_43 : 0 opportunités · rapport et opportunités · 18 s
-2026-11-27 07:39:28    M29_63 : 0 opportunités · rapport et opportunités · 18 s
-2026-11-27 07:39:35    M29_69 : 0 opportunités · inchangé · 7 s
-2026-11-27 07:39:54    M29_73 : 0 opportunités · rapport et opportunités · 19 s
-2026-11-27 07:40:13    M29_74 : 0 opportunités · rapport et opportunités · 20 s
-2026-11-27 07:40:30    M29_83 : 1 opportunités · inchangé · 17 s
 2026-11-27 07:40:54    M29_93 : 2 opportunités · rapport et opportunités · 24 s
 2026-11-27 07:41:03    M30_13 : 7 opportunités · opportunités · 9 s
 2026-11-27 07:41:15    M30_69 : 7 opportunités · rapport et opportunités · 12 s
@@ -162,4 +156,10 @@ Sat 2026-11-28 06:30:00 CET 3h 29min Fri 2026-11-27 06:30:01 CET 20h ago tenderh
 2026-11-27 07:54:15    contrats des chaînes : 3071 envoyé(s), 0 retiré(s), 3113 cité(s) au total
 2026-11-27 07:54:15  OK, 749 avis collectés, 365 couples recalculés, 257 republiés en 84.2 min
 2026-11-27 07:58:57  Contrôle du 27/11 : vert — 365 couples identiques au site ; tâches à l'heure, site à jour
+2026-11-28 03:25:03  tables du marché : 286 activité(s) envoyée(s), 30 inchangée(s), 1644048 lignes en 714 paquets ; erreurs : M28, M29, M30, M31, M32, M33, M34, M35, M36, M37, M38
+2026-11-28 03:25:45  contrats : 1610184 contrats préparés en 42 s
+2026-11-28 03:26:44  contrats : chaînage, 500000 contrats lus (58 s)
+2026-11-28 03:27:15  contrats : chaînage, 1000000 contrats lus (89 s)
+2026-11-28 03:28:54  contrats : chaînage, 1500000 contrats lus (188 s)
+2026-11-28 03:29:27  contrats : 1610184 contrats (294994 doublons fusionnés), chaînage {'aucun': 1308975, 'probable': 113533, 'sur': 187676} en 263.8 s
 ```
